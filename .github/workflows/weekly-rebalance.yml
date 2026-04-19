@@ -1,0 +1,61 @@
+name: Weekly Rebalance
+
+on:
+  schedule:
+    # Mondays 21:30 UTC (≥ 90 min after US close in both DST and standard time)
+    - cron: "30 21 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: claude-ai-trader
+  cancel-in-progress: false
+
+jobs:
+  rebalance:
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+      EXECUTE: ${{ vars.EXECUTE || 'false' }}
+      KILL_SWITCH: ${{ vars.KILL_SWITCH || 'false' }}
+      DAILY_BUDGET_USD: ${{ vars.DAILY_BUDGET_USD || '25' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e '.[dev]'
+      - name: Run weekly pipeline
+        run: python -m trader weekly
+      - name: Commit artifacts
+        if: success()
+        run: |
+          git config user.name "claude-ai-trader[bot]"
+          git config user.email "bot@users.noreply.github.com"
+          git add data reports || true
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+          else
+            git commit -m "weekly rebalance: $(date -I)"
+            git pull --rebase origin "$GITHUB_REF_NAME" || true
+            git push origin "HEAD:$GITHUB_REF_NAME"
+          fi
+      - name: Notify Telegram on failure
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_CHAT_ID}" \
+            -d text="🚨 weekly rebalance workflow failed: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" \
+            || true
