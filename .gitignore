@@ -1,0 +1,18 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Logs are regenerated daily; keep the directory, not its contents
+logs/*.jsonl
+
+# Per-run intermediate artifacts (large); keep committed `ledger.json` + reports/
+data/runs/

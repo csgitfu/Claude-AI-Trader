@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "claude-ai-trader"
+version = "0.1.0"
+description = "Autonomous multi-agent Russell 1000 portfolio manager (simulation only)"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.40.0",
+    "yfinance>=0.2.40",
+    "pandas>=2.1",
+    "numpy>=1.26",
+    "requests>=2.31",
+    "pydantic>=2.6",
+    "pydantic-settings>=2.2",
+    "tenacity>=8.2",
+    "pandas-market-calendars>=4.4",
+    "fredapi>=0.5",
+    "python-dateutil>=2.9",
+    "feedparser>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "pytest-mock>=3.12",
+    "respx>=0.21",
+]
+
+[project.scripts]
+trader = "trader.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/trader"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
