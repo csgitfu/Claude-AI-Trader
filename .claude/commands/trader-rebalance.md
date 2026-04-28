@@ -51,7 +51,7 @@ On non-zero exit: run the failure handler, exit non-zero. (This call fetches dat
 
 ## Stage 5 — Snapshot macro + market headlines (pre-shortlist pass)
 
-**Skip condition**: if `data/runs/$RUN_DATE/news.json` exists, skip.
+**Skip condition**: if `data/runs/$RUN_DATE/news.json` AND `data/runs/$RUN_DATE/macro.json` both exist, skip.
 
 Otherwise, run holdings-only mode to capture macro indicators and broad market headlines. Per-shortlist headlines will be added in Stage 7.5 after the shortlist is known.
 Bash: `python -m trader.helpers.snapshot_news --mode holdings-only --out-news data/runs/$RUN_DATE/news.json --out-macro data/runs/$RUN_DATE/macro.json`
@@ -117,11 +117,11 @@ On non-zero exit: run the failure handler, exit non-zero.
 
 ## Stage 7.5 — Per-shortlist headlines (news update)
 
-**Skip condition**: read `data/runs/$RUN_DATE/news.json`. If it already contains per-ticker headline entries for the shortlist tickers (check that `news["tickers"]` has keys for shortlist tickers), skip. Otherwise:
+**Skip condition**: if `data/runs/$RUN_DATE/news_full.done` exists, skip. Otherwise:
 
-Bash: `python -m trader.helpers.snapshot_news --mode full --shortlist data/runs/$RUN_DATE/shortlist.json --out-news data/runs/$RUN_DATE/news.json --out-macro /tmp/_discard_macro.json`
+Bash: `python -m trader.helpers.snapshot_news --mode full --shortlist data/runs/$RUN_DATE/shortlist.json --out-news data/runs/$RUN_DATE/news_full.json --out-macro data/runs/$RUN_DATE/_discard_macro.json && echo "done" > data/runs/$RUN_DATE/news_full.done`
 
-This overwrites `news.json` with per-shortlist-ticker headline entries merged in. The macro JSON is discarded (macro was already captured in Stage 5 to `macro.json` which is unchanged).
+This writes per-shortlist-ticker headline entries to `news_full.json` (separate from Stage 5's `news.json`). The macro JSON is discarded (macro was already captured in Stage 5 to `macro.json` which is unchanged). Stages 8 and 15 prefer `news_full.json` over `news.json` when it exists.
 
 On non-zero exit: log a warning to `data/runs/$RUN_DATE/errors.jsonl` and continue — missing per-shortlist headlines degrade report quality but do not abort the run.
 
@@ -130,7 +130,7 @@ On non-zero exit: log a warning to `data/runs/$RUN_DATE/errors.jsonl` and contin
 **Skip condition**: if `data/runs/$RUN_DATE/debate_context.json` exists, skip.
 
 Otherwise:
-Bash: `python -m trader.helpers.snapshot_debate_context --shortlist data/runs/$RUN_DATE/shortlist.json --market data/runs/$RUN_DATE/market_data.json --news data/runs/$RUN_DATE/news.json --macro data/runs/$RUN_DATE/macro.json --out data/runs/$RUN_DATE/debate_context.json`
+Bash: `python -m trader.helpers.snapshot_debate_context --shortlist data/runs/$RUN_DATE/shortlist.json --market data/runs/$RUN_DATE/market_data.json --news "$([ -f data/runs/$RUN_DATE/news_full.json ] && echo data/runs/$RUN_DATE/news_full.json || echo data/runs/$RUN_DATE/news.json)" --macro data/runs/$RUN_DATE/macro.json --out data/runs/$RUN_DATE/debate_context.json`
 
 On non-zero exit: run the failure handler, exit non-zero.
 
@@ -317,7 +317,7 @@ On non-zero exit: run the failure handler, exit non-zero.
 Otherwise, read the following into your context:
 
 - Read: `data/runs/$RUN_DATE/market_data.json`
-- Read: `data/runs/$RUN_DATE/news.json`
+- Read: `data/runs/$RUN_DATE/news_full.json` if it exists, otherwise `data/runs/$RUN_DATE/news.json`
 - Read: `data/runs/$RUN_DATE/macro.json`
 - Read: `data/runs/$RUN_DATE/debates.json`
 - Read: `data/runs/$RUN_DATE/estimates.json`
@@ -363,7 +363,8 @@ rm data/runs/$RUN_DATE/<stage-output>.json
 Stage → checkpoint file mapping:
 - Stage 3: `universe.json`
 - Stage 4: `market_data.json`
-- Stage 5: `news.json` (also deletes `macro.json` side-effect)
+- Stage 5: `news.json` and `macro.json` (delete both to force re-run)
+- Stage 7.5: `news_full.done` (also delete `news_full.json` and `_discard_macro.json`)
 - Stage 6: `scores.json`
 - Stage 7: `shortlist.json`
 - Stage 8: `debate_context.json`
