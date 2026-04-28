@@ -1,0 +1,29 @@
+{
+  "ticker": "TSLA",
+  "fundamentals": {
+    "marketCap": 800000000000,
+    "trailingPE": 68.0,
+    "forwardPE": 38.0,
+    "revenueGrowth": 0.23,
+    "profitMargin": 0.15,
+    "beta": 1.9
+  },
+  "momentum": {
+    "mom_3m": 0.25,
+    "mom_6m": 0.45,
+    "mom_12m": 0.82
+  },
+  "ann_vol": 0.52,
+  "headlines": [
+    "Tesla Q1 deliveries exceed estimates, 23% YoY growth",
+    "Elon Musk announces Cybertruck ramp acceleration",
+    "Emerging EV competitors launch aggressive pricing",
+    "Battery supply constraints risk margin compression",
+    "Autonomous driving milestone delayed six months"
+  ],
+  "macro": {
+    "fed_rate": 4.5,
+    "vix": 18.0,
+    "yield_curve_10y_2y": 0.3
+  }
+}
