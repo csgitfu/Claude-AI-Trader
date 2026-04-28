@@ -87,7 +87,7 @@ LLM usage bills against the user's Max plan subscription. Routines have a 15-run
 
 - `src/trader/config.py` — drop `anthropic_api_key`, `agent_concurrency`, `model_*`, `daily_budget_usd`. Keep `starting_nav`, `kill_switch`, `execute`, telegram tokens, FRED key, sizing/sector caps. Add `git_remote_url` for the routine to push back to.
 - `src/trader/cli.py` — strip `weekly_rebalance` / `daily_scan` entry points; keep helper CLI dispatch only.
-- `pyproject.toml` — drop `anthropic`, `tenacity` dependencies (no longer needed).
+- `pyproject.toml` — drop `anthropic` only; keep tenacity (used by `data/prices.py` for retry logic).
 
 **Files deleted:**
 
