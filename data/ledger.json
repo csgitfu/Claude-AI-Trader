@@ -1,6 +1,14 @@
 {
   "cash": 50000.0,
-  "nav_history": [],
+  "nav_history": [
+    {
+      "cash": 50000.0,
+      "date": "2026-04-28",
+      "equity": 0,
+      "nav": 50000.0,
+      "spy": null
+    }
+  ],
   "positions": {},
   "starting_nav": 50000.0,
   "trades": []
