@@ -8,7 +8,6 @@ version = "0.1.0"
 description = "Autonomous multi-agent Russell 1000 portfolio manager (simulation only)"
 requires-python = ">=3.11"
 dependencies = [
-    "anthropic>=0.40.0",
     "yfinance>=0.2.40",
     "pandas>=2.1",
     "numpy>=1.26",
@@ -25,7 +24,6 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     "pytest>=8.0",
-    "pytest-asyncio>=0.23",
     "pytest-mock>=3.12",
     "respx>=0.21",
     "freezegun>=1.4",
@@ -39,4 +37,3 @@ packages = ["src/trader"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-asyncio_mode = "auto"
