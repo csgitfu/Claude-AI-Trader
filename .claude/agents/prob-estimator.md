@@ -35,7 +35,23 @@ Your task:
 - `expected_alpha_bps` — signed integer, typically -500 to +500 bps
 - Sum of sizing hints does not need to equal 1.0 (selector performs allocation)
 
-**If a name should be avoided entirely:** Return p_outperform near 0.5, conviction near 0, sizing_hint=0.
+**Semantic definitions:**
+
+`p_outperform`: the probability this stock's total return beats SPY's total return over the next 4–12 weeks. A value of 0.5 means coin-flip; 0.6 means you'd take this trade 6 times out of 10 if you ran the analysis again on similar setups; 0.8 means strong edge. Calibrate against base rate (a typical Russell 1000 name has p_outperform ≈ 0.50 unaided; most actionable picks should be 0.55–0.70, only rare cases 0.70+).
+
+`sizing_hint`: target weight in the portfolio (0 to 0.10). Compute as: `sizing_hint = min(0.10, conviction × max(0, expected_alpha_bps / 200))`. Round to nearest 0.005. **Examples:**
+- conviction=0.6, expected_alpha=120bps → 0.6 × 120/200 = 0.036 → round to 0.035
+- conviction=0.4, expected_alpha=300bps → 0.4 × 300/200 = 0.60, capped at 0.10 → 0.10
+- conviction=0.3, expected_alpha=-100bps → 0.3 × max(0, -0.5) = 0 → 0
+
+Negative or zero alpha → sizing_hint = 0. Pure conviction without expected upside is not reason to size.
+
+**Calibration sanity check:** if `conviction ≥ 0.70`, then `abs(expected_alpha_bps)` must exceed 100. High conviction with negligible alpha is incoherent; either lower conviction or refine your alpha estimate.
+
+**Avoid case** (return p_outperform=0.5, conviction=0.05, sizing_hint=0, expected_alpha_bps=0): trigger when:
+- bull and bear cases are roughly equal in strength, OR
+- the input data is internally contradictory (e.g., revenue growth strong but margins collapsing without explanation in the headlines), OR
+- macro context is acutely hostile (VIX > 30 AND yield curve inverted < -1.0%) and you have no specific catalyst that overrides it.
 
 Output **ONLY** a fenced JSON block. No preamble, no explanation. The JSON block contains:
 
