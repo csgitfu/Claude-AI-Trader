@@ -19,7 +19,7 @@ from pathlib import Path
 
 from trader.config import settings
 from trader.portfolio import simulate
-from trader.portfolio.ledger import Ledger
+from trader.portfolio.ledger import Ledger, seed
 from trader.portfolio.risk import Proposal
 
 
@@ -56,7 +56,7 @@ def main(argv: list[str] | None = None) -> int:
 
     execute = os.environ.get("EXECUTE", str(int(settings.execute))) == "1"
 
-    ledger = Ledger.load() if settings.ledger_path.exists() else Ledger.seed(settings.starting_nav)
+    ledger = Ledger.load() if settings.ledger_path.exists() else seed(settings.starting_nav)
     trades = simulate.plan_trades(ledger, proposals, pick_prices, sel.get("rationales", {}))
 
     Path(args.trades_out).parent.mkdir(parents=True, exist_ok=True)

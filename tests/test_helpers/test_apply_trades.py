@@ -140,3 +140,36 @@ def test_execute_1_applies_trades(tmp_data_dir, monkeypatch, market_data, select
     # Sector should be set from proposal
     assert ledger_reloaded.positions["AAPL"].sector == "Tech"
     assert ledger_reloaded.positions["MSFT"].sector == "Tech"
+
+
+def test_apply_trades_seeds_ledger_when_missing(tmp_path, monkeypatch):
+    """If data/ledger.json doesn't exist, apply_trades should seed it from STARTING_NAV."""
+    from trader.config import settings
+    # Setup: redirect data_dir to tmp_path so settings.ledger_path points there (no existing ledger).
+    monkeypatch.setattr(settings, "data_dir", tmp_path)
+    # Mock _git_drifted to return False (no real git fetch in test).
+    monkeypatch.setattr(apply_trades, "_git_drifted", lambda: False)
+    monkeypatch.setenv("EXECUTE", "1")
+
+    # Write a minimal selection and market_data
+    sel_path = tmp_path / "selection.json"
+    market_path = tmp_path / "market_data.json"
+    trades_out = tmp_path / "trades.json"
+    sel_path.write_text(json.dumps({
+        "commentary": "test",
+        "picks": [{"ticker": "AAPL", "weight": 0.07, "sector": "Tech", "rationale": "x"}],
+        "rationales": {"AAPL": "x"}
+    }))
+    market_path.write_text(json.dumps({"closes": {"AAPL": 200.0}, "spy_close": 500.0}))
+
+    # Confirm no pre-existing ledger
+    assert not settings.ledger_path.exists()
+
+    rc = apply_trades.main([
+        "--selection", str(sel_path),
+        "--market", str(market_path),
+        "--trades-out", str(trades_out),
+    ])
+    assert rc == 0
+    # Ledger should now exist (seeded by apply_trades)
+    assert settings.ledger_path.exists()
