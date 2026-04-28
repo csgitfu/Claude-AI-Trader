@@ -50,9 +50,14 @@ def main(argv: list[str] | None = None) -> int:
         spy_close = float(hist["SPY"].ffill().iloc[-1])
         hist = hist.drop(columns=["SPY"])
 
-    closes = prices.latest_close(list(hist.columns))
-    mom = prices.momentum(hist)
-    vol = prices.realized_vol(hist)
+    if hist.empty or len(hist.columns) == 0:
+        closes: dict = {}
+        mom: dict = {}
+        vol: dict = {}
+    else:
+        closes = prices.latest_close(list(hist.columns))
+        mom = prices.momentum(hist)
+        vol = prices.realized_vol(hist)
 
     fund: dict = {}
     if args.mode == "full":

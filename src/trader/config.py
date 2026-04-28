@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     git_remote_url: str = ""
     enable_heartbeat: bool = False
 
-    starting_nav: float = 1_000_000.0
+    starting_nav: float = 50_000.0
     execute: bool = False
     kill_switch: bool = False
 
