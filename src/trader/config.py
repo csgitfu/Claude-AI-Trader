@@ -18,6 +18,7 @@ class Settings(BaseSettings):
     execute: bool = False
     kill_switch: bool = False
     daily_budget_usd: float = 25.0
+    enable_heartbeat: bool = False
 
     model_scorer: str = "claude-haiku-4-5-20251001"
     model_debate: str = "claude-opus-4-7"
