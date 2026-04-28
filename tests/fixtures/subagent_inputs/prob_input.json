@@ -1,0 +1,23 @@
+{
+  "ticker": "MSFT",
+  "bull_case": "Cloud growth at 28% YoY; Copilot monetization accelerating; operating margin expansion to 45%; AI capex producing visible revenue.",
+  "bear_case": "Trailing PE at 35x leaves limited valuation cushion; cloud growth could decelerate to 20% as base grows; AI capex pulls forward demand; potential antitrust scrutiny on bundling.",
+  "ann_vol": 0.22,
+  "momentum": {
+    "mom_3m": 0.06,
+    "mom_6m": 0.14,
+    "mom_12m": 0.28
+  },
+  "fundamentals_summary": {
+    "marketCap": 3200000000000,
+    "trailingPE": 35.0,
+    "forwardPE": 28.0,
+    "revenueGrowth": 0.13,
+    "beta": 0.95
+  },
+  "macro": {
+    "fed_rate": 4.5,
+    "vix": 15.0,
+    "yield_curve_10y_2y": 0.5
+  }
+}
