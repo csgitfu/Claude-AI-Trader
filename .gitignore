@@ -16,3 +16,6 @@ logs/*.jsonl
 
 # Per-run intermediate artifacts (large); keep committed `ledger.json` + reports/
 data/runs/
+
+# Per-machine Claude Code config
+.claude/settings.local.json
