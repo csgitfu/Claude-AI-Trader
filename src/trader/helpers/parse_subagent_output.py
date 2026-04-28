@@ -23,6 +23,12 @@ from trader.helpers.schemas import SCHEMA_REGISTRY
 _FENCE = re.compile(r"```json\s*\n(.+?)\n```", re.DOTALL)
 
 
+def _emit_err(payload: dict) -> None:
+    """Emit error JSON to stderr with trailing newline."""
+    json.dump(payload, sys.stderr)
+    sys.stderr.write("\n")
+
+
 def extract_first_block(text: str) -> str | None:
     m = _FENCE.search(text)
     return m.group(1) if m else None
@@ -41,19 +47,19 @@ def main(argv: list[str] | None = None) -> int:
 
     block = extract_first_block(args.input)
     if block is None:
-        json.dump({"error": "no_fence", "details": "no ```json fenced block found"}, sys.stderr)
+        _emit_err({"error": "no_fence", "details": "no ```json fenced block found"})
         return 1
 
     try:
         raw = json.loads(block)
     except json.JSONDecodeError as e:
-        json.dump({"error": "parse", "details": str(e)}, sys.stderr)
+        _emit_err({"error": "parse", "details": str(e)})
         return 1
 
     try:
         validated = model.model_validate(raw)
     except ValidationError as e:
-        json.dump({"error": "schema", "details": e.errors()}, sys.stderr)
+        _emit_err({"error": "schema", "details": e.errors()})
         return 1
 
     json.dump(validated.model_dump(), sys.stdout)
