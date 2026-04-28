@@ -59,7 +59,7 @@ Output **ONLY** a fenced JSON block. No preamble, no explanation. The JSON block
 {
   "ticker": "AAPL",
   "p_outperform": 0.62,
-  "expected_alpha_bps": 180,
+  "expected_alpha_bps": 22,
   "conviction": 0.55,
   "sizing_hint": 0.06
 }
