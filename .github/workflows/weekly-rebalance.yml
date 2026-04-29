@@ -1,9 +1,8 @@
-name: Weekly Rebalance
+name: Weekly Rebalance — Prefetch
 
 on:
   schedule:
-    # Mondays 21:30 UTC (≥ 90 min after US close in both DST and standard time)
-    - cron: "30 21 * * 1"
+    - cron: "0 18 * * 5"    # Fri 18:00 UTC = Sat 02:00 SGT (2.5 hrs before CCR)
   workflow_dispatch: {}
 
 permissions:
@@ -14,48 +13,49 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  rebalance:
+  prefetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     env:
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
-      EXECUTE: ${{ vars.EXECUTE || 'false' }}
-      KILL_SWITCH: ${{ vars.KILL_SWITCH || 'false' }}
-      DAILY_BUDGET_USD: ${{ vars.DAILY_BUDGET_USD || '25' }}
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: pip
+
       - name: Install
+        run: pip install -e .
+
+      - name: Refresh universe cache
+        run: python -m trader backfill-universe
+
+      - name: Snapshot market data (full universe)
         run: |
-          python -m pip install --upgrade pip
-          pip install -e '.[dev]'
-      - name: Run weekly pipeline
-        run: python -m trader weekly
-      - name: Commit artifacts
-        if: success()
+          RUN_DATE=$(date -u +%Y-%m-%d)
+          mkdir -p data/runs/$RUN_DATE
+          if [ ! -f "data/runs/$RUN_DATE/market_data.json" ]; then
+            python -m trader.helpers.snapshot_market_data \
+              --mode full \
+              --out data/runs/$RUN_DATE/market_data.json
+          fi
+
+      - name: Snapshot news and macro
+        run: |
+          RUN_DATE=$(date -u +%Y-%m-%d)
+          if [ ! -f "data/runs/$RUN_DATE/news.json" ] || [ ! -f "data/runs/$RUN_DATE/macro.json" ]; then
+            python -m trader.helpers.snapshot_news \
+              --mode holdings-only \
+              --out-news data/runs/$RUN_DATE/news.json \
+              --out-macro data/runs/$RUN_DATE/macro.json
+          fi
+
+      - name: Commit checkpoints
         run: |
           git config user.name "claude-ai-trader[bot]"
           git config user.email "bot@users.noreply.github.com"
-          git add data reports || true
-          if git diff --cached --quiet; then
-            echo "nothing to commit"
-          else
-            git commit -m "weekly rebalance: $(date -I)"
-            git pull --rebase origin "$GITHUB_REF_NAME" || true
-            git push origin "HEAD:$GITHUB_REF_NAME"
-          fi
-      - name: Notify Telegram on failure
-        if: failure()
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: |
-          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
-            -d chat_id="${TELEGRAM_CHAT_ID}" \
-            -d text="🚨 weekly rebalance workflow failed: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" \
-            || true
+          git add data/
+          git diff --staged --quiet || git commit -m "prefetch: rebalance $(date -u +%Y-%m-%d)"
+          git push

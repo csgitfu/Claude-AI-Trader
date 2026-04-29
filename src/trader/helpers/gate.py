@@ -34,6 +34,9 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     # rebalance
+    if os.environ.get("FORCE_REBALANCE") == "1":
+        print("FORCE_REBALANCE set; bypassing day-of-week check.", file=sys.stderr)
+        return 0
     if not last_trading_day_was_friday():
         print(
             "Saturday rebalance requires Friday to have been a trading day; skipping.",

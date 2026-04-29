@@ -1,0 +1,48 @@
+name: Telegram Notify
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "reports/**.md"
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install
+        run: pip install -e .
+
+      - name: Send report to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python - <<'EOF'
+          import subprocess, sys
+          from pathlib import Path
+          from trader.publish.telegram import send
+
+          result = subprocess.run(
+              ["git", "diff", "--name-only", "HEAD~1", "HEAD", "--", "reports/*.md"],
+              capture_output=True, text=True,
+          )
+          reports = [f for f in result.stdout.strip().splitlines() if f.endswith(".md")]
+          if not reports:
+              print("no new reports in this push")
+              sys.exit(0)
+          for path in reports:
+              text = Path(path).read_text()
+              sent = send(text)
+              print(f"{'sent' if sent else 'FAILED'}: {path}")
+          EOF
