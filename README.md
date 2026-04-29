@@ -2,56 +2,92 @@
 
 > **Educational simulation. Not investment advice. No real funds are traded by this repo.**
 
-An autonomous, multi-agent Russell 1000 portfolio manager powered by Claude. Inspired by [@theaiportfolios](https://x.com/theaiportfolios). Goal: beat the market in a responsible way — human kept out of the loop.
+An autonomous, multi-agent Russell 1000 portfolio manager powered by Claude. Inspired by [@theaiportfolios](https://x.com/theaiportfolios).
 
-Every trading day, the system posts a **Daily News Scan** to Telegram. Every Monday, it fully rebalances a 15-stock paper portfolio by having Claude:
+## Architecture
 
-1. **Score** all ~1000 Russell 1000 names (Haiku 4.5, tool-use, batched)
-2. **Argue** bull *and* bear cases for the top ~50 (Opus 4.7, parallel)
-3. **Model** probability-weighted forward returns (Opus 4.7, structured output)
-4. **Select** 15 positions with sector/risk constraints (Opus 4.7)
-5. **Simulate** the trades into a JSON ledger
-6. **Publish** commentary to Telegram and a markdown report committed back to the repo
+The system runs as two cooperating layers connected through git:
 
-There is no broker integration. The ledger is a JSON file; the portfolio is a number in a text file.
+```
+┌──────────────────────────────┐    ┌────────────────────────────┐    ┌──────────────────────────────┐
+│   GitHub Actions (data)      │    │  Claude Code Routines      │    │  GitHub Actions (notify)     │
+│   .github/workflows/         │    │  (CCR, Anthropic cloud)    │    │   .github/workflows/         │
+│                              │    │                            │    │                              │
+│   daily-scan.yml             │    │   trader-daily             │    │   telegram-notify.yml        │
+│   Mon–Fri 19:00 UTC          │    │   Mon–Fri 19:30 UTC        │    │   on push: reports/**.md     │
+│                              │    │                            │    │                              │
+│   weekly-rebalance.yml       │    │   trader-rebalance         │    │                              │
+│   Fri 18:00 UTC              │    │   Fri 20:30 UTC            │    │                              │
+│                              │    │                            │    │                              │
+│   • snapshot_market_data     │    │   • git pull               │    │   • git diff detects new     │
+│   • snapshot_news            │ →  │   • skip data stages       │ →  │     reports/YYYY-MM-DD.md    │
+│   • snapshot_macro (FRED)    │    │   • scorer (Haiku ×40)     │    │   • POST to Telegram bot     │
+│   • commit checkpoints to    │    │   • debater (Opus ×50)     │    │                              │
+│     data/runs/<date>/        │    │   • prob-estimator (×50)   │    │                              │
+│                              │    │   • selector + apply       │    │                              │
+│                              │    │   • newswriter (report)    │    │                              │
+│                              │    │   • commit report.md       │    │                              │
+└──────────────────────────────┘    └────────────────────────────┘    └──────────────────────────────┘
+        outbound: yes                       outbound: github only                outbound: yes
+```
 
-## Setup
+**Why split?** CCR runs in a sandboxed environment with no outbound network access except GitHub — perfect for LLM workflows but it can't reach Yahoo Finance, FRED, or Telegram. GitHub Actions has full network access but no Anthropic billing relationship. We split the work so each layer does what it can: GitHub Actions fetches data and sends Telegram, CCR does LLM stages and bills against your Claude Max subscription.
+
+## What runs on what schedule
+
+| Day (SGT)         | Layer      | Job                  | Time (UTC)  |
+|---                |---         |---                   |---          |
+| Tue–Sat 03:00     | Actions    | daily prefetch       | Mon–Fri 19:00 |
+| Tue–Sat 03:30     | CCR        | `/trader-daily`      | Mon–Fri 19:30 |
+| Sat 02:00         | Actions    | rebalance prefetch   | Fri 18:00     |
+| Sat 04:30         | CCR        | `/trader-rebalance`  | Fri 20:30     |
+| any time          | Actions    | telegram notify      | on report push |
+
+## Setup (first-time only)
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -e '.[dev]'
-cp .env.example .env    # fill in keys
-python -m trader init   # seed ledger.json with STARTING_NAV
+cp .env.example .env    # fill in keys for local CLI use
+python -m trader init   # seed ledger.json with STARTING_NAV (default $50K)
 python -m trader ping-telegram   # verify Telegram wiring
 ```
 
-## CLI
+**Secrets distribution:**
+
+| Secret | GitHub Actions | CCR `.env` |
+|---|---|---|
+| `FRED_API_KEY` | ✓ | — |
+| `TELEGRAM_BOT_TOKEN` | ✓ | — |
+| `TELEGRAM_CHAT_ID` | ✓ | — |
+| `GIT_REMOTE_URL` (PAT) | not needed (GITHUB_TOKEN) | ✓ |
+| `EXECUTE` (0/1) | repo variable | ✓ |
+| `FORCE_REBALANCE=1` | — | init routine only |
+
+GitHub Actions secrets: `gh secret set NAME --repo csgitfu/claude-ai-trader`. CCR routine env is embedded in the routine prompt at https://claude.ai/code/routines.
+
+## Local CLI
 
 | Command | What it does |
 |---|---|
-| `python -m trader init` | One-time ledger seed with `STARTING_NAV` |
-| `python -m trader weekly [--dry-run]` | Full rebalance pipeline |
-| `python -m trader daily [--dry-run]` | Mark-to-market + news scan only |
+| `python -m trader init` | Seed `ledger.json` with `STARTING_NAV` |
 | `python -m trader performance` | TWRR / Sharpe / max-DD / vs SPY |
-| `python -m trader ping-telegram` | Send a test message |
+| `python -m trader ping-telegram` | Send a test Telegram message |
 | `python -m trader backfill-universe` | Refresh IWB holdings cache |
+| `/trader-daily` | Run daily scan locally (interactive Claude Code) |
+| `/trader-rebalance` | Run full rebalance locally |
+| `/test-subagent <name> <fixture>` | Layer-2 schema sanity test |
 
-`--dry-run` skips ledger writes, commits, and Telegram sends; prints the report to stdout.
+## Safety toggles
 
-## Scheduling
+- `EXECUTE=0` (default) → paper mode. `apply_trades.py` writes `trades.json` but does not mutate `data/ledger.json`.
+- `EXECUTE=1` → live ledger mutations. Flip after at least one full weekly rebalance reviewed in paper mode.
+- `KILL_SWITCH=1` → all routines abort at gate stage, no LLM calls, no ledger writes.
+- `FORCE_REBALANCE=1` → skips the Friday-only gate (used only by the one-time init routine).
 
-Runs via GitHub Actions (see `.github/workflows/`):
-- **Mondays 21:30 UTC** — full rebalance
-- **Tue–Fri 21:30 UTC** — daily news scan only
-- Holidays are skipped via `pandas_market_calendars` (XNYS)
+## Operations
 
-Required secrets: `ANTHROPIC_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `FRED_API_KEY`.
-
-## Safety
-
-- `EXECUTE=false` → shadow mode (reports + Telegram post, but ledger doesn't mutate). Keep this on for the first week of runs.
-- `KILL_SWITCH=true` → aborts before any API call.
-- `DAILY_BUDGET_USD` → pipeline aborts if estimated spend exceeds this.
+See `docs/runbook.md` for: killing a run, rotating secrets, force-rerunning a stage, debugging schedule no-shows, and switching paper → live.
 
 ## Disclaimer
 

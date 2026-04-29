@@ -14,8 +14,11 @@ dist/
 # Logs are regenerated daily; keep the directory, not its contents
 logs/*.jsonl
 
-# Per-run intermediate artifacts (large); keep committed `ledger.json` + reports/
-data/runs/
+# Per-run temp fan-out files (deleted after merge); keep committed checkpoints
+data/runs/**/scorer_batch_*.json
+data/runs/**/debater_*.json
+data/runs/**/prob_*.json
+data/runs/**/_discard_*.json
 
 # Per-machine Claude Code config
 .claude/settings.local.json

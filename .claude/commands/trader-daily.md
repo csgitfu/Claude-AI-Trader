@@ -83,9 +83,11 @@ Keep the total report under 1 500 words. Use Markdown formatting throughout.
 
 Write the finished report to `data/runs/$RUN_DATE/report.md` using the Write tool.
 
-## Stage 7 — Publish
+## Stage 7 — Publish (commit + push only; Telegram is sent by GitHub Actions)
 
-Bash: `python -m trader.helpers.publish_report --report data/runs/$RUN_DATE/report.md --run-date $RUN_DATE`
+Telegram delivery is handled by `.github/workflows/telegram-notify.yml`, which fires on push to `reports/**.md`. CCR has no outbound network access to Telegram, so the publish step skips it via `--no-telegram`.
+
+Bash: `python -m trader.helpers.publish_report --report data/runs/$RUN_DATE/report.md --run-date $RUN_DATE --no-telegram`
 
 On non-zero exit: run the failure handler, exit non-zero.
 
