@@ -70,11 +70,11 @@ Read `data/runs/$RUN_DATE/universe.json`. Extract the `tickers` list (≈ 1 000 
 
 For each batch, also pull the matching rows from `data/runs/$RUN_DATE/market_data.json` (closes, momentum, vol, fundamentals) to include as context in the subagent prompt.
 
-### 6b — Wave execution (10 subagents per wave, 4 waves for 40 batches)
+### 6b — Wave execution (5 subagents per wave, 8 waves for 40 batches)
 
-Process batches in waves of 10. For each wave:
+Process batches in waves of 5. For each wave:
 
-1. **Spawn 10 `scorer` subagents in parallel** within a single assistant turn. Each subagent call must be:
+1. **Spawn 5 `scorer` subagents in parallel** within a single assistant turn. Each subagent call must be:
    - `subagent_type`: `scorer`
    - `prompt`: a fenced JSON block containing that batch's tickers and market data:
      ```
@@ -84,7 +84,7 @@ Process batches in waves of 10. For each wave:
      ```
      ```
 
-2. Wait for all 10 subagent replies to return before proceeding.
+2. Wait for all 5 subagent replies to return before proceeding.
 
 3. For each reply, validate via:
    Bash: `python -m trader.helpers.parse_subagent_output --schema scorer --input "<reply-text>"`
@@ -94,7 +94,7 @@ Process batches in waves of 10. For each wave:
      - If the retry succeeds: save the validated output.
      - If the retry also fails: log `{"stage": "scorer", "batch": <N>, "error": <stderr>}` to `data/runs/$RUN_DATE/errors.jsonl` (append mode), skip this batch.
 
-4. After all 10 wave replies are processed, continue to the next wave.
+4. After all 5 wave replies are processed, continue to the next wave.
 
 ### 6c — Merge
 
@@ -144,11 +144,11 @@ Otherwise:
 
 Read `data/runs/$RUN_DATE/debate_context.json`. This is a dict keyed by ticker. Extract one context blob per ticker (50 total).
 
-### 9b — Wave execution (10 subagents per wave, 5 waves)
+### 9b — Wave execution (5 subagents per wave, 10 waves)
 
-Process all 50 tickers in waves of 10:
+Process all 50 tickers in waves of 5:
 
-1. **Spawn 10 `debater` subagents in parallel** within a single assistant turn. Each subagent call:
+1. **Spawn 5 `debater` subagents in parallel** within a single assistant turn. Each subagent call:
    - `subagent_type`: `debater`
    - `prompt`:
      ```
@@ -158,7 +158,7 @@ Process all 50 tickers in waves of 10:
      ```
      ```
 
-2. Wait for all 10 replies.
+2. Wait for all 5 replies.
 
 3. For each reply, validate via:
    Bash: `python -m trader.helpers.parse_subagent_output --schema debater --input "<reply-text>"`
@@ -203,11 +203,11 @@ Read `data/runs/$RUN_DATE/debates.json` (keyed by ticker, each with `bull` and `
 
 Skip tickers that have no entry in `debates.json` (they were skipped in Stage 9).
 
-### 10b — Wave execution (10 subagents per wave, 5 waves)
+### 10b — Wave execution (5 subagents per wave, 10 waves)
 
-Process all available tickers (≤ 50) in waves of 10:
+Process all available tickers (≤ 50) in waves of 5:
 
-1. **Spawn 10 `prob-estimator` subagents in parallel** within a single assistant turn. Each subagent call:
+1. **Spawn 5 `prob-estimator` subagents in parallel** within a single assistant turn. Each subagent call:
    - `subagent_type`: `prob-estimator`
    - `prompt`:
      ```
@@ -217,7 +217,7 @@ Process all available tickers (≤ 50) in waves of 10:
      ```
      ```
 
-2. Wait for all 10 replies.
+2. Wait for all 5 replies.
 
 3. For each reply, validate via:
    Bash: `python -m trader.helpers.parse_subagent_output --schema prob-estimator --input "<reply-text>"`
