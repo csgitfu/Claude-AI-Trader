@@ -1,5 +1,5 @@
 {
-  "cash": 50000.0,
+  "cash": 749.9998,
   "nav_history": [
     {
       "cash": 50000.0,
@@ -9,14 +9,211 @@
       "spy": null
     },
     {
-      "cash": 50000.0,
+      "cash": 749.9998,
       "date": "2026-04-29",
-      "equity": 0,
-      "nav": 50000.0,
+      "equity": 49250.00023937758,
+      "nav": 50000.00003937758,
       "spy": 711.6900024414062
     }
   ],
-  "positions": {},
+  "positions": {
+    "ADBE": {
+      "avg_cost": 243.1999969482422,
+      "sector": "Technology",
+      "shares": 16.447369
+    },
+    "AMP": {
+      "avg_cost": 475.3500061035156,
+      "sector": "Financial Services",
+      "shares": 8.414852
+    },
+    "BMY": {
+      "avg_cost": 58.2599983215332,
+      "sector": "Healthcare",
+      "shares": 34.328872
+    },
+    "EME": {
+      "avg_cost": 863.780029296875,
+      "sector": "Industrials",
+      "shares": 4.051958
+    },
+    "EXEL": {
+      "avg_cost": 44.93000030517578,
+      "sector": "Healthcare",
+      "shares": 83.463164
+    },
+    "GMED": {
+      "avg_cost": 90.73999786376953,
+      "sector": "Healthcare",
+      "shares": 35.81662
+    },
+    "INCY": {
+      "avg_cost": 97.73999786376953,
+      "sector": "Healthcare",
+      "shares": 35.809291
+    },
+    "LRCX": {
+      "avg_cost": 251.22999572753906,
+      "sector": "Technology",
+      "shares": 13.931457
+    },
+    "NEM": {
+      "avg_cost": 109.9000015258789,
+      "sector": "Basic Materials",
+      "shares": 27.297543
+    },
+    "NVDA": {
+      "avg_cost": 213.1699981689453,
+      "sector": "Technology",
+      "shares": 21.109912
+    },
+    "RNR": {
+      "avg_cost": 310.6099853515625,
+      "sector": "Financial Services",
+      "shares": 12.877886
+    },
+    "RRC": {
+      "avg_cost": 42.939998626708984,
+      "sector": "Energy",
+      "shares": 46.57662
+    },
+    "STZ": {
+      "avg_cost": 155.38999938964844,
+      "sector": "Consumer Defensive",
+      "shares": 12.870841
+    },
+    "TIGO": {
+      "avg_cost": 82.06999969482422,
+      "sector": "Communication Services",
+      "shares": 24.369441
+    },
+    "ZION": {
+      "avg_cost": 63.18000030517578,
+      "sector": "Financial Services",
+      "shares": 67.268122
+    }
+  },
   "starting_nav": 50000.0,
-  "trades": []
+  "trades": [
+    {
+      "price": 213.1699981689453,
+      "rationale": "Unmatched AI GPU franchise with 73% revenue growth, 102% ROE, and $58B FCF; forward P/E compressing to 19x makes it the highest composite-score name in the universe.",
+      "shares": 21.109912,
+      "side": "buy",
+      "ticker": "NVDA",
+      "ts": "2026-04-29T19:09:43+00:00"
+    },
+    {
+      "price": 243.1999969482422,
+      "rationale": "89% gross margins, $9.3B FCF, and 9.2x forward P/E after a -31% six-month drawdown; AI Creative Cloud monetization is the re-rating catalyst.",
+      "shares": 16.447369,
+      "side": "buy",
+      "ticker": "ADBE",
+      "ts": "2026-04-29T19:09:43+00:00"
+    },
+    {
+      "price": 251.22999572753906,
+      "rationale": "WFE upcycle beneficiary with 67% ROE, 66% six-month momentum, and forward P/E of 32x versus 49x trailing as AI-driven etch/deposition demand compounds.",
+      "shares": 13.931457,
+      "side": "buy",
+      "ticker": "LRCX",
+      "ts": "2026-04-29T19:09:43+00:00"
+    },
+    {
+      "price": 63.18000030517578,
+      "rationale": "Cheapest quality regional bank on the shortlist at 9.5x forward P/E with 38% earnings growth, 2.87% dividend, and 21% six-month momentum confirming NIM expansion.",
+      "shares": 67.268122,
+      "side": "buy",
+      "ticker": "ZION",
+      "ts": "2026-04-29T19:09:43+00:00"
+    },
+    {
+      "price": 475.3500061035156,
+      "rationale": "Rare 66.9% ROE at just 10.1x forward P/E with 66% earnings growth; AUM-driven fee compounding at a deep discount to asset-management peers.",
+      "shares": 8.414852,
+      "side": "buy",
+      "ticker": "AMP",
+      "ts": "2026-04-29T19:09:43+00:00"
+    },
+    {
+      "price": 310.6099853515625,
+      "rationale": "Deep-value reinsurer at 5.5x trailing P/E with 19.7% ROE and 28% six-month momentum; hardening premium cycle and defensive 0.24 beta provide asymmetric upside.",
+      "shares": 12.877886,
+      "side": "buy",
+      "ticker": "RNR",
+      "ts": "2026-04-29T19:09:43+00:00"
+    },
+    {
+      "price": 44.93000030517578,
+      "rationale": "96% gross margins, 35% ROE, and 84% earnings growth at just 11.4x forward P/E; cabozantinib durability and pipeline optionality with only 0.42 beta.",
+      "shares": 83.463164,
+      "side": "buy",
+      "ticker": "EXEL",
+      "ts": "2026-04-29T19:09:43+00:00"
+    },
+    {
+      "price": 97.73999786376953,
+      "rationale": "27.8% revenue growth and 43.6% earnings growth at 11.25x forward P/E with 30% ROE; Jakafi lifecycle management plus diversifying pipeline at a deep biotech discount.",
+      "shares": 35.809291,
+      "side": "buy",
+      "ticker": "INCY",
+      "ts": "2026-04-29T19:09:43+00:00"
+    },
+    {
+      "price": 90.73999786376953,
+      "rationale": "46% six-month momentum with 26% revenue growth and 68% gross margins; NuVasive integration delivering as AI-spine and robotics moat compounds.",
+      "shares": 35.81662,
+      "side": "buy",
+      "ticker": "GMED",
+      "ts": "2026-04-29T19:09:43+00:00"
+    },
+    {
+      "price": 863.780029296875,
+      "rationale": "AI data-center construction franchise with 20% revenue growth, 53% earnings growth, and 38.5% ROE at minimal 12.9 D/E; 18% one-month momentum confirms execution.",
+      "shares": 4.051958,
+      "side": "buy",
+      "ticker": "EME",
+      "ts": "2026-04-29T19:09:43+00:00"
+    },
+    {
+      "price": 109.9000015258789,
+      "rationale": "High-margin gold compounder at 9.8x forward P/E with $9.8B FCF and 45.8% revenue growth; inflation hedge with 0.475 beta and 25.8% ROE.",
+      "shares": 27.297543,
+      "side": "buy",
+      "ticker": "NEM",
+      "ts": "2026-04-29T19:09:43+00:00"
+    },
+    {
+      "price": 58.2599983215332,
+      "rationale": "4.33% dividend yield, $11.1B FCF, and 9.5x forward P/E with 0.27 beta; new product portfolio ramp offsets LOE headwind and provides defensive income anchor.",
+      "shares": 34.328872,
+      "side": "buy",
+      "ticker": "BMY",
+      "ts": "2026-04-29T19:09:43+00:00"
+    },
+    {
+      "price": 42.939998626708984,
+      "rationale": "9.3x forward P/E with 261% earnings growth and 52.5% gross margins; Appalachian cost leadership and LNG export tailwinds underpin the value case at 0.52 beta.",
+      "shares": 46.57662,
+      "side": "buy",
+      "ticker": "RRC",
+      "ts": "2026-04-29T19:09:43+00:00"
+    },
+    {
+      "price": 82.06999969482422,
+      "rationale": "80% six-month momentum with 10.5x trailing P/E, 3.66% dividend, and 38% ROE; Latin American telecom consolidation and FCF-driven deleveraging are the catalysts.",
+      "shares": 24.369441,
+      "side": "buy",
+      "ticker": "TIGO",
+      "ts": "2026-04-29T19:09:43+00:00"
+    },
+    {
+      "price": 155.38999938964844,
+      "rationale": "12.5x forward P/E with 22.6% ROE, $2.05B FCF, and 2.66% dividend yield; defensive 0.43 beta with premium beer margin expansion as revenue-decline comp laps.",
+      "shares": 12.870841,
+      "side": "buy",
+      "ticker": "STZ",
+      "ts": "2026-04-29T19:09:43+00:00"
+    }
+  ]
 }
