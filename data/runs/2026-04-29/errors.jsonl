@@ -1,1 +1,0 @@
-{"stage": "7.5", "warning": "snapshot_news full mode failed: ModuleNotFoundError sgmllib (feedparser compat issue); per-shortlist headlines unavailable, will fall back to news.json"}
