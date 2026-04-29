@@ -1,0 +1,31 @@
+```json
+{
+  "scores": [
+    {"ticker": "SLGN", "score": 32, "one_liner": "Weak 1m momentum offset by 6m decline; high volatility. Missing all fundamentals.", "flags": ["missing_fundamentals", "negative_6m_momentum"]},
+    {"ticker": "JHX", "score": 45, "one_liner": "Strong 1m momentum but flat 6m; elevated volatility. Cannot assess quality/value.", "flags": ["missing_fundamentals", "high_volatility"]},
+    {"ticker": "CAR", "score": 58, "one_liner": "Positive 1m and 6m momentum; extreme volatility (1.531). No fundamental backing.", "flags": ["missing_fundamentals", "extreme_volatility"]},
+    {"ticker": "IAC", "score": 52, "one_liner": "Positive 1m and strong 6m momentum; stable vol. Fundamentals absent.", "flags": ["missing_fundamentals"]},
+    {"ticker": "DOCS", "score": 25, "one_liner": "Severe 6m decline (-63%); minimal 1m recovery. Missing fundamentals limits confidence.", "flags": ["missing_fundamentals", "negative_6m_momentum"]},
+    {"ticker": "PEGA", "score": 22, "one_liner": "Negative momentum across 1m and 6m; elevated volatility. No fundamental data.", "flags": ["missing_fundamentals", "negative_momentum"]},
+    {"ticker": "HAYW", "score": 48, "one_liner": "Positive 1m momentum with flat 6m; moderate volatility. Fundamentals unavailable.", "flags": ["missing_fundamentals"]},
+    {"ticker": "KD", "score": 28, "one_liner": "Weak 1m offset by severe 6m decline (-53%); high volatility. No fundamentals.", "flags": ["missing_fundamentals", "negative_6m_momentum"]},
+    {"ticker": "CHH", "score": 56, "one_liner": "Positive 1m and 6m momentum; moderate volatility. Fundamentals missing.", "flags": ["missing_fundamentals"]},
+    {"ticker": "OLN", "score": 38, "one_liner": "Mixed momentum (negative 1m, positive 6m); elevated vol. Cannot verify quality.", "flags": ["missing_fundamentals"]},
+    {"ticker": "DRS", "score": 35, "one_liner": "Negative 1m; flat 6m; moderate vol. Fundamentals absent limits upside view.", "flags": ["missing_fundamentals", "negative_1m_momentum"]},
+    {"ticker": "FRPT", "score": 54, "one_liner": "Positive 1m and 6m momentum; moderate volatility. All fundamentals missing.", "flags": ["missing_fundamentals"]},
+    {"ticker": "BILL", "score": 30, "one_liner": "Weak 1m; 6m decline of -26%; high volatility. No fundamentals to justify hold.", "flags": ["missing_fundamentals", "negative_6m_momentum", "high_volatility"]},
+    {"ticker": "BOKF", "score": 50, "one_liner": "Positive 1m and strong 6m momentum; low volatility. Fundamentals unavailable.", "flags": ["missing_fundamentals"]},
+    {"ticker": "SMG", "score": 50, "one_liner": "Positive 1m and 6m momentum; moderate volatility. Cannot assess value/quality.", "flags": ["missing_fundamentals"]},
+    {"ticker": "WHR", "score": 35, "one_liner": "Weak 1m; 6m decline of -23%; moderate vol. Missing fundamentals block deeper analysis.", "flags": ["missing_fundamentals", "negative_6m_momentum"]},
+    {"ticker": "FOUR", "score": 28, "one_liner": "Weak 1m; severe 6m decline (-39%); high volatility. No fundamentals available.", "flags": ["missing_fundamentals", "negative_6m_momentum", "high_volatility"]},
+    {"ticker": "NSA", "score": 55, "one_liner": "Strong 1m and 6m momentum; moderate volatility. Fundamentals missing limit conviction.", "flags": ["missing_fundamentals"]},
+    {"ticker": "EEFT", "score": 46, "one_liner": "Positive 1m momentum; weak 6m; moderate volatility. All fundamentals absent.", "flags": ["missing_fundamentals"]},
+    {"ticker": "QS", "score": 26, "one_liner": "Positive 1m but severe 6m decline (-59%); high volatility. No fundamentals to support.", "flags": ["missing_fundamentals", "negative_6m_momentum"]},
+    {"ticker": "CCC", "score": 18, "one_liner": "Negative momentum across 1m and 6m; high volatility; micro cap. No fundamentals available.", "flags": ["missing_fundamentals", "negative_momentum", "high_volatility"]},
+    {"ticker": "IPGP", "score": 42, "one_liner": "Flat 1m; positive 6m; high volatility. Fundamentals unavailable limits assessment.", "flags": ["missing_fundamentals", "high_volatility"]},
+    {"ticker": "PAG", "score": 44, "one_liner": "Weak 1m; flat 6m; low volatility. No fundamentals to establish quality case.", "flags": ["missing_fundamentals"]},
+    {"ticker": "GPK", "score": 28, "one_liner": "Weak 1m; severe 6m decline (-43%); high volatility. Missing all fundamentals.", "flags": ["missing_fundamentals", "negative_6m_momentum"]},
+    {"ticker": "GTLB", "score": 27, "one_liner": "Positive 1m but severe 6m decline (-54%); high volatility. No fundamentals available.", "flags": ["missing_fundamentals", "negative_6m_momentum", "high_volatility"]}
+  ]
+}
+```

@@ -1,0 +1,30 @@
+```json
+{
+  "scores": [
+    {"ticker": "KMPR", "score": 38, "one_liner": "Positive 1m momentum (12.4%) offset by weak 6m decline (-28.3%) and high volatility (34.9%). Missing all fundamentals.", "flags": ["missing_fundamentals", "negative_6m_momentum", "high_volatility"]},
+    {"ticker": "DXC", "score": 32, "one_liner": "Flat 1m momentum (-2.4%) with deteriorating 6m trend (-14.8%) and extreme volatility (52.5%). Missing all fundamentals.", "flags": ["missing_fundamentals", "negative_momentum", "very_high_volatility"]},
+    {"ticker": "FWONA", "score": 40, "one_liner": "Modest 1m gain (5.9%) but 6m weakness (-9.1%); moderate volatility (25.1%). Missing all fundamentals.", "flags": ["missing_fundamentals", "negative_6m_momentum"]},
+    {"ticker": "RH", "score": 29, "one_liner": "Weak 1m momentum (1.6%) with sharp 6m decline (-26.5%) and very high volatility (66.2%). Missing all fundamentals.", "flags": ["missing_fundamentals", "negative_6m_momentum", "very_high_volatility"]},
+    {"ticker": "FMC", "score": 25, "one_liner": "Negative 1m (-2.7%) and severe 6m collapse (-49.4%); extreme volatility (63%). Missing all fundamentals.", "flags": ["missing_fundamentals", "negative_momentum", "severe_6m_decline", "very_high_volatility"]},
+    {"ticker": "LBTYA", "score": 35, "one_liner": "Weak negative 1m (-3.8%) with near-flat 6m (4%); moderate volatility (40%). Missing all fundamentals.", "flags": ["missing_fundamentals", "weak_momentum"]},
+    {"ticker": "SRPT", "score": 34, "one_liner": "Modest 1m positive (5.5%) but 6m negative (-7.6%); extreme volatility (85.4%). Missing all fundamentals.", "flags": ["missing_fundamentals", "negative_6m_momentum", "very_high_volatility"]},
+    {"ticker": "NCNO", "score": 37, "one_liner": "Strong 1m bounce (24.2%) but severe 6m underperformance (-33.3%); high volatility (53.5%). Missing all fundamentals.", "flags": ["missing_fundamentals", "negative_6m_momentum", "high_volatility"]},
+    {"ticker": "SAM", "score": 48, "one_liner": "Stable positive momentum both 1m (3.7%) and 6m (2.9%); moderate volatility (35.9%). Missing all fundamentals.", "flags": ["missing_fundamentals"]},
+    {"ticker": "DDS", "score": 45, "one_liner": "Shallow positive 1m (5.1%) and near-flat 6m (0.4%); moderate volatility (40.1%). Missing all fundamentals.", "flags": ["missing_fundamentals"]},
+    {"ticker": "CAI", "score": 36, "one_liner": "Strong 1m rally (8.8%) but sharp 6m decline (-40.7%); high volatility (57.6%). Missing all fundamentals.", "flags": ["missing_fundamentals", "negative_6m_momentum", "high_volatility"]},
+    {"ticker": "GLOB", "score": 28, "one_liner": "Negative 1m (-7.9%) with weak 6m trend (-31.4%); high volatility (60.3%). Missing all fundamentals.", "flags": ["missing_fundamentals", "negative_momentum", "high_volatility"]},
+    {"ticker": "LLYVA", "score": 47, "one_liner": "Modest positive 1m (5%) and near-flat 6m (0.7%); low volatility (33.8%). Missing all fundamentals.", "flags": ["missing_fundamentals"]},
+    {"ticker": "NWL", "score": 42, "one_liner": "Strong 1m gain (17.9%) but 6m weakness (-16.6%); moderate volatility (42.4%). Missing all fundamentals.", "flags": ["missing_fundamentals", "negative_6m_momentum"]},
+    {"ticker": "SEB", "score": 52, "one_liner": "Modest 1m (5%) with exceptional 6m surge (74.8%); low volatility (32.4%). Missing all fundamentals.", "flags": ["missing_fundamentals"]},
+    {"ticker": "GTM", "score": 30, "one_liner": "Positive 1m (8%) but severe 6m crash (-44.5%); high volatility (55.3%). Missing all fundamentals.", "flags": ["missing_fundamentals", "severe_6m_decline", "high_volatility"]},
+    {"ticker": "FLO", "score": 38, "one_liner": "Modest 1m positive (6.3%) with 6m decline (-25.1%); moderate volatility (36.3%). Missing all fundamentals.", "flags": ["missing_fundamentals", "negative_6m_momentum"]},
+    {"ticker": "INSP", "score": 36, "one_liner": "Decent 1m momentum (9.9%) but 6m weakness (-28.9%); very high volatility (67.5%). Missing all fundamentals.", "flags": ["missing_fundamentals", "negative_6m_momentum", "very_high_volatility"]},
+    {"ticker": "DJT", "score": 28, "one_liner": "Positive 1m (8.1%) overwhelmed by severe 6m decline (-42.2%) and extreme volatility (95%). Missing all fundamentals.", "flags": ["missing_fundamentals", "severe_6m_decline", "extreme_volatility"]},
+    {"ticker": "COLM", "score": 50, "one_liner": "Strong 1m positive (11.8%) with solid 6m gain (15.2%); moderate volatility (41%). Missing all fundamentals.", "flags": ["missing_fundamentals"]},
+    {"ticker": "LBTYK", "score": 35, "one_liner": "Weak negative 1m (-3.4%) with flat 6m (0.7%); moderate volatility (37.4%). Missing all fundamentals.", "flags": ["missing_fundamentals", "weak_momentum"]},
+    {"ticker": "PRGO", "score": 33, "one_liner": "Strong 1m pop (20.8%) but severe 6m collapse (-45.2%); moderate volatility (43.9%). Missing all fundamentals.", "flags": ["missing_fundamentals", "severe_6m_decline"]},
+    {"ticker": "DV", "score": 41, "one_liner": "Solid 1m momentum (17.2%) but 6m weakness (-10.1%); moderate volatility (42.1%). Missing all fundamentals.", "flags": ["missing_fundamentals", "negative_6m_momentum"]},
+    {"ticker": "SNDR", "score": 54, "one_liner": "Strong 1m positive (21.3%) with exceptional 6m rally (35.8%); moderate volatility (39.3%). Missing all fundamentals.", "flags": ["missing_fundamentals"]}
+  ]
+}
+```

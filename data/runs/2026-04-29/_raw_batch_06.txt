@@ -1,0 +1,156 @@
+```json
+{
+  "scores": [
+    {
+      "ticker": "REGN",
+      "score": 72,
+      "one_liner": "Strong 6m momentum (+27%), reasonable forward P/E (13.9x), solid ROE (14.9%), but high debt-to-equity (9.5x) and negative earnings growth (-2.6%) temper conviction.",
+      "flags": ["high_debt", "negative_earnings_growth"]
+    },
+    {
+      "ticker": "MDLZ",
+      "score": 32,
+      "one_liner": "Elevated trailing P/E (30.3x), severe earnings collapse (-60%), weak ROE (9.3%), and astronomically high debt-to-equity (84.8x) suggest value trap.",
+      "flags": ["high_valuation", "high_debt", "negative_earnings_growth"]
+    },
+    {
+      "ticker": "CI",
+      "score": 64,
+      "one_liner": "Attractive forward P/E (8.5x), strong FCF yield ($9.8B), solid revenue growth (+10.4%), but high debt-to-equity (75x), low margins (2.2%), and negative earnings growth (-9.3%) raise concerns.",
+      "flags": ["high_debt", "negative_earnings_growth", "low_margins"]
+    },
+    {
+      "ticker": "MPWR",
+      "score": 45,
+      "one_liner": "Exceptional 6m momentum (+40%), but valuation is stretched (P/E 117x, forward 58x), earnings collapsed (-86.2%), and FCF yield is weak ($409M on $73.9B market cap).",
+      "flags": ["high_valuation", "negative_earnings_growth", "weak_fcf_yield"]
+    },
+    {
+      "ticker": "EOG",
+      "score": 62,
+      "one_liner": "Attractive forward P/E (9.6x), solid ROE (16.8%), strong 6m momentum (+29.9%), but flat revenue growth (0%), significant earnings decline (-41.7%), and high debt-to-equity (30.6x).",
+      "flags": ["negative_earnings_growth", "high_debt", "flat_growth"]
+    },
+    {
+      "ticker": "VLO",
+      "score": 55,
+      "one_liner": "Excellent 6m momentum (+42%), attractive forward P/E (13x), strong earnings growth (+318%), but extremely high debt-to-equity (44x), weak margins (2%), and negative revenue growth (-2.1%).",
+      "flags": ["high_debt", "low_margins", "negative_revenue_growth"]
+    },
+    {
+      "ticker": "AEP",
+      "score": 38,
+      "one_liner": "Negative FCF (-$5.1B), very high debt-to-equity (154x), weak earnings growth (-12.6%), and moderate valuation (P/E 20.3x) despite positive revenue growth.",
+      "flags": ["negative_fcf", "very_high_debt", "negative_earnings_growth"]
+    },
+    {
+      "ticker": "HCA",
+      "score": 59,
+      "one_liner": "Solid forward P/E (13x), positive earnings growth (+10.8%), decent ROE, but missing ROE field data, moderate margins (8.9%), and negative 6m momentum (-3.1%).",
+      "flags": ["missing_data_roe", "negative_momentum", "low_margins"]
+    },
+    {
+      "ticker": "ROST",
+      "score": 68,
+      "one_liner": "Strong 6m momentum (+44.5%), solid earnings growth (+11.8%), exceptional ROE (36.7%), but elevated P/E (34.2x), high debt-to-equity (84.2x), and modest margins.",
+      "flags": ["high_valuation", "high_debt"]
+    },
+    {
+      "ticker": "NSC",
+      "score": 48,
+      "one_liner": "Positive 6m momentum (+14%), solid profit margins (21.9%), but elevated P/E (26.7x), high debt-to-equity (111.6x), weak revenue growth (0.2%), and earnings decline (-26.6%).",
+      "flags": ["high_valuation", "very_high_debt", "negative_earnings_growth"]
+    },
+    {
+      "ticker": "MSI",
+      "score": 51,
+      "one_liner": "Strong revenue growth (+12.3%), solid margins (18.4%), and exceptional ROE (104%), but flat momentum, high debt-to-equity (402x), and elevated P/E (33.9x).",
+      "flags": ["very_high_debt", "high_valuation", "flat_momentum"]
+    },
+    {
+      "ticker": "MCO",
+      "score": 59,
+      "one_liner": "Excellent profitability (31.7% margins, 71% ROE), solid growth (+8.1%), but stretched valuation (P/E 33x), very high debt-to-equity (235x), and negative 6m momentum (-6.3%).",
+      "flags": ["high_valuation", "very_high_debt", "negative_momentum"]
+    },
+    {
+      "ticker": "CIEN",
+      "score": 49,
+      "one_liner": "Extraordinary 6m momentum (+164.5%), strong revenue growth (+33.1%), and earnings growth (+232%), but extremely stretched P/E (322x), weak profitability (4.5%), and high volatility (0.75).",
+      "flags": ["extremely_high_valuation", "low_profitability", "high_volatility"]
+    },
+    {
+      "ticker": "GM",
+      "score": 42,
+      "one_liner": "Attractive forward P/E (5.7x), strong FCF generation ($8.6B), and positive momentum, but very low ROE (4.3%), weak margins (1.5%), and very high debt-to-equity (208x).",
+      "flags": ["very_high_debt", "low_roe", "low_margins"]
+    },
+    {
+      "ticker": "KKR",
+      "score": 56,
+      "one_liner": "Exceptional revenue growth (+76.3%), attractive forward P/E (13.3x), and positive 1m momentum (+14.6%), but elevated trailing P/E (43.3x), high debt (68.6x), and negative 6m momentum.",
+      "flags": ["negative_6m_momentum", "high_debt"]
+    },
+    {
+      "ticker": "MPC",
+      "score": 57,
+      "one_liner": "Exceptional earnings growth (+351%), solid ROE (24.2%), attractive forward P/E (11.3x), and positive 6m momentum (+19.7%), but very high debt-to-equity (142.6x) and low margins (3%).",
+      "flags": ["very_high_debt", "low_margins"]
+    },
+    {
+      "ticker": "AON",
+      "score": 63,
+      "one_liner": "Attractive forward P/E (15x), strong ROE (46.9%), solid earnings growth (+138%), and modest debt (168x), but negative 6m momentum (-4.8%) and flat revenue growth (+3.7%).",
+      "flags": ["negative_momentum", "high_debt"]
+    },
+    {
+      "ticker": "BKR",
+      "score": 61,
+      "one_liner": "Strong 6m momentum (+44.3%), solid earnings growth (+132.5%), reasonable forward P/E (24.3x), but high debt-to-equity (82.9x), weak margins (11.2%), and modest FCF yield.",
+      "flags": ["high_debt", "low_margins"]
+    },
+    {
+      "ticker": "DLR",
+      "score": 58,
+      "one_liner": "Strong earnings growth (+69.4%), positive 6m momentum (+10.1%), reasonable margins (21.8%), but stretched P/E (51.6x), weak ROE (5.7%), and high debt-to-equity (75.7x).",
+      "flags": ["high_valuation", "weak_roe", "high_debt"]
+    },
+    {
+      "ticker": "CL",
+      "score": 44,
+      "one_liner": "Solid margins (60.1%), exceptional ROE (497%), but astronomical debt-to-equity (2343x), elevated P/E (32.6x), and weak FCF yield signal extreme financial stress.",
+      "flags": ["catastrophic_debt", "high_valuation"]
+    },
+    {
+      "ticker": "DELL",
+      "score": 71,
+      "one_liner": "Strong revenue growth (+39.5%), exceptional earnings growth (+57.3%), attractive forward P/E (14x), excellent 6m momentum (+30.8%), but missing ROE field; weak margins (5.2%).",
+      "flags": ["missing_data_roe", "low_margins"]
+    },
+    {
+      "ticker": "APD",
+      "score": 33,
+      "one_liner": "Negative profitability (-2.7%), weak ROE (-1.7%), negative FCF (-$6.1B), high debt-to-equity (102x), and missing trailing P/E data; fundamental deterioration evident.",
+      "flags": ["negative_profitability", "negative_fcf", "very_high_debt", "missing_data"]
+    },
+    {
+      "ticker": "ECL",
+      "score": 55,
+      "one_liner": "Solid earnings growth (+20.2%), decent ROE (22.5%), and flat 6m momentum, but elevated P/E (36.8x), high debt-to-equity (91.8x), and weak FCF yield.",
+      "flags": ["high_valuation", "high_debt"]
+    },
+    {
+      "ticker": "NET",
+      "score": 35,
+      "one_liner": "Exceptional revenue growth (+33.6%), but extremely stretched P/E (forward 145x, P/S 33.9x), negative profitability (-4.7%), weak ROE (-8.2%), and very high debt-to-equity (241x).",
+      "flags": ["extremely_high_valuation", "negative_profitability", "very_high_debt"]
+    },
+    {
+      "ticker": "PSX",
+      "score": 60,
+      "one_liner": "Exceptional earnings growth (+2427%), strong 6m momentum (+24.4%), attractive forward P/E (10.9x), but weak margins (3.3%), high dividend yield (3.1%), and high debt-to-equity (71.4x).",
+      "flags": ["high_debt", "low_margins"]
+    }
+  ]
+}
+```

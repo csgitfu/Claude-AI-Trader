@@ -1,0 +1,37 @@
+{
+  "commentary": "The portfolio deploys a fresh cash base across 8 sectors with a deliberate tilt toward quality compounders at value: three financial-services names (ZION, AMP, RNR) benefit from the rate-elevated NIM/float environment at single-digit forward P/Es; three healthcare names (EXEL, INCY, GMED) offer GARP profiles with double-digit revenue growth well below sector-average multiples; and three technology names (NVDA, ADBE, LRCX) capture the AI infrastructure upcycle with forward multiples materially below trailing as earnings accelerate. The remaining six positions — EME, NEM, BMY, RRC, TIGO, and STZ — diversify across Industrials, Basic Materials, Healthcare income, Energy, Communication Services, and Consumer Defensive, ensuring broad macro resilience from a model that finished with the highest composite alpha scores in the universe scan.",
+  "picks": [
+    {"ticker": "NVDA", "weight": 0.09, "sector": "Technology", "rationale": "Unmatched AI GPU franchise with 73% revenue growth, 102% ROE, and $58B FCF; forward P/E compressing to 19x makes it the highest composite-score name in the universe."},
+    {"ticker": "ADBE", "weight": 0.08, "sector": "Technology", "rationale": "89% gross margins, $9.3B FCF, and 9.2x forward P/E after a -31% six-month drawdown; AI Creative Cloud monetization is the re-rating catalyst."},
+    {"ticker": "LRCX", "weight": 0.07, "sector": "Technology", "rationale": "WFE upcycle beneficiary with 67% ROE, 66% six-month momentum, and forward P/E of 32x versus 49x trailing as AI-driven etch/deposition demand compounds."},
+    {"ticker": "ZION", "weight": 0.085, "sector": "Financial Services", "rationale": "Cheapest quality regional bank on the shortlist at 9.5x forward P/E with 38% earnings growth, 2.87% dividend, and 21% six-month momentum confirming NIM expansion."},
+    {"ticker": "AMP", "weight": 0.08, "sector": "Financial Services", "rationale": "Rare 66.9% ROE at just 10.1x forward P/E with 66% earnings growth; AUM-driven fee compounding at a deep discount to asset-management peers."},
+    {"ticker": "RNR", "weight": 0.08, "sector": "Financial Services", "rationale": "Deep-value reinsurer at 5.5x trailing P/E with 19.7% ROE and 28% six-month momentum; hardening premium cycle and defensive 0.24 beta provide asymmetric upside."},
+    {"ticker": "EXEL", "weight": 0.075, "sector": "Healthcare", "rationale": "96% gross margins, 35% ROE, and 84% earnings growth at just 11.4x forward P/E; cabozantinib durability and pipeline optionality with only 0.42 beta."},
+    {"ticker": "INCY", "weight": 0.07, "sector": "Healthcare", "rationale": "27.8% revenue growth and 43.6% earnings growth at 11.25x forward P/E with 30% ROE; Jakafi lifecycle management plus diversifying pipeline at a deep biotech discount."},
+    {"ticker": "GMED", "weight": 0.065, "sector": "Healthcare", "rationale": "46% six-month momentum with 26% revenue growth and 68% gross margins; NuVasive integration delivering as AI-spine and robotics moat compounds."},
+    {"ticker": "EME", "weight": 0.07, "sector": "Industrials", "rationale": "AI data-center construction franchise with 20% revenue growth, 53% earnings growth, and 38.5% ROE at minimal 12.9 D/E; 18% one-month momentum confirms execution."},
+    {"ticker": "NEM", "weight": 0.06, "sector": "Basic Materials", "rationale": "High-margin gold compounder at 9.8x forward P/E with $9.8B FCF and 45.8% revenue growth; inflation hedge with 0.475 beta and 25.8% ROE."},
+    {"ticker": "BMY", "weight": 0.04, "sector": "Healthcare", "rationale": "4.33% dividend yield, $11.1B FCF, and 9.5x forward P/E with 0.27 beta; new product portfolio ramp offsets LOE headwind and provides defensive income anchor."},
+    {"ticker": "RRC", "weight": 0.04, "sector": "Energy", "rationale": "9.3x forward P/E with 261% earnings growth and 52.5% gross margins; Appalachian cost leadership and LNG export tailwinds underpin the value case at 0.52 beta."},
+    {"ticker": "TIGO", "weight": 0.04, "sector": "Communication Services", "rationale": "80% six-month momentum with 10.5x trailing P/E, 3.66% dividend, and 38% ROE; Latin American telecom consolidation and FCF-driven deleveraging are the catalysts."},
+    {"ticker": "STZ", "weight": 0.04, "sector": "Consumer Defensive", "rationale": "12.5x forward P/E with 22.6% ROE, $2.05B FCF, and 2.66% dividend yield; defensive 0.43 beta with premium beer margin expansion as revenue-decline comp laps."}
+  ],
+  "rationales": {
+    "NVDA": "Unmatched AI GPU franchise with 73% revenue growth, 102% ROE, and $58B FCF; forward P/E compressing to 19x makes it the highest composite-score name in the universe.",
+    "ADBE": "89% gross margins, $9.3B FCF, and 9.2x forward P/E after a -31% six-month drawdown; AI Creative Cloud monetization is the re-rating catalyst.",
+    "LRCX": "WFE upcycle beneficiary with 67% ROE, 66% six-month momentum, and forward P/E of 32x versus 49x trailing as AI-driven etch/deposition demand compounds.",
+    "ZION": "Cheapest quality regional bank on the shortlist at 9.5x forward P/E with 38% earnings growth, 2.87% dividend, and 21% six-month momentum confirming NIM expansion.",
+    "AMP": "Rare 66.9% ROE at just 10.1x forward P/E with 66% earnings growth; AUM-driven fee compounding at a deep discount to asset-management peers.",
+    "RNR": "Deep-value reinsurer at 5.5x trailing P/E with 19.7% ROE and 28% six-month momentum; hardening premium cycle and defensive 0.24 beta provide asymmetric upside.",
+    "EXEL": "96% gross margins, 35% ROE, and 84% earnings growth at just 11.4x forward P/E; cabozantinib durability and pipeline optionality with only 0.42 beta.",
+    "INCY": "27.8% revenue growth and 43.6% earnings growth at 11.25x forward P/E with 30% ROE; Jakafi lifecycle management plus diversifying pipeline at a deep biotech discount.",
+    "GMED": "46% six-month momentum with 26% revenue growth and 68% gross margins; NuVasive integration delivering as AI-spine and robotics moat compounds.",
+    "EME": "AI data-center construction franchise with 20% revenue growth, 53% earnings growth, and 38.5% ROE at minimal 12.9 D/E; 18% one-month momentum confirms execution.",
+    "NEM": "High-margin gold compounder at 9.8x forward P/E with $9.8B FCF and 45.8% revenue growth; inflation hedge with 0.475 beta and 25.8% ROE.",
+    "BMY": "4.33% dividend yield, $11.1B FCF, and 9.5x forward P/E with 0.27 beta; new product portfolio ramp offsets LOE headwind and provides defensive income anchor.",
+    "RRC": "9.3x forward P/E with 261% earnings growth and 52.5% gross margins; Appalachian cost leadership and LNG export tailwinds underpin the value case at 0.52 beta.",
+    "TIGO": "80% six-month momentum with 10.5x trailing P/E, 3.66% dividend, and 38% ROE; Latin American telecom consolidation and FCF-driven deleveraging are the catalysts.",
+    "STZ": "12.5x forward P/E with 22.6% ROE, $2.05B FCF, and 2.66% dividend yield; defensive 0.43 beta with premium beer margin expansion as revenue-decline comp laps."
+  }
+}

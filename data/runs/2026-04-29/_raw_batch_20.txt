@@ -1,0 +1,156 @@
+```json
+{
+  "scores": [
+    {
+      "ticker": "SCCO",
+      "score": 72,
+      "one_liner": "Strong fundamentals (42.7% ROE, 60.9% gross margin) and excellent 6m momentum (35.5%) offset high trailing P/E (32.8x) and severe leverage (66.8 D/E). Commodity cyclical with solid FCF.",
+      "flags": ["high_debt", "high_valuation_trailing"]
+    },
+    {
+      "ticker": "MLI",
+      "score": 58,
+      "one_liner": "Attractive forward P/E (15.5x) and balanced leverage (0.68 D/E) with solid earnings growth (55.4%), but weak gross margins (29.7%) and modest revenue growth (19.3%) limit upside.",
+      "flags": ["low_margins", "moderate_growth"]
+    },
+    {
+      "ticker": "GPC",
+      "score": 20,
+      "one_liner": "Severely distressed: near-zero profitability (0.2% margin), negative earnings growth, astronomical trailing P/E (239.6x), massive debt (149.5 D/E), and negative 6m momentum. Value trap.",
+      "flags": ["broken_earnings", "high_debt", "negative_momentum", "extreme_valuation"]
+    },
+    {
+      "ticker": "PR",
+      "score": 35,
+      "one_liner": "Strong 6m momentum (70.8%) and excellent margins (73.5% gross) undermined by negative FCF (-103M), declining revenue (-9.8%), and high valuation (16.3x trailing P/E). Energy cyclical risk.",
+      "flags": ["negative_fcf", "declining_revenue", "sector_cyclical"]
+    },
+    {
+      "ticker": "MAA",
+      "score": 32,
+      "one_liner": "REIT with high dividend yield (4.88%) but deteriorating fundamentals: earnings down 65.8%, flat revenue growth (1%), weak ROE (7.6%), and elevated debt (93.3 D/E). Momentum neutral.",
+      "flags": ["negative_earnings_growth", "high_debt", "low_roe"]
+    },
+    {
+      "ticker": "MDLN",
+      "score": 54,
+      "one_liner": "Exceptional earnings growth (1,258%) and reasonable forward P/E (26.7x) offset weak profitability (4.1%), low ROE (6.5%), and high leverage (67.5 D/E). Missing 6m momentum data.",
+      "flags": ["low_profitability", "high_debt", "missing_6m_momentum"]
+    },
+    {
+      "ticker": "CHTR",
+      "score": 38,
+      "one_liner": "Ultra-cheap valuation (4.7x trailing P/E, 0.45x P/S) and strong FCF (2.4B) undercut by catastrophic leverage (459.5 D/E), negative 6m momentum (-29.1%), and flat growth. Balance-sheet distress.",
+      "flags": ["extreme_leverage", "negative_momentum", "sector_challenged"]
+    },
+    {
+      "ticker": "ROKU",
+      "score": 46,
+      "one_liner": "Solid 1m momentum (28.8%) and modest leverage (19.7 D/E) offset by low profitability (1.9%), elevated trailing P/E (187x), and high beta (1.996). Valuation multiple concern.",
+      "flags": ["low_profitability", "high_beta", "extreme_trailing_pe"]
+    },
+    {
+      "ticker": "ONTO",
+      "score": 52,
+      "one_liner": "Exceptional 6m momentum (109.7%) and positive 1m setup (38.3%) supported by reasonable debt (0.83 D/E), but earnings collapsed (-78.2%), valuation is stretched (101.9x trailing), and revenue near-flat.",
+      "flags": ["negative_earnings_growth", "high_trailing_pe", "high_volatility"]
+    },
+    {
+      "ticker": "RKT",
+      "score": 18,
+      "one_liner": "Mortgage finance distress: massive negative FCF (-10.5B), negative profitability (-1%), negative ROE (-1.5%), extreme leverage (147.7 D/E), and earnings collapsed (-89.5%). Avoid.",
+      "flags": ["broken_earnings", "negative_fcf", "high_debt", "negative_roe"]
+    },
+    {
+      "ticker": "TYL",
+      "score": 56,
+      "one_liner": "Software quality name (46.5% gross margin, 13.5% profit margin, low debt at 17.4 D/E) with acceptable forward P/E (24x), but negative 6m momentum (-33.1%) and flat earnings growth (1.1%) are headwinds.",
+      "flags": ["negative_momentum", "low_earnings_growth"]
+    },
+    {
+      "ticker": "DKS",
+      "score": 40,
+      "one_liner": "Strong revenue growth (59.9%) and positive 1m momentum (19.5%) cannot offset negative earnings growth (-61%), negative FCF (-583M), high debt (139.8 D/E), and weak profitability (4.9%).",
+      "flags": ["negative_earnings_growth", "negative_fcf", "high_debt"]
+    },
+    {
+      "ticker": "EG",
+      "score": 68,
+      "one_liner": "Reinsurance gem: ultra-cheap (9.2x trailing, 5.7x forward P/E), low leverage (24.5 D/E), and solid ROE (10.8%), though profitability modest (9.1%) and 6m momentum flat. Defensive setup.",
+      "flags": ["low_growth", "low_momentum"]
+    },
+    {
+      "ticker": "SSNC",
+      "score": 62,
+      "one_liner": "Software-as-a-service quality (12.6% profit margin, 48% gross margin) with strong FCF (1.3B) and valuation improvement (fwd 9.2x), but high debt (110.7 D/E) and negative 6m momentum (-17.8%) temper appeal.",
+      "flags": ["negative_momentum", "high_debt"]
+    },
+    {
+      "ticker": "REG",
+      "score": 65,
+      "one_liner": "REIT with strong fundamentals: excellent margins (71.6% gross, 32.7% profit), solid earnings growth (141.9%), low debt (69.4 D/E), and positive momentum (6m +12.9%). Balanced setup.",
+      "flags": ["high_valuation_forward"]
+    },
+    {
+      "ticker": "FNF",
+      "score": 63,
+      "one_liner": "Insurance play with sharp forward P/E discount (8.2x vs 23.8x trailing), strong FCF (2.0B), and positive momentum (1m +15.3%), offset by weak profitability (4.2%) and modest ROE (7.8%).",
+      "flags": ["low_profitability", "low_roe"]
+    },
+    {
+      "ticker": "PNFP",
+      "score": 61,
+      "one_liner": "Regional bank at attractive valuation (12.6x trailing, 8.4x forward) with strong profitability (24.7%) and exceptional revenue growth (155.9%), but flat gross margin, negative earnings growth (-49.7%), and missing debt data.",
+      "flags": ["negative_earnings_growth", "missing_debt_data"]
+    },
+    {
+      "ticker": "HST",
+      "score": 64,
+      "one_liner": "Hotel REIT with positive 6m momentum (30.8%), solid ROE (11.5%), and decent earnings growth (27.1%), but elevated debt (83.8 D/E), weak margins (12.5% profit, 28.8% gross), and sector cyclicality.",
+      "flags": ["high_debt", "low_margins", "sector_cyclical"]
+    },
+    {
+      "ticker": "SMCI",
+      "score": 48,
+      "one_liner": "Explosive revenue growth (123.4%) and solid 1m momentum (24%) backed by reasonable ROE (13.2%), but cratered 6m momentum (-43.6%), extreme volatility (0.89 beta), thin margins (3.1%), and high debt (75.3 D/E).",
+      "flags": ["negative_6m_momentum", "high_volatility", "low_margins", "high_debt"]
+    },
+    {
+      "ticker": "TOL",
+      "score": 71,
+      "one_liner": "Home builder with attractive valuation (10.3x P/E, 1.2x P/S), solid fundamentals (17% ROE, 12.3% profit margin), strong FCF (876M), and positive momentum (1m +9.8%, 6m +4.6%). Balanced growth exposure.",
+      "flags": []
+    },
+    {
+      "ticker": "LECO",
+      "score": 59,
+      "one_liner": "Industrial tools with strong ROE (37.2%) and steady margins (12.3% profit), moderate forward P/E (21.9x), but elevated debt (91.7 D/E), flat earnings growth (0.3%), and modest revenue growth (5.5%).",
+      "flags": ["high_debt", "low_growth"]
+    },
+    {
+      "ticker": "RRX",
+      "score": 57,
+      "one_liner": "Industrial machinery with strong 6m momentum (42.9%) and solid earnings growth (54.7%), but weak profitability (4.7%), low ROE (4.3%), high debt (72.1 D/E), and elevated trailing P/E (49.9x).",
+      "flags": ["low_profitability", "high_trailing_pe", "high_debt"]
+    },
+    {
+      "ticker": "RL",
+      "score": 70,
+      "one_liner": "Apparel leader with strong fundamentals: 69.6% gross margin, excellent ROE (33.8%), solid earnings growth (24.9%), and positive momentum (1m +11.9%, 6m +9.9%). Reasonable forward P/E (20.4x) offset by high debt (99 D/E).",
+      "flags": ["high_debt"]
+    },
+    {
+      "ticker": "VIK",
+      "score": 46,
+      "one_liner": "Travel services with exceptional growth (27.8% revenue, 226.6% earnings) and positive momentum (1m +16%, 6m +31.7%), but astronomical debt (512 D/E), elevated valuations (30.9x trailing), and sky-high ROE (254.5%) suggests distorted metrics.",
+      "flags": ["extreme_leverage", "high_trailing_pe", "metrics_anomaly"]
+    },
+    {
+      "ticker": "RNR",
+      "score": 76,
+      "one_liner": "Reinsurance powerhouse: dirt-cheap (5.5x trailing P/E, 7.5x forward), excellent profitability (20.9%), strong revenue growth (27.6%), low debt (12.9 D/E), and positive 6m momentum (27.8%). High-conviction setup.",
+      "flags": []
+    }
+  ]
+}
+```

@@ -1,0 +1,156 @@
+```json
+{
+  "scores": [
+    {
+      "ticker": "TRV",
+      "score": 76,
+      "one_liner": "Strong fundamentals with attractive valuation (9.3x trailing PE, 25% ROE) and positive 6m momentum. Leverage is elevated but manageable for insurance; quality compounder.",
+      "flags": ["high_debt"]
+    },
+    {
+      "ticker": "RCL",
+      "score": 32,
+      "one_liner": "Negative 6m momentum (-18%), negative FCF, and extreme leverage (215 DE) despite recovering earnings. Cyclical and capital-intensive; value trap risk.",
+      "flags": ["negative_momentum", "negative_fcf", "very_high_debt"]
+    },
+    {
+      "ticker": "PCAR",
+      "score": 28,
+      "one_liner": "Earnings declining (-36%), negative revenue growth, moderate valuation multiples fail to compensate. Weak momentum and deteriorating fundamentals.",
+      "flags": ["negative_growth", "declining_earnings", "high_debt"]
+    },
+    {
+      "ticker": "SPG",
+      "score": 55,
+      "one_liner": "Positive momentum and strong dividend yield (4.3%), but extreme leverage (435 DE), astronomical P/S (12.1x), and forward PE expansion worry. Cyclical REIT.",
+      "flags": ["very_high_debt", "high_valuation"]
+    },
+    {
+      "ticker": "TFC",
+      "score": 62,
+      "one_liner": "Regional bank with decent forward PE (10x), solid profit margins, and positive momentum. Weak ROE (8.6%) and zero gross margin (sector norm) limit upside; moderate watchlist.",
+      "flags": ["low_roe"]
+    },
+    {
+      "ticker": "TDG",
+      "score": 54,
+      "one_liner": "Solid gross margins and revenue growth (14%), but trailing PE (37x) is elevated, negative 6m momentum, and earnings declining. Aerospace secular tailwind offset by valuation.",
+      "flags": ["negative_momentum", "declining_earnings", "high_valuation"]
+    },
+    {
+      "ticker": "HOOD",
+      "score": 24,
+      "one_liner": "Extremely high valuation (40x trailing PE, 16.5x P/S), collapsing earnings (-35%), and severe 6m drawdown (-41%). High volatility and momentum reversal risk.",
+      "flags": ["very_high_valuation", "declining_earnings", "negative_momentum", "high_volatility"]
+    },
+    {
+      "ticker": "DASH",
+      "score": 48,
+      "one_liner": "Strong revenue growth (38%) and earnings acceleration (48%), but valuation remains stretched (80.7x trailing PE). Weak margins and negative 6m momentum (-33%) temper conviction.",
+      "flags": ["negative_momentum", "high_valuation", "low_profitability"]
+    },
+    {
+      "ticker": "TER",
+      "score": 71,
+      "one_liner": "Exceptional 6m momentum (164%) and strong growth (44% revenue, 81% earnings), but valuation is extreme (116x trailing PE). Semiconductor equipment cyclical; high-beta play on semis recovery.",
+      "flags": ["very_high_valuation", "high_volatility"]
+    },
+    {
+      "ticker": "FIX",
+      "score": 59,
+      "one_liner": "Excellent 6m momentum (75%), strong ROE (53%), and positive earnings growth. Weak gross margins (25%) and flat revenue growth limit appeal; mixed setup.",
+      "flags": ["low_margins", "stagnant_revenue"]
+    },
+    {
+      "ticker": "WBD",
+      "score": 21,
+      "one_liner": "Deteriorating profitability (2% margin, 2% ROE), broken forward PE, and declining revenue (-5.7%). Negative FCF and high leverage; avoid.",
+      "flags": ["broken_fundamentals", "negative_revenue_growth", "very_high_debt"]
+    },
+    {
+      "ticker": "URI",
+      "score": 63,
+      "one_liner": "Positive momentum (31% 1m), solid ROE (28%), and reasonable valuation (24.5x trailing). High leverage (167 DE) and modest revenue growth (7%) limit confidence.",
+      "flags": ["high_debt", "modest_growth"]
+    },
+    {
+      "ticker": "LITE",
+      "score": 35,
+      "one_liner": "Exceptional 6m momentum (341%) and explosive revenue growth (65%) offset extreme valuation (230x trailing PE, 26.8x P/S), negative FCF, and very high leverage. Momentum trap risk.",
+      "flags": ["very_high_valuation", "negative_fcf", "very_high_debt", "high_volatility"]
+    },
+    {
+      "ticker": "SRE",
+      "score": 29,
+      "one_liner": "Negative earnings growth (-48%), significant negative FCF, and stagnant revenue. Utility with poor trends; dividend insufficient to offset deterioration.",
+      "flags": ["declining_earnings", "negative_fcf", "stagnant_revenue"]
+    },
+    {
+      "ticker": "KMI",
+      "score": 64,
+      "one_liner": "Midstream energy with solid valuation (21x PE), high yield (3.8%), and positive momentum. Modest leverage and flat-to-declining fundamentals keep it on watchlist.",
+      "flags": ["modest_growth"]
+    },
+    {
+      "ticker": "LHX",
+      "score": 56,
+      "one_liner": "Aerospace & Defense with exceptional revenue growth (190%), but trailing PE elevated (38x) and earnings declining (-6%). Strong sector tailwind tempered by valuation.",
+      "flags": ["negative_earnings_growth", "high_valuation"]
+    },
+    {
+      "ticker": "CTAS",
+      "score": 61,
+      "one_liner": "Quality business (50% gross margin, 41% ROE) at reasonable forward PE (32x), but modest growth (9%) and negative 6m momentum (-8%). Watchlist—stalwart not growth.",
+      "flags": ["negative_momentum", "modest_growth"]
+    },
+    {
+      "ticker": "AZO",
+      "score": 67,
+      "one_liner": "Consumer cyclical with strong gross margin (52%), attractive forward PE (20.4x), and stable margins. Earnings flat and modest revenue growth (8%) offset low leverage and low beta.",
+      "flags": []
+    },
+    {
+      "ticker": "TGT",
+      "score": 58,
+      "one_liner": "Defensive discount retailer with positive 6m momentum (38%), attractive valuation (15.6x trailing PE), and strong FCF. Revenue decline and weak margins limit upside.",
+      "flags": ["stagnant_revenue", "low_profitability"]
+    },
+    {
+      "ticker": "ABNB",
+      "score": 61,
+      "one_liner": "Travel platform with strong margins (83%), positive momentum, and decent growth (12%), but valuation stretched (34.5x trailing) and earnings declining (-24%). Watchlist on recovery play.",
+      "flags": ["high_valuation", "declining_earnings"]
+    },
+    {
+      "ticker": "KEYS",
+      "score": 68,
+      "one_liner": "Excellent 6m momentum (96%), strong earnings growth (68%), and solid margins (62%). Valuation high (58x trailing PE), but growth momentum and industry tailwinds support conviction.",
+      "flags": ["high_valuation"]
+    },
+    {
+      "ticker": "O",
+      "score": 52,
+      "one_liner": "Retail REIT with exceptional yield (5.16%), positive momentum, and decent FCF. Extreme valuation (54x trailing PE) and minimal ROE (2.7%) offset income appeal.",
+      "flags": ["very_high_valuation", "low_roe"]
+    },
+    {
+      "ticker": "COR",
+      "score": 44,
+      "one_liner": "Medical distributor with exceptional ROE (133%) but razor-thin margins (0.5%), minimal profit, and catastrophic leverage (473 DE). Fragile quality business; pass.",
+      "flags": ["very_high_debt", "low_profitability", "zero_margins"]
+    },
+    {
+      "ticker": "VST",
+      "score": 31,
+      "one_liner": "Utility with collapsing earnings (-52%), negative FCF, and extreme leverage (400 DE). Positive 6m momentum (27%) insufficient to offset deterioration.",
+      "flags": ["declining_earnings", "negative_fcf", "very_high_debt", "negative_fcf"]
+    },
+    {
+      "ticker": "COHR",
+      "score": 52,
+      "one_liner": "Spectacular 6m momentum (135%), strong earnings growth (73%), but toxic valuation (295x trailing PE) and minimal profitability (4.7%). High-beta momentum play; unsustainable multiple.",
+      "flags": ["very_high_valuation", "low_profitability", "high_volatility"]
+    }
+  ]
+}
+```

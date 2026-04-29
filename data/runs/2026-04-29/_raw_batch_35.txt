@@ -1,0 +1,156 @@
+```json
+{
+  "scores": [
+    {
+      "ticker": "CPB",
+      "score": 35,
+      "one_liner": "Cheap on P/E (11.2x) but deteriorating: -31% 6m momentum, -17% earnings growth, 185x debt/equity, and negative revenue growth. Dividend (7.6%) doesn't offset fundamental weakness.",
+      "flags": ["high_debt", "negative_momentum", "earnings_decline", "revenue_decline"]
+    },
+    {
+      "ticker": "WSC",
+      "score": 28,
+      "one_liner": "Unprofitable (negative ROE, margin) with high leverage (456x debt/equity), weak 6m momentum, and declining revenue. Elevated valuation (17.8x forward) offers no margin of safety.",
+      "flags": ["unprofitable", "high_debt", "negative_roe", "revenue_decline"]
+    },
+    {
+      "ticker": "DLB",
+      "score": 42,
+      "one_liner": "Quality margins (87.9% gross, 18% profit) and strong ROE (9.5%), but trailing P/E (25.8x) compresses on forward (13.7x), -21% earnings decline, and negative 6m momentum. Moderate debt (1.6x) is manageable.",
+      "flags": ["earnings_decline", "valuation_compression", "negative_momentum"]
+    },
+    {
+      "ticker": "SHC",
+      "score": 65,
+      "one_liner": "Explosive earnings growth (175%) and positive revenue (4.6%), but trailing P/E (57.6x) is stretched despite forward (14.9x) relief. High debt (375.6x), high beta (1.9), and negative 6m momentum offset upside.",
+      "flags": ["high_debt", "high_beta", "trailing_pe_stretched", "negative_momentum"]
+    },
+    {
+      "ticker": "NWS",
+      "score": 48,
+      "one_liner": "Solid FCF generation (1.7B), decent margins (56.7% gross, 13.3% profit), but trailing P/E (39.1x) and forward (24.1x) are elevated for just 5.5% revenue growth and negative earnings momentum (-10%).",
+      "flags": ["valuation_elevated", "earnings_decline"]
+    },
+    {
+      "ticker": "DUOL",
+      "score": 72,
+      "one_liner": "Exceptional fundamentals: 35% revenue growth, 194% earnings growth, 72% gross margin, 40% profit margin, 38% ROE, low debt (7.5x). 1m momentum (+11%) is strong but 6m lag (-65.9%) and high P/S (4.8x) warrant caution.",
+      "flags": ["high_ps_ratio", "negative_6m_momentum"]
+    },
+    {
+      "ticker": "AGO",
+      "score": 58,
+      "one_liner": "Strong profitability (60.5% margin, 90.6% gross) with cheap valuation (8.1x trailing, 10.5x forward), but -37% revenue decline and -6.5% earnings growth signal deterioration. Low volatility and stable momentum are modest positives.",
+      "flags": ["revenue_decline", "earnings_decline"]
+    },
+    {
+      "ticker": "KRC",
+      "score": 39,
+      "one_liner": "REIT with modest fundamentals (19.6% margin, 44% ROE) and high yield (6.6%), but trailing P/E (18.6x) inflates to forward (68.2x) suggesting earnings headwinds. Negative 6m momentum and 85.9x debt/equity are red flags.",
+      "flags": ["valuation_compression", "high_debt", "negative_momentum"]
+    },
+    {
+      "ticker": "BRKR",
+      "score": 32,
+      "one_liner": "Nearly unprofitable (flat ROE, negative profit margin) with weak momentum, modest revenues, and high leverage (81.4x debt/equity). Forward P/E (15x) offers little comfort given stagnation.",
+      "flags": ["unprofitable", "high_debt", "negative_momentum", "negative_roe"]
+    },
+    {
+      "ticker": "APPF",
+      "score": 62,
+      "one_liner": "Strong growth (20% revenue, 37% earnings), solid margins (64% gross, 15% profit), and respectable ROE (32.6%), but trailing P/E (40.3x) compresses to forward (20.5x) and P/S (6x) is elevated. 6m momentum (-31%) is a concern.",
+      "flags": ["high_trailing_pe", "high_ps_ratio", "negative_6m_momentum"]
+    },
+    {
+      "ticker": "ADT",
+      "score": 52,
+      "one_liner": "Attractive valuation (10.6x trailing, 7.5x forward) with strong FCF and decent margins (80.8% gross, 11.6% profit), but earnings declining (-17%), high debt (206x), and weak 6m momentum (-16.7%). Dividend (3%) provides some cushion.",
+      "flags": ["high_debt", "earnings_decline", "negative_6m_momentum"]
+    },
+    {
+      "ticker": "KRMN",
+      "score": 22,
+      "one_liner": "Avoid: Distressed valuation (540.8x trailing P/E), negative FCF, extreme P/S (19.8x), weak margins (4% profit), negative 6m momentum (-16.5%), and high debt (153.5x). Aerospace cyclical exposure adds risk despite 47% revenue growth.",
+      "flags": ["extreme_valuation", "negative_fcf", "high_debt", "negative_momentum", "negative_ps"]
+    },
+    {
+      "ticker": "BHF",
+      "score": 28,
+      "one_liner": "Broken fundamentals: negative FCF (-607M), -82% earnings decline, -31.6% revenue decline, and unprofitable forward trajectory. Cheap trailing P/E (10.8x) is a value trap; high debt (145.5x) compounds risk.",
+      "flags": ["negative_fcf", "earnings_decline", "revenue_decline", "high_debt", "value_trap"]
+    },
+    {
+      "ticker": "WLK",
+      "score": 24,
+      "one_liner": "Structurally challenged: negative profit margin (-13.5%), negative ROE (-14.5%), weak FCF (62M), and -10.9% revenue decline. Forward P/E (26.4x) offers no solace; high volatility (48%) amplifies risk.",
+      "flags": ["unprofitable", "negative_roe", "revenue_decline", "weak_fcf"]
+    },
+    {
+      "ticker": "HLNE",
+      "score": 68,
+      "one_liner": "Quality asset manager with strong ROE (31.7%), high margins (60% gross, 31% profit), reasonable valuation (16.2x trailing, 14.9x forward), and solid FCF. Concerns: 6m momentum lag (-23%), high debt (27.95x), and modest earnings growth (4%).",
+      "flags": ["negative_6m_momentum", "modest_growth"]
+    },
+    {
+      "ticker": "RYAN",
+      "score": 54,
+      "one_liner": "Specialty insurer with strong revenue growth (13.6%) and respectable ROE (18.2%), but trailing P/E (73.9x) compresses sharply to forward (13.6x), high debt (281.5x), and weak profitability (2.1% margin). 6m momentum (-34.4%) is negative.",
+      "flags": ["valuation_compression", "high_debt", "low_margins", "negative_6m_momentum"]
+    },
+    {
+      "ticker": "IRDM",
+      "score": 61,
+      "one_liner": "Telecom with strong 6m momentum (+108.8%) and positive 1m (+33.6%), healthy margins (72% gross, 12% profit), and respectable ROE (21.4%). Concerns: elevated valuation (37.7x trailing, 26.2x forward), extreme debt (381.97x), and negative earnings growth.",
+      "flags": ["high_debt", "earnings_decline", "valuation_elevated"]
+    },
+    {
+      "ticker": "COLD",
+      "score": 35,
+      "one_liner": "Industrial REIT with negative profitability (flat margins, -3.7% ROE) and distorted forward P/E (166.3x). High leverage (153.96x), weak 6m momentum (-5.6%), and minimal revenue growth offer insufficient compensation for 7.5% yield.",
+      "flags": ["unprofitable", "high_debt", "extreme_forward_pe", "negative_momentum"]
+    },
+    {
+      "ticker": "OGN",
+      "score": 38,
+      "one_liner": "Dramatic 1m momentum (+128%) and 6m surge (+46.2%) catch attention, but fundamentals are fragile: catastrophic debt/equity (1170x), deteriorating revenue (-5.3%), low margins (3%), and minimal FCF relative to valuation. Beta (0.64) is misleadingly calm.",
+      "flags": ["extreme_debt", "revenue_decline", "low_margins", "high_volatility"]
+    },
+    {
+      "ticker": "VKTX",
+      "score": 15,
+      "one_liner": "Avoid: Biotech with negative earnings (forward P/E -7.9x), negative FCF (-160M), zero profitability, -47.3% ROE, and minimal balance-sheet cushion. No trailing earnings to anchor valuation; high volatility (62%) compounds risk.",
+      "flags": ["unprofitable", "negative_fcf", "negative_roe", "negative_pe", "early_stage"]
+    },
+    {
+      "ticker": "RNG",
+      "score": 55,
+      "one_liner": "Software with strong 6m momentum (+32.3%) and positive 1m (+11.9%), good margins (71% gross), and solid FCF, but trailing P/E (82.4x) inflates to forward (7.3x)—suggesting harsh earnings reset. Missing ROE data is a gap; high beta (1.15).",
+      "flags": ["extreme_trailing_pe", "valuation_compression", "missing_roe", "high_beta"]
+    },
+    {
+      "ticker": "FHB",
+      "score": 63,
+      "one_liner": "Regional bank with solid 1m (+12.4%) and 6m (+11.9%) momentum, attractive valuation (12x trailing, 11.2x forward), high margins (33% profit), and growing earnings (+17.2%). Lacking debt/equity and FCF data; missing leverage visibility.",
+      "flags": ["missing_debt_data", "missing_fcf_data"]
+    },
+    {
+      "ticker": "CWEN",
+      "score": 56,
+      "one_liner": "Renewable utility with strong 6m momentum (+29.9%), solid margin (12% profit), and 4.4% yield, but negative ROE (-4%), high debt (159.7x), and elevated valuation (28.3x trailing, 24.5x forward) despite 21% revenue growth. Mixed setup.",
+      "flags": ["negative_roe", "high_debt", "valuation_elevated"]
+    },
+    {
+      "ticker": "YETI",
+      "score": 67,
+      "one_liner": "Consumer discretionary with solid momentum (1m +10.8%, 6m +10.7%), decent margins (57% gross, 9% profit), strong ROE (23.8%), and reasonable valuation (19.4x trailing, 12.1x forward). Growth (6.8% revenue, 19% earnings) is modest; high beta (1.8) amplifies drawdown risk.",
+      "flags": ["high_beta", "modest_growth"]
+    },
+    {
+      "ticker": "ELF",
+      "score": 44,
+      "one_liner": "Cosmetics with modest 1m momentum (+3.2%) hampered by severe 6m decline (-48.7%), missing fundamentals entirely prevents quality assessment. Price chart alone suggests narrative reversal; data gap makes scoring speculative.",
+      "flags": ["missing_fundamentals", "negative_6m_momentum", "data_gap"]
+    }
+  ]
+}
+```

@@ -1,0 +1,156 @@
+```json
+{
+  "scores": [
+    {
+      "ticker": "HRL",
+      "score": 42,
+      "one_liner": "Defensive packaged-food play with reasonable forward valuation (13.6x) and high dividend yield (5.5%), but deteriorating fundamentals (negative revenue/earnings growth, weak margins) and excessive leverage (4.2x D/E) limit upside.",
+      "flags": ["negative_growth", "weak_margins", "high_debt"]
+    },
+    {
+      "ticker": "MKTX",
+      "score": 68,
+      "one_liner": "Capital markets fintech with strong profitability (29% margins, 19% ROE) and explosive earnings growth (+45%), but trading rich on P/S (6.7x), extremely leveraged (24.6x D/E), and momentum fading (6m: -6.2%).",
+      "flags": ["high_valuation_ps", "extreme_leverage", "negative_momentum_6m"]
+    },
+    {
+      "ticker": "RGEN",
+      "score": 28,
+      "one_liner": "Medical instruments play with modest top-line growth (+18%) and strong margins (53%), but severely overvalued (137x trailing P/E, 8.97x P/S), weak profitability (6.6% margin, 2.4% ROE), and 6m momentum deeply negative (-29.4%).",
+      "flags": ["extreme_valuation", "weak_profitability", "high_debt", "negative_momentum_6m"]
+    },
+    {
+      "ticker": "TFX",
+      "score": 24,
+      "one_liner": "Medical devices name with decent forward P/E (13.1x) and margin recovery signal, but negative operating profitability (-45%), negligible ROE (1.6%), crippling leverage (90x D/E), and minimal FCF generation.",
+      "flags": ["negative_profitability", "extreme_leverage", "low_fcf_yield"]
+    },
+    {
+      "ticker": "CHE",
+      "score": 62,
+      "one_liner": "Healthcare facilities operator with solid fundamentals (15.7x forward P/E, 25.6% ROE, stable FCF), positive momentum (1m: +14.2%), but flat growth (+1.6% revenue, -0.4% earnings) and very high leverage (28x D/E).",
+      "flags": ["stagnant_growth", "high_debt", "flat_earnings"]
+    },
+    {
+      "ticker": "HR",
+      "score": 19,
+      "one_liner": "Healthcare REIT in distress with negative profitability (-20.8%), negative ROE, reverse yield curve on forward P/E, and extreme leverage (88.8x D/E); high dividend yield (5.6%) appears unsustainable.",
+      "flags": ["negative_profitability", "negative_roe", "extreme_leverage", "broken_fundamentals"]
+    },
+    {
+      "ticker": "ST",
+      "score": 56,
+      "one_liner": "Scientific instruments play with exceptional earnings growth (1,021%) and positive momentum (6m: +31.2%), but nearly profitless (0.8% margin), massively overleveraged (105x D/E), and suspended on fundamental quality.",
+      "flags": ["low_profitability", "extreme_leverage", "high_valuation_pe"]
+    },
+    {
+      "ticker": "CLF",
+      "score": 12,
+      "one_liner": "Steel producer in structural downturn: negative margins (-6.4%), deeply negative ROE (-18.6%), extreme leverage (129x D/E), negative FCF (-$60.5M), and weak balance sheet despite modest forward P/E.",
+      "flags": ["negative_profitability", "negative_roe", "extreme_leverage", "negative_fcf", "broken_fundamentals"]
+    },
+    {
+      "ticker": "LW",
+      "score": 35,
+      "one_liner": "Packaged-food name with acceptable valuation (14.4x forward P/E) and solid FCF ($597M), but earnings crashed (-62%), momentum deeply negative (6m: -34.2%), and debt burden is extreme (220x D/E).",
+      "flags": ["negative_earnings_growth", "negative_momentum_6m", "extreme_leverage"]
+    },
+    {
+      "ticker": "ACI",
+      "score": 33,
+      "one_liner": "Grocery retailer trading at historically cheap multiples (6.7x forward P/E, 0.098x P/S) with strong FCF ($1.45B) and revenue growth (+7.7%), but nearly unprofitable (0.3% margin), crushing leverage (833x D/E), and negative 6m momentum.",
+      "flags": ["low_profitability", "extreme_leverage", "negative_momentum_6m"]
+    },
+    {
+      "ticker": "ESAB",
+      "score": 48,
+      "one_liner": "Industrial fabrication play with reasonable valuation (15.5x forward P/E), modest profitability (8%), and steady growth (+7.5%), but earnings collapsed (-31.6%), 6m momentum is -17%, and leverage remains elevated (61x D/E).",
+      "flags": ["negative_earnings_growth", "negative_momentum_6m", "high_debt"]
+    },
+    {
+      "ticker": "KMX",
+      "score": 25,
+      "one_liner": "Auto dealership chain trading cheap (13.8x forward P/E, 0.197x P/S) but fundamentally broken: nearly zero profitability (0.9% margin), negligible ROE, extreme leverage (318x D/E), negative FCF, and declining revenue.",
+      "flags": ["low_profitability", "low_roe", "extreme_leverage", "negative_fcf", "negative_growth"]
+    },
+    {
+      "ticker": "CHWY",
+      "score": 58,
+      "one_liner": "Online pet retailer with explosive earnings growth (+61%) and exceptional ROE (58.7%), reasonably valued at 13x forward P/E, but revenue growth is near-zero (+0.5%), 6m momentum is weak (-27.1%), and leverage is high (112x D/E).",
+      "flags": ["stagnant_revenue_growth", "negative_momentum_6m", "high_debt"]
+    },
+    {
+      "ticker": "AUR",
+      "score": 3,
+      "one_liner": "Micro-cap tech services name with catastrophic fundamentals: negative earnings, near-zero profitability, deeply negative ROE (-40.6%), negative FCF (-$375M), and absurd P/S (3234x); essentially a financial shell.",
+      "flags": ["broken_fundamentals", "negative_roe", "negative_fcf", "extreme_valuation", "avoid"]
+    },
+    {
+      "ticker": "GAP",
+      "score": 51,
+      "one_liner": "Apparel retailer with attractive valuation (9.4x forward P/E) and strong gross margins (41%), decent ROE (23%), and solid FCF generation, but earnings declining (-16%), volatile (beta 2.2), and high leverage (148x D/E).",
+      "flags": ["negative_earnings_growth", "high_debt", "high_volatility"]
+    },
+    {
+      "ticker": "NXST",
+      "score": 36,
+      "one_liner": "Broadcaster with reasonable forward P/E (11.4x) and high FCF yield, but collapsing revenue (-13.3%), minimal profitability (2.2% margin), weak ROE (3.8%), and extreme leverage (321x D/E) undermine quality.",
+      "flags": ["negative_revenue_growth", "low_profitability", "extreme_leverage", "low_roe"]
+    },
+    {
+      "ticker": "LYFT",
+      "score": 72,
+      "one_liner": "Ride-share tech with exceptional metrics: 45% earnings growth, 141% ROE, 45% profit margins, dirt-cheap valuation (2.1x trailing P/E, 7.7x forward), and strong FCF; positive 1m momentum (+10.6%) though 6m underperformance (-30.5%) and moderate leverage temper conviction.",
+      "flags": ["negative_momentum_6m", "moderate_leverage"]
+    },
+    {
+      "ticker": "FCN",
+      "score": 72,
+      "one_liner": "Consulting powerhouse with solid fundamentals (22.2x trailing P/E, 13.6% ROE), strong revenue growth (+10.7%), 29% earnings growth, positive 6m momentum (+15.8%), and low leverage (36x D/E); momentum and growth setup attractive.",
+      "flags": []
+    },
+    {
+      "ticker": "VSNT",
+      "score": 64,
+      "one_liner": "Entertainment name trading at bargain multiples (6.1x trailing P/E, 4.9x forward) with strong profitability (13.9% margin, 8.7% ROE) and excellent FCF yield; 6m momentum data missing but 1m positive (+11.7%) and low leverage (9.45x D/E) are plus.",
+      "flags": ["missing_6m_momentum", "negative_revenue_growth"]
+    },
+    {
+      "ticker": "CZR",
+      "score": 31,
+      "one_liner": "Casino operator with positive 6m momentum (+22.9%) and decent revenue growth (+4.2%), but profitability is negative (-4.4%), leverage is catastrophic (695x D/E), ROE is deeply negative, and no trailing P/E data limits conviction.",
+      "flags": ["negative_profitability", "negative_roe", "extreme_leverage", "broken_fundamentals"]
+    },
+    {
+      "ticker": "MHK",
+      "score": 45,
+      "one_liner": "Furnishings manufacturer with reasonable valuation (10.1x forward P/E) and modest cash generation ($661M FCF), positive 1m momentum (+10.4%), but earnings crashed (-52.1%), margins are thin (3.4%), and 6m momentum is -11.3%.",
+      "flags": ["negative_earnings_growth", "negative_momentum_6m", "low_profitability"]
+    },
+    {
+      "ticker": "SARO",
+      "score": 54,
+      "one_liner": "Aerospace & defense play with solid revenue growth (+13.5%), acceptable valuation (14.5x forward P/E), modest profitability (4.6%), and positive 1m momentum (+4.4%), but moderate leverage (92x D/E), weak 6m trend (-14.9%), and low ROE (11%).",
+      "flags": ["negative_momentum_6m", "high_debt", "low_roe"]
+    },
+    {
+      "ticker": "AN",
+      "score": 58,
+      "one_liner": "Auto dealership with excellent valuation (8.5x forward P/E, 0.25x P/S), strong ROE (27%), solid FCF ($604M), and muted but positive momentum; revenue decline (-3.9%) and extreme leverage (437x D/E) are concerns but balanced by multiple compression.",
+      "flags": ["negative_revenue_growth", "extreme_leverage"]
+    },
+    {
+      "ticker": "GNTX",
+      "score": 62,
+      "one_liner": "Auto-parts supplier with attractive valuation (10.7x forward P/E), strong profitability (14.8% margin, 15.6% ROE), robust growth (+17.1% revenue, +9.9% earnings), and positive momentum (1m: +8.5%); missing D/E data is the only gap.",
+      "flags": ["missing_debt_data"]
+    },
+    {
+      "ticker": "PLNT",
+      "score": 49,
+      "one_liner": "Planet Fitness with respectable growth (+10.7% revenue, +32.5% earnings), strong margins (59.5%, 17.7% profit), and solid valuation (15.9x forward P/E), but severe 6m momentum decay (-34.5%) and negative 1m trend (-12.7%) signal recent deterioration.",
+      "flags": ["negative_momentum_1m", "negative_momentum_6m"]
+    }
+  ]
+}
+```

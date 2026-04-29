@@ -1,0 +1,156 @@
+```json
+{
+  "scores": [
+    {
+      "ticker": "JCI",
+      "score": 52,
+      "one_liner": "Mixed setup: strong 6m momentum (26%) and solid earnings growth (34%), but trailing PE of 47.5 is stretched and debt/equity (73.3) is elevated. Forward PE of 25.4 offers modest relief.",
+      "flags": ["high_valuation", "high_debt"]
+    },
+    {
+      "ticker": "USB",
+      "score": 68,
+      "one_liner": "Regional bank with attractive valuation (trailing PE 11.8, forward 10.0) and solid dividend (3.7%), positive 6m momentum (19%), but muted earnings growth (15%) and minimal revenue growth (4.6%).",
+      "flags": ["low_growth"]
+    },
+    {
+      "ticker": "WMB",
+      "score": 45,
+      "one_liner": "Strong 6m momentum (29%) and earnings growth (51%), but negative FCF (-353M) is a red flag, P/S ratio of 7.55 is expensive, and 1m momentum is flat. High debt (197 D/E) adds risk.",
+      "flags": ["negative_fcf", "high_debt", "weak_1m_momentum"]
+    },
+    {
+      "ticker": "FCX",
+      "score": 72,
+      "one_liner": "Copper miner with exceptional 6m momentum (41%) and explosive earnings growth (154%), solid FCF (1.4B), and reasonable forward PE of 15.7. High volatility (52%) and beta (1.47) offset conviction.",
+      "flags": ["high_volatility"]
+    },
+    {
+      "ticker": "PNC",
+      "score": 66,
+      "one_liner": "Regional bank with attractive valuation (trailing PE 12.8, forward 10.5), solid dividend (3.1%), and positive momentum (20% 6m). Earnings growth (18%) modest, ROE (12.1%) adequate.",
+      "flags": ["low_growth"]
+    },
+    {
+      "ticker": "CSX",
+      "score": 63,
+      "one_liner": "Railroad with strong earnings growth (27%), solid ROE (24%), positive 6m momentum (26%), and acceptable forward PE of 21.1. Revenue growth just 1.7%, and high debt (143 D/E) are concerns.",
+      "flags": ["minimal_revenue_growth", "high_debt"]
+    },
+    {
+      "ticker": "WM",
+      "score": 54,
+      "one_liner": "Waste management with excellent ROE (30%) and solid FCF (1.7B), but weak 6m momentum (7%), flat 1m momentum, and trailing PE of 34 is stretched. High debt (239 D/E).",
+      "flags": ["weak_momentum", "high_valuation", "high_debt"]
+    },
+    {
+      "ticker": "FDX",
+      "score": 74,
+      "one_liner": "Logistics leader with exceptional 6m momentum (63%), strong positive 1m momentum (13%), attractive P/S (1.01), and solid ROE (16%). Forward PE of 17.5 is reasonable despite weak margins (4.9% profit).",
+      "flags": []
+    },
+    {
+      "ticker": "SLB",
+      "score": 48,
+      "one_liner": "Oil services with strong 6m momentum (57%) but negative earnings growth (-14%), weak revenue growth (2.7%), and anemic profit margins (9.3%). Forward PE of 16.7 is fair value only.",
+      "flags": ["negative_earnings_growth", "weak_growth"]
+    },
+    {
+      "ticker": "MRSH",
+      "score": 56,
+      "one_liner": "Insurance broker with strong ROE (28%), excellent FCF (5.0B), and attractive forward PE (15.1). But negative 6m momentum (-7.5%), negative earnings growth (-15%), and high debt (152 D/E) limit conviction.",
+      "flags": ["negative_momentum", "negative_earnings_growth", "high_debt"]
+    },
+    {
+      "ticker": "AMT",
+      "score": 38,
+      "one_liner": "REIT with strong FCF (4.5B) and gross margins (74%), but extreme debt (434 D/E), trailing PE of 33, negative earnings growth (-33%), and negative 6m momentum (-5%)—value trap indicators.",
+      "flags": ["extreme_debt", "negative_earnings_growth", "negative_momentum", "high_valuation"]
+    },
+    {
+      "ticker": "EMR",
+      "score": 48,
+      "one_liner": "Industrial machinery with moderate valuation (forward PE 19.4) and positive 1m momentum (10%), but stagnant fundamentals: earnings growth only 5%, revenue growth 4.1%, ROE 9.6%, and high debt (69 D/E).",
+      "flags": ["weak_growth", "low_roe"]
+    },
+    {
+      "ticker": "MAR",
+      "score": 64,
+      "one_liner": "Lodging with strong gross margins (79%), positive 6m momentum (33%), and solid FCF (1.7B), but trailing PE of 37.6 and forward PE of 27.5 are expensive. Earnings growth only 1.6%.",
+      "flags": ["high_valuation", "stagnant_earnings"]
+    },
+    {
+      "ticker": "UPS",
+      "score": 72,
+      "one_liner": "Logistics with exceptional ROE (34%), strong FCF (5.2B), low P/S (1.0), 6m momentum (23%), and forward PE of 13.1. Negative revenue growth (-3.2%) and high debt (176 D/E) temper conviction.",
+      "flags": ["negative_revenue_growth", "high_debt"]
+    },
+    {
+      "ticker": "ADP",
+      "score": 62,
+      "one_liner": "Software with strong ROE (74%), solid FCF (3.5B), and reasonable forward PE (16.6), but negative 6m momentum (-28%) and weak 1m momentum (-1%) signal recent weakness. Modest earnings growth (11.5%).",
+      "flags": ["negative_momentum"]
+    },
+    {
+      "ticker": "GD",
+      "score": 66,
+      "one_liner": "Defense contractor with solid fundamentals (forward PE 17.5, ROE 17.7%, FCF 3.4B), low debt (38 D/E), and revenue growth (7.8%), but negative 6m momentum (-10%) and flat earnings growth (0.4%).",
+      "flags": ["negative_momentum", "stagnant_earnings"]
+    },
+    {
+      "ticker": "ELV",
+      "score": 48,
+      "one_liner": "Healthcare insurer with attractive forward PE (12.4), strong FCF (4.3B), and positive 1m momentum (27%), but negative earnings growth (-17%), anemic profit margins (2.6%), and low revenue growth (2.6%).",
+      "flags": ["negative_earnings_growth", "low_margins", "weak_growth"]
+    },
+    {
+      "ticker": "ITW",
+      "score": 59,
+      "one_liner": "Industrial machinery with exceptional ROE (94%) and solid margins (44% gross, 19% profit), but forward PE of 22.1 is fair, 6m momentum modest (11%), and high debt (286 D/E).",
+      "flags": ["high_debt", "weak_momentum"]
+    },
+    {
+      "ticker": "CRH",
+      "score": 62,
+      "one_liner": "Building materials with strong earnings growth (48%), solid gross margins (36%), and positive 1m momentum (12%), but negative 6m momentum (-4%) and moderate valuation (forward PE 17.4) limit appeal.",
+      "flags": ["negative_6m_momentum"]
+    },
+    {
+      "ticker": "SHW",
+      "score": 50,
+      "one_liner": "Specialty chemicals with strong ROE (59%) and solid gross margins (49%), but flat valuation (forward PE 24.3), minimal earnings growth (1.4%), and extreme debt (306 D/E) are concerning.",
+      "flags": ["stagnant_earnings", "extreme_debt"]
+    },
+    {
+      "ticker": "MMM",
+      "score": 35,
+      "one_liner": "Conglomerate showing deterioration: negative 6m momentum (-13%), negative earnings growth (-40%), minimal revenue growth (1.3%), and extreme debt (396 D/E). Forward PE of 15.4 masks weak fundamentals.",
+      "flags": ["negative_momentum", "negative_earnings_growth", "extreme_debt", "stagnant_revenue"]
+    },
+    {
+      "ticker": "ORLY",
+      "score": 59,
+      "one_liner": "Auto parts retailer with strong gross margins (52%), solid earnings growth (14%), and reasonable forward PE (25.7), but negative 6m momentum (-6%), weak 1m momentum, and missing ROE data.",
+      "flags": ["negative_momentum", "missing_roe"]
+    },
+    {
+      "ticker": "NOC",
+      "score": 68,
+      "one_liner": "Defense contractor with exceptional earnings growth (85%), solid forward PE (19.1), strong ROE (29%), and solid FCF (2.1B). Negative 1m momentum (-15%) is concerning but strong fundamentals support valuation.",
+      "flags": ["negative_1m_momentum"]
+    },
+    {
+      "ticker": "SPOT",
+      "score": 55,
+      "one_liner": "Streaming with explosive earnings growth (214%) and positive margin profile, but negative 6m momentum (-33%), extremely high volatility (55%), trailing PE of 35.5, and weak FCF (675M) relative to market cap.",
+      "flags": ["negative_momentum", "high_volatility", "low_fcf_relative_to_cap"]
+    },
+    {
+      "ticker": "HLT",
+      "score": 52,
+      "one_liner": "Lodging with strong gross margins (78%), solid 6m momentum (21%), but expensive valuation (trailing PE 52.8, forward 31), negative earnings growth (-39%), and high P/S (14.9).",
+      "flags": ["high_valuation", "negative_earnings_growth"]
+    }
+  ]
+}
+```

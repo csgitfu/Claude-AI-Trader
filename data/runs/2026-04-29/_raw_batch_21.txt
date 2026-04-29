@@ -1,0 +1,156 @@
+```json
+{
+  "scores": [
+    {
+      "ticker": "HII",
+      "score": 72,
+      "one_liner": "Strong earnings growth (28%) and solid FCF yield support aerospace defensiveness; elevated debt (58.76) and thin margins (4.8%) temper conviction despite positive 6m momentum.",
+      "flags": ["high_debt", "low_margins"]
+    },
+    {
+      "ticker": "OHI",
+      "score": 68,
+      "one_liner": "Healthcare REIT with 5.7% yield, robust profit margin (49.6%), and 35% earnings growth; expensive P/S (12.19) and very high leverage (79 D/E) warrant caution.",
+      "flags": ["high_debt", "expensive_ps"]
+    },
+    {
+      "ticker": "TRU",
+      "score": 54,
+      "one_liner": "52% earnings growth and reasonable forward P/E (12.5) offset by negative 6m momentum, weak ROE (10.6%), and excessive debt (113.49 D/E).",
+      "flags": ["high_debt", "negative_momentum"]
+    },
+    {
+      "ticker": "RGA",
+      "score": 78,
+      "one_liner": "Exceptional value (trailing P/E 11.86, forward 7.27) with 216% earnings growth, strong FCF ($1.8B), and modest leverage (42.94 D/E); low-volatility reinsurance play.",
+      "flags": []
+    },
+    {
+      "ticker": "AKAM",
+      "score": 48,
+      "one_liner": "Positive 6m momentum (27%) but derailed by -37% earnings decline, high leverage (114 D/E), and steep monthly drawdown (-16.7%); valuation inflated at trailing P/E 31.",
+      "flags": ["negative_earnings_growth", "high_debt", "recent_weakness"]
+    },
+    {
+      "ticker": "PFGC",
+      "score": 35,
+      "one_liner": "Severely hampered by near-zero profit margin (0.6%), extreme leverage (171.8 D/E), and weak ROE (7.8%); trailing P/E (39.77) overvalues low-quality fundamentals.",
+      "flags": ["very_low_margins", "very_high_debt", "low_roe"]
+    },
+    {
+      "ticker": "DTM",
+      "score": 62,
+      "one_liner": "Oil & gas midstream with strong margin (35.5%) and revenue growth (27.3%), but high P/E multiples (forward 27.73), modest FCF yield, and low momentum (0.024 1m).",
+      "flags": ["expensive_pe", "low_growth"]
+    },
+    {
+      "ticker": "APA",
+      "score": 65,
+      "one_liner": "Excellent 6m momentum (64.8%) and rare combination of cheap valuation (P/E 9.69) with 25% ROE offset by negative revenue/earnings growth and modest FCF yield.",
+      "flags": ["negative_growth", "recent_weakness"]
+    },
+    {
+      "ticker": "FOXA",
+      "score": 51,
+      "one_liner": "Attractive valuation (forward P/E 12.24) and 17% ROE, but flat 6m momentum, -36% earnings decline, and minimal revenue growth (2%) limit upside.",
+      "flags": ["negative_earnings_growth", "low_growth"]
+    },
+    {
+      "ticker": "ZS",
+      "score": 42,
+      "one_liner": "High-growth SaaS (26% revenue growth) with strong margins (76.6%) but unprofitable (negative 2.3% net margin), poor ROE, and severe 6m selloff (-57.9%); missing trailing P/E.",
+      "flags": ["unprofitable", "negative_momentum", "missing_data"]
+    },
+    {
+      "ticker": "GGG",
+      "score": 55,
+      "one_liner": "Quality industrial (23% profit margin, 20% ROE, minimal debt 1.93 D/E) but hampered by flat growth (2.2% revenue, -2.8% earnings) and no momentum.",
+      "flags": ["low_growth"]
+    },
+    {
+      "ticker": "RPM",
+      "score": 58,
+      "one_liner": "Reasonable valuation (P/E 19.98), solid ROE (22.9%), and 2% dividend yield, but flat earnings growth and negative 6m momentum offset modest FCF.",
+      "flags": ["negative_momentum", "no_earnings_growth"]
+    },
+    {
+      "ticker": "HAS",
+      "score": 38,
+      "one_liner": "Strong revenue growth (31.3%) and positive 6m momentum unable to overcome unprofitability (-6.9% margin), terrible ROE (-36.4%), and extreme leverage (600.6 D/E).",
+      "flags": ["unprofitable", "negative_roe", "very_high_debt"]
+    },
+    {
+      "ticker": "PODD",
+      "score": 55,
+      "one_liner": "Medical device compounder with 31% revenue growth and 18% ROE, but expensive at 52.55 trailing P/E, steep 6m decline (-43%), and minimal earnings leverage (3.9% growth).",
+      "flags": ["expensive_pe", "negative_momentum"]
+    },
+    {
+      "ticker": "QXO",
+      "score": 28,
+      "one_liner": "Avoid: negative FCF (-$1.38B), unprofitable (-4.1% margins), poor ROE (-3.8%), and extreme volatility (72.6%) despite 147% revenue spike and 2.47 beta.",
+      "flags": ["negative_fcf", "unprofitable", "negative_roe", "high_volatility"]
+    },
+    {
+      "ticker": "TOST",
+      "score": 64,
+      "one_liner": "Strong earnings growth (228%) and solid momentum (13.1% 1m) with conservative leverage (0.94 D/E), but expensive at trailing P/E 50.86 and weak 6m (-24.4%).",
+      "flags": ["expensive_pe", "recent_selloff"]
+    },
+    {
+      "ticker": "TW",
+      "score": 62,
+      "one_liner": "Capital markets platform with excellent margins (39.6%), strong earnings growth (128%), and minimal debt (2.12 D/E), but pricey P/S (11.95) and zero momentum.",
+      "flags": ["expensive_ps", "no_momentum"]
+    },
+    {
+      "ticker": "UNM",
+      "score": 56,
+      "one_liner": "Insurance value play: cheap forward P/E (8.04), modest leverage (37 D/E), and steady yields tempered by -46% earnings decline and minimal revenue growth.",
+      "flags": ["negative_earnings_growth", "low_growth"]
+    },
+    {
+      "ticker": "APTV",
+      "score": 36,
+      "one_liner": "Auto parts supplier crushed by -43% earnings decline, weak margins (0.8%), and negative 6m trend (-31.4%); expensive trailing P/E (78.83) masks deterioration despite decent FCF.",
+      "flags": ["negative_earnings_growth", "negative_momentum", "expensive_pe"]
+    },
+    {
+      "ticker": "SOLS",
+      "score": 44,
+      "one_liner": "Exceptional 6m momentum (74.4%) offset by -69% earnings collapse, negative FCF (-$23.6M), extreme leverage (184.2 D/E), and weak margins; recovery uncertain.",
+      "flags": ["negative_earnings_growth", "negative_fcf", "very_high_debt"]
+    },
+    {
+      "ticker": "RIVN",
+      "score": 18,
+      "one_liner": "Avoid: EV manufacturer with -68% net margin, -65% ROE, negative FCF (-$795M), and collapsing revenue (-25.8%); unprofitable, highly leveraged, and burning cash.",
+      "flags": ["unprofitable", "very_low_roe", "negative_fcf", "negative_growth"]
+    },
+    {
+      "ticker": "EQH",
+      "score": 22,
+      "one_liner": "Asset manager in distress: -12% profit margin, -39% ROE, catastrophic negative FCF (-$9.7B), and -74% earnings decline; ultra-high debt (429.6 D/E) amplifies risk.",
+      "flags": ["unprofitable", "negative_roe", "negative_fcf", "very_high_debt"]
+    },
+    {
+      "ticker": "NYT",
+      "score": 60,
+      "one_liner": "Publisher with clean balance sheet (2.39 D/E), 17% ROE, and solid margins (12.3%), but expensive at P/E 37.55 and trailing P/S 4.54 given only 5.7% earnings growth.",
+      "flags": ["expensive_pe"]
+    },
+    {
+      "ticker": "GLPI",
+      "score": 68,
+      "one_liner": "Gaming REIT with exceptional 6.6% yield, 55% profit margins, 19% ROE, and positive momentum; high P/S (8.40) and substantial leverage (166.3 D/E) offset valuation merit.",
+      "flags": ["expensive_ps", "high_debt"]
+    },
+    {
+      "ticker": "AVY",
+      "score": 59,
+      "one_liner": "Packaging company with strong ROE (30.2%), reasonable multiples (P/E 18.77), and 2.3% yield, but burdened by high leverage (176.34 D/E) and near-zero earnings/revenue growth.",
+      "flags": ["high_debt", "low_growth"]
+    }
+  ]
+}
+```

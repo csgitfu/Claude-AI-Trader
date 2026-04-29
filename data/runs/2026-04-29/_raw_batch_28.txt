@@ -1,0 +1,156 @@
+```json
+{
+  "scores": [
+    {
+      "ticker": "NNN",
+      "score": 42,
+      "one_liner": "REIT with strong gross margins and 5.45% yield, but negative FCF, extreme leverage (109x D/E), and declining earnings undermine conviction.",
+      "flags": ["high_debt", "negative_fcf", "earnings_decline"]
+    },
+    {
+      "ticker": "NCLH",
+      "score": 28,
+      "one_liner": "Travel services with attractive forward P/E and improving fundamentals, but crippled by massive debt (703x D/E), negative FCF, and 6-month momentum deteriorating 24%.",
+      "flags": ["extreme_debt", "negative_fcf", "negative_momentum", "high_volatility"]
+    },
+    {
+      "ticker": "CHRD",
+      "score": 24,
+      "one_liner": "Oil & gas E&P with collapsing earnings (−57%), negative revenue growth (−19%), and near-zero profitability despite positive FCF and low valuation.",
+      "flags": ["earnings_collapse", "revenue_decline", "low_profitability"]
+    },
+    {
+      "ticker": "WYNN",
+      "score": 45,
+      "one_liner": "Casino operator with solid gross margins and positive 1-month momentum, but elevated P/E (33.6x), negative 6-month momentum (−15%), and severe earnings decline (−59%).",
+      "flags": ["high_pe", "earnings_decline", "negative_6m_momentum"]
+    },
+    {
+      "ticker": "XP",
+      "score": 72,
+      "one_liner": "Capital markets firm with strong valuation (9.9x P/E, 0.56x P/S), solid profitability (29% margins, 24% ROE), dual positive momentum, and 13%+ growth—high-conviction despite elevated leverage.",
+      "flags": ["high_debt"]
+    },
+    {
+      "ticker": "AXS",
+      "score": 35,
+      "one_liner": "Specialty insurer with attractive valuation (8x P/E) and revenue growth (18%), but massive negative FCF (−$13B) and weak ROE signal underlying deterioration.",
+      "flags": ["negative_fcf", "low_roe"]
+    },
+    {
+      "ticker": "WFRD",
+      "score": 68,
+      "one_liner": "Oil & gas services with strong 6-month momentum (58%), solid ROE (31%), and earnings growth (45%), but flat valuation and elevated leverage temper confidence.",
+      "flags": ["high_debt"]
+    },
+    {
+      "ticker": "ONON",
+      "score": 52,
+      "one_liner": "Footwear with robust 23% revenue growth and positive near-term momentum, but expensive at 45x trailing P/E, declining earnings (−24%), and high leverage offset upside.",
+      "flags": ["high_pe", "earnings_decline", "high_leverage", "high_volatility"]
+    },
+    {
+      "ticker": "SSD",
+      "score": 64,
+      "one_liner": "Lumber producer with positive 6m and 1m momentum, solid profitability (15% margins, 18% ROE), and reasonable valuation, but modest revenue growth limits upside.",
+      "flags": []
+    },
+    {
+      "ticker": "VOYA",
+      "score": 70,
+      "one_liner": "Financial conglomerate with strong momentum (23% 1m), solid forward P/E (7.3x), earnings growth (48%), and positive FCF, but moderate absolute profitability.",
+      "flags": ["high_debt"]
+    },
+    {
+      "ticker": "FR",
+      "score": 58,
+      "one_liner": "Industrial REIT with exceptional earnings growth (199%), positive momentum, and high profitability, but elevated leverage, sky-high forward P/E (33.7x), and declining earnings trajectory.",
+      "flags": ["high_debt", "high_forward_pe"]
+    },
+    {
+      "ticker": "QGEN",
+      "score": 48,
+      "one_liner": "Diagnostics company with negative 6-month momentum (−31%), slowing revenue growth (3.7%), and declining earnings momentum, offset by reasonable valuation and solid margins.",
+      "flags": ["negative_momentum", "low_revenue_growth"]
+    },
+    {
+      "ticker": "ARE",
+      "score": 15,
+      "one_liner": "Office REIT in structural decline: negative earnings, negative ROE, 8.96% dividend yield masking deterioration, and negative 6-month momentum (−46%).",
+      "flags": ["negative_earnings", "negative_roe", "negative_momentum", "office_sector_headwind"]
+    },
+    {
+      "ticker": "IDA",
+      "score": 52,
+      "one_liner": "Regulated electric utility with stable dividend (2.4%) and modest earnings growth (12%), but low profitability, negative FCF, and high leverage limit upside.",
+      "flags": ["negative_fcf", "high_debt"]
+    },
+    {
+      "ticker": "NOV",
+      "score": 38,
+      "one_liner": "Oil & gas equipment with strong 6-month momentum (48%) but severely damaged by negative earnings growth (−74%), near-zero profitability (1%), and trailing P/E compression.",
+      "flags": ["earnings_collapse", "low_profitability"]
+    },
+    {
+      "ticker": "AAL",
+      "score": 41,
+      "one_liner": "Airline with attractive forward P/E (5.3x) and positive FCF, but near-zero profitability (0.36%), high leverage, and flattening 6-month momentum (−16%) raise sustainability concerns.",
+      "flags": ["low_profitability", "high_leverage", "negative_6m_momentum"]
+    },
+    {
+      "ticker": "RBRK",
+      "score": 46,
+      "one_liner": "Infrastructure software with 46% revenue growth and positive FCF, but negative profitability (−27%), extremely high forward P/E (94x), and declining 6-month momentum (−29%).",
+      "flags": ["negative_profitability", "very_high_forward_pe", "negative_6m_momentum"]
+    },
+    {
+      "ticker": "AWI",
+      "score": 58,
+      "one_liner": "Building products with strong ROE (37%), solid profitability (19% margins), and reasonable valuation, but negative 6-month momentum (−16%) and modest growth temper conviction.",
+      "flags": ["negative_6m_momentum", "low_revenue_growth"]
+    },
+    {
+      "ticker": "HALO",
+      "score": 36,
+      "one_liner": "Biotech with exceptional revenue growth (52%) and high ROE, but crippled by catastrophic debt/equity ratio (4,460x), elevated P/E (24.9x), and weak momentum—value trap.",
+      "flags": ["extreme_debt", "high_pe"]
+    },
+    {
+      "ticker": "AGCO",
+      "score": 62,
+      "one_liner": "Farm machinery with excellent valuation (11.8x P/E, 0.83x P/S), solid FCF, and moderate leverage, but near-flat revenue growth (1%) and muted 6-month momentum limit appeal.",
+      "flags": ["low_revenue_growth"]
+    },
+    {
+      "ticker": "AOS",
+      "score": 66,
+      "one_liner": "Specialty machinery with strong ROE (29%), balanced valuation (16.6x P/E), earnings growth (19%), and low leverage, but flat revenue and weak momentum are headwinds.",
+      "flags": ["zero_revenue_growth"]
+    },
+    {
+      "ticker": "POOL",
+      "score": 54,
+      "one_liner": "Industrial distributor with excellent ROE (34%), solid profitability, and reasonable valuation, but high leverage (140x D/E), weak 6-month momentum (−26%), and slow earnings growth offset.",
+      "flags": ["high_debt", "negative_6m_momentum", "low_earnings_growth"]
+    },
+    {
+      "ticker": "GFS",
+      "score": 62,
+      "one_liner": "Semiconductor with exceptional momentum (68% 6m, 39% 1m), strong FCF, and moderate leverage, but flat revenue, expensive valuation (37.4x P/E), and low ROE raise concerns.",
+      "flags": ["high_pe", "zero_revenue_growth", "low_roe", "high_volatility"]
+    },
+    {
+      "ticker": "MOS",
+      "score": 36,
+      "one_liner": "Agricultural inputs company with negative 6-month momentum (−21%), low ROE (4.8%), and weak profitability, partially offset by cheap valuation and 3.8% yield.",
+      "flags": ["negative_momentum", "low_roe", "low_profitability", "negative_fcf"]
+    },
+    {
+      "ticker": "BEN",
+      "score": 64,
+      "one_liner": "Asset manager with strong momentum (31% 1m, 33% 6m), excellent earnings growth (61%), and solid 4.8% dividend yield, but below-average ROE and elevated P/E (27.3x) moderate conviction.",
+      "flags": ["high_pe", "low_roe"]
+    }
+  ]
+}
+```
