@@ -18,7 +18,10 @@ logs/*.jsonl
 data/runs/**/scorer_batch_*.json
 data/runs/**/debater_*.json
 data/runs/**/prob_*.json
-data/runs/**/_discard_*.json
+# CCR sometimes names temp files with underscore prefix instead of the
+# scorer_batch_/debater_/prob_ convention — catch those too
+data/runs/**/_*.json
+data/runs/**/_*.txt
 
 # Per-machine Claude Code config
 .claude/settings.local.json
