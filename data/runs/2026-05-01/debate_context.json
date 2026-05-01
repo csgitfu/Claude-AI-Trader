@@ -1,0 +1,1479 @@
+{
+  "MU": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:00.592766+00:00",
+      "beta": 1.606,
+      "debtToEquity": 14.902,
+      "dividendYield": 0.11,
+      "earningsGrowth": 7.56,
+      "forwardPE": 4.9875793,
+      "freeCashflow": 2893499904,
+      "grossMargins": 0.58437,
+      "industry": "Semiconductors",
+      "marketCap": 568705024000,
+      "priceToSalesTrailing12Months": 9.785183,
+      "profitMargins": 0.41486,
+      "returnOnEquity": 0.39823002,
+      "revenueGrowth": 1.963,
+      "sector": "Technology",
+      "trailingPE": 23.79849
+    },
+    "momentum": {
+      "1m": 0.4673916551328723,
+      "6m": 1.3837308843443537
+    },
+    "ann_vol": 0.693627750946142,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "ITCI": {
+    "fundamentals": {},
+    "momentum": {},
+    "ann_vol": null,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "KLAC": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:07.447120+00:00",
+      "beta": 1.435,
+      "debtToEquity": 111.778,
+      "dividendYield": 0.4,
+      "earningsGrowth": 0.409,
+      "forwardPE": 37.485466,
+      "freeCashflow": 3222999808,
+      "grossMargins": 0.61574,
+      "industry": "Semiconductor Equipment & Materials",
+      "marketCap": 237684785152,
+      "priceToSalesTrailing12Months": 18.649826,
+      "profitMargins": 0.35764,
+      "returnOnEquity": 1.00726,
+      "revenueGrowth": 0.072,
+      "sector": "Technology",
+      "trailingPE": 52.601627
+    },
+    "momentum": {
+      "1m": 0.14451851804851024,
+      "6m": 0.4123660444464532
+    },
+    "ann_vol": 0.5565147478543415,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "LRCX": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:04.624918+00:00",
+      "beta": 1.79,
+      "debtToEquity": 35.282,
+      "dividendYield": 0.41,
+      "earningsGrowth": 0.408,
+      "forwardPE": 32.10258,
+      "freeCashflow": 4352341504,
+      "grossMargins": 0.49979,
+      "industry": "Semiconductor Equipment & Materials",
+      "marketCap": 314180960256,
+      "priceToSalesTrailing12Months": 14.490509,
+      "profitMargins": 0.30938998,
+      "returnOnEquity": 0.66762,
+      "revenueGrowth": 0.238,
+      "sector": "Technology",
+      "trailingPE": 48.972706
+    },
+    "momentum": {
+      "1m": 0.16170447296762602,
+      "6m": 0.6097848507711874
+    },
+    "ann_vol": 0.5876531386303785,
+    "headlines": [
+      {
+        "title": "Forget Nvidia: This AI Semiconductor Stock in Billionaire Philippe Laffont Portfolio Is Winning in 2026",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/forget-nvidia-ai-semiconductor-stock-144739366.html"
+      },
+      {
+        "title": "Lam Research (LRCX) Recently Broke Out Above the 20-Day Moving Average",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/lam-research-lrcx-recently-broke-133502991.html"
+      },
+      {
+        "title": "Lam Research Corporation (LRCX) Is a Trending Stock: Facts to Know Before Betting on It",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/lam-research-corporation-lrcx-trending-130009028.html"
+      },
+      {
+        "title": "Analyst Upgrades PT on Lam Research After Q3 Earnings, What\u2019s Next?",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/analyst-upgrades-pt-lam-research-085021063.html"
+      },
+      {
+        "title": "Jim Cramer Considers Applied Materials to Be One of the \u201cBest Capital Expenditure Stocks\u201d",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-considers-applied-materials-080612942.html"
+      },
+      {
+        "title": "Lam Research Faces China Curbs While IBM Pact Reshapes Growth Outlook",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/lam-research-faces-china-curbs-020932284.html"
+      },
+      {
+        "title": "The Zacks Analyst Blog Highlights Lam Research, BlackRock, Corning, Monarch Cement and BK Technologies",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-lam-143100895.html"
+      },
+      {
+        "title": "Polen Focus Growth Bets on Lam Research (LRCX), a Critical Supplier of Etch and Deposition Equipment",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/polen-focus-growth-bets-lam-124752984.html"
+      }
+    ],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "EQT": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:43:08.583111+00:00",
+      "beta": 0.693,
+      "debtToEquity": 20.816,
+      "dividendYield": 1.13,
+      "earningsGrowth": 4.9,
+      "forwardPE": 12.552628,
+      "freeCashflow": 2503225856,
+      "grossMargins": 0.80966,
+      "industry": "Oil & Gas E&P",
+      "marketCap": 37165903872,
+      "priceToSalesTrailing12Months": 3.9689662,
+      "profitMargins": 0.35074002,
+      "returnOnEquity": 0.13402,
+      "revenueGrowth": 0.499,
+      "sector": "Energy",
+      "trailingPE": 11.275142
+    },
+    "momentum": {
+      "1m": -0.038222279892623945,
+      "6m": 0.14083417494482764
+    },
+    "ann_vol": 0.30910788601667005,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "INSP": {
+    "fundamentals": {},
+    "momentum": {
+      "1m": 0.057792735348475954,
+      "6m": -0.24517755673023856
+    },
+    "ann_vol": 0.6030130854198498,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "NOW": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:26.607271+00:00",
+      "beta": 1.005,
+      "debtToEquity": 20.728,
+      "earningsGrowth": 0.023,
+      "forwardPE": 18.066853,
+      "freeCashflow": 5108125184,
+      "grossMargins": 0.76562,
+      "industry": "Software - Application",
+      "marketCap": 93323059200,
+      "priceToSalesTrailing12Months": 6.6850333,
+      "profitMargins": 0.12586,
+      "returnOnEquity": 0.1607,
+      "revenueGrowth": 0.221,
+      "sector": "Technology",
+      "trailingPE": 53.863094
+    },
+    "momentum": {
+      "1m": -0.12384661690547394,
+      "6m": -0.5000822605569248
+    },
+    "ann_vol": 0.5946374561565743,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "COOP": {
+    "fundamentals": {},
+    "momentum": {},
+    "ann_vol": null,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "HLNE": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:45:43.403495+00:00",
+      "beta": 1.338,
+      "debtToEquity": 27.949,
+      "dividendYield": 2.41,
+      "earningsGrowth": 0.041,
+      "forwardPE": 14.9016,
+      "freeCashflow": 227907632,
+      "grossMargins": 0.60234,
+      "industry": "Asset Management",
+      "marketCap": 3987433728,
+      "priceToSalesTrailing12Months": 6.630336,
+      "profitMargins": 0.30587998,
+      "returnOnEquity": 0.31697,
+      "revenueGrowth": 0.18,
+      "sector": "Financial Services",
+      "trailingPE": 16.17647
+    },
+    "momentum": {
+      "1m": -0.047830113261233764,
+      "6m": -0.19207097692637298
+    },
+    "ann_vol": 0.46639444993470747,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "TBK": {
+    "fundamentals": {},
+    "momentum": {},
+    "ann_vol": null,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "QCOM": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:14.399027+00:00",
+      "beta": 1.279,
+      "debtToEquity": 64.218,
+      "dividendYield": 2.45,
+      "earningsGrowth": -0.018,
+      "forwardPE": 13.614815,
+      "freeCashflow": 10423374848,
+      "grossMargins": 0.55101,
+      "industry": "Semiconductors",
+      "marketCap": 160206766080,
+      "priceToSalesTrailing12Months": 3.570704,
+      "profitMargins": 0.11958,
+      "returnOnEquity": 0.2148,
+      "revenueGrowth": 0.05,
+      "sector": "Technology",
+      "trailingPE": 30.241936
+    },
+    "momentum": {
+      "1m": 0.39094904921487017,
+      "6m": 0.002334419048693581
+    },
+    "ann_vol": 0.4244525928816744,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "PFG": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:43:36.850522+00:00",
+      "beta": 0.882,
+      "debtToEquity": 31.84,
+      "dividendYield": 3.28,
+      "earningsGrowth": 8.19,
+      "forwardPE": 9.864863,
+      "grossMargins": 0.47612998,
+      "industry": "Asset Management",
+      "marketCap": 21657919488,
+      "priceToSalesTrailing12Months": 1.4010181,
+      "profitMargins": 0.10102,
+      "returnOnEquity": 0.13385999,
+      "revenueGrowth": -0.045,
+      "sector": "Financial Services",
+      "trailingPE": 14.314735
+    },
+    "momentum": {
+      "1m": 0.12577710480406235,
+      "6m": 0.25306331848048025
+    },
+    "ann_vol": 0.23466674032631163,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "CEG": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:25.377052+00:00",
+      "beta": 1.188,
+      "debtToEquity": 63.94,
+      "dividendYield": 0.54,
+      "earningsGrowth": -0.489,
+      "forwardPE": 22.301575,
+      "freeCashflow": 1258000000,
+      "grossMargins": 0.1838,
+      "industry": "Utilities - Independent Power Producers",
+      "marketCap": 110757093376,
+      "priceToSalesTrailing12Months": 4.337802,
+      "profitMargins": 0.09082,
+      "returnOnEquity": 0.16364,
+      "revenueGrowth": 0.129,
+      "sector": "Utilities",
+      "trailingPE": 41.25641
+    },
+    "momentum": {
+      "1m": 0.10234025255136725,
+      "6m": -0.23068334639342547
+    },
+    "ann_vol": 0.5114440563959853,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "SM": {
+    "fundamentals": {},
+    "momentum": {},
+    "ann_vol": null,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "MATX": {
+    "fundamentals": {},
+    "momentum": {},
+    "ann_vol": null,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "TMHC": {
+    "fundamentals": {},
+    "momentum": {},
+    "ann_vol": null,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "REGN": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:35.151088+00:00",
+      "beta": 0.397,
+      "debtToEquity": 9.511,
+      "dividendYield": 0.51,
+      "earningsGrowth": -0.026,
+      "forwardPE": 13.862164,
+      "freeCashflow": 3258374912,
+      "grossMargins": 0.44566002,
+      "industry": "Biotechnology",
+      "marketCap": 76718063616,
+      "priceToSalesTrailing12Months": 5.348853,
+      "profitMargins": 0.31409,
+      "returnOnEquity": 0.14864999,
+      "revenueGrowth": 0.025,
+      "sector": "Healthcare",
+      "trailingPE": 17.645767
+    },
+    "momentum": {
+      "1m": -0.0932389459030235,
+      "6m": 0.0820978561989143
+    },
+    "ann_vol": 0.28381472302543415,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "ALAB": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:43:25.922537+00:00",
+      "beta": 1.793,
+      "debtToEquity": 2.271,
+      "earningsGrowth": 0.836,
+      "forwardPE": 51.14191,
+      "freeCashflow": 206811376,
+      "grossMargins": 0.75688004,
+      "industry": "Semiconductors",
+      "marketCap": 31397693440,
+      "priceToSalesTrailing12Months": 36.82906,
+      "profitMargins": 0.25704,
+      "returnOnEquity": 0.18822001,
+      "revenueGrowth": 0.918,
+      "sector": "Technology",
+      "trailingPE": 150.25409
+    },
+    "momentum": {
+      "1m": 0.895560887848261,
+      "6m": 0.16089735251828907
+    },
+    "ann_vol": 0.9454204443952618,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "TT": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:22.635256+00:00",
+      "beta": 1.212,
+      "debtToEquity": 63.247,
+      "dividendYield": 0.86,
+      "earningsGrowth": -0.005,
+      "forwardPE": 28.510109,
+      "freeCashflow": 1935837440,
+      "grossMargins": 0.36161,
+      "industry": "Building Products & Equipment",
+      "marketCap": 106304438272,
+      "priceToSalesTrailing12Months": 4.9856925,
+      "profitMargins": 0.13688,
+      "returnOnEquity": 0.36956,
+      "revenueGrowth": 0.056,
+      "sector": "Industrials",
+      "trailingPE": 36.642532
+    },
+    "momentum": {
+      "1m": 0.13696450255650827,
+      "6m": 0.141466648175127
+    },
+    "ann_vol": 0.30780563726228777,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "EXEL": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:44:22.924457+00:00",
+      "beta": 0.418,
+      "debtToEquity": 9.296,
+      "earningsGrowth": 0.842,
+      "forwardPE": 11.351177,
+      "freeCashflow": 631157120,
+      "grossMargins": 0.96392995,
+      "industry": "Biotechnology",
+      "marketCap": 11412587520,
+      "priceToSalesTrailing12Months": 4.9189515,
+      "profitMargins": 0.3373,
+      "returnOnEquity": 0.35527,
+      "revenueGrowth": 0.056,
+      "sector": "Healthcare",
+      "trailingPE": 16.161871
+    },
+    "momentum": {
+      "1m": -0.00022711480523474048,
+      "6m": 0.11666240016531959
+    },
+    "ann_vol": 0.3263787258297871,
+    "headlines": [
+      {
+        "title": "Exelixis (EXEL) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/exelixis-exel-earnings-expected-grow-140023156.html"
+      },
+      {
+        "title": "Why Dow Jones Stock Merck Skidded 4% \u2014 And Boosted A Key Rival",
+        "publisher": "Investor's Business Daily",
+        "link": "https://www.investors.com/news/technology/merck-stock-exelixis-stock-renal-cell-carcinoma-treatment/?src=A00220&yptr=yahoo"
+      },
+      {
+        "title": "Assessing Exelixis (EXEL) Valuation After Recent Short Term Share Price Pressure",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/assessing-exelixis-exel-valuation-recent-210517429.html"
+      },
+      {
+        "title": "3 Under-the-Radar Healthcare Stocks Worth Adding to Your Watchlist",
+        "publisher": "Motley Fool",
+        "link": "https://www.fool.com/investing/2026/04/16/3-under-the-radar-healthcare-stocks-worth-adding-t/"
+      },
+      {
+        "title": "Will Exelixis (EXEL) Beat Estimates Again in Its Next Earnings Report?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/exelixis-exel-beat-estimates-again-161003821.html"
+      },
+      {
+        "title": "Lilly\u2019s AI commitment expands through deal with Insilico",
+        "publisher": "BioPharma Dive",
+        "link": "https://www.biopharmadive.com/news/eli-lilly-insilico-ai-medicine-drug-discovery/816088/"
+      },
+      {
+        "title": "RBC Capital Lowers Exelixis (EXEL) Price Target to $43",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/rbc-capital-lowers-exelixis-exel-071800844.html"
+      },
+      {
+        "title": "Exelixis (EXEL) Valuation After Earnings Beat FDA Progress And Cabometyx Label Expansion",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/news/exelixis-exel-valuation-earnings-beat-160925866.html"
+      }
+    ],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "MTDR": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:45:04.638539+00:00",
+      "beta": 0.906,
+      "debtToEquity": 59.178,
+      "dividendYield": 2.45,
+      "earningsGrowth": -0.096,
+      "forwardPE": 7.3547287,
+      "freeCashflow": -170397248,
+      "grossMargins": 0.79728997,
+      "industry": "Oil & Gas E&P",
+      "marketCap": 7595399168,
+      "priceToSalesTrailing12Months": 2.077224,
+      "profitMargins": 0.20763999,
+      "returnOnEquity": 0.1503,
+      "revenueGrowth": -0.125,
+      "sector": "Energy",
+      "trailingPE": 10.037766
+    },
+    "momentum": {
+      "1m": 0.02860205431447227,
+      "6m": 0.5988676287290065
+    },
+    "ann_vol": 0.4038763335066831,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "CASH": {
+    "fundamentals": {},
+    "momentum": {},
+    "ann_vol": null,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "AMD": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:01.340873+00:00",
+      "beta": 1.963,
+      "debtToEquity": 6.359,
+      "earningsGrowth": 2.171,
+      "forwardPE": 29.262484,
+      "freeCashflow": 4587250176,
+      "grossMargins": 0.52493,
+      "industry": "Semiconductors",
+      "marketCap": 526965080064,
+      "priceToSalesTrailing12Months": 15.2130575,
+      "profitMargins": 0.12515001,
+      "returnOnEquity": 0.07082,
+      "revenueGrowth": 0.341,
+      "sector": "Technology",
+      "trailingPE": 123.83525
+    },
+    "momentum": {
+      "1m": 0.7007516446877733,
+      "6m": 0.3525329429496864
+    },
+    "ann_vol": 0.6369320883722323,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "AMAT": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:05.112708+00:00",
+      "beta": 1.637,
+      "debtToEquity": 33.108,
+      "dividendYield": 0.52,
+      "earningsGrowth": 0.752,
+      "forwardPE": 27.084919,
+      "freeCashflow": 4341749760,
+      "grossMargins": 0.48724,
+      "industry": "Semiconductor Equipment & Materials",
+      "marketCap": 302452637696,
+      "priceToSalesTrailing12Months": 10.719949,
+      "profitMargins": 0.27784002,
+      "returnOnEquity": 0.38863,
+      "revenueGrowth": -0.021,
+      "sector": "Technology",
+      "trailingPE": 39.048153
+    },
+    "momentum": {
+      "1m": 0.10469194410090354,
+      "6m": 0.6631792663167644
+    },
+    "ann_vol": 0.5138391006981944,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "ES": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:43:24.588231+00:00",
+      "beta": 0.776,
+      "debtToEquity": 184.946,
+      "dividendYield": 4.59,
+      "earningsGrowth": 4.662,
+      "forwardPE": 13.705722,
+      "freeCashflow": 761494400,
+      "grossMargins": 0.53622,
+      "industry": "Utilities - Regulated Electric",
+      "marketCap": 25775474688,
+      "priceToSalesTrailing12Months": 1.902636,
+      "profitMargins": 0.124919996,
+      "returnOnEquity": 0.10777,
+      "revenueGrowth": 0.134,
+      "sector": "Utilities",
+      "trailingPE": 15.072527
+    },
+    "momentum": {
+      "1m": 0.023546293664316487,
+      "6m": -0.01298253126720117
+    },
+    "ann_vol": 0.2222574060370955,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "BKNG": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:16.665241+00:00",
+      "beta": 1.198,
+      "dividendYield": 0.91,
+      "earningsGrowth": 0.384,
+      "forwardPE": 14.004463,
+      "freeCashflow": 6550750208,
+      "grossMargins": 0.87357,
+      "industry": "Travel Services",
+      "marketCap": 134919667712,
+      "priceToSalesTrailing12Months": 5.0124335,
+      "profitMargins": 0.20076999,
+      "revenueGrowth": 0.16,
+      "sector": "Consumer Cyclical",
+      "trailingPE": 26.190334
+    },
+    "momentum": {
+      "1m": 0.014652712553168579,
+      "6m": -0.16000377346387007
+    },
+    "ann_vol": 0.40861778278496136,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "ACIW": {
+    "fundamentals": {},
+    "momentum": {},
+    "ann_vol": null,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "LITE": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:44.568194+00:00",
+      "beta": 1.391,
+      "debtToEquity": 392.476,
+      "forwardPE": 48.373047,
+      "freeCashflow": -21325000,
+      "grossMargins": 0.37118,
+      "industry": "Communication Equipment",
+      "marketCap": 56503816192,
+      "priceToSalesTrailing12Months": 26.840118,
+      "profitMargins": 0.11951,
+      "returnOnEquity": 0.29275,
+      "revenueGrowth": 0.655,
+      "sector": "Technology",
+      "trailingPE": 230.04941
+    },
+    "momentum": {
+      "1m": 0.24236571667395967,
+      "6m": 3.433334800250715
+    },
+    "ann_vol": 0.9719759570482788,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "NDAQ": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:43:01.989865+00:00",
+      "beta": 1.024,
+      "debtToEquity": 79.058,
+      "dividendYield": 1.23,
+      "earningsGrowth": 0.338,
+      "forwardPE": 20.678205,
+      "freeCashflow": 1559624960,
+      "grossMargins": 1.0,
+      "industry": "Financial Data & Stock Exchanges",
+      "marketCap": 51639529472,
+      "priceToSalesTrailing12Months": 9.529347,
+      "profitMargins": 0.35283002,
+      "returnOnEquity": 0.162,
+      "revenueGrowth": 0.137,
+      "sector": "Financial Services",
+      "trailingPE": 27.256716
+    },
+    "momentum": {
+      "1m": 0.07410449143299203,
+      "6m": 0.07732175140560038
+    },
+    "ann_vol": 0.312587237707787,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "EIX": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:43:24.286934+00:00",
+      "beta": 0.767,
+      "debtToEquity": 215.738,
+      "dividendYield": 5.12,
+      "earningsGrowth": 4.463,
+      "forwardPE": 10.423539,
+      "freeCashflow": -649500032,
+      "grossMargins": 0.5783,
+      "industry": "Utilities - Regulated Electric",
+      "marketCap": 26150510592,
+      "priceToSalesTrailing12Months": 1.3537563,
+      "profitMargins": 0.23083,
+      "returnOnEquity": 0.24103001,
+      "revenueGrowth": 0.308,
+      "sector": "Utilities",
+      "trailingPE": 5.8822513
+    },
+    "momentum": {
+      "1m": -0.04143101849019426,
+      "6m": 0.292110246850781
+    },
+    "ann_vol": 0.2489553138574741,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "NTAP": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:43:37.092247+00:00",
+      "beta": 1.292,
+      "debtToEquity": 236.097,
+      "dividendYield": 1.92,
+      "earningsGrowth": 0.16,
+      "forwardPE": 12.694512,
+      "freeCashflow": 1116000000,
+      "grossMargins": 0.70458,
+      "industry": "Software - Infrastructure",
+      "marketCap": 21445974016,
+      "priceToSalesTrailing12Months": 3.1965976,
+      "profitMargins": 0.18065001,
+      "returnOnEquity": 1.12587,
+      "revenueGrowth": 0.044,
+      "sector": "Technology",
+      "trailingPE": 18.167786
+    },
+    "momentum": {
+      "1m": 0.10382183651061938,
+      "6m": -0.008205639521092212
+    },
+    "ann_vol": 0.3605760173851557,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "CPAY": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:43:37.811068+00:00",
+      "beta": 0.851,
+      "debtToEquity": 243.348,
+      "earningsGrowth": 0.09,
+      "forwardPE": 10.44794,
+      "freeCashflow": 1888911360,
+      "grossMargins": 0.7968,
+      "industry": "Software - Infrastructure",
+      "marketCap": 20604745728,
+      "priceToSalesTrailing12Months": 4.550113,
+      "profitMargins": 0.23625,
+      "returnOnEquity": 0.29071,
+      "revenueGrowth": 0.207,
+      "sector": "Technology",
+      "trailingPE": 20.716091
+    },
+    "momentum": {
+      "1m": 0.058343187770794946,
+      "6m": 0.14309433757808954
+    },
+    "ann_vol": 0.42282263471640463,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "SPGI": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:18.438038+00:00",
+      "beta": 1.204,
+      "debtToEquity": 37.912,
+      "dividendYield": 0.89,
+      "earningsGrowth": 0.32,
+      "forwardPE": 19.640297,
+      "freeCashflow": 4877749760,
+      "grossMargins": 0.70246005,
+      "industry": "Financial Data & Stock Exchanges",
+      "marketCap": 129520836608,
+      "priceToSalesTrailing12Months": 8.445542,
+      "profitMargins": 0.29154,
+      "returnOnEquity": 0.13087,
+      "revenueGrowth": 0.09,
+      "sector": "Financial Services",
+      "trailingPE": 29.853306
+    },
+    "momentum": {
+      "1m": 0.005339014845781698,
+      "6m": -0.09253581302485947
+    },
+    "ann_vol": 0.3611570776647891,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "ADI": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:10.521991+00:00",
+      "beta": 1.053,
+      "debtToEquity": 25.753,
+      "dividendYield": 1.04,
+      "earningsGrowth": 1.167,
+      "forwardPE": 29.15336,
+      "freeCashflow": 4139530752,
+      "grossMargins": 0.62842,
+      "industry": "Semiconductors",
+      "marketCap": 187109130240,
+      "priceToSalesTrailing12Months": 15.914976,
+      "profitMargins": 0.23024,
+      "returnOnEquity": 0.07862,
+      "revenueGrowth": 0.304,
+      "sector": "Technology",
+      "trailingPE": 70.19414
+    },
+    "momentum": {
+      "1m": 0.23937870099902292,
+      "6m": 0.7017178363003056
+    },
+    "ann_vol": 0.33153151084780674,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "PNFP": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:44:08.602169+00:00",
+      "beta": 0.999,
+      "dividendYield": 1.51,
+      "earningsGrowth": -0.497,
+      "forwardPE": 8.373096,
+      "grossMargins": 0.0,
+      "industry": "Banks - Regional",
+      "marketCap": 14862106624,
+      "priceToSalesTrailing12Months": 5.6219068,
+      "profitMargins": 0.24658,
+      "returnOnEquity": 0.061680004,
+      "revenueGrowth": 1.559,
+      "sector": "Financial Services",
+      "trailingPE": 12.614796
+    },
+    "momentum": {
+      "1m": 0.12578262087292957,
+      "6m": 0.18124709711934917
+    },
+    "ann_vol": 0.3058744317253356,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "RNR": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:44:10.585603+00:00",
+      "beta": 0.241,
+      "debtToEquity": 12.937,
+      "dividendYield": 0.53,
+      "forwardPE": 7.5265417,
+      "freeCashflow": -14722827264,
+      "grossMargins": 0.36503,
+      "industry": "Insurance - Reinsurance",
+      "marketCap": 13404003328,
+      "priceToSalesTrailing12Months": 1.0421741,
+      "profitMargins": 0.20854999,
+      "returnOnEquity": 0.19681999,
+      "revenueGrowth": 0.276,
+      "sector": "Financial Services",
+      "trailingPE": 5.542648
+    },
+    "momentum": {
+      "1m": 0.015998142892989176,
+      "6m": 0.21511282362527218
+    },
+    "ann_vol": 0.23125205047379088,
+    "headlines": [
+      {
+        "title": "Aflac Q1 Earnings Miss Estimates on Lower Investment Income",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/aflac-q1-earnings-miss-estimates-135000613.html"
+      },
+      {
+        "title": "RenaissanceRe Holdings Ltd (RNR) Q1 2026 Earnings Call Highlights: Strong Operating Income and ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/renaissancere-holdings-ltd-rnr-q1-071508531.html"
+      },
+      {
+        "title": "RenaissanceRe RNR Q1 2026 Earnings Transcript",
+        "publisher": "Motley Fool",
+        "link": "https://www.fool.com/earnings/call-transcripts/2026/04/29/renaissancere-rnr-q1-2026-earnings-transcript/"
+      },
+      {
+        "title": "RNR Q1 Earnings Beat on Lower Expenses & Strong Investment Results",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/rnr-q1-earnings-beat-lower-162900038.html"
+      },
+      {
+        "title": "RenaissanceRe Holdings Ltd. Q1 2026 Earnings Call Summary",
+        "publisher": "Moby",
+        "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-renaissancere-holdings-ltd-q1-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+      },
+      {
+        "title": "Compared to Estimates, RenaissanceRe (RNR) Q1 Earnings: A Look at Key Metrics",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-renaissancere-rnr-q1-000002373.html"
+      },
+      {
+        "title": "RenaissanceRe (RNR) Beats Q1 Earnings Estimates",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/renaissancere-rnr-beats-q1-earnings-230008955.html"
+      },
+      {
+        "title": "RenaissanceRe (NYSE:RNR) Misses Q1 CY2026 Sales Expectations",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/renaissancere-nyse-rnr-misses-q1-215510892.html"
+      }
+    ],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "NBIX": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:44:20.439652+00:00",
+      "beta": 0.35,
+      "debtToEquity": 14.488,
+      "earningsGrowth": 0.477,
+      "forwardPE": 9.67784,
+      "freeCashflow": 397812512,
+      "grossMargins": 0.62671,
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "marketCap": 12886563840,
+      "priceToSalesTrailing12Months": 4.505004,
+      "profitMargins": 0.16731001,
+      "returnOnEquity": 0.16383,
+      "revenueGrowth": 0.283,
+      "sector": "Healthcare",
+      "trailingPE": 27.376068
+    },
+    "momentum": {
+      "1m": -0.003168362829515492,
+      "6m": -0.042602555432507905
+    },
+    "ann_vol": 0.2992844678066408,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "LNTH": {
+    "fundamentals": {},
+    "momentum": {},
+    "ann_vol": null,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "PWR": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:26.848088+00:00",
+      "beta": 1.106,
+      "debtToEquity": 71.102,
+      "dividendYield": 0.07,
+      "earningsGrowth": 0.026,
+      "forwardPE": 41.00978,
+      "freeCashflow": 819692032,
+      "grossMargins": 0.15010999,
+      "industry": "Engineering & Construction",
+      "marketCap": 94676787200,
+      "priceToSalesTrailing12Months": 3.3243608,
+      "profitMargins": 0.03611,
+      "returnOnEquity": 0.12739,
+      "revenueGrowth": 0.197,
+      "sector": "Industrials",
+      "trailingPE": 92.51319
+    },
+    "momentum": {
+      "1m": 0.31263729939955565,
+      "6m": 0.6390516982394134
+    },
+    "ann_vol": 0.42828054867493354,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "WDFC": {
+    "fundamentals": {},
+    "momentum": {},
+    "ann_vol": null,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "TBBK": {
+    "fundamentals": {},
+    "momentum": {},
+    "ann_vol": null,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "PAYO": {
+    "fundamentals": {},
+    "momentum": {},
+    "ann_vol": null,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "PFSI": {
+    "fundamentals": {},
+    "momentum": {},
+    "ann_vol": null,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "NU": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:54.515911+00:00",
+      "beta": 1.109,
+      "earningsGrowth": 0.609,
+      "forwardPE": 12.641343,
+      "grossMargins": 0.0,
+      "industry": "Banks - Regional",
+      "marketCap": 70478692352,
+      "priceToSalesTrailing12Months": 10.0810795,
+      "profitMargins": 0.41035998,
+      "returnOnEquity": 0.30278,
+      "revenueGrowth": 0.439,
+      "sector": "Financial Services",
+      "trailingPE": 25.0
+    },
+    "momentum": {
+      "1m": 0.0051939588032496875,
+      "6m": -0.09788687348221159
+    },
+    "ann_vol": 0.39518107230489824,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "V": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:01.588141+00:00",
+      "beta": 0.799,
+      "debtToEquity": 54.612,
+      "dividendYield": 0.87,
+      "earningsGrowth": 0.174,
+      "forwardPE": 21.254444,
+      "freeCashflow": 22032250880,
+      "grossMargins": 0.97777003,
+      "industry": "Credit Services",
+      "marketCap": 596342603776,
+      "priceToSalesTrailing12Months": 14.407542,
+      "profitMargins": 0.50233,
+      "returnOnEquity": 0.53954,
+      "revenueGrowth": 0.146,
+      "sector": "Financial Services",
+      "trailingPE": 29.042253
+    },
+    "momentum": {
+      "1m": 0.10307858365564004,
+      "6m": -0.031257081620127414
+    },
+    "ann_vol": 0.2553059336215075,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "NVT": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:43:34.570264+00:00",
+      "beta": 1.276,
+      "debtToEquity": 45.92,
+      "dividendYield": 0.59,
+      "earningsGrowth": 11.124,
+      "forwardPE": 27.881773,
+      "freeCashflow": 574262528,
+      "grossMargins": 0.37736,
+      "industry": "Electrical Equipment & Parts",
+      "marketCap": 22362875904,
+      "priceToSalesTrailing12Months": 5.7442336,
+      "profitMargins": 0.18243,
+      "returnOnEquity": 0.12299,
+      "revenueGrowth": 0.418,
+      "sector": "Industrials",
+      "trailingPE": 53.397686
+    },
+    "momentum": {
+      "1m": 0.3233633758216232,
+      "6m": 0.5127368080705526
+    },
+    "ann_vol": 0.45775355488052,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "SNX": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:43:53.375578+00:00",
+      "beta": 1.225,
+      "debtToEquity": 58.731,
+      "dividendYield": 0.86,
+      "earningsGrowth": 1.044,
+      "forwardPE": 12.310893,
+      "freeCashflow": 1214118144,
+      "grossMargins": 0.07097,
+      "industry": "Electronics & Computer Distribution",
+      "marketCap": 18007904256,
+      "priceToSalesTrailing12Months": 0.27645954,
+      "profitMargins": 0.015149999,
+      "returnOnEquity": 0.11727,
+      "revenueGrowth": 0.181,
+      "sector": "Technology",
+      "trailingPE": 18.597002
+    },
+    "momentum": {
+      "1m": 0.230299093420943,
+      "6m": 0.47701092722043215
+    },
+    "ann_vol": 0.34925876130724864,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "MAS": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:44:01.290289+00:00",
+      "beta": 1.291,
+      "debtToEquity": 12229.63,
+      "dividendYield": 1.72,
+      "earningsGrowth": 0.2,
+      "forwardPE": 15.815776,
+      "freeCashflow": 738499968,
+      "grossMargins": 0.35682,
+      "industry": "Building Products & Equipment",
+      "marketCap": 14996936704,
+      "priceToSalesTrailing12Months": 1.9529804,
+      "profitMargins": 0.109,
+      "returnOnEquity": 84.57143,
+      "revenueGrowth": 0.065,
+      "sector": "Industrials",
+      "trailingPE": 18.40099
+    },
+    "momentum": {
+      "1m": 0.1766354469924578,
+      "6m": 0.10511354512807247
+    },
+    "ann_vol": 0.38938834595324806,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "ISRG": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:13.094285+00:00",
+      "beta": 1.679,
+      "earningsGrowth": 0.188,
+      "forwardPE": 39.61788,
+      "freeCashflow": 2254087424,
+      "grossMargins": 0.66292,
+      "industry": "Medical Instruments & Supplies",
+      "marketCap": 165266554880,
+      "priceToSalesTrailing12Months": 15.617558,
+      "profitMargins": 0.28152,
+      "returnOnEquity": 0.17232999,
+      "revenueGrowth": 0.23,
+      "sector": "Healthcare",
+      "trailingPE": 56.631073
+    },
+    "momentum": {
+      "1m": -0.012078836735265108,
+      "6m": -0.1464871492840214
+    },
+    "ann_vol": 0.2732767434229432,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  },
+  "SYK": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:42:21.143577+00:00",
+      "beta": 0.926,
+      "debtToEquity": 72.971,
+      "dividendYield": 1.1,
+      "earningsGrowth": 0.559,
+      "forwardPE": 19.19667,
+      "freeCashflow": 4170125056,
+      "grossMargins": 0.65042,
+      "industry": "Medical Devices",
+      "marketCap": 123102625792,
+      "priceToSalesTrailing12Months": 4.901363,
+      "profitMargins": 0.12923999,
+      "returnOnEquity": 0.15079,
+      "revenueGrowth": 0.114,
+      "sector": "Healthcare",
+      "trailingPE": 39.19878
+    },
+    "momentum": {
+      "1m": -0.0923041874398206,
+      "6m": -0.18679910216019568
+    },
+    "ann_vol": 0.24421642767701013,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.033202055812236786,
+      "fed_funds": 3.64,
+      "unemployment": 4.3,
+      "ten_year": 4.42,
+      "vix": 16.89
+    }
+  }
+}

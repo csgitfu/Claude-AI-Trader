@@ -1,5 +1,5 @@
 {
-  "cash": 749.9998,
+  "cash": 2135.1127,
   "nav_history": [
     {
       "cash": 50000.0,
@@ -23,10 +23,10 @@
       "spy": 711.6900024414062
     },
     {
-      "cash": 749.9998,
+      "cash": 2135.1127,
       "date": "2026-05-01",
-      "equity": 24204.19811171956,
-      "nav": 24954.197911719562,
+      "equity": 22819.085168050045,
+      "nav": 24954.197868050047,
       "spy": 721.3599853515625
     }
   ],
@@ -41,6 +41,11 @@
       "sector": "Financial Services",
       "shares": 8.414852
     },
+    "BKNG": {
+      "avg_cost": 169.88499450683594,
+      "sector": "Consumer Cyclical",
+      "shares": 2.900305
+    },
     "BMY": {
       "avg_cost": 58.2599983215332,
       "sector": "Healthcare",
@@ -50,6 +55,11 @@
       "avg_cost": 863.780029296875,
       "sector": "Industrials",
       "shares": 4.051958
+    },
+    "EQT": {
+      "avg_cost": 58.73500061035156,
+      "sector": "Energy",
+      "shares": 9.786975
     },
     "EXEL": {
       "avg_cost": 44.93000030517578,
@@ -69,22 +79,42 @@
     "LRCX": {
       "avg_cost": 251.22999572753906,
       "sector": "Technology",
-      "shares": 13.931457
+      "shares": 2.5447690000000005
+    },
+    "MU": {
+      "avg_cost": 539.489990234375,
+      "sector": "Technology",
+      "shares": 1.065521
+    },
+    "NBIX": {
+      "avg_cost": 132.13999938964844,
+      "sector": "Healthcare",
+      "shares": 4.350219
     },
     "NEM": {
       "avg_cost": 109.9000015258789,
       "sector": "Basic Materials",
       "shares": 27.297543
     },
+    "NU": {
+      "avg_cost": 14.515000343322754,
+      "sector": "Financial Services",
+      "shares": 33.945453
+    },
     "NVDA": {
       "avg_cost": 213.1699981689453,
       "sector": "Technology",
       "shares": 21.109912
     },
+    "NVT": {
+      "avg_cost": 160.63999938964844,
+      "sector": "Industrials",
+      "shares": 3.06722
+    },
     "RNR": {
       "avg_cost": 310.6099853515625,
       "sector": "Financial Services",
-      "shares": 12.877886
+      "shares": 2.1886919999999996
     },
     "RRC": {
       "avg_cost": 42.939998626708984,
@@ -96,10 +126,25 @@
       "sector": "Consumer Defensive",
       "shares": 12.870841
     },
+    "SYK": {
+      "avg_cost": 299.0199890136719,
+      "sector": "Healthcare",
+      "shares": 1.647777
+    },
     "TIGO": {
       "avg_cost": 82.06999969482422,
       "sector": "Communication Services",
       "shares": 24.369441
+    },
+    "TT": {
+      "avg_cost": 487.1199951171875,
+      "sector": "Industrials",
+      "shares": 0.84291
+    },
+    "V": {
+      "avg_cost": 329.2349853515625,
+      "sector": "Financial Services",
+      "shares": 1.995407
     },
     "ZION": {
       "avg_cost": 63.18000030517578,
@@ -228,6 +273,94 @@
       "side": "buy",
       "ticker": "STZ",
       "ts": "2026-04-29T19:09:43+00:00"
+    },
+    {
+      "price": 258.1600036621094,
+      "rationale": "LRCX is positioned to compound on AI-driven semicap demand with 23.8% revenue growth, 40.8% earnings growth, and 66.8% ROE backed by $4.35B free cash flow. Momentum is overwhelming (+61% over 6 months) and the 32x forward PE is justified by 50% gross margins and a transformative IBM partnership.",
+      "shares": 11.386688,
+      "side": "sell",
+      "ticker": "LRCX",
+      "ts": "2026-05-01T22:20:31+00:00"
+    },
+    {
+      "price": 300.1600036621094,
+      "rationale": "RNR's Q1 2026 earnings beat on lower expenses and strong investment results confirms operational health, while it trades at only 5.54x trailing P/E and 7.53x forward P/E with 27.6% revenue growth and 19.7% ROE. Low beta of 0.24 offers defensive re-rating potential.",
+      "shares": 10.689194,
+      "side": "sell",
+      "ticker": "RNR",
+      "ts": "2026-05-01T22:20:31+00:00"
+    },
+    {
+      "price": 539.489990234375,
+      "rationale": "Micron is firing on all cylinders with revenue growth of 196.3%, profit margins of 41.5%, and ROE of 39.8%, yet trades at a forward P/E of just 4.99 \u2014 a deep disconnect for a semiconductor leader riding the AI memory super-cycle. HBM capacity ramps and DRAM pricing power support continued multiple expansion.",
+      "shares": 1.065521,
+      "side": "buy",
+      "ticker": "MU",
+      "ts": "2026-05-01T22:20:31+00:00"
+    },
+    {
+      "price": 329.2349853515625,
+      "rationale": "Visa's wide-moat payments network delivers 14.6% revenue growth, 17.4% earnings growth, and elite 50.2% profit margins supported by $22B in free cash flow. The 1-month momentum of +10.3% signals renewed institutional accumulation at 21.3x forward PE.",
+      "shares": 1.995407,
+      "side": "buy",
+      "ticker": "V",
+      "ts": "2026-05-01T22:20:31+00:00"
+    },
+    {
+      "price": 14.515000343322754,
+      "rationale": "Nubank's 60.9% earnings growth and 43.9% revenue growth, paired with a 30.3% ROE and 41% profit margins, demonstrate LatAm fintech scaling at exceptional pace. The forward P/E of 12.6 versus trailing 25 signals massive earnings acceleration ahead.",
+      "shares": 33.945453,
+      "side": "buy",
+      "ticker": "NU",
+      "ts": "2026-05-01T22:20:31+00:00"
+    },
+    {
+      "price": 132.13999938964844,
+      "rationale": "Neurocrine trades at a compelling forward P/E of 9.68 despite delivering 28.3% revenue growth and 47.7% earnings growth, with $398M in free cash flow and 62.7% gross margins. The valuation gap between trailing P/E and forward P/E implies a sharp earnings ramp the fundamentals already validate.",
+      "shares": 4.350219,
+      "side": "buy",
+      "ticker": "NBIX",
+      "ts": "2026-05-01T22:20:31+00:00"
+    },
+    {
+      "price": 299.0199890136719,
+      "rationale": "Stryker's 11.4% revenue growth, 65% gross margins, and 55.9% earnings growth signal accelerating operating leverage in a defensive medical devices franchise. The 18.7% 6-month drawdown creates an attractive entry point for this low-beta compounder generating $4.17B in free cash flow.",
+      "shares": 1.647777,
+      "side": "buy",
+      "ticker": "SYK",
+      "ts": "2026-05-01T22:20:31+00:00"
+    },
+    {
+      "price": 58.73500061035156,
+      "rationale": "EQT is the largest US natural gas pure-play trading at 12.55x forward PE with 49.9% revenue growth, 35.07% profit margins, and $2.5B in free cash flow. AI/data-center power demand is a structural multi-year tailwind with 80.97% gross margins supporting durable earnings power.",
+      "shares": 9.786975,
+      "side": "buy",
+      "ticker": "EQT",
+      "ts": "2026-05-01T22:20:31+00:00"
+    },
+    {
+      "price": 169.88499450683594,
+      "rationale": "Booking Holdings trades at a forward P/E of just 14.0 despite 38.4% earnings growth and 16% revenue growth, with elite 87.4% gross margins and $6.55B in free cash flow. The summer 2026 travel season and continued international expansion are near-term catalysts.",
+      "shares": 2.900305,
+      "side": "buy",
+      "ticker": "BKNG",
+      "ts": "2026-05-01T22:20:31+00:00"
+    },
+    {
+      "price": 160.63999938964844,
+      "rationale": "nVent's electrical infrastructure business delivers 41.8% revenue growth and 11.1x earnings growth, driven by AI/data-center liquid cooling and electrical protection demand. The 51% 6-month momentum confirms institutional accumulation at a reasonable 27.9x forward PE given growth.",
+      "shares": 3.06722,
+      "side": "buy",
+      "ticker": "NVT",
+      "ts": "2026-05-01T22:20:31+00:00"
+    },
+    {
+      "price": 487.1199951171875,
+      "rationale": "Trane Technologies is a high-quality HVAC compounder riding secular tailwinds in decarbonization and data center cooling, with elite 36.96% ROE and $1.94B in free cash flow. Momentum of +13.7% 1M and +14.1% 6M signals quality accumulation at 28.5x forward PE.",
+      "shares": 0.84291,
+      "side": "buy",
+      "ticker": "TT",
+      "ts": "2026-05-01T22:20:31+00:00"
     }
   ]
 }

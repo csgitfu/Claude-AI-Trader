@@ -1,0 +1,90 @@
+[
+  {
+    "ts": "2026-05-01T22:20:31+00:00",
+    "ticker": "LRCX",
+    "side": "sell",
+    "shares": 11.386688,
+    "price": 258.1600036621094,
+    "rationale": "LRCX is positioned to compound on AI-driven semicap demand with 23.8% revenue growth, 40.8% earnings growth, and 66.8% ROE backed by $4.35B free cash flow. Momentum is overwhelming (+61% over 6 months) and the 32x forward PE is justified by 50% gross margins and a transformative IBM partnership."
+  },
+  {
+    "ts": "2026-05-01T22:20:31+00:00",
+    "ticker": "RNR",
+    "side": "sell",
+    "shares": 10.689194,
+    "price": 300.1600036621094,
+    "rationale": "RNR's Q1 2026 earnings beat on lower expenses and strong investment results confirms operational health, while it trades at only 5.54x trailing P/E and 7.53x forward P/E with 27.6% revenue growth and 19.7% ROE. Low beta of 0.24 offers defensive re-rating potential."
+  },
+  {
+    "ts": "2026-05-01T22:20:31+00:00",
+    "ticker": "MU",
+    "side": "buy",
+    "shares": 1.065521,
+    "price": 539.489990234375,
+    "rationale": "Micron is firing on all cylinders with revenue growth of 196.3%, profit margins of 41.5%, and ROE of 39.8%, yet trades at a forward P/E of just 4.99 \u2014 a deep disconnect for a semiconductor leader riding the AI memory super-cycle. HBM capacity ramps and DRAM pricing power support continued multiple expansion."
+  },
+  {
+    "ts": "2026-05-01T22:20:31+00:00",
+    "ticker": "V",
+    "side": "buy",
+    "shares": 1.995407,
+    "price": 329.2349853515625,
+    "rationale": "Visa's wide-moat payments network delivers 14.6% revenue growth, 17.4% earnings growth, and elite 50.2% profit margins supported by $22B in free cash flow. The 1-month momentum of +10.3% signals renewed institutional accumulation at 21.3x forward PE."
+  },
+  {
+    "ts": "2026-05-01T22:20:31+00:00",
+    "ticker": "NU",
+    "side": "buy",
+    "shares": 33.945453,
+    "price": 14.515000343322754,
+    "rationale": "Nubank's 60.9% earnings growth and 43.9% revenue growth, paired with a 30.3% ROE and 41% profit margins, demonstrate LatAm fintech scaling at exceptional pace. The forward P/E of 12.6 versus trailing 25 signals massive earnings acceleration ahead."
+  },
+  {
+    "ts": "2026-05-01T22:20:31+00:00",
+    "ticker": "NBIX",
+    "side": "buy",
+    "shares": 4.350219,
+    "price": 132.13999938964844,
+    "rationale": "Neurocrine trades at a compelling forward P/E of 9.68 despite delivering 28.3% revenue growth and 47.7% earnings growth, with $398M in free cash flow and 62.7% gross margins. The valuation gap between trailing P/E and forward P/E implies a sharp earnings ramp the fundamentals already validate."
+  },
+  {
+    "ts": "2026-05-01T22:20:31+00:00",
+    "ticker": "SYK",
+    "side": "buy",
+    "shares": 1.647777,
+    "price": 299.0199890136719,
+    "rationale": "Stryker's 11.4% revenue growth, 65% gross margins, and 55.9% earnings growth signal accelerating operating leverage in a defensive medical devices franchise. The 18.7% 6-month drawdown creates an attractive entry point for this low-beta compounder generating $4.17B in free cash flow."
+  },
+  {
+    "ts": "2026-05-01T22:20:31+00:00",
+    "ticker": "EQT",
+    "side": "buy",
+    "shares": 9.786975,
+    "price": 58.73500061035156,
+    "rationale": "EQT is the largest US natural gas pure-play trading at 12.55x forward PE with 49.9% revenue growth, 35.07% profit margins, and $2.5B in free cash flow. AI/data-center power demand is a structural multi-year tailwind with 80.97% gross margins supporting durable earnings power."
+  },
+  {
+    "ts": "2026-05-01T22:20:31+00:00",
+    "ticker": "BKNG",
+    "side": "buy",
+    "shares": 2.900305,
+    "price": 169.88499450683594,
+    "rationale": "Booking Holdings trades at a forward P/E of just 14.0 despite 38.4% earnings growth and 16% revenue growth, with elite 87.4% gross margins and $6.55B in free cash flow. The summer 2026 travel season and continued international expansion are near-term catalysts."
+  },
+  {
+    "ts": "2026-05-01T22:20:31+00:00",
+    "ticker": "NVT",
+    "side": "buy",
+    "shares": 3.06722,
+    "price": 160.63999938964844,
+    "rationale": "nVent's electrical infrastructure business delivers 41.8% revenue growth and 11.1x earnings growth, driven by AI/data-center liquid cooling and electrical protection demand. The 51% 6-month momentum confirms institutional accumulation at a reasonable 27.9x forward PE given growth."
+  },
+  {
+    "ts": "2026-05-01T22:20:31+00:00",
+    "ticker": "TT",
+    "side": "buy",
+    "shares": 0.84291,
+    "price": 487.1199951171875,
+    "rationale": "Trane Technologies is a high-quality HVAC compounder riding secular tailwinds in decarbonization and data center cooling, with elite 36.96% ROE and $1.94B in free cash flow. Momentum of +13.7% 1M and +14.1% 6M signals quality accumulation at 28.5x forward PE."
+  }
+]
