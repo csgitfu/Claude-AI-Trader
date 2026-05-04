@@ -129,7 +129,7 @@ rm data/runs/<YYYY-MM-DD>/<checkpoint-file>
 | Stage | Checkpoint file(s) |
 |---|---|
 | 3 — Snapshot universe | `universe.json` |
-| 4 — Market data (full) | `market_data.json` |
+| 4 — Market data (full) | `market_data_full.json` |
 | 5 — News + macro | `news.json`, `macro.json` (delete both) |
 | 6 — Scorer | `scores.json` (per-batch files `scorer_batch_*.json` are deleted automatically on merge) |
 | 7 — Shortlist | `shortlist.json` |

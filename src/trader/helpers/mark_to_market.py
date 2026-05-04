@@ -26,10 +26,13 @@ def main(argv: list[str] | None = None) -> int:
     spy = market.get("spy_close")
 
     led = Ledger.load()
-    mtm_prices = {t: closes[t] for t in led.positions if t in closes}
-    nav_point = led.mark_to_market(mtm_prices, spy=spy, as_of=datetime.now(timezone.utc).date().isoformat())
+    nav_point = led.mark_to_market(
+        closes, spy=spy, as_of=datetime.now(timezone.utc).date().isoformat()
+    )
     led.save()
-    print(f"marked {len(mtm_prices)} positions; nav={nav_point.nav:.2f}")
+    fresh = len(led.positions) - len(nav_point.stale)
+    suffix = f"; stale={nav_point.stale}" if nav_point.stale else ""
+    print(f"marked {fresh}/{len(led.positions)} positions fresh; nav={nav_point.nav:.2f}{suffix}")
     return 0
 
 

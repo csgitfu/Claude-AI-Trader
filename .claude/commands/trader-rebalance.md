@@ -42,10 +42,10 @@ On non-zero exit: run the failure handler (see bottom), exit non-zero.
 
 ## Stage 4 — Snapshot prices, fundamentals, momentum, vol (full universe)
 
-**Skip condition**: if `data/runs/$RUN_DATE/market_data.json` exists, skip.
+**Skip condition**: if `data/runs/$RUN_DATE/market_data_full.json` exists, skip.
 
 Otherwise:
-Bash: `python -m trader.helpers.snapshot_market_data --mode full --out data/runs/$RUN_DATE/market_data.json`
+Bash: `python -m trader.helpers.snapshot_market_data --mode full --out data/runs/$RUN_DATE/market_data_full.json`
 
 On non-zero exit: run the failure handler, exit non-zero. (This call fetches data for ~1 000 tickers; allow up to 10 minutes.)
 
@@ -68,7 +68,7 @@ Otherwise, execute the full scorer fan-out:
 
 Read `data/runs/$RUN_DATE/universe.json`. Extract the `tickers` list (≈ 1 000 entries). Slice into batches of exactly 25 tickers each. With 1 000 tickers this produces 40 batches (the last batch may have fewer if the universe is not exactly divisible by 25).
 
-For each batch, also pull the matching rows from `data/runs/$RUN_DATE/market_data.json` (closes, momentum, vol, fundamentals) to include as context in the subagent prompt.
+For each batch, also pull the matching rows from `data/runs/$RUN_DATE/market_data_full.json` (closes, momentum, vol, fundamentals) to include as context in the subagent prompt.
 
 ### 6b — Wave execution (5 subagents per wave, 8 waves for 40 batches)
 
@@ -130,7 +130,7 @@ On non-zero exit: log a warning to `data/runs/$RUN_DATE/errors.jsonl` and contin
 **Skip condition**: if `data/runs/$RUN_DATE/debate_context.json` exists, skip.
 
 Otherwise:
-Bash: `python -m trader.helpers.snapshot_debate_context --shortlist data/runs/$RUN_DATE/shortlist.json --market data/runs/$RUN_DATE/market_data.json --news "$([ -f data/runs/$RUN_DATE/news_full.json ] && echo data/runs/$RUN_DATE/news_full.json || echo data/runs/$RUN_DATE/news.json)" --macro data/runs/$RUN_DATE/macro.json --out data/runs/$RUN_DATE/debate_context.json`
+Bash: `python -m trader.helpers.snapshot_debate_context --shortlist data/runs/$RUN_DATE/shortlist.json --market data/runs/$RUN_DATE/market_data_full.json --news "$([ -f data/runs/$RUN_DATE/news_full.json ] && echo data/runs/$RUN_DATE/news_full.json || echo data/runs/$RUN_DATE/news.json)" --macro data/runs/$RUN_DATE/macro.json --out data/runs/$RUN_DATE/debate_context.json`
 
 On non-zero exit: run the failure handler, exit non-zero.
 
@@ -255,7 +255,7 @@ Otherwise, this is your synthesis turn. Read the following into your context:
 - Read: `data/runs/$RUN_DATE/estimates.json` — probability, conviction, sizing hints per ticker
 - Read: `data/runs/$RUN_DATE/debates.json` — bull/bear cases per ticker
 - Read: `data/ledger.json` — current positions and weights
-- Read: `data/runs/$RUN_DATE/market_data.json` — closes and fundamentals (use `fundamentals[ticker]["sector"]` for sector classification)
+- Read: `data/runs/$RUN_DATE/market_data_full.json` — closes and fundamentals (use `fundamentals[ticker]["sector"]` for sector classification)
 - Read: `data/runs/$RUN_DATE/shortlist.json` — the 50 candidates
 
 Using this data, select a 15-stock portfolio. Apply these constraints strictly:
@@ -295,7 +295,7 @@ Bash: `python -m trader.helpers.validate_proposal --in data/runs/$RUN_DATE/selec
 
 ## Stage 13 — Apply trades to ledger
 
-Bash: `python -m trader.helpers.apply_trades --selection data/runs/$RUN_DATE/selection.json --market data/runs/$RUN_DATE/market_data.json --trades-out data/runs/$RUN_DATE/trades.json`
+Bash: `python -m trader.helpers.apply_trades --selection data/runs/$RUN_DATE/selection.json --market data/runs/$RUN_DATE/market_data_full.json --trades-out data/runs/$RUN_DATE/trades.json`
 
 - `apply_trades.py` re-checks `KILL_SWITCH` internally before any ledger mutation.
 - If `EXECUTE=0` is set in the environment: the helper writes `trades.json` in paper mode and leaves the ledger unchanged; this is expected and exit code is 0.
@@ -306,17 +306,17 @@ Bash: `python -m trader.helpers.apply_trades --selection data/runs/$RUN_DATE/sel
 **Skip condition**: read `data/ledger.json`; if its `as_of` field equals `$RUN_DATE`, skip.
 
 Otherwise:
-Bash: `python -m trader.helpers.mark_to_market --market data/runs/$RUN_DATE/market_data.json`
+Bash: `python -m trader.helpers.mark_to_market --market data/runs/$RUN_DATE/market_data_full.json`
 
 On non-zero exit: run the failure handler, exit non-zero.
 
 ## Stage 15 — Newswriter report (orchestrator turn)
 
-**Skip condition**: if `data/runs/$RUN_DATE/report.md` exists, skip.
+**Skip condition**: if `data/runs/$RUN_DATE/report-rebalance.md` exists, skip. (The rebalance writes a distinct filename so the daily report — `report.md` — does not collide on Friday/Saturday when both pipelines run on the same UTC date.)
 
 Otherwise, read the following into your context:
 
-- Read: `data/runs/$RUN_DATE/market_data.json`
+- Read: `data/runs/$RUN_DATE/market_data_full.json`
 - Read: `data/runs/$RUN_DATE/news_full.json` if it exists, otherwise `data/runs/$RUN_DATE/news.json`
 - Read: `data/runs/$RUN_DATE/macro.json`
 - Read: `data/runs/$RUN_DATE/debates.json`
@@ -325,7 +325,7 @@ Otherwise, read the following into your context:
 - Read: `data/runs/$RUN_DATE/trades.json`
 - Read: `data/ledger.json`
 
-Write a weekly rebalance report to `data/runs/$RUN_DATE/report.md` using the Write tool. The report must contain these sections in order:
+Write a weekly rebalance report to `data/runs/$RUN_DATE/report-rebalance.md` using the Write tool. The report must contain these sections in order:
 
 1. **Header**: `# Weekly Rebalance Report — {RUN_DATE}`
 2. **Portfolio summary**: Current NAV, vs SPY YTD performance, sector breakdown table (sector | weight%).
@@ -340,7 +340,7 @@ Keep the report under 2 000 words. Use Markdown formatting.
 
 Telegram delivery is handled by `.github/workflows/telegram-notify.yml`, which fires on push to `reports/**.md`. CCR has no outbound network access to Telegram, so the publish step skips it via `--no-telegram`.
 
-Bash: `python -m trader.helpers.publish_report --report data/runs/$RUN_DATE/report.md --run-date $RUN_DATE --no-telegram`
+Bash: `python -m trader.helpers.publish_report --report data/runs/$RUN_DATE/report-rebalance.md --run-date $RUN_DATE --name $RUN_DATE-rebalance --no-telegram`
 
 On non-zero exit: run the failure handler, exit non-zero.
 
@@ -364,7 +364,7 @@ rm data/runs/$RUN_DATE/<stage-output>.json
 
 Stage → checkpoint file mapping:
 - Stage 3: `universe.json`
-- Stage 4: `market_data.json`
+- Stage 4: `market_data_full.json`
 - Stage 5: `news.json` and `macro.json` (delete both to force re-run)
 - Stage 7.5: `news_full.done` (also delete `news_full.json` and `_discard_macro.json`)
 - Stage 6: `scores.json`
@@ -373,5 +373,5 @@ Stage → checkpoint file mapping:
 - Stage 9: `debates.json`
 - Stage 10: `estimates.json`
 - Stage 11: `selection.json`
-- Stage 14: (mark-to-market is gated by `ledger.as_of`; delete `market_data.json` to force a full redo)
-- Stage 15: `report.md`
+- Stage 14: (mark-to-market is gated by `ledger.as_of`; delete `market_data_full.json` to force a full redo)
+- Stage 15: `report-rebalance.md`

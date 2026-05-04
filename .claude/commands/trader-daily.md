@@ -72,8 +72,17 @@ Otherwise, read the following files into your context:
 Then write a structured daily report to `data/runs/$RUN_DATE/report.md`. The report must contain these sections in order:
 
 1. **Header**: `# Daily Trader Report — {RUN_DATE}`
-2. **NAV**: Current NAV (from ledger). Daily change in dollars and percent vs prior NAV. Daily change vs SPY benchmark (SPY daily % from `market_data.json`'s `spy_close` vs prior close if available, otherwise note "SPY delta unavailable").
-3. **Holdings**: Markdown table with columns: Ticker | Weight% | Price | Daily P&L | Unrealized P&L. Derive from ledger positions and `market_data.json` closes. Sort by weight descending.
+2. **NAV**: Render a table with these rows:
+   - Current NAV (from `ledger.nav_history[-1].nav`)
+   - Prior NAV (from `ledger.nav_history[-2].nav`, with its date)
+   - Daily change ($) and (%)
+   - SPY today / prior (from `nav_history[-1].spy` and `nav_history[-2].spy`)
+   - SPY daily change (%)
+   - Portfolio vs SPY (pp difference, daily)
+   - **Since inception:** portfolio total return % `((nav/starting_nav) - 1)` and SPY total return % `((spy_now / spy_inception) - 1)` over the same window. `spy_inception` is the first non-null `spy` in `nav_history`; `starting_nav` comes from `ledger.starting_nav`. Show both numbers and the pp gap. If `spy_inception` is null (no SPY ever recorded), note "SPY since-inception unavailable".
+
+   If `ledger.nav_history[-1].stale` is non-empty, add a one-line note **immediately under the table**: `> Note: N positions used carried-forward prices today (last marked YYYY-MM-DD): [list]. NAV reflects last-known closes for those names.` Do NOT exclude them from holdings — they still appear with their last-known price flagged in the Holdings table column.
+3. **Holdings**: Markdown table with columns: Ticker | Weight% | Price | Daily P&L | Unrealized P&L. Derive from ledger positions and `market_data.json` closes. If a ticker is in `ledger.nav_history[-1].stale`, suffix its price with " (stale, MM-DD)" using its `last_close_date` from ledger.positions, and use `last_close` as the price. Sort by weight descending.
 4. **Movers**: Top 3 gainers and top 3 losers by daily % change. Use closes from `market_data.json`.
 5. **Headlines**: One-line summary of the single most important headline per current holding, drawn from `news.json`'s per-ticker entries.
 6. **Macro callout**: 1–2 sentences on the macro environment most relevant to the current portfolio, using `macro.json`.

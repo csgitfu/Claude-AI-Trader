@@ -37,10 +37,10 @@ jobs:
         run: |
           RUN_DATE=$(date -u +%Y-%m-%d)
           mkdir -p data/runs/$RUN_DATE
-          if [ ! -f "data/runs/$RUN_DATE/market_data.json" ]; then
+          if [ ! -f "data/runs/$RUN_DATE/market_data_full.json" ]; then
             python -m trader.helpers.snapshot_market_data \
               --mode full \
-              --out data/runs/$RUN_DATE/market_data.json
+              --out data/runs/$RUN_DATE/market_data_full.json
           fi
 
       - name: Snapshot news and macro

@@ -22,8 +22,17 @@ def plan_trades(
     rationale_by_ticker = rationale_by_ticker or {}
     ts = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
+    # Refuse to plan if any held position is missing a price. Silently skipping
+    # would drop sells of unpriced positions while still executing buys against
+    # an understated NAV, leaving the book bloated with stale legacy holdings.
+    missing = [t for t in ledger.positions if t not in prices]
+    if missing:
+        raise ValueError(
+            f"cannot plan trades: missing prices for held positions {missing}"
+        )
+
     # current NAV at today's marks
-    equity = sum(p.shares * prices[t] for t, p in ledger.positions.items() if t in prices)
+    equity = sum(p.shares * prices[t] for t, p in ledger.positions.items())
     nav = ledger.cash + equity
     if nav <= 0:
         return []
@@ -41,7 +50,7 @@ def plan_trades(
     for t, shares in current_shares.items():
         tgt = target_shares.get(t, 0.0)
         delta = tgt - shares
-        if delta < -1e-6 and t in prices:
+        if delta < -1e-6:
             trades.append(
                 Trade(
                     ts=ts,

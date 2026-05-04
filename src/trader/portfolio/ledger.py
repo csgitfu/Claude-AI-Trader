@@ -9,7 +9,7 @@ from __future__ import annotations
 import json
 import os
 import tempfile
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, fields
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -21,6 +21,8 @@ class Position:
     shares: float
     avg_cost: float
     sector: str = "Unknown"
+    last_close: float | None = None
+    last_close_date: str | None = None
 
 
 @dataclass
@@ -40,6 +42,7 @@ class NavPoint:
     cash: float
     equity: float
     spy: float | None = None
+    stale: list[str] = field(default_factory=list)
 
 
 @dataclass
@@ -60,12 +63,20 @@ class Ledger:
                 f"No ledger at {path}. Run `python -m trader init` to seed one."
             )
         raw = json.loads(path.read_text())
+        pos_fields = {f.name for f in fields(Position)}
+        nav_fields = {f.name for f in fields(NavPoint)}
         return cls(
             starting_nav=raw["starting_nav"],
             cash=raw["cash"],
-            positions={t: Position(**p) for t, p in raw.get("positions", {}).items()},
+            positions={
+                t: Position(**{k: v for k, v in p.items() if k in pos_fields})
+                for t, p in raw.get("positions", {}).items()
+            },
             trades=[Trade(**t) for t in raw.get("trades", [])],
-            nav_history=[NavPoint(**n) for n in raw.get("nav_history", [])],
+            nav_history=[
+                NavPoint(**{k: v for k, v in n.items() if k in nav_fields})
+                for n in raw.get("nav_history", [])
+            ],
         )
 
     def save(self, path: Path | None = None) -> None:
@@ -75,7 +86,13 @@ class Ledger:
             "starting_nav": self.starting_nav,
             "cash": round(self.cash, 4),
             "positions": {
-                t: {"shares": p.shares, "avg_cost": p.avg_cost, "sector": p.sector}
+                t: {
+                    "shares": p.shares,
+                    "avg_cost": p.avg_cost,
+                    "sector": p.sector,
+                    "last_close": p.last_close,
+                    "last_close_date": p.last_close_date,
+                }
                 for t, p in self.positions.items()
             },
             "trades": [t.__dict__ for t in self.trades],
@@ -129,12 +146,28 @@ class Ledger:
     def mark_to_market(
         self, prices: dict[str, float], spy: float | None = None, as_of: str | None = None
     ) -> NavPoint:
+        """Compute NAV; carry forward last-known close for any position whose
+        ticker is missing from `prices`. The carry-forward keeps NAV plausible
+        when an upstream snapshot drops a ticker; the resulting NavPoint records
+        which positions used a stale price so the report can flag them."""
         as_of = as_of or datetime.now(timezone.utc).date().isoformat()
-        equity = sum(
-            p.shares * prices[t] for t, p in self.positions.items() if t in prices
-        )
+        stale: list[str] = []
+        equity = 0.0
+        for t, p in self.positions.items():
+            if t in prices:
+                p.last_close = prices[t]
+                p.last_close_date = as_of
+                equity += p.shares * prices[t]
+            elif p.last_close is not None:
+                stale.append(t)
+                equity += p.shares * p.last_close
+            else:
+                # No fresh price and no prior mark — refuse to fabricate equity.
+                stale.append(t)
         nav = self.cash + equity
-        point = NavPoint(date=as_of, nav=nav, cash=self.cash, equity=equity, spy=spy)
+        point = NavPoint(
+            date=as_of, nav=nav, cash=self.cash, equity=equity, spy=spy, stale=stale
+        )
         # replace-or-append: idempotent for a given date
         self.nav_history = [n for n in self.nav_history if n.date != as_of]
         self.nav_history.append(point)

@@ -90,6 +90,29 @@ def test_telegram_failure_non_fatal(tmp_path, monkeypatch):
     assert (reports_dir / "2026-04-28.md").exists()
 
 
+def test_name_flag_overrides_filename(tmp_path, monkeypatch):
+    """--name lets the rebalance pipeline write a distinct file so the daily
+    report (same RUN_DATE) does not collide and lose its push notification."""
+    report_path = tmp_path / "report-rebalance.md"
+    report_text = "# Weekly Rebalance Report\n"
+    report_path.write_text(report_text)
+
+    reports_dir = tmp_path / "reports"
+    monkeypatch.setattr("trader.config.settings.reports_dir", reports_dir)
+    monkeypatch.setattr("trader.publish.telegram.send", MagicMock(return_value=True))
+    monkeypatch.setattr("subprocess.run", lambda *a, **kw: MagicMock(returncode=0, stdout="", stderr=""))
+
+    rc = main([
+        "--report", str(report_path),
+        "--run-date", "2026-05-01",
+        "--name", "2026-05-01-rebalance",
+        "--no-telegram",
+    ])
+    assert rc == 0
+    assert (reports_dir / "2026-05-01-rebalance.md").exists()
+    assert not (reports_dir / "2026-05-01.md").exists()
+
+
 def test_git_push_failure_returns_nonzero(tmp_path, monkeypatch):
     """Git push fails (rc=1); helper exits 1."""
     # Setup

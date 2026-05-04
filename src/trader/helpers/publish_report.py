@@ -19,13 +19,18 @@ def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser()
     p.add_argument("--report", required=True)
     p.add_argument("--run-date", required=True)  # YYYY-MM-DD; for commit message
+    p.add_argument("--name",
+                   help="Filename in reports/ (without .md). Defaults to <run-date>. "
+                        "Use e.g. '2026-05-01-rebalance' to keep daily and rebalance "
+                        "reports separate so both fire telegram-notify on push.")
     p.add_argument("--no-telegram", action="store_true",
                    help="Skip Telegram send (GitHub Actions telegram-notify handles it)")
     args = p.parse_args(argv)
 
     text = Path(args.report).read_text()
     Path(settings.reports_dir).mkdir(parents=True, exist_ok=True)
-    final = settings.reports_dir / f"{args.run_date}.md"
+    name = args.name or args.run_date
+    final = settings.reports_dir / f"{name}.md"
     final.write_text(text)
 
     if not args.no_telegram:
