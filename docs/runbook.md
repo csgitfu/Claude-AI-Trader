@@ -158,7 +158,7 @@ The routine sends three types of non-report alerts:
 
 **`[FAILURE] <stage>: <stderr excerpt>`** — a stage exited non-zero. The run aborted at that stage. Check `data/runs/<date>/errors.jsonl` in the repo for details. Re-trigger the routine after fixing the root cause; earlier stages will skip via checkpoint.
 
-**`[CAP VIOLATION] <details>`** — Stage 12 (`validate_proposal.py`) rejected the selector's output because it exceeded a risk cap (`max_weight_per_name=0.10`, `max_weight_per_sector=0.25`, or `min_sectors=8`). No ledger mutation occurred. Investigate prompt drift in the selector or prob-estimator.
+**`[CAP VIOLATION] <details>`** — Stage 12 (`validate_proposal.py`) rejected the selector's output because it exceeded a risk cap. Caps are: `max_weight_per_name=0.10`, `max_weight_per_sector=0.25`, `min_sectors=8`, and `max_turnover_per_run=0.40` (one-way turnover vs current ledger). No ledger mutation occurred. Turnover is the most common cap to hit if the selector is over-rotating; investigate whether Stage 11's hold-bias rules are being applied (see "Hold-bias and turnover" below).
 
 **`[HEARTBEAT] <message>`** — only sent when `enable_heartbeat=True` in config (default `False`). Useful during the first few days of operation; disable in production to reduce noise.
 
@@ -214,6 +214,30 @@ If a routine did not fire at its scheduled time:
 2. **Normal gate skip.** If the routine fired but produced no Telegram report and no alert, it likely exited cleanly at Stage 1 because the day was not a trading day (US holiday, weekend). This is expected — no alert is sent for gate exits. You can confirm via the routine UI's run logs: the orchestrator will have printed the gate's non-zero exit and exited 0.
 
 3. **DST edge cases.** The SGT schedule is fixed (+8 UTC). During US DST transitions, the effective ET time of the trigger shifts by one hour. This is acceptable — the Friday close is still captured on the weekly run.
+
+---
+
+## Hold-bias and turnover
+
+Theses are written on a 4–12 week horizon (`prob-estimator`); the rebalance fires weekly. Without a hold bias the selector would be re-deciding 1–3 month theses every 5 trading days, which produces excess turnover from LLM variance rather than signal.
+
+Two mechanisms keep this in check:
+
+**Stage 11 hold-bias rules** (in `.claude/commands/trader-rebalance.md`):
+- Each current position's age is computed from the most recent `buy` trade timestamp in `ledger.trades`.
+- Positions held < 28 days are retained as long as `p_outperform >= 0.40` (catalyst-window protection — give the thesis time to play out).
+- Positions held ≥ 28 days are retained at the normal `p_outperform >= 0.50` threshold.
+- A position is rotated out only if it falls off the shortlist, has no estimate, has `p_outperform < 0.40`, or the bear case explicitly states the entry thesis has broken.
+- Retained positions size at the midpoint of (current weight, sizing_hint) clamped to [0.02, 0.10].
+
+**Stage 12 turnover guardrail** (in `validate_proposal.py`):
+- One-way portfolio turnover vs current ledger must be ≤ `max_turnover_per_run = 0.40` (configurable via env var `MAX_TURNOVER_PER_RUN`).
+- Skipped automatically on the first run when the ledger has no positions.
+- A turnover violation produces a `[CAP VIOLATION]` alert; the ledger is not mutated. Resolution is to delete `data/runs/<RUN_DATE>/selection.json` and re-run Stage 11 with stronger hold-bias.
+
+**Tuning knobs** (in `src/trader/config.py` or via env var):
+- `max_turnover_per_run` — lower (e.g., 0.30) for more inertia, higher (e.g., 0.50) for more responsiveness. 0.40 ≈ at most 6 of 15 names rotated per week.
+- The 28-day age threshold and 0.40/0.50 `p_outperform` thresholds are in the Stage 11 prompt; edit `.claude/commands/trader-rebalance.md` to change.
 
 ---
 

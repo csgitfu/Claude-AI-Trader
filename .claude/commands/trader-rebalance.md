@@ -254,24 +254,68 @@ Otherwise, this is your synthesis turn. Read the following into your context:
 
 - Read: `data/runs/$RUN_DATE/estimates.json` — probability, conviction, sizing hints per ticker
 - Read: `data/runs/$RUN_DATE/debates.json` — bull/bear cases per ticker
-- Read: `data/ledger.json` — current positions and weights
+- Read: `data/ledger.json` — current positions, weights, and the `trades` array (used for position age)
 - Read: `data/runs/$RUN_DATE/market_data_full.json` — closes and fundamentals (use `fundamentals[ticker]["sector"]` for sector classification)
 - Read: `data/runs/$RUN_DATE/shortlist.json` — the 50 candidates
 
-Using this data, select a 15-stock portfolio. Apply these constraints strictly:
+### 11a — Classify current holdings (hold-bias)
 
-- `max_weight_per_name = 0.10` — no single ticker may exceed 10% portfolio weight
-- `max_weight_per_sector = 0.25` — no sector aggregate may exceed 25%
-- `min_sectors = 8` — portfolio must span at least 8 distinct sectors
-- Weights should sum to ≤ 1.0 (cash residual is acceptable)
-- Use `sizing_hint` from `estimates.json` as a starting point; normalize if hints sum > 1.0
-- Rank candidates by a composite of `p_outperform × conviction × expected_alpha_bps`; apply cap constraints while iterating top-ranked candidates
+Theses run on a 4–12 week horizon (per `prob-estimator`); you are rebalancing weekly. To prevent thrashing positions before they have a chance to play out, classify each current holding from `ledger.json` before considering new picks.
+
+For each ticker `t` currently in `ledger.positions`:
+
+1. **Compute holding age in days**: scan `ledger.trades` for the most recent trade where `ticker == t` and `side == "buy"`. `holding_age_days = (today_utc - that_trade.ts).days`. If no buy trade is found (shouldn't happen, but be defensive), treat age as `0`.
+
+2. **Look up this run's signal** for `t`:
+   - `in_shortlist = t in shortlist.tickers`
+   - `p = estimates[t].p_outperform` (or `None` if missing)
+   - `bear = debates[t].bear` (or `None` if missing)
+
+3. **Classify**:
+   - **Rotate out** if any of the following:
+     - `not in_shortlist` (scorer dropped it from top 50 — quality breakdown)
+     - `p` is `None` (no estimate produced — treat as no signal)
+     - `p < 0.40` (active sell signal, regardless of age)
+     - the `bear` case explicitly states the entry thesis has broken (e.g., guidance cut, accounting issue, fundamental inversion). Use judgment; do not treat normal bearish framing as a thesis break.
+   - **Retain** if:
+     - `holding_age_days < 28` AND `p >= 0.40` (catalyst-window protection — give new theses ≥ 4 weeks)
+     - OR `holding_age_days >= 28` AND `p >= 0.50` (mature position, normal hold threshold)
+
+4. **Sizing for retained positions**:
+   - Default to the position's current weight (from `ledger.current_weights` semantics — use `closes` to compute).
+   - Allow a small drift toward `estimates[t].sizing_hint`: new weight = midpoint of (current weight, sizing_hint), clamped to `[0.02, 0.10]`. This lets sizing nudge each week without forcing a full re-allocation.
+   - If `sizing_hint == 0` for a retained position (typically because alpha turned non-positive), trim to `max(0.02, current * 0.5)` rather than rotating out — let the position decay over 1–2 weeks if the signal stays weak.
+
+### 11b — Fill remaining slots from the shortlist
+
+After classification you have:
+- `retained` — current positions to keep (with proposed new weights)
+- `rotate_out` — current positions to drop
+- `target_count = 15` — total portfolio size
+
+Slots to fill from shortlist: `15 - len(retained)`.
+
+Rank the non-retained shortlist tickers by composite score `p_outperform × conviction × max(0, expected_alpha_bps)`. Walk the ranked list top-down, adding tickers as new picks at their `sizing_hint`, while respecting:
+- `max_weight_per_name = 0.10`
+- `max_weight_per_sector = 0.25` (counting both retained + new picks toward sector totals)
+- `min_sectors = 8` distinct sectors across the final 15
+- Sum of weights ≤ 1.0 (cash residual is acceptable)
+- `max_turnover_per_run = 0.40` (one-way turnover vs current ledger). If the proposed turnover exceeds this, you MUST keep additional borderline holdings rather than rotate them — Stage 12 will hard-reject otherwise.
+
+If a sector cap forces a sizing_hint to compress, prefer to add another sector rather than over-concentrate.
+
+### 11c — Commentary requirements
+
+The `commentary` field must explicitly state:
+- How many positions were retained, how many rotated out, and how many new picks were added.
+- The dominant reason for any rotation (e.g., "rotated 3 names: 1 fell off shortlist, 2 had p_outperform < 0.40").
+- Whether sizing tilts changed the cash residual.
 
 Write the selection to `data/runs/$RUN_DATE/selection.json` using the Write tool. The file must have this exact shape:
 
 ```json
 {
-  "commentary": "<2-3 sentence qualitative summary of the portfolio thesis>",
+  "commentary": "<2-3 sentence qualitative summary covering retain/rotate counts and portfolio thesis>",
   "picks": [
     {"ticker": "AAPL", "weight": 0.07, "sector": "Technology", "rationale": "<1 sentence>"},
     ...
@@ -286,12 +330,14 @@ Exactly 15 picks. Every pick must appear in both `rationales` and `picks`.
 
 ## Stage 12 — Validate proposal against risk caps
 
-Bash: `python -m trader.helpers.validate_proposal --in data/runs/$RUN_DATE/selection.json`
+Bash: `python -m trader.helpers.validate_proposal --in data/runs/$RUN_DATE/selection.json --ledger data/ledger.json --market data/runs/$RUN_DATE/market_data.json`
 
 - If exit 0: continue.
-- If exit non-zero (cap violation):
+- If exit non-zero (cap violation, including turnover):
   - Bash: `python -m trader.helpers.publish_alert --type failure --message "cap_violation: <stderr from validate_proposal>"`
   - Exit non-zero. **Do not proceed to Stage 13.** The ledger must not be mutated on a cap violation.
+
+The turnover cap (`max_turnover_per_run = 0.40`, configurable via env var `MAX_TURNOVER_PER_RUN`) is automatically skipped on the first run when the ledger has no positions. If you hit the cap, Stage 11 over-rotated — re-run after deleting `selection.json` and apply stronger hold-bias.
 
 ## Stage 13 — Apply trades to ledger
 

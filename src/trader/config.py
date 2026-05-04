@@ -24,6 +24,7 @@ class Settings(BaseSettings):
     max_weight_per_name: float = 0.10
     max_weight_per_sector: float = 0.25
     min_sectors: int = 8
+    max_turnover_per_run: float = 0.40
 
     data_dir: Path = ROOT / "data"
     reports_dir: Path = ROOT / "reports"
