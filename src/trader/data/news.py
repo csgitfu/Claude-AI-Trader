@@ -3,9 +3,10 @@
 from __future__ import annotations
 
 import logging
+import xml.etree.ElementTree as ET
 from urllib.parse import quote
+from urllib.request import urlopen, Request
 
-import feedparser
 import yfinance as yf
 
 logger = logging.getLogger(__name__)
@@ -32,18 +33,24 @@ def ticker_headlines(ticker: str, limit: int = 10) -> list[dict]:
 
 
 def rss_headlines(query: str, limit: int = 10) -> list[dict]:
-    feed = feedparser.parse(GOOGLE_NEWS_RSS.format(q=quote(query)))
+    url = GOOGLE_NEWS_RSS.format(q=quote(query))
     out = []
-    for entry in feed.entries[:limit]:
-        out.append(
-            {
-                "title": getattr(entry, "title", ""),
-                "publisher": getattr(entry, "source", {}).get("title", "")
-                if isinstance(getattr(entry, "source", {}), dict)
-                else "",
-                "link": getattr(entry, "link", ""),
-            }
-        )
+    try:
+        req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urlopen(req, timeout=15) as resp:
+            raw = resp.read()
+        root = ET.fromstring(raw)
+        ns = {"source": "http://www.google.com/schemas/rss/1.0/modules/source/"}
+        items = root.findall(".//item")
+        for item in items[:limit]:
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            source_el = item.find("source")
+            publisher = source_el.text.strip() if source_el is not None and source_el.text else ""
+            if title:
+                out.append({"title": title, "publisher": publisher, "link": link})
+    except Exception as exc:
+        logger.warning("RSS fetch failed for %r: %s", query, exc)
     return out
 
 
