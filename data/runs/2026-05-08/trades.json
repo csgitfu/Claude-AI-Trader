@@ -1,0 +1,162 @@
+[
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "ADBE",
+    "side": "sell",
+    "shares": 0.055701,
+    "price": 252.18499755859375,
+    "rationale": "Forward P/E of 9.55 despite 89.4% gross margins and $9.3B FCF; AI monetization via Firefly and 9.6% momentum reversal off a -24.9% drawdown offer asymmetric re-rating potential, p=0.61."
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "AMP",
+    "side": "sell",
+    "shares": 8.414852,
+    "price": 462.4460144042969,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "BMY",
+    "side": "sell",
+    "shares": 0.194299,
+    "price": 56.119998931884766,
+    "rationale": "Retained within 40% turnover cap; defensive pharmaceutical exposure with dividend yield provides portfolio ballast, held at current weight."
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "EME",
+    "side": "sell",
+    "shares": 0.007023,
+    "price": 922.25,
+    "rationale": "Retained within 40% turnover cap; high-quality electrical construction franchise with infrastructure electrification tailwinds, held at current weight while rotation capacity is exhausted."
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "EXEL",
+    "side": "sell",
+    "shares": 83.463164,
+    "price": 47.42499923706055,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "INCY",
+    "side": "sell",
+    "shares": 35.809291,
+    "price": 98.43000030517578,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "LRCX",
+    "side": "sell",
+    "shares": 13.931457,
+    "price": 295.5199890136719,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "NEM",
+    "side": "sell",
+    "shares": 0.066842,
+    "price": 116.62999725341797,
+    "rationale": "Retained within 40% turnover cap; gold mining exposure provides macro hedge and sector diversification, held at current weight."
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "NVDA",
+    "side": "sell",
+    "shares": 0.074984,
+    "price": 215.69000244140625,
+    "rationale": "73.2% revenue / 95.6% earnings growth with 71% gross margins and $58B FCF; forward P/E of 19.1 signals massive earnings expansion ahead, retained in 9-day catalyst window with p=0.61."
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "ZION",
+    "side": "sell",
+    "shares": 67.268122,
+    "price": 62.38999938964844,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "RNR",
+    "side": "buy",
+    "shares": 0.045955,
+    "price": 300.3500061035156,
+    "rationale": "5.06x trailing P/E with 23.4% ROE and $2.52B FCF from hard reinsurance pricing; low 0.228 beta and 100.9% earnings growth make this a high-quality defensive compounder, p=0.56."
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "GMED",
+    "side": "buy",
+    "shares": 0.159382,
+    "price": 78.47000122070312,
+    "rationale": "Retained within 40% turnover cap; orthopedic medical device franchise with durable revenue base, held at current weight within the 9-day catalyst window."
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "IBKR",
+    "side": "buy",
+    "shares": 29.933717,
+    "price": 84.20500183105469,
+    "rationale": "16.8% revenue growth and 21.6% earnings growth flowing through 93% gross margins with double-digit account growth momentum and NII tailwind; highest composite score (60.4) of all new candidates, p=0.61."
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "NBIX",
+    "side": "buy",
+    "shares": 16.669325,
+    "price": 151.2100067138672,
+    "rationale": "Forward P/E of 11.5 against 42.2% revenue growth and 23x earnings growth signals material multiple expansion, with Ingrezza script acceleration and 15% one-month momentum confirming the inflection, p=0.61."
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "META",
+    "side": "buy",
+    "shares": 3.718841,
+    "price": 610.0050048828125,
+    "rationale": "16.85x forward P/E for 33.1% revenue growth and 62.4% earnings growth with $25.6B FCF; AI-driven ad targeting monetization expanding 32.9% ROE with valuation reset after the -3.9% six-month pullback, p=0.58."
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "SNX",
+    "side": "buy",
+    "shares": 9.477505,
+    "price": 239.3574981689453,
+    "rationale": "+57.1% six-month momentum with 13.05x forward P/E against 18.1% revenue growth and 104.4% earnings growth; IT distribution recovery cycle has clear runway, p=0.58."
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "AMG",
+    "side": "buy",
+    "shares": 7.533831,
+    "price": 301.1099853515625,
+    "rationale": "7.77x forward P/E against 122.1% earnings growth and 19.9% ROE with $450M FCF; sustained 17.2% six-month momentum signals the re-rating is underway, p=0.58."
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "TIGO",
+    "side": "buy",
+    "shares": 0.122678,
+    "price": 80.27249908447266,
+    "rationale": "10.5x trailing P/E with 728% earnings growth, 77.5% gross margins, and $1.38B FCF; 3.66% dividend yield and low 0.86 beta offer defensive income alongside the +81.5% six-month run, retained at 9-day age, p=0.54."
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "RRC",
+    "side": "buy",
+    "shares": 0.490509,
+    "price": 40.70000076293945,
+    "rationale": "8.8x forward P/E with 260.7% earnings growth, 52.5% gross margins, and $554M FCF supporting buybacks; low 0.46 beta and 10.3% six-month momentum position the stock defensively, retained at 9-day age, p=0.55."
+  },
+  {
+    "ts": "2026-05-08T23:14:55+00:00",
+    "ticker": "STZ",
+    "side": "buy",
+    "shares": 0.14208,
+    "price": 147.2100067138672,
+    "rationale": "Retained within 40% turnover cap; beer franchise provides Consumer Defensive sector diversification within the turnover constraint, held at current weight."
+  }
+]

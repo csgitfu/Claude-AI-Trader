@@ -1,5 +1,5 @@
 {
-  "cash": 749.9998,
+  "cash": 8569.9338,
   "nav_history": [
     {
       "cash": 50000.0,
@@ -50,119 +50,119 @@
       "stale": []
     },
     {
-      "cash": 749.9998,
+      "cash": 8569.9338,
       "date": "2026-05-08",
-      "equity": 49617.959397589744,
-      "nav": 50367.95919758974,
-      "spy": 730.4000244140625,
+      "equity": 41841.439821261774,
+      "nav": 50411.37362126177,
+      "spy": 736.9450073242188,
       "stale": []
     }
   ],
   "positions": {
     "ADBE": {
       "avg_cost": 243.1999969482422,
-      "last_close": 256.3299865722656,
+      "last_close": 252.18499755859375,
       "last_close_date": "2026-05-08",
       "sector": "Technology",
-      "shares": 16.447369
+      "shares": 16.391668
     },
-    "AMP": {
-      "avg_cost": 475.3500061035156,
-      "last_close": 458.8999938964844,
+    "AMG": {
+      "avg_cost": 301.1099853515625,
+      "last_close": 301.1099853515625,
       "last_close_date": "2026-05-08",
       "sector": "Financial Services",
-      "shares": 8.414852
+      "shares": 7.533831
     },
     "BMY": {
       "avg_cost": 58.2599983215332,
-      "last_close": 56.220001220703125,
+      "last_close": 56.119998931884766,
       "last_close_date": "2026-05-08",
       "sector": "Healthcare",
-      "shares": 34.328872
+      "shares": 34.134572999999996
     },
     "EME": {
       "avg_cost": 863.780029296875,
-      "last_close": 922.2100219726562,
+      "last_close": 922.25,
       "last_close_date": "2026-05-08",
       "sector": "Industrials",
-      "shares": 4.051958
-    },
-    "EXEL": {
-      "avg_cost": 44.93000030517578,
-      "last_close": 46.119998931884766,
-      "last_close_date": "2026-05-08",
-      "sector": "Healthcare",
-      "shares": 83.463164
+      "shares": 4.044935
     },
     "GMED": {
-      "avg_cost": 90.73999786376953,
-      "last_close": 85.51499938964844,
+      "avg_cost": 90.68563894403839,
+      "last_close": 78.47000122070312,
       "last_close_date": "2026-05-08",
       "sector": "Healthcare",
-      "shares": 35.81662
+      "shares": 35.976002
     },
-    "INCY": {
-      "avg_cost": 97.73999786376953,
-      "last_close": 98.04499816894531,
+    "IBKR": {
+      "avg_cost": 84.20500183105469,
+      "last_close": 84.20500183105469,
+      "last_close_date": "2026-05-08",
+      "sector": "Financial Services",
+      "shares": 29.933717
+    },
+    "META": {
+      "avg_cost": 610.0050048828125,
+      "last_close": 610.0050048828125,
+      "last_close_date": "2026-05-08",
+      "sector": "Communication Services",
+      "shares": 3.718841
+    },
+    "NBIX": {
+      "avg_cost": 151.2100067138672,
+      "last_close": 151.2100067138672,
       "last_close_date": "2026-05-08",
       "sector": "Healthcare",
-      "shares": 35.809291
-    },
-    "LRCX": {
-      "avg_cost": 251.22999572753906,
-      "last_close": 284.5799865722656,
-      "last_close_date": "2026-05-08",
-      "sector": "Technology",
-      "shares": 13.931457
+      "shares": 16.669325
     },
     "NEM": {
       "avg_cost": 109.9000015258789,
-      "last_close": 113.7699966430664,
+      "last_close": 116.62999725341797,
       "last_close_date": "2026-05-08",
       "sector": "Basic Materials",
-      "shares": 27.297543
+      "shares": 27.230701
     },
     "NVDA": {
       "avg_cost": 213.1699981689453,
-      "last_close": 212.0399932861328,
+      "last_close": 215.69000244140625,
       "last_close_date": "2026-05-08",
       "sector": "Technology",
-      "shares": 21.109912
+      "shares": 21.034928
     },
     "RNR": {
-      "avg_cost": 310.6099853515625,
-      "last_close": 301.8299865722656,
+      "avg_cost": 310.5735025949003,
+      "last_close": 300.3500061035156,
       "last_close_date": "2026-05-08",
       "sector": "Financial Services",
-      "shares": 12.877886
+      "shares": 12.923841
     },
     "RRC": {
-      "avg_cost": 42.939998626708984,
-      "last_close": 40.790000915527344,
+      "avg_cost": 42.91665454060252,
+      "last_close": 40.70000076293945,
       "last_close_date": "2026-05-08",
       "sector": "Energy",
-      "shares": 46.57662
+      "shares": 47.067129
+    },
+    "SNX": {
+      "avg_cost": 239.3574981689453,
+      "last_close": 239.3574981689453,
+      "last_close_date": "2026-05-08",
+      "sector": "Technology",
+      "shares": 9.477505
     },
     "STZ": {
-      "avg_cost": 155.38999938964844,
-      "last_close": 150.99000549316406,
+      "avg_cost": 155.3006871315186,
+      "last_close": 147.2100067138672,
       "last_close_date": "2026-05-08",
       "sector": "Consumer Defensive",
-      "shares": 12.870841
+      "shares": 13.012921
     },
     "TIGO": {
-      "avg_cost": 82.06999969482422,
-      "last_close": 80.13999938964844,
+      "avg_cost": 82.06099623620649,
+      "last_close": 80.27249908447266,
       "last_close_date": "2026-05-08",
       "sector": "Communication Services",
-      "shares": 24.369441
-    },
-    "ZION": {
-      "avg_cost": 63.18000030517578,
-      "last_close": 62.75,
-      "last_close_date": "2026-05-08",
-      "sector": "Financial Services",
-      "shares": 67.268122
+      "shares": 24.492119
     }
   },
   "starting_nav": 50000.0,
@@ -286,6 +286,166 @@
       "side": "buy",
       "ticker": "STZ",
       "ts": "2026-04-29T19:09:43+00:00"
+    },
+    {
+      "price": 252.18499755859375,
+      "rationale": "Forward P/E of 9.55 despite 89.4% gross margins and $9.3B FCF; AI monetization via Firefly and 9.6% momentum reversal off a -24.9% drawdown offer asymmetric re-rating potential, p=0.61.",
+      "shares": 0.055701,
+      "side": "sell",
+      "ticker": "ADBE",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 462.4460144042969,
+      "rationale": "rebalance",
+      "shares": 8.414852,
+      "side": "sell",
+      "ticker": "AMP",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 56.119998931884766,
+      "rationale": "Retained within 40% turnover cap; defensive pharmaceutical exposure with dividend yield provides portfolio ballast, held at current weight.",
+      "shares": 0.194299,
+      "side": "sell",
+      "ticker": "BMY",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 922.25,
+      "rationale": "Retained within 40% turnover cap; high-quality electrical construction franchise with infrastructure electrification tailwinds, held at current weight while rotation capacity is exhausted.",
+      "shares": 0.007023,
+      "side": "sell",
+      "ticker": "EME",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 47.42499923706055,
+      "rationale": "rebalance",
+      "shares": 83.463164,
+      "side": "sell",
+      "ticker": "EXEL",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 98.43000030517578,
+      "rationale": "rebalance",
+      "shares": 35.809291,
+      "side": "sell",
+      "ticker": "INCY",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 295.5199890136719,
+      "rationale": "rebalance",
+      "shares": 13.931457,
+      "side": "sell",
+      "ticker": "LRCX",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 116.62999725341797,
+      "rationale": "Retained within 40% turnover cap; gold mining exposure provides macro hedge and sector diversification, held at current weight.",
+      "shares": 0.066842,
+      "side": "sell",
+      "ticker": "NEM",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 215.69000244140625,
+      "rationale": "73.2% revenue / 95.6% earnings growth with 71% gross margins and $58B FCF; forward P/E of 19.1 signals massive earnings expansion ahead, retained in 9-day catalyst window with p=0.61.",
+      "shares": 0.074984,
+      "side": "sell",
+      "ticker": "NVDA",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 62.38999938964844,
+      "rationale": "rebalance",
+      "shares": 67.268122,
+      "side": "sell",
+      "ticker": "ZION",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 300.3500061035156,
+      "rationale": "5.06x trailing P/E with 23.4% ROE and $2.52B FCF from hard reinsurance pricing; low 0.228 beta and 100.9% earnings growth make this a high-quality defensive compounder, p=0.56.",
+      "shares": 0.045955,
+      "side": "buy",
+      "ticker": "RNR",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 78.47000122070312,
+      "rationale": "Retained within 40% turnover cap; orthopedic medical device franchise with durable revenue base, held at current weight within the 9-day catalyst window.",
+      "shares": 0.159382,
+      "side": "buy",
+      "ticker": "GMED",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 84.20500183105469,
+      "rationale": "16.8% revenue growth and 21.6% earnings growth flowing through 93% gross margins with double-digit account growth momentum and NII tailwind; highest composite score (60.4) of all new candidates, p=0.61.",
+      "shares": 29.933717,
+      "side": "buy",
+      "ticker": "IBKR",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 151.2100067138672,
+      "rationale": "Forward P/E of 11.5 against 42.2% revenue growth and 23x earnings growth signals material multiple expansion, with Ingrezza script acceleration and 15% one-month momentum confirming the inflection, p=0.61.",
+      "shares": 16.669325,
+      "side": "buy",
+      "ticker": "NBIX",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 610.0050048828125,
+      "rationale": "16.85x forward P/E for 33.1% revenue growth and 62.4% earnings growth with $25.6B FCF; AI-driven ad targeting monetization expanding 32.9% ROE with valuation reset after the -3.9% six-month pullback, p=0.58.",
+      "shares": 3.718841,
+      "side": "buy",
+      "ticker": "META",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 239.3574981689453,
+      "rationale": "+57.1% six-month momentum with 13.05x forward P/E against 18.1% revenue growth and 104.4% earnings growth; IT distribution recovery cycle has clear runway, p=0.58.",
+      "shares": 9.477505,
+      "side": "buy",
+      "ticker": "SNX",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 301.1099853515625,
+      "rationale": "7.77x forward P/E against 122.1% earnings growth and 19.9% ROE with $450M FCF; sustained 17.2% six-month momentum signals the re-rating is underway, p=0.58.",
+      "shares": 7.533831,
+      "side": "buy",
+      "ticker": "AMG",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 80.27249908447266,
+      "rationale": "10.5x trailing P/E with 728% earnings growth, 77.5% gross margins, and $1.38B FCF; 3.66% dividend yield and low 0.86 beta offer defensive income alongside the +81.5% six-month run, retained at 9-day age, p=0.54.",
+      "shares": 0.122678,
+      "side": "buy",
+      "ticker": "TIGO",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 40.70000076293945,
+      "rationale": "8.8x forward P/E with 260.7% earnings growth, 52.5% gross margins, and $554M FCF supporting buybacks; low 0.46 beta and 10.3% six-month momentum position the stock defensively, retained at 9-day age, p=0.55.",
+      "shares": 0.490509,
+      "side": "buy",
+      "ticker": "RRC",
+      "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 147.2100067138672,
+      "rationale": "Retained within 40% turnover cap; beer franchise provides Consumer Defensive sector diversification within the turnover constraint, held at current weight.",
+      "shares": 0.14208,
+      "side": "buy",
+      "ticker": "STZ",
+      "ts": "2026-05-08T23:14:55+00:00"
     }
   ]
 }
