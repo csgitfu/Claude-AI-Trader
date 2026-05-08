@@ -57,6 +57,10 @@ def main(argv: list[str] | None = None) -> int:
     execute = os.environ.get("EXECUTE", str(int(settings.execute))) == "1"
 
     ledger = Ledger.load() if settings.ledger_path.exists() else seed(settings.starting_nav)
+    # plan_trades requires prices for ALL held positions (including those being sold)
+    for t in ledger.positions:
+        if t in closes and t not in pick_prices:
+            pick_prices[t] = closes[t]
     trades = simulate.plan_trades(ledger, proposals, pick_prices, sel.get("rationales", {}))
 
     Path(args.trades_out).parent.mkdir(parents=True, exist_ok=True)
