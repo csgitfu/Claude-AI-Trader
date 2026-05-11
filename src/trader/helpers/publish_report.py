@@ -44,7 +44,12 @@ def main(argv: list[str] | None = None) -> int:
     rc = _git("commit", "-m", f"trader: run {args.run_date}")
     if rc != 0:
         print("nothing to commit (clean working tree)")
-    push_rc = _git("push")
+    # Always land on main so .github/workflows/telegram-notify.yml fires.
+    # Routines may run in an isolated worktree on a session branch; rebase
+    # onto origin/main and push HEAD there explicitly.
+    _git("fetch", "origin", "main")
+    _git("rebase", "origin/main")
+    push_rc = _git("push", "origin", "HEAD:main")
     if push_rc != 0:
         print("git push failed", file=sys.stderr)
         return 1

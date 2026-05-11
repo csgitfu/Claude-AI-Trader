@@ -49,10 +49,12 @@ def test_happy_path(tmp_path, monkeypatch):
     assert mock_telegram_send.call_args[0][0] == report_text
     assert (reports_dir / "2026-04-28.md").exists()
     assert (reports_dir / "2026-04-28.md").read_text() == report_text
-    # Check git calls: add, commit, push
+    # Check git calls: add, commit, fetch, rebase, push to main
     assert ["git", "add", "data/", "reports/"] in git_calls
     assert any("commit" in call for call in git_calls)
-    assert ["git", "push"] in git_calls
+    assert ["git", "fetch", "origin", "main"] in git_calls
+    assert ["git", "rebase", "origin/main"] in git_calls
+    assert ["git", "push", "origin", "HEAD:main"] in git_calls
 
 
 def test_telegram_failure_non_fatal(tmp_path, monkeypatch):
@@ -130,7 +132,7 @@ def test_git_push_failure_returns_nonzero(tmp_path, monkeypatch):
     def fake_run(args, **kwargs):
         res = MagicMock()
         # push fails
-        if args == ["git", "push"]:
+        if args[:2] == ["git", "push"]:
             res.returncode = 1
         else:
             res.returncode = 0
