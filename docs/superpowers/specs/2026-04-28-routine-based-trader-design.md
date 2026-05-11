@@ -8,9 +8,10 @@
 
 Replace the current `anthropic` SDK + `ANTHROPIC_API_KEY` trader with a Claude Code routine (`/schedule`) that runs on Anthropic's infrastructure and bills against the user's Max plan subscription. LLM stages (scoring, debate, probability, selection, newswriter) move into Claude Code subagents and orchestrator turns. Deterministic Python becomes a library of small helper CLIs invoked by the orchestrator via `Bash`. Ledger persists by committing `data/ledger.json` back to the GitHub repo on each run.
 
-Schedule:
-- **Daily scan**: Tue–Sat 03:30 SGT (5 runs/week)
-- **Weekly rebalance**: Sat 04:30 SGT (1 run/week)
+Schedule (deployed, current as of 2026-05-11):
+- **Daily scan**: Tue–Sat 06:00 SGT (22:00 UTC; 5 runs/week). Post-close year-round (17:00 EST winter / 18:00 EDT summer).
+- **Weekly rebalance**: Sat 06:30 SGT (22:30 UTC Fri; 1 run/week). Post-close year-round (16:30 EST winter / 17:30 EDT summer).
+- **GH Actions prefetch** runs 30 min ahead of each CCR routine to populate `data/runs/$RUN_DATE/` (CCR has no outbound network for FMP/yfinance).
 
 ## 1. Goals & non-goals
 

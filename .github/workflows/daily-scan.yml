@@ -2,7 +2,7 @@ name: Daily Scan — Prefetch
 
 on:
   schedule:
-    - cron: "0 18 * * 1-5"   # Mon–Fri 19:00 UTC = Tue–Sat 03:00 SGT (30 min before CCR)
+    - cron: "30 21 * * 1-5"  # Mon–Fri 21:30 UTC = Tue–Sat 05:30 SGT (30 min before CCR daily at 06:00 SGT). Post-close year-round: 17:30 EDT / 16:30 EST.
   workflow_dispatch: {}
 
 permissions:
