@@ -46,7 +46,11 @@ def main(argv: list[str] | None = None) -> int:
         print("nothing to commit (clean working tree)")
     # Always land on main so .github/workflows/telegram-notify.yml fires.
     # Routines may run in an isolated worktree on a session branch; rebase
-    # onto origin/main and push HEAD there explicitly.
+    # onto origin/main and push HEAD there explicitly. When GIT_REMOTE_URL
+    # is set (CCR routine secrets), use it as origin — Claude Code's default
+    # session credentials are scoped to claude/* branches and 403 on main.
+    if settings.git_remote_url:
+        _git("remote", "set-url", "origin", settings.git_remote_url)
     _git("fetch", "origin", "main")
     _git("rebase", "origin/main")
     push_rc = _git("push", "origin", "HEAD:main")

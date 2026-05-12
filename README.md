@@ -14,10 +14,10 @@ The system runs as two cooperating layers connected through git:
 │   .github/workflows/         │    │  (CCR, Anthropic cloud)    │    │   .github/workflows/         │
 │                              │    │                            │    │                              │
 │   daily-scan.yml             │    │   trader-daily             │    │   telegram-notify.yml        │
-│   Mon–Fri 19:00 UTC          │    │   Mon–Fri 19:30 UTC        │    │   on push: reports/**.md     │
+│   Mon–Fri 21:00 UTC          │    │   Mon–Fri 22:00 UTC        │    │   on push: reports/**.md     │
 │                              │    │                            │    │                              │
 │   weekly-rebalance.yml       │    │   trader-rebalance         │    │                              │
-│   Fri 18:00 UTC              │    │   Fri 20:30 UTC            │    │                              │
+│   Fri 21:30 UTC              │    │   Fri 22:30 UTC            │    │                              │
 │                              │    │                            │    │                              │
 │   • snapshot_market_data     │    │   • git pull               │    │   • git diff detects new     │
 │   • snapshot_news            │ →  │   • skip data stages       │ →  │     reports/YYYY-MM-DD.md    │
@@ -37,10 +37,10 @@ The system runs as two cooperating layers connected through git:
 
 | Day (SGT)         | Layer      | Job                  | Time (UTC)  |
 |---                |---         |---                   |---          |
-| Tue–Sat 03:00     | Actions    | daily prefetch       | Mon–Fri 19:00 |
-| Tue–Sat 03:30     | CCR        | `/trader-daily`      | Mon–Fri 19:30 |
-| Sat 02:00         | Actions    | rebalance prefetch   | Fri 18:00     |
-| Sat 04:30         | CCR        | `/trader-rebalance`  | Fri 20:30     |
+| Tue–Sat 05:00     | Actions    | daily prefetch       | Mon–Fri 21:00 |
+| Tue–Sat 06:00     | CCR        | `/trader-daily`      | Mon–Fri 22:00 |
+| Sat 05:30         | Actions    | rebalance prefetch   | Fri 21:30     |
+| Sat 06:30         | CCR        | `/trader-rebalance`  | Fri 22:30     |
 | any time          | Actions    | telegram notify      | on report push |
 
 ## Setup (first-time only)

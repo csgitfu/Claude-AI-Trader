@@ -2,7 +2,7 @@ name: Weekly Rebalance — Prefetch
 
 on:
   schedule:
-    - cron: "0 22 * * 5"    # Fri 22:00 UTC = Sat 06:00 SGT (30 min before CCR rebalance at 06:30 SGT). Post-close year-round: 18:00 EDT / 17:00 EST.
+    - cron: "30 21 * * 5"   # Fri 21:30 UTC = Sat 05:30 SGT (60 min before CCR rebalance at 06:30 SGT). Post-close year-round: 17:30 EDT / 16:30 EST. Buffer widened from 30→60min to absorb GH Actions cron drift.
   workflow_dispatch: {}
 
 permissions:

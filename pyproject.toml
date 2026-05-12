@@ -18,7 +18,6 @@ dependencies = [
     "pandas-market-calendars>=4.4",
     "fredapi>=0.5",
     "python-dateutil>=2.9",
-    "feedparser>=6.0",
 ]
 
 [project.optional-dependencies]

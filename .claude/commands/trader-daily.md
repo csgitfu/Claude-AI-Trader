@@ -10,10 +10,11 @@ You are running the trader's daily-scan pipeline. Full design context: `docs/sup
 
 ## Setup
 
-First, compute the run date and create the run directory:
+First, install Python deps (CCR sandbox starts bare; idempotent — fast on subsequent runs), then compute the run date and create the run directory:
 
-1. Bash: `date -u +%Y-%m-%d` — capture the output as `RUN_DATE`.
-2. Bash: `mkdir -p data/runs/$RUN_DATE`
+1. Bash: `pip install -e .` — installs project deps from `pyproject.toml`.
+2. Bash: `date -u +%Y-%m-%d` — capture the output as `RUN_DATE`.
+3. Bash: `mkdir -p data/runs/$RUN_DATE`
 
 ## Stage 1 — Trading-day gate
 
@@ -30,6 +31,14 @@ Then confirm the ledger loads:
 Bash: `python -c "import json; d=json.load(open('data/ledger.json')); print('ledger ok, nav=', d.get('nav', d.get('cash', '?')))"`
 
 If the ledger file does not exist, print a warning and continue — the mark-to-market step will be a no-op.
+
+## Stage 2.5 — Wait for GH Actions prefetch
+
+The prefetch workflow (`.github/workflows/daily-scan.yml`) writes today's `market_data.json`, `news.json`, and `macro.json` to `data/runs/$RUN_DATE/` and pushes to main ~60 min before this routine fires. GH Actions cron drifts unreliably; this stage polls origin/main until the prefetch commit appears (or 30 min elapses), then `git pull --rebase`s the new files into the worktree. Without this guard, CCR would fall through to yfinance/RSS/FRED and get 403s from the sandbox network policy.
+
+Bash: `python -m trader.helpers.wait_for_prefetch --kind daily --run-date $RUN_DATE --timeout 1800`
+
+On non-zero exit (prefetch never landed within 30 min): run the failure handler with the stderr excerpt, exit non-zero. Failing loudly is preferable to producing a degraded report from carried-forward prices.
 
 ## Stage 3 — Snapshot prices for current holdings
 

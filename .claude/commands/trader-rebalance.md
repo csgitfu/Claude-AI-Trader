@@ -10,10 +10,11 @@ You are running the trader's weekly-rebalance pipeline. Full design context: `do
 
 ## Setup
 
-Compute the run date and create the run directory:
+Install Python deps (CCR sandbox starts bare; idempotent), then compute the run date and create the run directory:
 
-1. Bash: `date -u +%Y-%m-%d` — capture output as `RUN_DATE`.
-2. Bash: `mkdir -p data/runs/$RUN_DATE`
+1. Bash: `pip install -e .` — installs project deps from `pyproject.toml`.
+2. Bash: `date -u +%Y-%m-%d` — capture output as `RUN_DATE`.
+3. Bash: `mkdir -p data/runs/$RUN_DATE`
 
 ## Stage 1 — Friday-was-trading-day gate
 
@@ -30,6 +31,14 @@ Then confirm the ledger loads:
 Bash: `python -c "import json; d=json.load(open('data/ledger.json')); print('ledger ok, positions=', list(d.get('positions', {}).keys()))"`
 
 If the ledger file does not exist, note this and continue — `apply_trades.py` will seed a fresh ledger.
+
+## Stage 2.5 — Wait for GH Actions prefetch
+
+The prefetch workflow (`.github/workflows/weekly-rebalance.yml`) writes today's `market_data_full.json` (~1000 tickers), `news.json`, and `macro.json` to `data/runs/$RUN_DATE/` and pushes to main ~60 min before this routine fires. The full universe fetch can take 5–10 min on top of GH Actions cron drift, so allow a 45 min timeout.
+
+Bash: `python -m trader.helpers.wait_for_prefetch --kind rebalance --run-date $RUN_DATE --timeout 2700`
+
+On non-zero exit (prefetch never landed within 45 min): run the failure handler with the stderr excerpt, exit non-zero. Without prefetched data CCR would fall through to yfinance and get sandbox 403s on every ticker.
 
 ## Stage 3 — Snapshot universe (Russell 1000)
 
