@@ -1,5 +1,5 @@
 {
-  "cash": 8569.9338,
+  "cash": 15378.0943,
   "nav_history": [
     {
       "cash": 50000.0,
@@ -88,113 +88,121 @@
       "nav": 50255.20920111342,
       "spy": 739.1699829101562,
       "stale": []
+    },
+    {
+      "cash": 15378.0943,
+      "date": "2026-05-16",
+      "equity": 34877.114851567254,
+      "nav": 50255.20915156725,
+      "spy": 739.1699829101562,
+      "stale": []
     }
   ],
   "positions": {
     "ADBE": {
       "avg_cost": 243.1999969482422,
       "last_close": 247.60000610351562,
-      "last_close_date": "2026-05-15",
+      "last_close_date": "2026-05-16",
       "sector": "Technology",
-      "shares": 16.391668
+      "shares": 12.787068
     },
     "AMG": {
-      "avg_cost": 301.1099853515625,
+      "avg_cost": 300.959661637839,
       "last_close": 293.9100036621094,
-      "last_close_date": "2026-05-15",
+      "last_close_date": "2026-05-16",
       "sector": "Financial Services",
-      "shares": 7.533831
+      "shares": 7.694479
     },
-    "BMY": {
-      "avg_cost": 58.2599983215332,
-      "last_close": 57.0,
-      "last_close_date": "2026-05-15",
-      "sector": "Healthcare",
-      "shares": 34.134572999999996
+    "CPAY": {
+      "avg_cost": 328.2300109863281,
+      "last_close": 328.2300109863281,
+      "last_close_date": "2026-05-16",
+      "sector": "Technology",
+      "shares": 6.124389
+    },
+    "DUOL": {
+      "avg_cost": 112.05999755859375,
+      "last_close": 112.05999755859375,
+      "last_close_date": "2026-05-16",
+      "sector": "Technology",
+      "shares": 24.665684
     },
     "EME": {
       "avg_cost": 863.780029296875,
       "last_close": 913.1099853515625,
-      "last_close_date": "2026-05-15",
+      "last_close_date": "2026-05-16",
       "sector": "Industrials",
-      "shares": 4.044935
+      "shares": 2.9720199999999997
+    },
+    "EXEL": {
+      "avg_cost": 50.130001068115234,
+      "last_close": 50.130001068115234,
+      "last_close_date": "2026-05-16",
+      "sector": "Healthcare",
+      "shares": 50.124883
     },
     "GMED": {
       "avg_cost": 90.68563894403839,
       "last_close": 76.63999938964844,
-      "last_close_date": "2026-05-15",
+      "last_close_date": "2026-05-16",
       "sector": "Healthcare",
-      "shares": 35.976002
+      "shares": 18.360463000000003
     },
-    "IBKR": {
-      "avg_cost": 84.20500183105469,
-      "last_close": 87.0,
-      "last_close_date": "2026-05-15",
-      "sector": "Financial Services",
-      "shares": 29.933717
+    "GOOGL": {
+      "avg_cost": 396.7799987792969,
+      "last_close": 396.7799987792969,
+      "last_close_date": "2026-05-16",
+      "sector": "Communication Services",
+      "shares": 6.332881
     },
     "META": {
-      "avg_cost": 610.0050048828125,
+      "avg_cost": 610.2292388774472,
       "last_close": 614.22998046875,
-      "last_close_date": "2026-05-15",
+      "last_close_date": "2026-05-16",
       "sector": "Communication Services",
-      "shares": 3.718841
+      "shares": 3.927275
     },
     "NBIX": {
       "avg_cost": 151.2100067138672,
       "last_close": 158.4199981689453,
-      "last_close_date": "2026-05-15",
+      "last_close_date": "2026-05-16",
       "sector": "Healthcare",
-      "shares": 16.669325
+      "shares": 11.420197000000002
     },
     "NEM": {
       "avg_cost": 109.9000015258789,
       "last_close": 109.05999755859375,
-      "last_close_date": "2026-05-15",
+      "last_close_date": "2026-05-16",
       "sector": "Basic Materials",
-      "shares": 27.230701
+      "shares": 23.040166
     },
     "NVDA": {
       "avg_cost": 213.1699981689453,
       "last_close": 225.32000732421875,
-      "last_close_date": "2026-05-15",
+      "last_close_date": "2026-05-16",
       "sector": "Technology",
-      "shares": 21.034928
-    },
-    "RNR": {
-      "avg_cost": 310.5735025949003,
-      "last_close": 294.2300109863281,
-      "last_close_date": "2026-05-15",
-      "sector": "Financial Services",
-      "shares": 12.923841
+      "shares": 17.843141
     },
     "RRC": {
       "avg_cost": 42.91665454060252,
       "last_close": 42.459999084472656,
-      "last_close_date": "2026-05-15",
+      "last_close_date": "2026-05-16",
       "sector": "Energy",
-      "shares": 47.067129
-    },
-    "SNX": {
-      "avg_cost": 239.3574981689453,
-      "last_close": 230.2899932861328,
-      "last_close_date": "2026-05-15",
-      "sector": "Technology",
-      "shares": 9.477505
+      "shares": 35.507685
     },
     "STZ": {
       "avg_cost": 155.3006871315186,
       "last_close": 142.35000610351562,
-      "last_close_date": "2026-05-15",
+      "last_close_date": "2026-05-16",
       "sector": "Consumer Defensive",
-      "shares": 13.012921
+      "shares": 7.060795000000001
     },
-    "TIGO": {
-      "avg_cost": 82.06099623620649,
-      "last_close": 79.2699966430664,
-      "last_close_date": "2026-05-15",
-      "sector": "Communication Services",
-      "shares": 24.492119
+    "THC": {
+      "avg_cost": 196.66000366210938,
+      "last_close": 196.66000366210938,
+      "last_close_date": "2026-05-16",
+      "sector": "Healthcare",
+      "shares": 11.499463
     }
   },
   "starting_nav": 50000.0,
@@ -478,6 +486,166 @@
       "side": "buy",
       "ticker": "STZ",
       "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 247.60000610351562,
+      "rationale": "Adobe's 89% gross margins and $9.3B FCF at a near 9.5x forward P/E after a -25% six-month drawdown offer asymmetric re-rating potential; Firefly AI monetization accelerating across Creative Cloud provides the near-term catalyst with p=0.57 conviction.",
+      "shares": 3.6046,
+      "side": "sell",
+      "ticker": "ADBE",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 57.0,
+      "rationale": "rebalance",
+      "shares": 34.134573,
+      "side": "sell",
+      "ticker": "BMY",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 913.1099853515625,
+      "rationale": "EMCOR's AI data-center and electrification construction franchise generates 20% revenue growth and 53% earnings growth at 38.5% ROE with minimal 12.9 D/E; secular infrastructure demand driven by data center buildout supports a multi-quarter thesis at p=0.58.",
+      "shares": 1.072915,
+      "side": "sell",
+      "ticker": "EME",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 76.63999938964844,
+      "rationale": "Globus Medical's spine robotics platform was purchased 7 days ago and is retained at half-weight (2.8%) to respect the turnover cap; the position will be fully evaluated for rotation at the next rebalance if it remains off the shortlist.",
+      "shares": 17.615539,
+      "side": "sell",
+      "ticker": "GMED",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 87.0,
+      "rationale": "rebalance",
+      "shares": 29.933717,
+      "side": "sell",
+      "ticker": "IBKR",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 158.4199981689453,
+      "rationale": "Neurocrine's Ingrezza franchise delivers 19.3% earnings growth and $820M FCF at 16.2x forward P/E with a defensive 0.31 beta; retained in the 7-day catalyst window as pipeline readouts in psychiatry and endocrinology provide additional upside optionality at p=0.54.",
+      "shares": 5.249128,
+      "side": "sell",
+      "ticker": "NBIX",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 109.05999755859375,
+      "rationale": "Newmont's forward P/E of 9.62 against 78.6% earnings growth, $9.8B FCF, and 25.8% ROE positions it as the premier gold compounder; 3.95% CPI persistence supports gold pricing while the 0.45 beta provides portfolio ballast with p=0.56.",
+      "shares": 4.190535,
+      "side": "sell",
+      "ticker": "NEM",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 225.32000732421875,
+      "rationale": "NVIDIA's unmatched AI GPU franchise is compounding at 114% revenue / 145% earnings growth with $44.9B in free cash flow and 55% net margins; the Blackwell architecture ramp makes the 28.4x forward P/E deeply attractive for a position held 16 days into a 4-12 week thesis at p=0.60.",
+      "shares": 3.191787,
+      "side": "sell",
+      "ticker": "NVDA",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 294.2300109863281,
+      "rationale": "rebalance",
+      "shares": 12.923841,
+      "side": "sell",
+      "ticker": "RNR",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 42.459999084472656,
+      "rationale": "Range Resources offers disciplined Appalachian gas production at 9.3x forward P/E with 52.5% gross margins and LNG export tailwinds; the 0.52 beta and strong FCF generation provide portfolio diversification in the Energy sector at p=0.54.",
+      "shares": 11.559444,
+      "side": "sell",
+      "ticker": "RRC",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 230.2899932861328,
+      "rationale": "rebalance",
+      "shares": 9.477505,
+      "side": "sell",
+      "ticker": "SNX",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 142.35000610351562,
+      "rationale": "Constellation Brands is trimmed to minimum weight (2.0%) as a turnover-cap accommodation rather than a high-conviction hold; the Consumer Defensive sector exposure adds portfolio diversification while the position decays toward next week's evaluation.",
+      "shares": 5.952126,
+      "side": "sell",
+      "ticker": "STZ",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 79.2699966430664,
+      "rationale": "rebalance",
+      "shares": 24.492119,
+      "side": "sell",
+      "ticker": "TIGO",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 614.22998046875,
+      "rationale": "META's 33.1% revenue and 62.4% earnings growth at 16.97x forward P/E generating $25.6B FCF represents one of the most compelling risk/reward setups in mega-cap tech; AI-driven ad monetization expanding 32.9% ROE with an attractive entry after the pullback at p=0.58.",
+      "shares": 0.208434,
+      "side": "buy",
+      "ticker": "META",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 293.9100036621094,
+      "rationale": "Affiliated Managers Group trades at 7.77x forward P/E against 122.1% earnings growth with $450M FCF and 19.9% ROE; persistent 6-month momentum confirms the institutional re-rating thesis is intact within the 7-day holding window at p=0.58.",
+      "shares": 0.160648,
+      "side": "buy",
+      "ticker": "AMG",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 112.05999755859375,
+      "rationale": "Duolingo's AI-powered language learning platform is compounding revenue at 61% with 73.4% gross margins as paid subscriber monetization accelerates globally; the highest composite score among new picks at p=0.61 conviction with the full 0.055 sizing hint allocated.",
+      "shares": 24.665684,
+      "side": "buy",
+      "ticker": "DUOL",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 50.130001068115234,
+      "rationale": "Exelixis's cabozantinib franchise generates 96% gross margins, 84% earnings growth, and $1.3B FCF with a defensive 0.42 beta at a compelling 14.3x forward P/E; multi-indication oncology durability and pipeline optionality support the thesis with p=0.61.",
+      "shares": 50.124883,
+      "side": "buy",
+      "ticker": "EXEL",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 396.7799987792969,
+      "rationale": "Alphabet's Search, Cloud, and Waymo AI monetization drive 12% revenue and 49% earnings growth at 17.6x forward P/E with $74.5B FCF and a pristine balance sheet; valuation has reset with the recent pullback while the AI infrastructure flywheel compounds at p=0.58.",
+      "shares": 6.332881,
+      "side": "buy",
+      "ticker": "GOOGL",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 196.66000366210938,
+      "rationale": "Tenet Healthcare trades at 10.64x forward P/E with 87.6% earnings growth, $3.06B FCF, and 30.3% ROE on a $16.3B market cap; FCF-funded balance sheet deleveraging and margin expansion are the twin re-rating catalysts with p=0.58 conviction.",
+      "shares": 11.499463,
+      "side": "buy",
+      "ticker": "THC",
+      "ts": "2026-05-16T00:42:02+00:00"
+    },
+    {
+      "price": 328.2300109863281,
+      "rationale": "Corpay's B2B payment processing franchise delivers 160bps of expected alpha with 0.58 p_outperform and 0.50 conviction; high gross margins and expanding corporate payment volumes compound durably in the current 3.63% rate environment.",
+      "shares": 6.124389,
+      "side": "buy",
+      "ticker": "CPAY",
+      "ts": "2026-05-16T00:42:02+00:00"
     }
   ]
 }
