@@ -1,0 +1,352 @@
+{
+  "ACGL": {
+    "ticker": "ACGL",
+    "p_outperform": 0.52,
+    "expected_alpha_bps": 60.0,
+    "conviction": 0.35,
+    "sizing_hint": 0.01
+  },
+  "AIZ": {
+    "ticker": "AIZ",
+    "p_outperform": 0.58,
+    "expected_alpha_bps": 150.0,
+    "conviction": 0.5,
+    "sizing_hint": 0.035
+  },
+  "ALL": {
+    "ticker": "ALL",
+    "p_outperform": 0.54,
+    "expected_alpha_bps": 90.0,
+    "conviction": 0.4,
+    "sizing_hint": 0.02
+  },
+  "AMG": {
+    "ticker": "AMG",
+    "p_outperform": 0.58,
+    "expected_alpha_bps": 180.0,
+    "conviction": 0.5,
+    "sizing_hint": 0.045
+  },
+  "AMP": {
+    "ticker": "AMP",
+    "p_outperform": 0.58,
+    "expected_alpha_bps": 180.0,
+    "conviction": 0.5,
+    "sizing_hint": 0.045
+  },
+  "CB": {
+    "ticker": "CB",
+    "p_outperform": 0.58,
+    "expected_alpha_bps": 140.0,
+    "conviction": 0.55,
+    "sizing_hint": 0.04
+  },
+  "CBOE": {
+    "ticker": "CBOE",
+    "p_outperform": 0.57,
+    "expected_alpha_bps": 140.0,
+    "conviction": 0.5,
+    "sizing_hint": 0.035
+  },
+  "CI": {
+    "ticker": "CI",
+    "p_outperform": 0.58,
+    "expected_alpha_bps": 180.0,
+    "conviction": 0.55,
+    "sizing_hint": 0.05
+  },
+  "CINF": {
+    "ticker": "CINF",
+    "p_outperform": 0.48,
+    "expected_alpha_bps": -30.0,
+    "conviction": 0.35,
+    "sizing_hint": 0.0
+  },
+  "CME": {
+    "ticker": "CME",
+    "p_outperform": 0.54,
+    "expected_alpha_bps": 80.0,
+    "conviction": 0.4,
+    "sizing_hint": 0.015
+  },
+  "CPAY": {
+    "ticker": "CPAY",
+    "p_outperform": 0.58,
+    "expected_alpha_bps": 180.0,
+    "conviction": 0.5,
+    "sizing_hint": 0.045
+  },
+  "CRS": {
+    "ticker": "CRS",
+    "p_outperform": 0.54,
+    "expected_alpha_bps": 90.0,
+    "conviction": 0.4,
+    "sizing_hint": 0.02
+  },
+  "DELL": {
+    "ticker": "DELL",
+    "p_outperform": 0.54,
+    "expected_alpha_bps": 90.0,
+    "conviction": 0.4,
+    "sizing_hint": 0.02
+  },
+  "DUOL": {
+    "ticker": "DUOL",
+    "p_outperform": 0.63,
+    "expected_alpha_bps": 280.0,
+    "conviction": 0.6,
+    "sizing_hint": 0.085
+  },
+  "EG": {
+    "ticker": "EG",
+    "p_outperform": 0.58,
+    "expected_alpha_bps": 140.0,
+    "conviction": 0.5,
+    "sizing_hint": 0.035
+  },
+  "EME": {
+    "ticker": "EME",
+    "p_outperform": 0.6,
+    "expected_alpha_bps": 180.0,
+    "conviction": 0.55,
+    "sizing_hint": 0.05
+  },
+  "EOG": {
+    "ticker": "EOG",
+    "p_outperform": 0.58,
+    "expected_alpha_bps": 150.0,
+    "conviction": 0.5,
+    "sizing_hint": 0.04
+  },
+  "EQT": {
+    "ticker": "EQT",
+    "p_outperform": 0.49,
+    "expected_alpha_bps": -30.0,
+    "conviction": 0.35,
+    "sizing_hint": 0.0
+  },
+  "EVR": {
+    "ticker": "EVR",
+    "p_outperform": 0.56,
+    "expected_alpha_bps": 180.0,
+    "conviction": 0.45,
+    "sizing_hint": 0.04
+  },
+  "FFIV": {
+    "ticker": "FFIV",
+    "p_outperform": 0.46,
+    "expected_alpha_bps": -80.0,
+    "conviction": 0.45,
+    "sizing_hint": 0.0
+  },
+  "FICO": {
+    "ticker": "FICO",
+    "p_outperform": 0.57,
+    "expected_alpha_bps": 180.0,
+    "conviction": 0.45,
+    "sizing_hint": 0.04
+  },
+  "FSLR": {
+    "ticker": "FSLR",
+    "p_outperform": 0.6,
+    "expected_alpha_bps": 220.0,
+    "conviction": 0.5,
+    "sizing_hint": 0.055
+  },
+  "GEV": {
+    "ticker": "GEV",
+    "p_outperform": 0.54,
+    "expected_alpha_bps": 90.0,
+    "conviction": 0.38,
+    "sizing_hint": 0.015
+  },
+  "GFS": {
+    "ticker": "GFS",
+    "p_outperform": 0.46,
+    "expected_alpha_bps": -50.0,
+    "conviction": 0.35,
+    "sizing_hint": 0.0
+  },
+  "INCY": {
+    "ticker": "INCY",
+    "p_outperform": 0.54,
+    "expected_alpha_bps": 90.0,
+    "conviction": 0.4,
+    "sizing_hint": 0.02
+  },
+  "JBHT": {
+    "ticker": "JBHT",
+    "p_outperform": 0.46,
+    "expected_alpha_bps": -75.0,
+    "conviction": 0.45,
+    "sizing_hint": 0.0
+  },
+  "KLAC": {
+    "ticker": "KLAC",
+    "p_outperform": 0.54,
+    "expected_alpha_bps": 90.0,
+    "conviction": 0.4,
+    "sizing_hint": 0.02
+  },
+  "LII": {
+    "ticker": "LII",
+    "p_outperform": 0.49,
+    "expected_alpha_bps": -30.0,
+    "conviction": 0.35,
+    "sizing_hint": 0.0
+  },
+  "LLY": {
+    "ticker": "LLY",
+    "p_outperform": 0.58,
+    "expected_alpha_bps": 140.0,
+    "conviction": 0.5,
+    "sizing_hint": 0.035
+  },
+  "MU": {
+    "ticker": "MU",
+    "p_outperform": 0.54,
+    "expected_alpha_bps": 120.0,
+    "conviction": 0.4,
+    "sizing_hint": 0.025
+  },
+  "NBIX": {
+    "ticker": "NBIX",
+    "p_outperform": 0.62,
+    "expected_alpha_bps": 220.0,
+    "conviction": 0.55,
+    "sizing_hint": 0.06
+  },
+  "NDAQ": {
+    "ticker": "NDAQ",
+    "p_outperform": 0.54,
+    "expected_alpha_bps": 80.0,
+    "conviction": 0.4,
+    "sizing_hint": 0.015
+  },
+  "NEM": {
+    "ticker": "NEM",
+    "p_outperform": 0.62,
+    "expected_alpha_bps": 180.0,
+    "conviction": 0.55,
+    "sizing_hint": 0.05
+  },
+  "NVDA": {
+    "ticker": "NVDA",
+    "p_outperform": 0.62,
+    "expected_alpha_bps": 180.0,
+    "conviction": 0.55,
+    "sizing_hint": 0.05
+  },
+  "PAYC": {
+    "ticker": "PAYC",
+    "p_outperform": 0.58,
+    "expected_alpha_bps": 140.0,
+    "conviction": 0.5,
+    "sizing_hint": 0.035
+  },
+  "PGR": {
+    "ticker": "PGR",
+    "p_outperform": 0.54,
+    "expected_alpha_bps": 80.0,
+    "conviction": 0.45,
+    "sizing_hint": 0.02
+  },
+  "PRI": {
+    "ticker": "PRI",
+    "p_outperform": 0.6,
+    "expected_alpha_bps": 180.0,
+    "conviction": 0.55,
+    "sizing_hint": 0.05
+  },
+  "PTC": {
+    "ticker": "PTC",
+    "p_outperform": 0.58,
+    "expected_alpha_bps": 180.0,
+    "conviction": 0.5,
+    "sizing_hint": 0.045
+  },
+  "RDDT": {
+    "ticker": "RDDT",
+    "p_outperform": 0.56,
+    "expected_alpha_bps": 180.0,
+    "conviction": 0.45,
+    "sizing_hint": 0.04
+  },
+  "RGA": {
+    "ticker": "RGA",
+    "p_outperform": 0.56,
+    "expected_alpha_bps": 140.0,
+    "conviction": 0.5,
+    "sizing_hint": 0.035
+  },
+  "RNR": {
+    "ticker": "RNR",
+    "p_outperform": 0.55,
+    "expected_alpha_bps": 90.0,
+    "conviction": 0.45,
+    "sizing_hint": 0.02
+  },
+  "RPRX": {
+    "ticker": "RPRX",
+    "p_outperform": 0.58,
+    "expected_alpha_bps": 140.0,
+    "conviction": 0.5,
+    "sizing_hint": 0.035
+  },
+  "RS": {
+    "ticker": "RS",
+    "p_outperform": 0.54,
+    "expected_alpha_bps": 90.0,
+    "conviction": 0.4,
+    "sizing_hint": 0.02
+  },
+  "SCCO": {
+    "ticker": "SCCO",
+    "p_outperform": 0.49,
+    "expected_alpha_bps": -40.0,
+    "conviction": 0.35,
+    "sizing_hint": 0.0
+  },
+  "SEIC": {
+    "ticker": "SEIC",
+    "p_outperform": 0.61,
+    "expected_alpha_bps": 165.0,
+    "conviction": 0.55,
+    "sizing_hint": 0.045
+  },
+  "TRV": {
+    "ticker": "TRV",
+    "p_outperform": 0.54,
+    "expected_alpha_bps": 80.0,
+    "conviction": 0.4,
+    "sizing_hint": 0.015
+  },
+  "V": {
+    "ticker": "V",
+    "p_outperform": 0.56,
+    "expected_alpha_bps": 90.0,
+    "conviction": 0.45,
+    "sizing_hint": 0.02
+  },
+  "WDC": {
+    "ticker": "WDC",
+    "p_outperform": 0.46,
+    "expected_alpha_bps": -80.0,
+    "conviction": 0.45,
+    "sizing_hint": 0.0
+  },
+  "WRB": {
+    "ticker": "WRB",
+    "p_outperform": 0.52,
+    "expected_alpha_bps": 60.0,
+    "conviction": 0.35,
+    "sizing_hint": 0.01
+  },
+  "ZM": {
+    "ticker": "ZM",
+    "p_outperform": 0.58,
+    "expected_alpha_bps": 160.0,
+    "conviction": 0.5,
+    "sizing_hint": 0.04
+  }
+}

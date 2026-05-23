@@ -1,5 +1,5 @@
 {
-  "cash": 8569.9338,
+  "cash": 13870.4373,
   "nav_history": [
     {
       "cash": 50000.0,
@@ -128,113 +128,121 @@
       "nav": 50197.74269572453,
       "spy": 745.6400146484375,
       "stale": []
+    },
+    {
+      "cash": 13870.4373,
+      "date": "2026-05-23",
+      "equity": 36384.77189528195,
+      "nav": 50255.20919528195,
+      "spy": 739.1699829101562,
+      "stale": []
     }
   ],
   "positions": {
-    "ADBE": {
-      "avg_cost": 243.1999969482422,
-      "last_close": 244.75999450683594,
-      "last_close_date": "2026-05-22",
-      "sector": "Technology",
-      "shares": 16.391668
-    },
     "AMG": {
-      "avg_cost": 301.1099853515625,
-      "last_close": 301.9599914550781,
-      "last_close_date": "2026-05-22",
+      "avg_cost": 300.959661637839,
+      "last_close": 293.9100036621094,
+      "last_close_date": "2026-05-23",
       "sector": "Financial Services",
-      "shares": 7.533831
+      "shares": 7.694479
     },
-    "BMY": {
-      "avg_cost": 58.2599983215332,
-      "last_close": 59.459999084472656,
-      "last_close_date": "2026-05-22",
+    "CI": {
+      "avg_cost": 285.2699890136719,
+      "last_close": 285.2699890136719,
+      "last_close_date": "2026-05-23",
       "sector": "Healthcare",
-      "shares": 34.134572999999996
+      "shares": 7.046687
+    },
+    "DUOL": {
+      "avg_cost": 112.05999755859375,
+      "last_close": 112.05999755859375,
+      "last_close_date": "2026-05-23",
+      "sector": "Technology",
+      "shares": 31.392689
     },
     "EME": {
       "avg_cost": 863.780029296875,
-      "last_close": 848.9099731445312,
-      "last_close_date": "2026-05-22",
+      "last_close": 913.1099853515625,
+      "last_close_date": "2026-05-23",
       "sector": "Industrials",
-      "shares": 4.044935
+      "shares": 3.577432
     },
-    "GMED": {
-      "avg_cost": 90.68563894403839,
-      "last_close": 84.80999755859375,
-      "last_close_date": "2026-05-22",
-      "sector": "Healthcare",
-      "shares": 35.976002
+    "FSLR": {
+      "avg_cost": 233.3699951171875,
+      "last_close": 233.3699951171875,
+      "last_close_date": "2026-05-23",
+      "sector": "Technology",
+      "shares": 10.767282
     },
     "IBKR": {
       "avg_cost": 84.20500183105469,
-      "last_close": 81.3499984741211,
-      "last_close_date": "2026-05-22",
+      "last_close": 87.0,
+      "last_close_date": "2026-05-23",
       "sector": "Financial Services",
-      "shares": 29.933717
-    },
-    "META": {
-      "avg_cost": 610.0050048828125,
-      "last_close": 610.260009765625,
-      "last_close_date": "2026-05-22",
-      "sector": "Communication Services",
-      "shares": 3.718841
+      "shares": 14.441152
     },
     "NBIX": {
-      "avg_cost": 151.2100067138672,
-      "last_close": 156.6999969482422,
-      "last_close_date": "2026-05-22",
+      "avg_cost": 151.40402495821425,
+      "last_close": 158.4199981689453,
+      "last_close_date": "2026-05-23",
       "sector": "Healthcare",
-      "shares": 16.669325
+      "shares": 17.130295
     },
     "NEM": {
       "avg_cost": 109.9000015258789,
-      "last_close": 107.63999938964844,
-      "last_close_date": "2026-05-22",
+      "last_close": 109.05999755859375,
+      "last_close_date": "2026-05-23",
       "sector": "Basic Materials",
-      "shares": 27.230701
+      "shares": 25.344183
     },
     "NVDA": {
       "avg_cost": 213.1699981689453,
-      "last_close": 215.3300018310547,
-      "last_close_date": "2026-05-22",
+      "last_close": 225.32000732421875,
+      "last_close_date": "2026-05-23",
       "sector": "Technology",
-      "shares": 21.034928
+      "shares": 18.958338
+    },
+    "PRI": {
+      "avg_cost": 274.1400146484375,
+      "last_close": 274.1400146484375,
+      "last_close_date": "2026-05-23",
+      "sector": "Financial Services",
+      "shares": 9.165975
+    },
+    "RDDT": {
+      "avg_cost": 158.1699981689453,
+      "last_close": 158.1699981689453,
+      "last_close_date": "2026-05-23",
+      "sector": "Communication Services",
+      "shares": 11.120518
     },
     "RNR": {
       "avg_cost": 310.5735025949003,
-      "last_close": 295.55999755859375,
-      "last_close_date": "2026-05-22",
+      "last_close": 294.2300109863281,
+      "last_close_date": "2026-05-23",
       "sector": "Financial Services",
-      "shares": 12.923841
+      "shares": 11.956171999999999
     },
     "RRC": {
       "avg_cost": 42.91665454060252,
-      "last_close": 41.04999923706055,
-      "last_close_date": "2026-05-22",
+      "last_close": 42.459999084472656,
+      "last_close_date": "2026-05-23",
       "sector": "Energy",
-      "shares": 47.067129
+      "shares": 23.67179
     },
-    "SNX": {
-      "avg_cost": 239.3574981689453,
-      "last_close": 237.33999633789062,
-      "last_close_date": "2026-05-22",
-      "sector": "Technology",
-      "shares": 9.477505
+    "SEIC": {
+      "avg_cost": 90.58000183105469,
+      "last_close": 90.58000183105469,
+      "last_close_date": "2026-05-23",
+      "sector": "Financial Services",
+      "shares": 22.192629
     },
     "STZ": {
       "avg_cost": 155.3006871315186,
-      "last_close": 149.5,
-      "last_close_date": "2026-05-22",
+      "last_close": 142.35000610351562,
+      "last_close_date": "2026-05-23",
       "sector": "Consumer Defensive",
-      "shares": 13.012921
-    },
-    "TIGO": {
-      "avg_cost": 82.06099623620649,
-      "last_close": 85.83999633789062,
-      "last_close_date": "2026-05-22",
-      "sector": "Communication Services",
-      "shares": 24.492119
+      "shares": 7.060795000000001
     }
   },
   "starting_nav": 50000.0,
@@ -518,6 +526,174 @@
       "side": "buy",
       "ticker": "STZ",
       "ts": "2026-05-08T23:14:55+00:00"
+    },
+    {
+      "price": 247.60000610351562,
+      "rationale": "rebalance",
+      "shares": 16.391668,
+      "side": "sell",
+      "ticker": "ADBE",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 57.0,
+      "rationale": "rebalance",
+      "shares": 34.134573,
+      "side": "sell",
+      "ticker": "BMY",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 913.1099853515625,
+      "rationale": "EME is a high-quality electrical contractor compounding at 60% p_outperform driven by data-center buildout and infrastructure spending; strong FCF and execution record support the thesis.",
+      "shares": 0.467503,
+      "side": "sell",
+      "ticker": "EME",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 76.63999938964844,
+      "rationale": "rebalance",
+      "shares": 35.976002,
+      "side": "sell",
+      "ticker": "GMED",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 87.0,
+      "rationale": "Interactive Brokers held at minimum weight to stay within turnover cap; no shortlist signal but 14-day holding age warrants one more week before forced rotation.",
+      "shares": 15.492565,
+      "side": "sell",
+      "ticker": "IBKR",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 614.22998046875,
+      "rationale": "rebalance",
+      "shares": 3.718841,
+      "side": "sell",
+      "ticker": "META",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 109.05999755859375,
+      "rationale": "Newmont at 9.6x forward P/E with 78.6% earnings growth and $9.8B FCF offers leveraged exposure to gold amid 3.9% CPI; 17.8% six-month momentum confirms institutional accumulation.",
+      "shares": 1.886518,
+      "side": "sell",
+      "ticker": "NEM",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 225.32000732421875,
+      "rationale": "NVDA remains the highest-conviction AI-compute holding (p=0.62, 180 bps) with dominant data center GPU market share and expanding software/services margins; retained near-full weight under 28-day catalyst protection.",
+      "shares": 2.07659,
+      "side": "sell",
+      "ticker": "NVDA",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 294.2300109863281,
+      "rationale": "RenaissanceRe is a disciplined reinsurer benefiting from sustained pricing strength; p=0.55 with 90 bps expected alpha, retained for hard-market cycle exposure.",
+      "shares": 0.967669,
+      "side": "sell",
+      "ticker": "RNR",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 42.459999084472656,
+      "rationale": "Range Resources trimmed to minimum weight for turnover management while anchoring the Energy sector; will rotate out next cycle absent a shortlist re-entry.",
+      "shares": 23.395339,
+      "side": "sell",
+      "ticker": "RRC",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 230.2899932861328,
+      "rationale": "rebalance",
+      "shares": 9.477505,
+      "side": "sell",
+      "ticker": "SNX",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 142.35000610351562,
+      "rationale": "Constellation Brands kept at minimum weight (trimmed from 3.9%) to manage turnover; adds Consumer Defensive sector exposure while turnover burn-rate allows a decay exit next cycle.",
+      "shares": 5.952126,
+      "side": "sell",
+      "ticker": "STZ",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 79.2699966430664,
+      "rationale": "rebalance",
+      "shares": 24.492119,
+      "side": "sell",
+      "ticker": "TIGO",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 293.9100036621094,
+      "rationale": "AMG trades at 9.87x forward P/E with 66% ROE and $3.36B FCF; high-conviction alternative asset manager compounder with catalysts in AUM inflows and buybacks.",
+      "shares": 0.160648,
+      "side": "buy",
+      "ticker": "AMG",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 158.4199981689453,
+      "rationale": "Neurocrine Biosciences carries the highest alpha estimate (220 bps) among Healthcare names; Ingrezza growth runway plus pipeline diversification at reasonable 62% p_outperform supports continued hold.",
+      "shares": 0.46097,
+      "side": "buy",
+      "ticker": "NBIX",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 112.05999755859375,
+      "rationale": "Duolingo leads the new-pick composite ranking (score 105.8, p=0.63, +280 bps alpha) with 35% revenue growth, 193% earnings growth, and AI-driven product expansion compounding at 72% gross margins; mean-reversion setup after 40% drawdown.",
+      "shares": 31.392689,
+      "side": "buy",
+      "ticker": "DUOL",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 233.3699951171875,
+      "rationale": "First Solar at 9.1x forward P/E with 65% earnings growth and 41.7% gross margins; +21.8% one-month momentum signals reversal; IRA manufacturing credits provide structural tailwind for domestic solar economics.",
+      "shares": 10.767282,
+      "side": "buy",
+      "ticker": "FSLR",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 274.1400146484375,
+      "rationale": "Primerica scores p=0.60, 180 bps expected alpha; deeply discounted at 10.7x forward P/E with 31.9% ROE and 12.7% FCF yield, with life insurance distribution and mortgage origination poised to compound as rates ease.",
+      "shares": 9.165975,
+      "side": "buy",
+      "ticker": "PRI",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 285.2699890136719,
+      "rationale": "Cigna at 8.5x forward P/E with $6.9B FCF and 29.1% earnings growth offers managed-care value re-rating; low 0.31 beta provides defensive ballast with catalysts in buybacks and earnings momentum.",
+      "shares": 7.046687,
+      "side": "buy",
+      "ticker": "CI",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 158.1699981689453,
+      "rationale": "Reddit at p=0.56, 180 bps expected alpha represents the only Communication Services position; strong DAU/MAU growth and emerging advertising revenue ramp drive the re-rating thesis.",
+      "shares": 11.120518,
+      "side": "buy",
+      "ticker": "RDDT",
+      "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 90.58000183105469,
+      "rationale": "SEI Investments trades at 13.8x forward P/E with 29.6% ROE and 78.3% gross margins; GARP profile in asset management with 14.8% one-month momentum confirming AUM inflow acceleration.",
+      "shares": 22.192629,
+      "side": "buy",
+      "ticker": "SEIC",
+      "ts": "2026-05-23T01:09:17+00:00"
     }
   ]
 }

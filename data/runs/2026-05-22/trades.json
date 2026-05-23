@@ -1,0 +1,170 @@
+[
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "ADBE",
+    "side": "sell",
+    "shares": 16.391668,
+    "price": 247.60000610351562,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "BMY",
+    "side": "sell",
+    "shares": 34.134573,
+    "price": 57.0,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "EME",
+    "side": "sell",
+    "shares": 0.467503,
+    "price": 913.1099853515625,
+    "rationale": "EME is a high-quality electrical contractor compounding at 60% p_outperform driven by data-center buildout and infrastructure spending; strong FCF and execution record support the thesis."
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "GMED",
+    "side": "sell",
+    "shares": 35.976002,
+    "price": 76.63999938964844,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "IBKR",
+    "side": "sell",
+    "shares": 15.492565,
+    "price": 87.0,
+    "rationale": "Interactive Brokers held at minimum weight to stay within turnover cap; no shortlist signal but 14-day holding age warrants one more week before forced rotation."
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "META",
+    "side": "sell",
+    "shares": 3.718841,
+    "price": 614.22998046875,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "NEM",
+    "side": "sell",
+    "shares": 1.886518,
+    "price": 109.05999755859375,
+    "rationale": "Newmont at 9.6x forward P/E with 78.6% earnings growth and $9.8B FCF offers leveraged exposure to gold amid 3.9% CPI; 17.8% six-month momentum confirms institutional accumulation."
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "NVDA",
+    "side": "sell",
+    "shares": 2.07659,
+    "price": 225.32000732421875,
+    "rationale": "NVDA remains the highest-conviction AI-compute holding (p=0.62, 180 bps) with dominant data center GPU market share and expanding software/services margins; retained near-full weight under 28-day catalyst protection."
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "RNR",
+    "side": "sell",
+    "shares": 0.967669,
+    "price": 294.2300109863281,
+    "rationale": "RenaissanceRe is a disciplined reinsurer benefiting from sustained pricing strength; p=0.55 with 90 bps expected alpha, retained for hard-market cycle exposure."
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "RRC",
+    "side": "sell",
+    "shares": 23.395339,
+    "price": 42.459999084472656,
+    "rationale": "Range Resources trimmed to minimum weight for turnover management while anchoring the Energy sector; will rotate out next cycle absent a shortlist re-entry."
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "SNX",
+    "side": "sell",
+    "shares": 9.477505,
+    "price": 230.2899932861328,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "STZ",
+    "side": "sell",
+    "shares": 5.952126,
+    "price": 142.35000610351562,
+    "rationale": "Constellation Brands kept at minimum weight (trimmed from 3.9%) to manage turnover; adds Consumer Defensive sector exposure while turnover burn-rate allows a decay exit next cycle."
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "TIGO",
+    "side": "sell",
+    "shares": 24.492119,
+    "price": 79.2699966430664,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "AMG",
+    "side": "buy",
+    "shares": 0.160648,
+    "price": 293.9100036621094,
+    "rationale": "AMG trades at 9.87x forward P/E with 66% ROE and $3.36B FCF; high-conviction alternative asset manager compounder with catalysts in AUM inflows and buybacks."
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "NBIX",
+    "side": "buy",
+    "shares": 0.46097,
+    "price": 158.4199981689453,
+    "rationale": "Neurocrine Biosciences carries the highest alpha estimate (220 bps) among Healthcare names; Ingrezza growth runway plus pipeline diversification at reasonable 62% p_outperform supports continued hold."
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "DUOL",
+    "side": "buy",
+    "shares": 31.392689,
+    "price": 112.05999755859375,
+    "rationale": "Duolingo leads the new-pick composite ranking (score 105.8, p=0.63, +280 bps alpha) with 35% revenue growth, 193% earnings growth, and AI-driven product expansion compounding at 72% gross margins; mean-reversion setup after 40% drawdown."
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "FSLR",
+    "side": "buy",
+    "shares": 10.767282,
+    "price": 233.3699951171875,
+    "rationale": "First Solar at 9.1x forward P/E with 65% earnings growth and 41.7% gross margins; +21.8% one-month momentum signals reversal; IRA manufacturing credits provide structural tailwind for domestic solar economics."
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "PRI",
+    "side": "buy",
+    "shares": 9.165975,
+    "price": 274.1400146484375,
+    "rationale": "Primerica scores p=0.60, 180 bps expected alpha; deeply discounted at 10.7x forward P/E with 31.9% ROE and 12.7% FCF yield, with life insurance distribution and mortgage origination poised to compound as rates ease."
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "CI",
+    "side": "buy",
+    "shares": 7.046687,
+    "price": 285.2699890136719,
+    "rationale": "Cigna at 8.5x forward P/E with $6.9B FCF and 29.1% earnings growth offers managed-care value re-rating; low 0.31 beta provides defensive ballast with catalysts in buybacks and earnings momentum."
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "RDDT",
+    "side": "buy",
+    "shares": 11.120518,
+    "price": 158.1699981689453,
+    "rationale": "Reddit at p=0.56, 180 bps expected alpha represents the only Communication Services position; strong DAU/MAU growth and emerging advertising revenue ramp drive the re-rating thesis."
+  },
+  {
+    "ts": "2026-05-23T01:09:17+00:00",
+    "ticker": "SEIC",
+    "side": "buy",
+    "shares": 22.192629,
+    "price": 90.58000183105469,
+    "rationale": "SEI Investments trades at 13.8x forward P/E with 29.6% ROE and 78.3% gross margins; GARP profile in asset management with 14.8% one-month momentum confirming AUM inflow acceleration."
+  }
+]
