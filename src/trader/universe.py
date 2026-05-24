@@ -64,14 +64,21 @@ def fetch_universe(force: bool = False) -> pd.DataFrame:
     try:
         resp = requests.get(IWB_URL, headers=UA, timeout=30)
         resp.raise_for_status()
+        # Parse BEFORE caching: iShares sometimes returns an HTML page with a 200
+        # status, which raise_for_status() won't catch. Writing it first would
+        # poison today's cache and defeat the fallback below.
+        df = _parse_iwb_csv(resp.content)
         today_path.write_bytes(resp.content)
-        return _parse_iwb_csv(resp.content)
+        return df
     except Exception as exc:  # network, parse, 404 — all recoverable
-        logger.warning("IWB fetch failed (%s); falling back to most recent cache", exc)
+        logger.warning("IWB fetch failed (%s); falling back to most recent good cache", exc)
         snapshots = sorted(settings.universe_dir.glob("iwb_*.csv"))
-        if not snapshots:
-            raise RuntimeError("no IWB cache available and live fetch failed") from exc
-        return _parse_iwb_csv(snapshots[-1].read_bytes())
+        for snap in reversed(snapshots):  # newest first; skip any unparseable snapshot
+            try:
+                return _parse_iwb_csv(snap.read_bytes())
+            except Exception:
+                logger.warning("cached snapshot %s is unparseable; trying older", snap.name)
+        raise RuntimeError("no parseable IWB cache available and live fetch failed") from exc
 
 
 def tickers(df: pd.DataFrame | None = None) -> list[str]:
