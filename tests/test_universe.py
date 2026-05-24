@@ -1,3 +1,5 @@
+import json
+
 from trader import universe
 
 
@@ -42,9 +44,11 @@ class _FakeResp:
 IWB_HTML_200 = b"<!DOCTYPE html>\n<html><head><title>iShares</title></head><body>not csv</body></html>"
 
 
-def test_fetch_universe_html_200_falls_back_without_poisoning_cache(monkeypatch):
+def test_fetch_universe_html_200_falls_back_without_poisoning_cache(monkeypatch, tmp_path):
     """A force-refresh that gets unparseable HTML (HTTP 200) must not cache the
     bad body, and must fall back to the last good snapshot rather than failing."""
+    monkeypatch.setattr(universe.settings, "data_dir", tmp_path)
+    universe.settings.universe_dir.mkdir(parents=True, exist_ok=True)
     good = universe.settings.universe_dir / "iwb_2020-01-01.csv"
     good.write_bytes(SAMPLE_IWB)
 
@@ -59,3 +63,44 @@ def test_fetch_universe_html_200_falls_back_without_poisoning_cache(monkeypatch)
     assert "MSFT" in df["ticker"].values
     # the HTML body must NOT have been written to today's cache file
     assert not universe._cache_path().exists()
+
+
+# The iShares product page now loads holdings client-side from BlackRock's
+# product-data API. The payload is columnar: one parallel formattedValue array
+# per field. fetch_universe() converts it back to the legacy CSV shape.
+FAKE_HOLDINGS_API = {
+    "componentsByNameMap": {
+        "holdings": {
+            "containersByNameMap": {
+                "all": {
+                    "dataPointsByNameMap": {
+                        "ticker": {"formattedValue": ["NVDA", "AAPL", "XCASH"]},
+                        "issueName": {"formattedValue": ["NVIDIA CORP", "APPLE INC", "USD CASH"]},
+                        "sectorName": {"formattedValue": ["Information Technology", "Information Technology", "Cash and/or Derivatives"]},
+                        "assetClass": {"formattedValue": ["Equity", "Equity", "Cash and/or Derivatives"]},
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+def test_fetch_universe_from_ishares_api(monkeypatch, tmp_path):
+    """fetch_universe parses the columnar product-data JSON into tickers, filters
+    non-equity rows, and caches a CSV the fallback can later read."""
+    monkeypatch.setattr(universe.settings, "data_dir", tmp_path)
+    monkeypatch.setattr(
+        universe.requests,
+        "get",
+        lambda *a, **k: _FakeResp(json.dumps(FAKE_HOLDINGS_API).encode("utf-8"), 200),
+    )
+
+    df = universe.fetch_universe(force=True)
+
+    assert "NVDA" in df["ticker"].values
+    assert "AAPL" in df["ticker"].values
+    # the cash row (asset_class != equity) must be filtered out
+    assert "XCASH" not in df["ticker"].values
+    # the validated response was cached as today's snapshot
+    assert universe._cache_path().exists()
