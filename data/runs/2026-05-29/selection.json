@@ -1,0 +1,37 @@
+{
+  "commentary": "Retained 10 positions total: 5 shortlist names within catalyst windows (AMG, DUOL, FSLR, IBKR, RRC) plus 5 forced holds (NVDA, RNR, EME, NEM, NBIX) trimmed 50% each to stay within the 40% one-way turnover cap (computed: 39.1%). Rotated out 5 positions not on the shortlist and with no positive signal: CI (dropped from shortlist), PRI (no shortlist entry), RDDT (no shortlist entry), SEIC (no shortlist entry), and STZ (no shortlist entry). Added 5 new high-conviction shortlist picks: HALO and LRCX tied for the top composite score, KNSL on a beaten-down thesis rebound, plus DECK and FR to satisfy the 8-sector minimum across Consumer Cyclical and Real Estate. Portfolio runs 55% invested with a 45% cash residual driven by the turnover constraint and reduced weights on forced holds.",
+  "picks": [
+    {"ticker": "HALO", "weight": 0.060, "sector": "Healthcare", "rationale": "ENHANZE royalty engine compounding revenue at 51.6% YoY at just 6.5x forward PE; tied for highest composite score at p_outperform=0.60, conviction=0.52, alpha=220 bps."},
+    {"ticker": "LRCX", "weight": 0.055, "sector": "Technology", "rationale": "Semis equipment leader with 106% 6-month momentum on AI capex supercycle; 23.8% revenue growth and 66.8% ROE confirm quality behind the price action at p_outperform=0.60."},
+    {"ticker": "DUOL", "weight": 0.055, "sector": "Technology", "rationale": "AI-driven EdTech compounder at 13.1x forward PE with 35% revenue growth and 194% earnings growth; retained within 28-day catalyst window (age=6d) at p_outperform=0.57."},
+    {"ticker": "KNSL", "weight": 0.045, "sector": "Financial Services", "rationale": "Best-in-class E&S specialty insurer with 29.7% ROE and 27.4% earnings growth; 18% 6-month pullback creates entry at 15x forward PE with p_outperform=0.58, conviction=0.52."},
+    {"ticker": "NVDA", "weight": 0.040, "sector": "Technology", "rationale": "Forced hold at 50% trim from current weight (4.0%) to comply with max 40% one-way turnover cap; not on current shortlist but retained as size reduction vs full liquidation."},
+    {"ticker": "FSLR", "weight": 0.040, "sector": "Technology", "rationale": "US-made solar beneficiary with 60.9% 1-month momentum on tariff tailwinds and 9.1x forward PE; retained within 28-day catalyst window (age=6d) at p_outperform=0.54."},
+    {"ticker": "AMG", "weight": 0.038, "sector": "Financial Services", "rationale": "Deep-value asset manager at 7.8x forward PE with 122% earnings growth and $450M FCF; retained within 28-day catalyst window (age=6d) at p_outperform=0.57."},
+    {"ticker": "DECK", "weight": 0.035, "sector": "Consumer Cyclical", "rationale": "Quality footwear compounder with 39.7% ROE at 13.7x forward PE; Consumer Cyclical sector diversifier required for 8-sector minimum at p_outperform=0.57."},
+    {"ticker": "IBKR", "weight": 0.035, "sector": "Financial Services", "rationale": "Best-in-class brokerage with 93% gross margins and 22.9% earnings growth compounding on structural account growth; retained within catalyst window (age=21d) at p_outperform=0.60."},
+    {"ticker": "RNR", "weight": 0.033, "sector": "Financial Services", "rationale": "Forced hold at 50% trim from current weight (3.3%) to comply with max 40% one-way turnover cap; not on current shortlist but retained as size reduction vs full liquidation."},
+    {"ticker": "EME", "weight": 0.029, "sector": "Industrials", "rationale": "Forced hold at 50% trim from current weight (2.9%) to comply with max 40% one-way turnover cap; Industrials sector coverage adds sector diversity to the portfolio."},
+    {"ticker": "NEM", "weight": 0.028, "sector": "Basic Materials", "rationale": "Forced hold at 50% trim from current weight (2.8%) to comply with max 40% one-way turnover cap; Basic Materials sector coverage retained as size reduction."},
+    {"ticker": "NBIX", "weight": 0.027, "sector": "Healthcare", "rationale": "Forced hold at 50% trim from current weight (2.7%) to comply with max 40% one-way turnover cap; neuroscience pharma retained as size reduction vs full liquidation."},
+    {"ticker": "RRC", "weight": 0.020, "sector": "Energy", "rationale": "Low-cost natural gas producer at 8.8x forward PE with 261% earnings growth; retained within 28-day catalyst window (age=21d) at p_outperform=0.52, trimmed to minimum weight."},
+    {"ticker": "FR", "weight": 0.010, "sector": "Real Estate", "rationale": "Industrial REIT with 17% 6-month momentum and 3.22% dividend; Real Estate sector diversifier required for 8-sector minimum at minimum allocation weight."}
+  ],
+  "rationales": {
+    "HALO": "ENHANZE royalty engine compounding revenue at 51.6% YoY at just 6.5x forward PE; tied for highest composite score at p_outperform=0.60, conviction=0.52, alpha=220 bps.",
+    "LRCX": "Semis equipment leader with 106% 6-month momentum on AI capex supercycle; 23.8% revenue growth and 66.8% ROE confirm quality behind the price action at p_outperform=0.60.",
+    "DUOL": "AI-driven EdTech compounder at 13.1x forward PE with 35% revenue growth and 194% earnings growth; retained within 28-day catalyst window (age=6d) at p_outperform=0.57.",
+    "KNSL": "Best-in-class E&S specialty insurer with 29.7% ROE and 27.4% earnings growth; 18% 6-month pullback creates entry at 15x forward PE with p_outperform=0.58, conviction=0.52.",
+    "NVDA": "Forced hold at 50% trim from current weight (4.0%) to comply with max 40% one-way turnover cap; not on current shortlist but retained as size reduction vs full liquidation.",
+    "FSLR": "US-made solar beneficiary with 60.9% 1-month momentum on tariff tailwinds and 9.1x forward PE; retained within 28-day catalyst window (age=6d) at p_outperform=0.54.",
+    "AMG": "Deep-value asset manager at 7.8x forward PE with 122% earnings growth and $450M FCF; retained within 28-day catalyst window (age=6d) at p_outperform=0.57.",
+    "DECK": "Quality footwear compounder with 39.7% ROE at 13.7x forward PE; Consumer Cyclical sector diversifier required for 8-sector minimum at p_outperform=0.57.",
+    "IBKR": "Best-in-class brokerage with 93% gross margins and 22.9% earnings growth compounding on structural account growth; retained within catalyst window (age=21d) at p_outperform=0.60.",
+    "RNR": "Forced hold at 50% trim from current weight (3.3%) to comply with max 40% one-way turnover cap; not on current shortlist but retained as size reduction vs full liquidation.",
+    "EME": "Forced hold at 50% trim from current weight (2.9%) to comply with max 40% one-way turnover cap; Industrials sector coverage adds sector diversity to the portfolio.",
+    "NEM": "Forced hold at 50% trim from current weight (2.8%) to comply with max 40% one-way turnover cap; Basic Materials sector coverage retained as size reduction.",
+    "NBIX": "Forced hold at 50% trim from current weight (2.7%) to comply with max 40% one-way turnover cap; neuroscience pharma retained as size reduction vs full liquidation.",
+    "RRC": "Low-cost natural gas producer at 8.8x forward PE with 261% earnings growth; retained within 28-day catalyst window (age=21d) at p_outperform=0.52, trimmed to minimum weight.",
+    "FR": "Industrial REIT with 17% 6-month momentum and 3.22% dividend; Real Estate sector diversifier required for 8-sector minimum at minimum allocation weight."
+  }
+}

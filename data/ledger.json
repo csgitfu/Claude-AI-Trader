@@ -1,5 +1,5 @@
 {
-  "cash": 13870.4373,
+  "cash": 22636.0192,
   "nav_history": [
     {
       "cash": 50000.0,
@@ -160,113 +160,121 @@
       "nav": 50302.265274135716,
       "spy": 756.47998046875,
       "stale": []
+    },
+    {
+      "cash": 22636.0192,
+      "date": "2026-05-30",
+      "equity": 27666.246052670675,
+      "nav": 50302.26525267067,
+      "spy": 756.47998046875,
+      "stale": []
     }
   ],
   "positions": {
     "AMG": {
       "avg_cost": 300.959661637839,
       "last_close": 302.8500061035156,
-      "last_close_date": "2026-05-29",
+      "last_close_date": "2026-05-30",
       "sector": "Financial Services",
-      "shares": 7.694479
+      "shares": 6.311659000000001
     },
-    "CI": {
-      "avg_cost": 285.2699890136719,
-      "last_close": 277.3999938964844,
-      "last_close_date": "2026-05-29",
-      "sector": "Healthcare",
-      "shares": 7.046687
+    "DECK": {
+      "avg_cost": 106.66999816894531,
+      "last_close": 106.66999816894531,
+      "last_close_date": "2026-05-30",
+      "sector": "Consumer Cyclical",
+      "shares": 16.504915
     },
     "DUOL": {
       "avg_cost": 112.05999755859375,
       "last_close": 111.36000061035156,
-      "last_close_date": "2026-05-29",
+      "last_close_date": "2026-05-30",
       "sector": "Technology",
-      "shares": 31.392689
+      "shares": 24.843971
     },
     "EME": {
       "avg_cost": 863.780029296875,
       "last_close": 826.8200073242188,
-      "last_close_date": "2026-05-29",
+      "last_close_date": "2026-05-30",
       "sector": "Industrials",
-      "shares": 3.577432
+      "shares": 1.764309
+    },
+    "FR": {
+      "avg_cost": 63.279998779296875,
+      "last_close": 63.279998779296875,
+      "last_close_date": "2026-05-30",
+      "sector": "Real Estate",
+      "shares": 7.949157
     },
     "FSLR": {
       "avg_cost": 233.3699951171875,
       "last_close": 306.7900085449219,
-      "last_close_date": "2026-05-29",
+      "last_close_date": "2026-05-30",
       "sector": "Technology",
-      "shares": 10.767282
+      "shares": 6.558527
+    },
+    "HALO": {
+      "avg_cost": 68.31999969482422,
+      "last_close": 68.31999969482422,
+      "last_close_date": "2026-05-30",
+      "sector": "Healthcare",
+      "shares": 44.176463
     },
     "IBKR": {
-      "avg_cost": 84.20500183105469,
+      "avg_cost": 84.99752960628359,
       "last_close": 86.97000122070312,
-      "last_close_date": "2026-05-29",
+      "last_close_date": "2026-05-30",
       "sector": "Financial Services",
-      "shares": 14.441152
+      "shares": 20.243524
+    },
+    "KNSL": {
+      "avg_cost": 310.19000244140625,
+      "last_close": 310.19000244140625,
+      "last_close_date": "2026-05-30",
+      "sector": "Financial Services",
+      "shares": 7.297469
+    },
+    "LRCX": {
+      "avg_cost": 305.3500061035156,
+      "last_close": 305.3500061035156,
+      "last_close_date": "2026-05-30",
+      "sector": "Technology",
+      "shares": 9.060503
     },
     "NBIX": {
       "avg_cost": 151.40402495821425,
       "last_close": 158.3000030517578,
-      "last_close_date": "2026-05-29",
+      "last_close_date": "2026-05-30",
       "sector": "Healthcare",
-      "shares": 17.130295
+      "shares": 8.579666
     },
     "NEM": {
       "avg_cost": 109.9000015258789,
       "last_close": 109.80999755859375,
-      "last_close_date": "2026-05-29",
+      "last_close_date": "2026-05-30",
       "sector": "Basic Materials",
-      "shares": 25.344183
+      "shares": 12.826368
     },
     "NVDA": {
       "avg_cost": 213.1699981689453,
       "last_close": 211.13999938964844,
-      "last_close_date": "2026-05-29",
+      "last_close_date": "2026-05-30",
       "sector": "Technology",
-      "shares": 18.958338
-    },
-    "PRI": {
-      "avg_cost": 274.1400146484375,
-      "last_close": 269.9700012207031,
-      "last_close_date": "2026-05-29",
-      "sector": "Financial Services",
-      "shares": 9.165975
-    },
-    "RDDT": {
-      "avg_cost": 158.1699981689453,
-      "last_close": 176.0,
-      "last_close_date": "2026-05-29",
-      "sector": "Communication Services",
-      "shares": 11.120518
+      "shares": 9.529651000000001
     },
     "RNR": {
       "avg_cost": 310.5735025949003,
       "last_close": 280.3500061035156,
-      "last_close_date": "2026-05-29",
+      "last_close_date": "2026-05-30",
       "sector": "Financial Services",
-      "shares": 11.956171999999999
+      "shares": 5.921079999999999
     },
     "RRC": {
-      "avg_cost": 42.91665454060252,
+      "avg_cost": 42.58534323969823,
       "last_close": 38.95000076293945,
-      "last_close_date": "2026-05-29",
+      "last_close_date": "2026-05-30",
       "sector": "Energy",
-      "shares": 23.67179
-    },
-    "SEIC": {
-      "avg_cost": 90.58000183105469,
-      "last_close": 87.87999725341797,
-      "last_close_date": "2026-05-29",
-      "sector": "Financial Services",
-      "shares": 22.192629
-    },
-    "STZ": {
-      "avg_cost": 155.3006871315186,
-      "last_close": 138.82000732421875,
-      "last_close_date": "2026-05-29",
-      "sector": "Consumer Defensive",
-      "shares": 7.060795000000001
+      "shares": 25.829147000000003
     }
   },
   "starting_nav": 50000.0,
@@ -718,6 +726,166 @@
       "side": "buy",
       "ticker": "SEIC",
       "ts": "2026-05-23T01:09:17+00:00"
+    },
+    {
+      "price": 302.8500061035156,
+      "rationale": "Deep-value asset manager at 7.8x forward PE with 122% earnings growth and $450M FCF; retained within 28-day catalyst window (age=6d) at p_outperform=0.57.",
+      "shares": 1.38282,
+      "side": "sell",
+      "ticker": "AMG",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 277.3999938964844,
+      "rationale": "rebalance",
+      "shares": 7.046687,
+      "side": "sell",
+      "ticker": "CI",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 111.36000061035156,
+      "rationale": "AI-driven EdTech compounder at 13.1x forward PE with 35% revenue growth and 194% earnings growth; retained within 28-day catalyst window (age=6d) at p_outperform=0.57.",
+      "shares": 6.548718,
+      "side": "sell",
+      "ticker": "DUOL",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 826.8200073242188,
+      "rationale": "Forced hold at 50% trim from current weight (2.9%) to comply with max 40% one-way turnover cap; Industrials sector coverage adds sector diversity to the portfolio.",
+      "shares": 1.813123,
+      "side": "sell",
+      "ticker": "EME",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 306.7900085449219,
+      "rationale": "US-made solar beneficiary with 60.9% 1-month momentum on tariff tailwinds and 9.1x forward PE; retained within 28-day catalyst window (age=6d) at p_outperform=0.54.",
+      "shares": 4.208755,
+      "side": "sell",
+      "ticker": "FSLR",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 158.3000030517578,
+      "rationale": "Forced hold at 50% trim from current weight (2.7%) to comply with max 40% one-way turnover cap; neuroscience pharma retained as size reduction vs full liquidation.",
+      "shares": 8.550629,
+      "side": "sell",
+      "ticker": "NBIX",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 109.80999755859375,
+      "rationale": "Forced hold at 50% trim from current weight (2.8%) to comply with max 40% one-way turnover cap; Basic Materials sector coverage retained as size reduction.",
+      "shares": 12.517815,
+      "side": "sell",
+      "ticker": "NEM",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 211.13999938964844,
+      "rationale": "Forced hold at 50% trim from current weight (4.0%) to comply with max 40% one-way turnover cap; not on current shortlist but retained as size reduction vs full liquidation.",
+      "shares": 9.428687,
+      "side": "sell",
+      "ticker": "NVDA",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 269.9700012207031,
+      "rationale": "rebalance",
+      "shares": 9.165975,
+      "side": "sell",
+      "ticker": "PRI",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 176.0,
+      "rationale": "rebalance",
+      "shares": 11.120518,
+      "side": "sell",
+      "ticker": "RDDT",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 280.3500061035156,
+      "rationale": "Forced hold at 50% trim from current weight (3.3%) to comply with max 40% one-way turnover cap; not on current shortlist but retained as size reduction vs full liquidation.",
+      "shares": 6.035092,
+      "side": "sell",
+      "ticker": "RNR",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 87.87999725341797,
+      "rationale": "rebalance",
+      "shares": 22.192629,
+      "side": "sell",
+      "ticker": "SEIC",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 138.82000732421875,
+      "rationale": "rebalance",
+      "shares": 7.060795,
+      "side": "sell",
+      "ticker": "STZ",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 68.31999969482422,
+      "rationale": "ENHANZE royalty engine compounding revenue at 51.6% YoY at just 6.5x forward PE; tied for highest composite score at p_outperform=0.60, conviction=0.52, alpha=220 bps.",
+      "shares": 44.176463,
+      "side": "buy",
+      "ticker": "HALO",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 305.3500061035156,
+      "rationale": "Semis equipment leader with 106% 6-month momentum on AI capex supercycle; 23.8% revenue growth and 66.8% ROE confirm quality behind the price action at p_outperform=0.60.",
+      "shares": 9.060503,
+      "side": "buy",
+      "ticker": "LRCX",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 310.19000244140625,
+      "rationale": "Best-in-class E&S specialty insurer with 29.7% ROE and 27.4% earnings growth; 18% 6-month pullback creates entry at 15x forward PE with p_outperform=0.58, conviction=0.52.",
+      "shares": 7.297469,
+      "side": "buy",
+      "ticker": "KNSL",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 106.66999816894531,
+      "rationale": "Quality footwear compounder with 39.7% ROE at 13.7x forward PE; Consumer Cyclical sector diversifier required for 8-sector minimum at p_outperform=0.57.",
+      "shares": 16.504915,
+      "side": "buy",
+      "ticker": "DECK",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 86.97000122070312,
+      "rationale": "Best-in-class brokerage with 93% gross margins and 22.9% earnings growth compounding on structural account growth; retained within catalyst window (age=21d) at p_outperform=0.60.",
+      "shares": 5.802372,
+      "side": "buy",
+      "ticker": "IBKR",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 38.95000076293945,
+      "rationale": "Low-cost natural gas producer at 8.8x forward PE with 261% earnings growth; retained within 28-day catalyst window (age=21d) at p_outperform=0.52, trimmed to minimum weight.",
+      "shares": 2.157357,
+      "side": "buy",
+      "ticker": "RRC",
+      "ts": "2026-05-30T01:05:07+00:00"
+    },
+    {
+      "price": 63.279998779296875,
+      "rationale": "Industrial REIT with 17% 6-month momentum and 3.22% dividend; Real Estate sector diversifier required for 8-sector minimum at minimum allocation weight.",
+      "shares": 7.949157,
+      "side": "buy",
+      "ticker": "FR",
+      "ts": "2026-05-30T01:05:07+00:00"
     }
   ]
 }
