@@ -1,0 +1,711 @@
+{
+  "market": [
+    {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq fall as oil rises amid US-Iran uncertainty - Yahoo Finance",
+      "publisher": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQaDhLY0hVWDhqclZPOVdGbGRzUGkzWG8zaDlDYmlhXzNGOHVvcmFyNmlBQXhTV0NBTFpRR3N5dGJyNVJvZzhLS1E0TnBHdkE2eVlnbG1yWUhPdjVHSFlKdmFlRzdydVlWZFlMUWhaNjNWTWZnVTFOanY0d0ZTYVVqQjVfNXF5WVFOVHNCa0o4X040cml6Nm91Sl9YdTJIODdnODlCLUJWaXd5WjJVYkVxSF9jQU1mbThOMlpVV0I0dkJEVXgwbXB5TEhBMkg2UQ?oc=5"
+    },
+    {
+      "title": "Stock market today: Dow ends 620 points lower, Nasdaq drops and S&P 500 snaps 9-day win streak as tech wobbles, oil climbs to highest level in more than a week - MarketWatch",
+      "publisher": "MarketWatch",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNVByNWpTeG9nWTFwM29VZDFsZ2lNSFNsX1lwMEIzUXpHam9DZ3FjSE1JbmZyckJEdjZLMG14cm5RUEN0WmptNVk4TXFZb3VqT1oxU3hPeURxbEFuVkJDVUdLelQ5b1BOWDJaYUV3UkZkLTlvbTlfcElUVHVxYlRpZ1VfQmlZeUo4dHNRV2pwZmY0SnVEM3VmRHZDaUlQNGE1bWZEekU3VDdOb3JFbkotY3FJNXlYbTNlNVEyaklFcnpFcmoyQkpHSndaSDZLdw?oc=5"
+    },
+    {
+      "title": "Stock Market Takes A Breather By Breaking Win Streak; Will Microsoft Surpass This Chart Hurdle? - Investor's Business Daily",
+      "publisher": "Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNXNIdGF0amdZOVpOakdYSmI0WkRjYmExbHRsazdYeHo0NThYWVg3bjNVLWtXZzl0VHV1aVhYRGhWQ0Ric00yTENHVjBMMXZUUnJlUVpTR0ZNOVh5cS1pTUpMOG9lSmY2LXdYRE1BNk9pVXFENllsR1drNVd0dUtNT0oyUW1fT1kwSWhIYWJyV1JWR2N3SktnUE9Mak40SDJrUlpGbVdaNjZJRzVjLU13NWpURjhqbEY5X0dMVElKdWRGRXdscXkxY2d0YkhqV2RDWlNLNk8zYXBJMzBDOEt3ZA?oc=5"
+    },
+    {
+      "title": "SpaceX says its worth $1.75tn as it nears stock market debut - BBC",
+      "publisher": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rcWJzci00Ri1INjhqZ1ctbGZpWHpyRzZfTGZQZ2tYbE50SVFuTnN4NS1OUEVDdkZRTC1XdDFuNnlwQk50c21jMXdyUVFRZkdNT2syMVVsWEtQdw?oc=5"
+    },
+    {
+      "title": "US Stock Market Outlook Update: Harvesting Growth Gains, Restoring Barbell - Morningstar",
+      "publisher": "Morningstar",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORTNFM05XMXNWUUZkNzd3YWdyTE9XOURuS0psbl90aXQ0V1BHU0ZKWXl0VXlwTDVtdDhxVmdEalRwS2tCbGtQNHBRVW5TZzltbFZOc0lDM2tkNVZEM0U2MnNEcklvbXdCaXlZT2ZPcmdYWnZ0MVV4LUU2VWh6Z0pHTkQ2SjZ0WUFIVzBrZFFsQzNhUTVQMUlHNWNrMXZZdExndmFkUDYzQVZrZDg?oc=5"
+    },
+    {
+      "title": "South Korea Overtakes India as World\u2019s Sixth-Largest Stock Market - Bloomberg.com",
+      "publisher": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSE52MEVnQ1B0cFk5VnRXMDBjMF96cDZpR2ZFSVlyT05Lcmtac3NvRGRYVjZKWHFmR01JT21JUmRyb2VkN1FEck5oQTdQNmRraHU3SGlya3VCRmtkX0JqcUV5azh5THhDT3Z3S2QyeFpMOUpIem9sMEJoRlNTQU5NQzhRSERSam55dGk1eFczODFkcUdXamtzVnNPZ0VIWHJHbmgwUUQwc1JPNDhBSjl2T093?oc=5"
+    },
+    {
+      "title": "Trump Turns From Iran to Tariffs as Stock Market\u2019s Record Rally Faces Test - Barron's",
+      "publisher": "Barron's",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYUFucjdMWmdsbV9sdXlDcjExdmlLd3llZW5rSk45NFcxOTgxbnR5NnZ5SkhBZ0xuSGZJM2hFNnlqdGs0YnNJcDdzRXlyY3l6YXAtdmM3ZGd2MEJzaVpmaTgzYXZLR091blhCYnFUY3h4VEN6LW0yV2lfS0owWnlsNGlCNzF5dDFG?oc=5"
+    },
+    {
+      "title": "CNBC Anchor Issues Dire Stock Market Warning: \u201cI Can Assure You\u2026 We Will Have a Crash\u201d - 24/7 Wall St.",
+      "publisher": "24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUnJPbC0xWHBZTVVHVkRuckRXQlZvajk1ckloMHY5ZUY5RkE0N1JVZ3ZUOHdmRUYwSlVlSGJWUTB5M2tIcllzc2VNQTI1MjdDYTRVS2hyMHFxYzE3ck94b0FzQUdzeC0yZllWejNodXJkd1BtS2dXS3pfQnExM3lFYl84UDhPM1BTc2QtVXNVR1Fsb09nZUpibHR4S2RGV0FNd2trV3RKdkkweWtLejNQbVVzSXV5RFo4TzBKOEZYbnUtLTVE?oc=5"
+    },
+    {
+      "title": "US stock options watchers warn Wall Street's rally 'ripe for volatility spasms' - Reuters",
+      "publisher": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUkNkVC1SMmRZQXI1Q3E1a0ozWmM1NGFvOGJsY1pFdG5MSkFfOXBFN0JEVkx4Q0s5N29xMVhXa05OWlZxRXV2Z29MOHB3YUlIV1NDbDN2UFRlVlZybFNIOUNaWVhFN0FMd0swblBMbnBjYTBkeEU3aTBRWnFnSXlpVmdUY0czazRDUHdsdGtaNXk1LXlUTkFONmhEeVUyTTVoa042LUJWLVgxMTVMVjRHSjRWdmloQTd5Q1BQYkNCYnc?oc=5"
+    },
+    {
+      "title": "America\u2019s stock market is surging, but it\u2019s still all about AI - CNN",
+      "publisher": "CNN",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE02ZmVLRTNRaGtjWDU0ODNmcG5mTnhzelZPb3MtWWd2eU0wbWVBVDRvcnk1eFVOTjBDVkNhWUdBdG1tVkdoWEpCcVBCQlVwVmdHNkhGN0RDMWlDbHFPYmFEQkRwODUwQW5halRPY0JRUQ?oc=5"
+    },
+    {
+      "title": "Stock market is exhibiting \u2018late stage bull market behavior,\u2019 investor says - Fox Business",
+      "publisher": "Fox Business",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EV3NpT080cklWODVkRmt5djJHTERkSGRac3hXSDdMa3VYMGdLQmdrVWlDa0EzLXc3SThmQ3NFV2RKT0MwS1dybHVHRFpvMnNXSWRaUURBLW42Mzg?oc=5"
+    },
+    {
+      "title": "Japan\u2019s stock market hits new record as AI boom gathers steam - Al Jazeera",
+      "publisher": "Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdW1CX0thdWpoXzhJWHhNX2x1V3lQVGh4MmRlb21jWnZpcXZPSnRuQXZTQUZ2RnlCajJETVp4U1lqc2R2WTFadC1xam9GNU1pNVFBb1N6bjE4X3ZyaXlXME1sVlRscHR4VGVJNk9MS0hKUmlMS2hKYlNaMVJvbEp6ZUVQLXJ5M3NINXRpdmV0VnpIZVpYTzNUT0hDMmxsSEFSaVA5NUZB0gGrAUFVX3lxTE5GWnZHSXFmRjVCbWMzUjlublN3ZmFqYXU2WDI4Z3hjaTZCU0xyQWx1NmoycEdhZEhiVHB3MTlFUTdsSnFsSG9zcllpTnFGSkdkUmk0Z3I5cVJnaGI4STgtWVIyc2tCbjY5NlFUVU13dFprbHZBQVNKU3lMd0ppQV8xTmJkUzBmaHFDOWF5MWNIMjhOV3lGbjZRVTJ0eXpHLTlOSS1FM3gzLXJ6SQ?oc=5"
+    },
+    {
+      "title": "Stock Market Today: Stock Market News And Analysis - Investor's Business Daily",
+      "publisher": "Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zdGl1MmxTM2JJa2pLNlFSWVhuZUd1ekRIeVpDcGVqckVJcloxaWlnRHJ3b0hqb291NXk4dlo0SmRQNlhDaGpubDh6ZWNTUHZiYVhjOVJINUxSYXE0NHRiNVE2OW51R2h4N1daaXRIdzVBR1UxT0g4?oc=5"
+    },
+    {
+      "title": "5 Things to Know Before the Stock Market Opens - Investopedia",
+      "publisher": "Investopedia",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSjdrNFhYa2VTUHRKYTRXOG5XNmdNNWdSWHNqOU5vSG1MVldiZ1VDNjVFQmVuUzFRcDRtWWNJLV9qZ2FETW9zZ3RxNnNFQlBJVHd5NV8xbWVRN0Faa2NXeWdPMGpCcEloRlEySS10Rm0zejNDR2lBWGdMbGNyRUVOdlZqR2VVUG9sNmx1Wnk5RUVsR2Zwbm84UTg0OFI?oc=5"
+    },
+    {
+      "title": "The Dow's win streak, Macy's earnings, Trump signs AI order and more in Morning Squawk - CNBC",
+      "publisher": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQekd3OFNfQ1NLYktiam85RFp0M01NakJaNGlxeFVOS2x1SFF2RjR1S2NINHZUVkNqTFdGbUxONjA4bWdNQkdEbkZPeEVyZUp2ZkdIa1phc3h2cnhIRVpjNHVpRldTeFAwX1B5LUVlZlluM0k5eUJUcFhqcWNUakdpcXUwZ2plR2VDbmIw0gGQAUFVX3lxTE1YMmhxOFV0V3hkRjI5U1ljZEJoUXkzbno3OVZfekJMY1k3YU1TM0NJMk5NQzJhYWVldVN6a2JLMHRWVXkwTWdtb0YyNkVkeU8yTjBxLUNNWWJ2cFhDQ0RUalBwSjlqeXBtYWdvM1hvQTdTQ1kya2FrZmJFcHVCZ1dVYzczSGVfdUpoSERBM0lZSQ?oc=5"
+    }
+  ],
+  "tickers": {
+    "AMG": [
+      {
+        "title": "Affiliated Managers Gains 7.7% YTD: Should You Buy the Stock Now?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/affiliated-managers-gains-7-7-130900872.html"
+      },
+      {
+        "title": "Why Affiliated Managers Group (AMG) is a Top Growth Stock for the Long-Term",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-affiliated-managers-group-amg-134505314.html"
+      },
+      {
+        "title": "1 Financials Stock with Exciting Potential and 2 We Brush Off",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/1-financials-stock-exciting-potential-172051578.html"
+      },
+      {
+        "title": "3 Profitable Stocks for Long-Term Investors",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-profitable-stocks-long-term-141427134.html"
+      },
+      {
+        "title": "Why Affiliated Managers Group (AMG) is a Top Momentum Stock for the Long-Term",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-affiliated-managers-group-amg-135003194.html"
+      },
+      {
+        "title": "A Look At Affiliated Managers Group (AMG) Valuation After Recent Share Price Gains",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/look-affiliated-managers-group-amg-121409208.html"
+      },
+      {
+        "title": "Affiliated Managers Group (AMG): Buy, Sell, or Hold Post Q1 Earnings?",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/affiliated-managers-group-amg-buy-103655254.html"
+      },
+      {
+        "title": "Here's Why Affiliated Managers Group (AMG) is a Strong Value Stock",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-affiliated-managers-group-134003280.html"
+      }
+    ],
+    "CI": [
+      {
+        "title": "5 HMO Stocks in Focus Amid an Aging U.S. Population, Tech Innovation",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/sectors/healthcare/articles/5-hmo-stocks-focus-amid-142200553.html"
+      },
+      {
+        "title": "Exclusive-Cigna drops coverage of GLP-1 obesity drugs for its own employees",
+        "publisher": "Reuters",
+        "link": "https://www.yahoo.com/news/us/articles/exclusive-cigna-drops-coverage-glp-214336202.html"
+      },
+      {
+        "title": "Eli Lilly Wins Back CVS Health, Reverting Novo's Advantage",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/originals/eli-lilly-wins-back-cvs-health-reverting-novos-advantage/?utm_source=yahoofinance&utm_medium=yahoofinance"
+      },
+      {
+        "title": "Cigna Stock: Is CI Underperforming the Healthcare Sector?",
+        "publisher": "Barchart",
+        "link": "https://www.barchart.com/story/news/2259432/cigna-stock-is-ci-underperforming-the-healthcare-sector"
+      },
+      {
+        "title": "Barclays Downgrades Cigna (CI), Flags Risks around PBM Transition",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/barclays-downgrades-cigna-ci-flags-144207563.html"
+      },
+      {
+        "title": "Here\u2019s Why Cigna (CI) is Among the 12 Most Undervalued Stocks to Invest In",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-cigna-ci-among-12-053757718.html"
+      },
+      {
+        "title": "3 of Wall Street\u2019s Favorite Stocks on Our Watchlist",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-wall-street-favorite-stocks-210227816.html"
+      },
+      {
+        "title": "Stocks Finish Mostly Higher on Iran Peace Progress",
+        "publisher": "Barchart",
+        "link": "https://www.barchart.com/story/news/2138116/stocks-finish-mostly-higher-on-iran-peace-progress"
+      }
+    ],
+    "DUOL": [
+      {
+        "title": "Duolingo (DUOL) Up 5.7% Since Last Earnings Report: Can It Continue?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/duolingo-duol-5-7-since-153006591.html"
+      },
+      {
+        "title": "Duolingo, Inc. (DUOL) Is a Trending Stock: Facts to Know Before Betting on It",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/duolingo-inc-duol-trending-stock-130004596.html"
+      },
+      {
+        "title": "Duolingo Is One of the Most Interesting AI Plays Nobody's Talking About",
+        "publisher": "Motley Fool",
+        "link": "https://www.fool.com/investing/2026/06/01/duolingo-is-one-of-the-most-interesting-ai-plays/"
+      },
+      {
+        "title": "Does Duolingo\u2019s AI-Driven, User-First Shift Reframe the Bull Case For Duolingo (DUOL)?",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/does-duolingo-ai-driven-user-181619783.html"
+      },
+      {
+        "title": "Duolingo, Inc. (DUOL) is Attracting Investor Attention: Here is What You Should Know",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/duolingo-inc-duol-attracting-investor-130005606.html"
+      },
+      {
+        "title": "I Bought This Growth Stock When Everyone Else Was Selling, and It's Starting to Pay Off",
+        "publisher": "Motley Fool",
+        "link": "https://www.fool.com/investing/2026/05/19/bought-growth-stock-everyone-selling-duolingo/"
+      },
+      {
+        "title": "The Death Of The Billable Hour \u2014 How AI Is Killing Traditional Ad Agency Pricing",
+        "publisher": "Benzinga",
+        "link": "https://finance.yahoo.com/sectors/technology/articles/death-billable-hour-ai-killing-173108182.html"
+      },
+      {
+        "title": "5 Must-Read Analyst Questions From Duolingo\u2019s Q1 Earnings Call",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/5-must-read-analyst-questions-031655036.html"
+      }
+    ],
+    "EME": [
+      {
+        "title": "Will MasTec's Turnkey Strategy Unlock More Data Center Deals?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/mastecs-turnkey-strategy-unlock-more-152700923.html"
+      },
+      {
+        "title": "Sterling and Data Centers: The Integrated Buildout Trade",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sterling-data-centers-integrated-buildout-150700712.html"
+      },
+      {
+        "title": "Should You Buy Sterling Stock After Its 176% YTD Surge?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/buy-sterling-stock-176-ytd-145800026.html"
+      },
+      {
+        "title": "EMCOR Rises 36% in 6 Months: Should Investors Buy the Stock Now?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/emcor-rises-36-6-months-144500404.html"
+      },
+      {
+        "title": "Is EMCOR Group (EME) Stock Outpacing Its Construction Peers This Year?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/emcor-group-eme-stock-outpacing-134004732.html"
+      },
+      {
+        "title": "Wall Street Bulls Look Optimistic About Emcor Group (EME): Should You Buy?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bulls-look-optimistic-133003655.html"
+      },
+      {
+        "title": "Why Sterling's 120% EPS Growth Matters for Investors Now",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-sterlings-120-eps-growth-152700792.html"
+      },
+      {
+        "title": "Can Water Infrastructure Demand Become EMCOR's Next Growth Driver?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/water-infrastructure-demand-become-emcors-134100819.html"
+      }
+    ],
+    "FSLR": [
+      {
+        "title": "Here is What to Know Beyond Why First Solar, Inc. (FSLR) is a Trending Stock",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-first-solar-130005972.html"
+      },
+      {
+        "title": "Selling US$8.5m Of First Solar Stock Rewarded Insiders",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/selling-us-8-5m-first-110015123.html"
+      },
+      {
+        "title": "Record Sales Lift First Solar Shares",
+        "publisher": "FX Empire",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/record-sales-lift-first-solar-105923732.html"
+      },
+      {
+        "title": "Sheikh Ahmed Dalmook Al Maktoum\u2019s Inm\u0101 Emirates Holdings Launches Grant Program To Help Scale Climate Resilience Ventures",
+        "publisher": "Exec Edge",
+        "link": "https://finance.yahoo.com/sectors/energy/articles/sheikh-ahmed-dalmook-al-maktoum-143105961.html"
+      },
+      {
+        "title": "MIT bullish on its Initiative for New Manufacturing at the one-year mark",
+        "publisher": "Manufacturing Dive",
+        "link": "https://www.manufacturingdive.com/news/mit-bullish-on-initiative-for-new-manufacturing-at-one-year-mark/821521/"
+      },
+      {
+        "title": "GLJ Research Upgrades First Solar (FSLR) to Buy",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/glj-research-upgrades-first-solar-082454594.html"
+      },
+      {
+        "title": "Assessing First Solar (FSLR) Valuation After A Powerful Multi Period Share Price Surge",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/assessing-first-solar-fslr-valuation-080522659.html"
+      },
+      {
+        "title": "Why First Solar Stock Is Soaring This Week",
+        "publisher": "Motley Fool",
+        "link": "https://www.fool.com/investing/2026/05/29/why-first-solar-stock-is-soaring-this-week/"
+      }
+    ],
+    "IBKR": [
+      {
+        "title": "Prediction Markets Will Be the Next Big Thing in Trading, Interactive Brokers Chair Thomas Peterffy Says",
+        "publisher": "Benzinga",
+        "link": "https://finance.yahoo.com/markets/options/articles/prediction-markets-next-big-thing-173111893.html"
+      },
+      {
+        "title": "Interactive Brokers Group, Inc. (IBKR) is Attracting Investor Attention: Here is What You Should Know",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/interactive-brokers-group-inc-ibkr-130003677.html"
+      },
+      {
+        "title": "The Latest in AI Investing: Interactive Brokers Lets Claude Write Trades.",
+        "publisher": "Barrons.com",
+        "link": "https://www.barrons.com/advisor/articles/interactive-brokers-claude-integration-agentic-trading-1fc2596b?siteid=yhoof2&yptr=yahoo"
+      },
+      {
+        "title": "Coinbase Global to Unlock U.S. Crypto Derivatives Opportunity?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/coinbase-global-unlock-u-crypto-164400280.html"
+      },
+      {
+        "title": "IBKR's New Accounts Rise in May: Is Trading Momentum Fueling Growth?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/ibkrs-accounts-rise-may-trading-135400078.html"
+      },
+      {
+        "title": "IBKR Deepens AI Push With Claude Integration & Smart Tools",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/sectors/technology/articles/ibkr-deepens-ai-push-claude-130200481.html"
+      },
+      {
+        "title": "House of Doge and Paxos Partner to Expand Regulated Access to Dogecoin",
+        "publisher": "CryptoProwl",
+        "link": "https://www.cryptoprowl.com/releases/house-of-doge-and-paxos-partner-to-expand-regulated-access-to-dogecoin-5728"
+      },
+      {
+        "title": "Why Interactive Brokers (IBKR) Is Up 6.9% After Upgraded Double-Digit Quarterly Earnings Forecasts \u2013 And What's Next",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-interactive-brokers-ibkr-6-091151934.html"
+      }
+    ],
+    "NBIX": [
+      {
+        "title": "Dow Jones Futures: Broadcom, CrowdStrike Dive On Earnings; SpaceX IPO Price Target Set",
+        "publisher": "Investor's Business Daily",
+        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-broadcom-crowdstrike-earnings-spacex-ipo-price-target/?src=A00220&yptr=yahoo"
+      },
+      {
+        "title": "Meta Platforms upgraded, Okta downgraded: Wall Street's top analyst calls",
+        "publisher": "The Fly",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-upgraded-okta-downgraded-134312557.html"
+      },
+      {
+        "title": "Centene, Deckers and 14 Other \u2018Dividend Hopefuls\u2019",
+        "publisher": "Barrons.com",
+        "link": "https://www.barrons.com/articles/centene-deckers-dividend-stock-d6e1d9c2?siteid=yhoof2&yptr=yahoo"
+      },
+      {
+        "title": "Neurocrine Biosciences Should See More Upside on Crenessity Growth, RBC Says",
+        "publisher": "MT Newswires",
+        "link": "https://finance.yahoo.com/sectors/healthcare/articles/neurocrine-biosciences-see-more-upside-162104666.html"
+      },
+      {
+        "title": "US High Growth Tech Stocks To Watch Now",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/us-high-growth-tech-stocks-113835871.html"
+      },
+      {
+        "title": "Bernstein Initiates Coverage of Neurocrine Biosciences (NBIX) with Outperform",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/sectors/healthcare/articles/bernstein-initiates-coverage-neurocrine-biosciences-234901709.html"
+      },
+      {
+        "title": "Will New Real-World INGREZZA (valbenazine) Data in Mild TD Change Neurocrine Biosciences' (NBIX) Narrative",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/sectors/healthcare/articles/real-world-ingrezza-valbenazine-data-081042505.html"
+      },
+      {
+        "title": "A Look At Neurocrine Biosciences (NBIX) Valuation As New INGREZZA Real World Data Gains Attention",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/sectors/healthcare/articles/look-neurocrine-biosciences-nbix-valuation-051303710.html"
+      }
+    ],
+    "NEM": [
+      {
+        "title": "Is It Too Late To Reassess Newmont (NEM) After Its 1 Year 96% Surge?",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/too-reassess-newmont-nem-1-211928459.html"
+      },
+      {
+        "title": "A Look At Newmont (NEM) Valuation As Shares Trade Near Estimated Fair Value",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/look-newmont-nem-valuation-shares-051450148.html"
+      },
+      {
+        "title": "Gold Stocks Are in a Bear Market. The Case For Buying.",
+        "publisher": "Barrons.com",
+        "link": "https://www.barrons.com/articles/gold-mining-stock-price-buy-b3137aa2?siteid=yhoof2&yptr=yahoo"
+      },
+      {
+        "title": "Newmont Corporation (NEM) Is a Trending Stock: Facts to Know Before Betting on It",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/newmont-corporation-nem-trending-stock-130007292.html"
+      },
+      {
+        "title": "This Gold Stock Under $30 Is The Pivot Away From Historically Overvalued Tech",
+        "publisher": "24/7 Wall St.",
+        "link": "https://247wallst.com/investing/2026/06/01/this-gold-stock-under-30-is-the-pivot-away-from-historically-overvalued-tech/"
+      },
+      {
+        "title": "Newmont\u2019s 2025 ESG Reports Inform Safety And Valuation Considerations",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/newmont-2025-esg-reports-inform-020316869.html"
+      },
+      {
+        "title": "Why Newmont Corporation (NEM) Outpaced the Stock Market Today",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-newmont-corporation-nem-outpaced-215002807.html"
+      },
+      {
+        "title": "Barclays Maintains an \u201cOverweight\u201d Rating on Newmont Corporation (NEM)",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/barclays-maintains-overweight-rating-newmont-084808982.html"
+      }
+    ],
+    "NVDA": [
+      {
+        "title": "Marvell stock extends gains after a 32% pop as Nvidia CEO calls chipmaker 'the next trillion-dollar company'",
+        "publisher": "Yahoo Finance",
+        "link": "https://finance.yahoo.com/markets/stocks/article/marvell-stock-extends-gains-after-a-32-pop-as-nvidia-ceo-calls-chipmaker-the-next-trillion-dollar-company-130932583.html"
+      },
+      {
+        "title": "Why ASML Stock Rose 13% in May",
+        "publisher": "Motley Fool",
+        "link": "https://www.fool.com/investing/2026/06/03/why-asml-stock-rose-13-in-may/"
+      },
+      {
+        "title": "Dow Jones Futures: Broadcom, CrowdStrike Dive On Earnings; SpaceX IPO Price Target Set",
+        "publisher": "Investor's Business Daily",
+        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-broadcom-crowdstrike-earnings-spacex-ipo-price-target/?src=A00220&yptr=yahoo"
+      },
+      {
+        "title": "Why Meta Platforms Stock Crushed the Market Today",
+        "publisher": "Motley Fool",
+        "link": "https://www.fool.com/investing/2026/06/03/why-meta-platforms-stock-crushed-the-market-today/"
+      },
+      {
+        "title": "Most Income Investors Have Never Heard of These 3 ETFs Paying Over 10 Percent Monthly",
+        "publisher": "24/7 Wall St.",
+        "link": "https://247wallst.com/investing/2026/06/03/most-income-investors-have-never-heard-of-these-3-etfs-paying-over-10-percent-monthly/"
+      },
+      {
+        "title": "Canopy Growth Just Made a Big Acquisition: Game-Changer -- or Another Misstep?",
+        "publisher": "Motley Fool",
+        "link": "https://www.fool.com/investing/2026/06/03/canopy-growth-just-made-a-big-acquisition-game-cha/"
+      },
+      {
+        "title": "Broadcom's AI Revenue Just Soared 143%. So Why Is the Stock Falling?",
+        "publisher": "Motley Fool",
+        "link": "https://www.fool.com/investing/2026/06/03/broadcom-s-ai-revenue-just-soared-143-so-why-is-the-stock-falling/"
+      },
+      {
+        "title": "Where Will Nike Stock Be in 5 Years?",
+        "publisher": "Motley Fool",
+        "link": "https://www.fool.com/investing/2026/06/03/where-will-stock-stock-be-in-5-years/"
+      }
+    ],
+    "PRI": [
+      {
+        "title": "Zacks Industry Outlook Highlights AIA, Reinsurance Group of America, Primerica and Voya",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-highlights-aia-085700959.html"
+      },
+      {
+        "title": "Primerica (PRI) Q1 2026 Earnings Transcript",
+        "publisher": "Motley Fool",
+        "link": "https://www.fool.com/earnings/call-transcripts/2026/06/01/primerica-pri-q1-2026-earnings-transcript/"
+      },
+      {
+        "title": "5 Life Insurance Stocks to Watch Amid Inflation, Low Interest Rate",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/5-life-insurance-stocks-watch-170400770.html"
+      },
+      {
+        "title": "Primerica (PRI) Valuation Check After Recent Stable Trading And Modest Undervaluation Estimate",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/primerica-pri-valuation-check-recent-200912500.html"
+      },
+      {
+        "title": "SLF Stock Trades at 2.56X Book Value: What Should Investors Know?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/slf-stock-trades-2-56x-161800305.html"
+      },
+      {
+        "title": "BHF Trades Above 200-Day SMA: Time to Buy or Hold the Stock?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/bhf-trades-above-200-day-164100586.html"
+      },
+      {
+        "title": "VOYA Outperforms Industry, Trades Near 52-Week High: Time to Hold?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/voya-outperforms-industry-trades-near-153600637.html"
+      },
+      {
+        "title": "Primerica Q1 Earnings Call Highlights",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/primerica-q1-earnings-call-highlights-2026-05-14/?utm_source=yahoofinance&utm_medium=yahoofinance"
+      }
+    ],
+    "RDDT": [
+      {
+        "title": "'Retirement Is A Pipe Dream,' Says A 35-Year-Old With A Decent Paying Job Who Feels Farther Behind Than Ever",
+        "publisher": "Benzinga",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/retirement-pipe-dream-says-35-203111027.html"
+      },
+      {
+        "title": "Reddit  Surges 43.1% in the Past Year: Buy, Sell, or Hold the Stock?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/reddit-surges-43-1-past-173300895.html"
+      },
+      {
+        "title": "A Boomer Is Astonished That Younger Generations Spend Half Their Income On Rent And Housing. 'We Would Be Up In Arms!'",
+        "publisher": "Benzinga",
+        "link": "https://finance.yahoo.com/economy/articles/boomer-astonished-younger-generations-spend-140107387.html"
+      },
+      {
+        "title": "A Futures Trader Asks, 'What Took Your Trading To The Next Level?' Was There A Breakthrough Or Just Years Of Looking At Charts?",
+        "publisher": "Benzinga",
+        "link": "https://finance.yahoo.com/markets/options/articles/futures-trader-asks-took-trading-131535292.html"
+      },
+      {
+        "title": "Why Reddit (RDDT) Is Up 16.9% After Strong Earnings And New AI Data Partnerships",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-reddit-rddt-16-9-111105786.html"
+      },
+      {
+        "title": "A 39-Year-Old Says 'My Job Is Getting Toxic' And Wonders If A $1.5M Net Worth Is A Big Enough Cushion To Retire Early With Their Spouse",
+        "publisher": "Benzinga",
+        "link": "https://finance.yahoo.com/economy/policy/articles/39-old-says-job-getting-010259366.html"
+      },
+      {
+        "title": "The QCD Move That Turns a $60,000 RMD From a $1.6 Million 401(k) Into Zero Taxable Income at 73",
+        "publisher": "24/7 Wall St.",
+        "link": "https://247wallst.com/personal-finance/2026/06/02/the-qcd-move-that-turns-a-60000-rmd-from-a-1-6-million-401k-into-zero-taxable-income-at-73/"
+      },
+      {
+        "title": "Reddit Expands Partnership With Shopify: Will it Boost Ad Revenue?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/reddit-expands-partnership-shopify-boost-171600475.html"
+      }
+    ],
+    "RNR": [
+      {
+        "title": "Why Is RenaissanceRe (RNR) Down 4.6% Since Last Earnings Report?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-renaissancere-rnr-down-4-153015090.html"
+      },
+      {
+        "title": "NMIH Stock Trading at a Discount to Industry at 1.08X: Time to Hold?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nmih-stock-trading-discount-industry-153000248.html"
+      },
+      {
+        "title": "MKTX Q1 Earnings Beat Estimates on Robust Commission Revenue Growth",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/mktx-q1-earnings-beat-estimates-183700867.html"
+      },
+      {
+        "title": "LNC Q1 Earnings Beat Estimates on Rising Investment Income",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/lnc-q1-earnings-beat-estimates-152900577.html"
+      },
+      {
+        "title": "A Look At RenaissanceRe Holdings (RNR) Valuation After Recent Trading Around $300",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/look-renaissancere-holdings-rnr-valuation-081026995.html"
+      },
+      {
+        "title": "Skyward Specialty Q1 Earnings Beat on Apollo Lift, Premium Growth",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/skyward-specialty-q1-earnings-beat-163100290.html"
+      },
+      {
+        "title": "Blue Owl Capital Q1 Earnings Miss on Lower Net Investment Income",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-capital-q1-earnings-162000925.html"
+      },
+      {
+        "title": "Will Higher Costs Hurt Skyward Specialty's Q1 Earnings?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/higher-costs-hurt-skyward-specialtys-170400859.html"
+      }
+    ],
+    "RRC": [
+      {
+        "title": "3 Stocks Under $50 with Warning Signs",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-under-50-warning-094749557.html"
+      },
+      {
+        "title": "Which Pure-Play Natural Gas Stock Will Dominate Summer 2026? Four Names Ranked",
+        "publisher": "24/7 Wall St.",
+        "link": "https://247wallst.com/investing/2026/05/25/which-pure-play-natural-gas-stock-will-dominate-summer-2026-four-names-ranked/"
+      },
+      {
+        "title": "A Look At Range Resources (RRC) Valuation After Strong Q1 Growth And Cash Returns To Shareholders",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/look-range-resources-rrc-valuation-061440554.html"
+      },
+      {
+        "title": "Why Is Range Resources (RRC) Down 2.7% Since Last Earnings Report?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-range-resources-rrc-down-153008186.html"
+      },
+      {
+        "title": "2 Reasons to Sell RRC and 1 Stock to Buy Instead",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/2-reasons-sell-rrc-1-051655316.html"
+      },
+      {
+        "title": "The Zacks Analyst Blog Highlights Comstock Resources, Range Resources and Gulfport Energy",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/sectors/energy/articles/zacks-analyst-blog-highlights-comstock-131700286.html"
+      },
+      {
+        "title": "Upstream Natural Gas E&P Stocks Q1 Earnings Review: Range Resources (NYSE:RRC) Shines",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/sectors/energy/articles/upstream-natural-gas-e-p-015655531.html"
+      },
+      {
+        "title": "SailingStone Capital Initiates West Fraser Timber Position, According to Recent SEC Filing",
+        "publisher": "Motley Fool",
+        "link": "https://www.fool.com/coverage/filings/2026/05/19/sailingstone-capital-initiates-west-fraser-timber-position-according-to-recent-sec-filing/"
+      }
+    ],
+    "SEIC": [
+      {
+        "title": "Q1 Rundown: SEI Investments (NASDAQ:SEIC) Vs Other Custody Bank Stocks",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/q1-rundown-sei-investments-nasdaq-221533235.html"
+      },
+      {
+        "title": "Affiliated Managers Gains 7.7% YTD: Should You Buy the Stock Now?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/affiliated-managers-gains-7-7-130900872.html"
+      },
+      {
+        "title": "How SEI\u2019s High Yield Bond and CLO ETF Expansion (SEIC) Has Changed Its Investment Story",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sei-high-yield-bond-clo-010333178.html"
+      },
+      {
+        "title": "SEI Investments Is Priced Like a Fund Manager. It Has Become Something Different.",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sei-investments-priced-fund-manager-104802857.html"
+      },
+      {
+        "title": "SEI (SEIC) Down 1.6% Since Last Earnings Report: Can It Rebound?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sei-seic-down-1-6-153011249.html"
+      },
+      {
+        "title": "How The SEI Investments (SEIC) Story Is Shifting With Conflicting Analyst Valuation Targets",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sei-investments-seic-story-shifting-002601955.html"
+      },
+      {
+        "title": "2 Financials Stocks for Long-Term Investors and 1 Facing Challenges",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/2-financials-stocks-long-term-090055852.html"
+      },
+      {
+        "title": "2 Mid-Cap Stocks with Impressive Fundamentals and 1 We Question",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/2-mid-cap-stocks-impressive-205255790.html"
+      }
+    ],
+    "STZ": [
+      {
+        "title": "Morgan Flatley Joins Constellation Brands Board As Marketing Focus Grows",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-flatley-joins-constellation-brands-121429085.html"
+      },
+      {
+        "title": "What to Know About This Fund's $4.8 Million e.l.f. Beauty Exit After a Tough Year",
+        "publisher": "Motley Fool",
+        "link": "https://www.fool.com/coverage/filings/2026/05/29/what-to-know-about-this-fund-s-usd4-8-million-e-l-f-beauty-exit-after-a-tough-year/"
+      },
+      {
+        "title": "Citi Opens \u201cUpside 90-Day Catalyst Watch\u201d on Constellation Brands (STZ)",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/citi-opens-upside-90-day-210422620.html"
+      },
+      {
+        "title": "Greg Abel Is Trying to Break Berkshire Hathaway\u2019s Losing Streak on Airlines with New Delta Stock Bet",
+        "publisher": "Barchart",
+        "link": "https://www.barchart.com/story/news/2159003/greg-abel-is-trying-to-break-berkshire-hathaways-losing-streak-on-airlines-with-new-delta-stock-bet"
+      },
+      {
+        "title": "Constellation Brands Stock: Analyst Estimates & Ratings",
+        "publisher": "Barchart",
+        "link": "https://www.barchart.com/story/news/2115509/constellation-brands-stock-analyst-estimates-ratings"
+      },
+      {
+        "title": "3 Profitable Stocks We Think Twice About",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-profitable-stocks-think-twice-081951204.html"
+      },
+      {
+        "title": "Will Constellation Brands\u2019 (STZ) New McDonald\u2019s CMO Director Reframe Its Consumer Brand Playbook?",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/constellation-brands-stz-mcdonald-cmo-221243734.html"
+      },
+      {
+        "title": "A Look At Constellation Brands (STZ) Valuation After Adding McDonald\u2019s Executive E. Morgan Flatley To Its Board",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/look-constellation-brands-stz-valuation-102344494.html"
+      }
+    ]
+  }
+}
