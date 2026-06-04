@@ -160,111 +160,119 @@
       "nav": 50302.265274135716,
       "spy": 756.47998046875,
       "stale": []
+    },
+    {
+      "cash": 13870.4373,
+      "date": "2026-06-04",
+      "equity": 37037.755284085404,
+      "nav": 50908.1925840854,
+      "spy": 757.0900268554688,
+      "stale": []
     }
   ],
   "positions": {
     "AMG": {
       "avg_cost": 300.959661637839,
-      "last_close": 302.8500061035156,
-      "last_close_date": "2026-05-29",
+      "last_close": 334.82000732421875,
+      "last_close_date": "2026-06-04",
       "sector": "Financial Services",
       "shares": 7.694479
     },
     "CI": {
       "avg_cost": 285.2699890136719,
-      "last_close": 277.3999938964844,
-      "last_close_date": "2026-05-29",
+      "last_close": 280.67999267578125,
+      "last_close_date": "2026-06-04",
       "sector": "Healthcare",
       "shares": 7.046687
     },
     "DUOL": {
       "avg_cost": 112.05999755859375,
-      "last_close": 111.36000061035156,
-      "last_close_date": "2026-05-29",
+      "last_close": 109.1500015258789,
+      "last_close_date": "2026-06-04",
       "sector": "Technology",
       "shares": 31.392689
     },
     "EME": {
       "avg_cost": 863.780029296875,
-      "last_close": 826.8200073242188,
-      "last_close_date": "2026-05-29",
+      "last_close": 845.4299926757812,
+      "last_close_date": "2026-06-04",
       "sector": "Industrials",
       "shares": 3.577432
     },
     "FSLR": {
       "avg_cost": 233.3699951171875,
-      "last_close": 306.7900085449219,
-      "last_close_date": "2026-05-29",
+      "last_close": 314.95001220703125,
+      "last_close_date": "2026-06-04",
       "sector": "Technology",
       "shares": 10.767282
     },
     "IBKR": {
       "avg_cost": 84.20500183105469,
-      "last_close": 86.97000122070312,
-      "last_close_date": "2026-05-29",
+      "last_close": 87.05999755859375,
+      "last_close_date": "2026-06-04",
       "sector": "Financial Services",
       "shares": 14.441152
     },
     "NBIX": {
       "avg_cost": 151.40402495821425,
-      "last_close": 158.3000030517578,
-      "last_close_date": "2026-05-29",
+      "last_close": 167.35000610351562,
+      "last_close_date": "2026-06-04",
       "sector": "Healthcare",
       "shares": 17.130295
     },
     "NEM": {
       "avg_cost": 109.9000015258789,
-      "last_close": 109.80999755859375,
-      "last_close_date": "2026-05-29",
+      "last_close": 108.33000183105469,
+      "last_close_date": "2026-06-04",
       "sector": "Basic Materials",
       "shares": 25.344183
     },
     "NVDA": {
       "avg_cost": 213.1699981689453,
-      "last_close": 211.13999938964844,
-      "last_close_date": "2026-05-29",
+      "last_close": 218.66000366210938,
+      "last_close_date": "2026-06-04",
       "sector": "Technology",
       "shares": 18.958338
     },
     "PRI": {
       "avg_cost": 274.1400146484375,
-      "last_close": 269.9700012207031,
-      "last_close_date": "2026-05-29",
+      "last_close": 257.8699951171875,
+      "last_close_date": "2026-06-04",
       "sector": "Financial Services",
       "shares": 9.165975
     },
     "RDDT": {
       "avg_cost": 158.1699981689453,
-      "last_close": 176.0,
-      "last_close_date": "2026-05-29",
+      "last_close": 183.91000366210938,
+      "last_close_date": "2026-06-04",
       "sector": "Communication Services",
       "shares": 11.120518
     },
     "RNR": {
       "avg_cost": 310.5735025949003,
-      "last_close": 280.3500061035156,
-      "last_close_date": "2026-05-29",
+      "last_close": 277.7300109863281,
+      "last_close_date": "2026-06-04",
       "sector": "Financial Services",
       "shares": 11.956171999999999
     },
     "RRC": {
       "avg_cost": 42.91665454060252,
-      "last_close": 38.95000076293945,
-      "last_close_date": "2026-05-29",
+      "last_close": 40.4900016784668,
+      "last_close_date": "2026-06-04",
       "sector": "Energy",
       "shares": 23.67179
     },
     "SEIC": {
       "avg_cost": 90.58000183105469,
-      "last_close": 87.87999725341797,
-      "last_close_date": "2026-05-29",
+      "last_close": 88.58000183105469,
+      "last_close_date": "2026-06-04",
       "sector": "Financial Services",
       "shares": 22.192629
     },
     "STZ": {
       "avg_cost": 155.3006871315186,
-      "last_close": 138.82000732421875,
-      "last_close_date": "2026-05-29",
+      "last_close": 137.77999877929688,
+      "last_close_date": "2026-06-04",
       "sector": "Consumer Defensive",
       "shares": 7.060795000000001
     }
