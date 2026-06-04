@@ -34,11 +34,11 @@ If the ledger file does not exist, print a warning and continue — the mark-to-
 
 ## Stage 2.5 — Wait for GH Actions prefetch
 
-The prefetch workflow (`.github/workflows/daily-scan.yml`) writes today's `market_data.json`, `news.json`, and `macro.json` to `data/runs/$RUN_DATE/` and pushes to main ~60 min before this routine fires. GH Actions cron drifts unreliably; this stage polls origin/main until the prefetch commit appears (or 30 min elapses), then `git pull --rebase`s the new files into the worktree. Without this guard, CCR would fall through to yfinance/RSS/FRED and get 403s from the sandbox network policy.
+The prefetch workflow (`.github/workflows/daily-scan.yml`) writes today's `market_data.json`, `news.json`, and `macro.json` to `data/runs/$RUN_DATE/` and pushes to main ~60 min before this routine fires. GH Actions cron drifts unreliably; this stage polls origin/main until the prefetch commit appears (or 60 min elapses), then `git pull --rebase`s the new files into the worktree. Without this guard, CCR would fall through to yfinance/RSS/FRED and get 403s from the sandbox network policy.
 
-Bash: `python -m trader.helpers.wait_for_prefetch --kind daily --run-date $RUN_DATE --timeout 1800`
+Bash: `python -m trader.helpers.wait_for_prefetch --kind daily --run-date $RUN_DATE --timeout 3600`
 
-On non-zero exit (prefetch never landed within 30 min): run the failure handler with the stderr excerpt, exit non-zero. Failing loudly is preferable to producing a degraded report from carried-forward prices.
+On non-zero exit (prefetch never landed within 60 min): run the failure handler with the stderr excerpt, exit non-zero. Failing loudly is preferable to producing a degraded report from carried-forward prices.
 
 ## Stage 3 — Snapshot prices for current holdings
 
