@@ -1,0 +1,178 @@
+[
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "AMG",
+    "side": "sell",
+    "shares": 7.694479,
+    "price": 336.80999755859375,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "CI",
+    "side": "sell",
+    "shares": 7.046687,
+    "price": 289.4800109863281,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "DUOL",
+    "side": "sell",
+    "shares": 31.392689,
+    "price": 109.02999877929688,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "EME",
+    "side": "sell",
+    "shares": 3.577432,
+    "price": 817.4400024414062,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "FSLR",
+    "side": "sell",
+    "shares": 0.011896,
+    "price": 279.010009765625,
+    "rationale": "p=0.60 with 220 bps expected alpha; IRA-backed domestic solar franchise with 65% earnings growth and strong manufacturing moat; retained within catalyst window."
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "IBKR",
+    "side": "sell",
+    "shares": 0.219065,
+    "price": 84.4000015258789,
+    "rationale": "Turnover-cap hold; 16.8% revenue growth and 21.6% earnings growth thesis intact; no current shortlist signal but low downside risk at minimal weight."
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "NBIX",
+    "side": "sell",
+    "shares": 0.039722,
+    "price": 163.8800048828125,
+    "rationale": "p=0.61 with 165 bps expected alpha; Ingrezza lifecycle durability plus pipeline optionality at 11.5x forward PE with 42.2% revenue growth; catalyst window protection."
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "NEM",
+    "side": "sell",
+    "shares": 25.344183,
+    "price": 99.70999908447266,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "NVDA",
+    "side": "sell",
+    "shares": 18.958338,
+    "price": 205.10000610351562,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "PRI",
+    "side": "sell",
+    "shares": 9.165975,
+    "price": 265.8399963378906,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "RNR",
+    "side": "buy",
+    "shares": 0.006492,
+    "price": 288.4800109863281,
+    "rationale": "p=0.55; hard-market reinsurance pricing cycle with 19.7% ROE at a historically cheap 5-6x P/E; low beta provides portfolio anchor; mature position with intact thesis."
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "RDDT",
+    "side": "buy",
+    "shares": 0.12514,
+    "price": 173.4499969482422,
+    "rationale": "Turnover-cap hold; sole Communication Services name; DAU/MAU platform growth with emerging ad revenue and positive long-term monetization inflection."
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "RRC",
+    "side": "buy",
+    "shares": 0.631855,
+    "price": 39.099998474121094,
+    "rationale": "Turnover-cap hold at minimal weight; Appalachian natural gas exposure provides Energy sector anchor; decay-exit scheduled for next cycle."
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "SEIC",
+    "side": "buy",
+    "shares": 0.180148,
+    "price": 89.41999816894531,
+    "rationale": "Turnover-cap hold; 14.8% one-month momentum and 29.6% ROE signal continued AUM inflow acceleration, reducing near-term downside risk."
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "STZ",
+    "side": "buy",
+    "shares": 0.037969,
+    "price": 140.91000366210938,
+    "rationale": "Turnover-cap hold at minimal weight; defensive beer franchise with 22.6% ROE and $2B FCF adding Consumer Defensive ballast."
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "HALO",
+    "side": "buy",
+    "shares": 52.440594,
+    "price": 71.52999877929688,
+    "rationale": "p=0.61, composite 57.1; ENHANZE sub-cutaneous delivery royalty platform compounds at 51.6% revenue growth with 6.5x forward PE vs 153% ROE \u2014 highest quality-to-price ratio on the shortlist."
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "KLAC",
+    "side": "buy",
+    "shares": 1.555495,
+    "price": 1929.199951171875,
+    "rationale": "p=0.58, composite 52.2; KLA process-control equipment is the semiconductor yield gatekeeper; AI-driven wafer starts support multi-year demand with 95% ROE and 61% gross margins."
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "RPRX",
+    "side": "buy",
+    "shares": 58.18744,
+    "price": 55.869998931884766,
+    "rationale": "p=0.60, composite 49.9; royalty pharma at 9x forward earnings has bond-like downside with equity upside \u2014 low-volatility compounder confirmed by +42% six-month momentum."
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "CPAY",
+    "side": "buy",
+    "shares": 7.917078,
+    "price": 347.45001220703125,
+    "rationale": "p=0.60, composite 49.9; Corpay B2B payments automation at 11.2x forward PE with 20.7% revenue growth and 79.7% gross margins \u2014 GARP at a meaningful discount to peers."
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "ARW",
+    "side": "buy",
+    "shares": 12.55552,
+    "price": 219.08999633789062,
+    "rationale": "p=0.57, composite 49.2; Arrow Electronics IT distribution is the purest proxy for the global electronics-cycle upturn; 201% earnings growth at 0.30x sales signals deep undervaluation."
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "VIK",
+    "side": "buy",
+    "shares": 25.023853,
+    "price": 89.94000244140625,
+    "rationale": "p=0.57, composite 41.0; Viking adds Consumer Cyclical diversification with expedition cruise demand structurally supported by affluent aging demographics at 19.9x forward PE."
+  },
+  {
+    "ts": "2026-06-06T00:51:11+00:00",
+    "ticker": "SCCO",
+    "side": "buy",
+    "shares": 11.566015,
+    "price": 172.97000122070312,
+    "rationale": "p=0.55, composite 30.0; Southern Copper benefits from AI/energy-transition copper demand surge with 36% revenue growth, 46% ROE, and commodity-cycle tailwinds as the Fed eases."
+  }
+]

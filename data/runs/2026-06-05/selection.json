@@ -1,0 +1,37 @@
+{
+  "commentary": "Retained 3 positions (FSLR, NBIX, RNR) at current weights — all within catalyst windows or with p ≥ 0.50 — while rotating out 7 names (AMG, CI, DUOL, EME, NEM, NVDA, PRI) that fell entirely off the top-50 shortlist, signaling quality breakdown; 5 positions (IBKR, RDDT, RRC, SEIC, STZ) are held at current weights solely to remain within the 40% one-way turnover cap (39.7% utilized). Seven new picks (HALO, KLAC, RPRX, CPAY, ARW, VIK, SCCO) were added targeting the highest composite-score opportunities across Healthcare, Technology, Consumer Cyclical, and Basic Materials, achieving 8 distinct sectors; sizing of new picks totals 39.5% of NAV, keeping cash residual near 27.9% and one-way turnover safely under the cap.",
+  "picks": [
+    {"ticker": "FSLR", "weight": 0.060, "sector": "Technology", "rationale": "Retained at current weight within 13-day catalyst window (p=0.60); IRA-backed domestic solar franchise with 65% earnings growth and 220 bps expected alpha."},
+    {"ticker": "NBIX", "weight": 0.056, "sector": "Healthcare", "rationale": "Retained at current weight within 13-day catalyst window (p=0.61); Ingrezza growth runway at 11.5x forward earnings with 42.2% revenue growth and 165 bps expected alpha."},
+    {"ticker": "RNR", "weight": 0.069, "sector": "Financial Services", "rationale": "Retained at current weight (age 28d, p=0.55 ≥ 0.50); hard reinsurance pricing cycle with 19.7% ROE and defensively low beta."},
+    {"ticker": "IBKR", "weight": 0.024, "sector": "Financial Services", "rationale": "Held at current 2.4% weight within turnover cap; 16.8% revenue growth provides near-term support; will rotate out next cycle absent shortlist re-entry."},
+    {"ticker": "RDDT", "weight": 0.039, "sector": "Communication Services", "rationale": "Held at current 3.9% weight within turnover cap; sole Communication Services exposure; DAU/MAU growth and ad-revenue ramp intact."},
+    {"ticker": "RRC", "weight": 0.019, "sector": "Energy", "rationale": "Held at minimal 1.9% within turnover cap; Energy sector anchor at minimal cost; decay-exit candidate next cycle."},
+    {"ticker": "SEIC", "weight": 0.040, "sector": "Financial Services", "rationale": "Held at current 4.0% within turnover cap; 14.8% one-month momentum and 29.6% ROE signal AUM inflow acceleration."},
+    {"ticker": "STZ", "weight": 0.020, "sector": "Consumer Defensive", "rationale": "Held at 2.0% within turnover cap; Consumer Defensive anchor at minimal weight; decay-exit candidate next cycle."},
+    {"ticker": "HALO", "weight": 0.075, "sector": "Healthcare", "rationale": "Top composite score (57.1, p=0.61); ENHANZE royalty platform at 6.5x forward PE with 51.6% revenue growth, 153% ROE, and 77.8% gross margins."},
+    {"ticker": "KLAC", "weight": 0.060, "sector": "Technology", "rationale": "Process-control monopoly riding AI-driven semiconductor capex; 95% ROE, 61% gross margins, +60% six-month momentum, p=0.58 with 180 bps expected alpha."},
+    {"ticker": "RPRX", "weight": 0.065, "sector": "Healthcare", "rationale": "Low-beta (0.40) royalty compounder at 9.0x forward PE with +42% six-month momentum; 115% gross margins and bond-like FCF, p=0.60 with 160 bps alpha."},
+    {"ticker": "CPAY", "weight": 0.055, "sector": "Technology", "rationale": "B2B payments network at 11.2x forward PE with 20.7% revenue growth and 79.7% gross margins; GARP setup with p=0.60 and 160 bps expected alpha."},
+    {"ticker": "ARW", "weight": 0.055, "sector": "Technology", "rationale": "IT distribution recovery at 0.30x trailing sales with 201% earnings growth; +97% six-month momentum confirms cycle inflection, p=0.57 with 180 bps alpha."},
+    {"ticker": "VIK", "weight": 0.045, "sector": "Consumer Cyclical", "rationale": "Premium cruise compounder adding Consumer Cyclical sector; 27.8% revenue growth, 227% earnings growth, 19.9x forward PE, p=0.57 with 160 bps alpha."},
+    {"ticker": "SCCO", "weight": 0.040, "sector": "Basic Materials", "rationale": "Copper pure-play on AI/energy-transition demand; 36.2% revenue growth, 66.7% earnings growth, 46% ROE at 27.5x forward PE; adds Basic Materials sector, p=0.55."}
+  ],
+  "rationales": {
+    "FSLR": "p=0.60 with 220 bps expected alpha; IRA-backed domestic solar franchise with 65% earnings growth and strong manufacturing moat; retained within catalyst window.",
+    "NBIX": "p=0.61 with 165 bps expected alpha; Ingrezza lifecycle durability plus pipeline optionality at 11.5x forward PE with 42.2% revenue growth; catalyst window protection.",
+    "RNR": "p=0.55; hard-market reinsurance pricing cycle with 19.7% ROE at a historically cheap 5-6x P/E; low beta provides portfolio anchor; mature position with intact thesis.",
+    "IBKR": "Turnover-cap hold; 16.8% revenue growth and 21.6% earnings growth thesis intact; no current shortlist signal but low downside risk at minimal weight.",
+    "RDDT": "Turnover-cap hold; sole Communication Services name; DAU/MAU platform growth with emerging ad revenue and positive long-term monetization inflection.",
+    "RRC": "Turnover-cap hold at minimal weight; Appalachian natural gas exposure provides Energy sector anchor; decay-exit scheduled for next cycle.",
+    "SEIC": "Turnover-cap hold; 14.8% one-month momentum and 29.6% ROE signal continued AUM inflow acceleration, reducing near-term downside risk.",
+    "STZ": "Turnover-cap hold at minimal weight; defensive beer franchise with 22.6% ROE and $2B FCF adding Consumer Defensive ballast.",
+    "HALO": "p=0.61, composite 57.1; ENHANZE sub-cutaneous delivery royalty platform compounds at 51.6% revenue growth with 6.5x forward PE vs 153% ROE — highest quality-to-price ratio on the shortlist.",
+    "KLAC": "p=0.58, composite 52.2; KLA process-control equipment is the semiconductor yield gatekeeper; AI-driven wafer starts support multi-year demand with 95% ROE and 61% gross margins.",
+    "RPRX": "p=0.60, composite 49.9; royalty pharma at 9x forward earnings has bond-like downside with equity upside — low-volatility compounder confirmed by +42% six-month momentum.",
+    "CPAY": "p=0.60, composite 49.9; Corpay B2B payments automation at 11.2x forward PE with 20.7% revenue growth and 79.7% gross margins — GARP at a meaningful discount to peers.",
+    "ARW": "p=0.57, composite 49.2; Arrow Electronics IT distribution is the purest proxy for the global electronics-cycle upturn; 201% earnings growth at 0.30x sales signals deep undervaluation.",
+    "VIK": "p=0.57, composite 41.0; Viking adds Consumer Cyclical diversification with expedition cruise demand structurally supported by affluent aging demographics at 19.9x forward PE.",
+    "SCCO": "p=0.55, composite 30.0; Southern Copper benefits from AI/energy-transition copper demand surge with 36% revenue growth, 46% ROE, and commodity-cycle tailwinds as the Fed eases."
+  }
+}
