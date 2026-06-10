@@ -300,9 +300,9 @@ For each ticker `t` currently in `ledger.positions`:
 After classification you have:
 - `retained` — current positions to keep (with proposed new weights)
 - `rotate_out` — current positions to drop
-- `target_count = 15` — total portfolio size
+- `target_count = settings.portfolio_size` — total portfolio size (default 20)
 
-Slots to fill from shortlist: `15 - len(retained)`.
+Slots to fill from shortlist: `target_count - len(retained)`.
 
 Rank the non-retained shortlist tickers by composite score `p_outperform × conviction × max(0, expected_alpha_bps)`. Walk the ranked list top-down, adding tickers as new picks at their `sizing_hint`, while respecting:
 - `max_weight_per_name = 0.10`
@@ -312,6 +312,22 @@ Rank the non-retained shortlist tickers by composite score `p_outperform × conv
 - `max_turnover_per_run = 0.40` (one-way turnover vs current ledger). If the proposed turnover exceeds this, you MUST keep additional borderline holdings rather than rotate them — Stage 12 will hard-reject otherwise.
 
 If a sector cap forces a sizing_hint to compress, prefer to add another sector rather than over-concentrate.
+
+**Scale-up step (cash-drag prevention):** After selecting all new picks at `sizing_hint`, compute:
+- `sell_total` = sum of old weights for rotate_out positions (weight freed by sells)
+- `buy_total` = sum of weights for all new picks (only the newly added tickers, not retained ones)
+
+If `sell_total > buy_total + 0.02` (more than 2 pp of NAV going to cash), scale up new-pick weights proportionally to absorb the proceeds:
+
+```
+scale_factor = min(sell_total / buy_total, 2.0)   # cap at 2× to prevent runaway
+for each new pick t:
+    new_weight[t] = sizing_hint[t] * scale_factor
+    new_weight[t] = min(new_weight[t], max_weight_per_name)           # per-name cap
+    new_weight[t] = min(new_weight[t], sector_remaining_cap[sector])  # per-sector cap
+```
+
+After scaling, recompute `buy_total`. If `buy_total` still falls short of `sell_total` (caps prevented full absorption), add the next-ranked shortlist candidate at its `sizing_hint` (scaled) until `buy_total ≈ sell_total` or you have exhausted the shortlist — whichever comes first. Re-verify all caps after scaling. The goal is `|buy_total - sell_total| < 0.02` (cash residual change < 2 pp of NAV per run).
 
 ### 11c — Commentary requirements
 

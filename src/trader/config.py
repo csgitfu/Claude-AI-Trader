@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     kill_switch: bool = False
 
     shortlist_size: int = 50
-    portfolio_size: int = 15
+    portfolio_size: int = 20
     max_weight_per_name: float = 0.10
     max_weight_per_sector: float = 0.25
     min_sectors: int = 8
