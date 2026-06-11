@@ -1,0 +1,49 @@
+name: Trigger CCR Rebalance Session
+
+# Fires the CCR trader-rebalance routine immediately after the prefetch workflow
+# confirms data is on origin/main.  The CCR API trigger (POST /fire) is
+# documented at https://code.claude.com/docs/en/routines#add-an-api-trigger.
+#
+# Required GitHub Actions secrets (set once in repo Settings → Secrets):
+#   CCR_REBALANCE_ROUTINE_FIRE_URL  — e.g. https://api.anthropic.com/v1/claude_code/routines/trig_XXXX/fire
+#   CCR_REBALANCE_ROUTINE_TOKEN     — bearer token generated from the routine's API trigger tab
+#
+# CCR cron fallback: keep the trader-rebalance routine's scheduled trigger set
+# to 23:30 UTC Fri (2 h after the 21:30 UTC prefetch) as a safety net.
+
+on:
+  repository_dispatch:
+    types: [prefetch-rebalance-complete]
+  workflow_dispatch:
+    inputs:
+      run_date:
+        description: "Override run date (YYYY-MM-DD; defaults to today UTC)"
+        required: false
+        default: ""
+
+permissions: {}
+
+jobs:
+  fire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Fire CCR rebalance routine via API trigger
+        env:
+          CCR_FIRE_URL: ${{ secrets.CCR_REBALANCE_ROUTINE_FIRE_URL }}
+          CCR_FIRE_TOKEN: ${{ secrets.CCR_REBALANCE_ROUTINE_TOKEN }}
+          PAYLOAD_DATE: ${{ github.event.client_payload.run_date || inputs.run_date }}
+        run: |
+          if [ -z "$CCR_FIRE_URL" ] || [ -z "$CCR_FIRE_TOKEN" ]; then
+            echo "Skipped: CCR_REBALANCE_ROUTINE_FIRE_URL or CCR_REBALANCE_ROUTINE_TOKEN not set."
+            echo "Configure both secrets in repo Settings → Secrets → Actions."
+            exit 0
+          fi
+          RUN_DATE="${PAYLOAD_DATE:-$(date -u +%Y-%m-%d)}"
+          curl -fsSL -X POST "$CCR_FIRE_URL" \
+            -H "Authorization: Bearer $CCR_FIRE_TOKEN" \
+            -H "anthropic-beta: experimental-cc-routine-2026-04-01" \
+            -H "anthropic-version: 2023-06-01" \
+            -H "Content-Type: application/json" \
+            -d "{\"text\":\"Prefetch complete for $RUN_DATE — triggered by weekly-rebalance.yml\"}"
+          echo "CCR rebalance session fired for $RUN_DATE"
