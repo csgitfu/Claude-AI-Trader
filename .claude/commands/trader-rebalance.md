@@ -32,13 +32,35 @@ Bash: `python -c "import json; d=json.load(open('data/ledger.json')); print('led
 
 If the ledger file does not exist, note this and continue — `apply_trades.py` will seed a fresh ledger.
 
-## Stage 2.5 — Wait for GH Actions prefetch
+## Stage 2.5 — Trigger and wait for GH Actions prefetch
 
-The prefetch workflow (`.github/workflows/weekly-rebalance.yml`) writes today's `market_data_full.json` (~1000 tickers), `news.json`, and `macro.json` to `data/runs/$RUN_DATE/` and pushes to main ~60 min before this routine fires. The full universe fetch can take 5–10 min on top of GH Actions cron drift, so allow a 45 min timeout.
+CCR has no outbound network access to yfinance/RSS/FRED (sandbox policy). Trigger the prefetch directly by pushing a sentinel file to main. `.github/workflows/weekly-rebalance.yml` fires on that push path within seconds, runs the full universe fetch (~30–50 min), and commits `market_data_full.json`, `news.json`, and `macro.json` to `data/runs/$RUN_DATE/`. CCR then polls until those files land.
+
+**Step 1 — Push sentinel** (idempotent: if already committed, `git diff --staged` is empty and no push occurs):
+
+Bash:
+```bash
+git config user.email "noreply@anthropic.com"
+git config user.name "trader-rebalance[bot]"
+echo "$RUN_DATE" > data/runs/$RUN_DATE/prefetch-request-rebalance.txt
+git add data/runs/$RUN_DATE/prefetch-request-rebalance.txt
+if ! git diff --staged --quiet; then
+  git commit -m "prefetch-request: rebalance $RUN_DATE"
+  for i in 1 2 3; do
+    git pull --rebase origin main && git push && break
+    echo "push attempt $i failed; retrying in 5s..."
+    sleep 5
+  done
+fi
+```
+
+If all 3 push attempts fail: run the failure handler, exit non-zero.
+
+**Step 2 — Wait for prefetch data** (exits immediately if files are already on disk — fast-path for re-runs):
 
 Bash: `python -m trader.helpers.wait_for_prefetch --kind rebalance --run-date $RUN_DATE --timeout 2700`
 
-On non-zero exit (prefetch never landed within 45 min): run the failure handler with the stderr excerpt, exit non-zero. Without prefetched data CCR would fall through to yfinance and get sandbox 403s on every ticker.
+On non-zero exit (prefetch never landed within 45 min): run the failure handler with the stderr excerpt, exit non-zero.
 
 ## Stage 3 — Snapshot universe (Russell 1000)
 
