@@ -8,12 +8,36 @@ from __future__ import annotations
 
 import json
 import os
+import sys
 import tempfile
 from dataclasses import dataclass, field, fields
 from datetime import datetime, timezone
 from pathlib import Path
 
 from trader.config import settings
+
+# Integer split ratios to check for (N:1 forward splits).
+_SPLIT_RATIOS = [2, 3, 4, 5, 6, 7, 8, 10, 12, 20]
+# Tolerance: ratio must be within this fraction of an integer to count.
+_SPLIT_TOL = 0.025
+
+
+def _detect_forward_split(prev_close: float, new_price: float) -> int | None:
+    """Return N if prices imply an N:1 forward split occurred, else None.
+
+    Only fires when the new price is less than 60% of the previous close —
+    a genuine 40%+ single-day drop is extremely rare and warrants the split
+    assumption for any ratio in _SPLIT_RATIOS.
+    """
+    if prev_close <= 0 or new_price <= 0:
+        return None
+    if new_price >= prev_close * 0.60:
+        return None  # modest drop — not a split
+    ratio = prev_close / new_price
+    for n in _SPLIT_RATIOS:
+        if abs(ratio - n) / n < _SPLIT_TOL:
+            return n
+    return None
 
 
 @dataclass
@@ -155,9 +179,21 @@ class Ledger:
         equity = 0.0
         for t, p in self.positions.items():
             if t in prices:
-                p.last_close = prices[t]
+                new_price = prices[t]
+                if p.last_close is not None:
+                    n = _detect_forward_split(p.last_close, new_price)
+                    if n is not None:
+                        print(
+                            f"[split] {t}: {n}:1 forward split detected "
+                            f"(prev={p.last_close:.4f} → new={new_price:.4f}); "
+                            f"shares ×{n}, avg_cost ÷{n}",
+                            file=sys.stderr,
+                        )
+                        p.shares *= n
+                        p.avg_cost /= n
+                p.last_close = new_price
                 p.last_close_date = as_of
-                equity += p.shares * prices[t]
+                equity += p.shares * new_price
             elif p.last_close is not None:
                 stale.append(t)
                 equity += p.shares * p.last_close
