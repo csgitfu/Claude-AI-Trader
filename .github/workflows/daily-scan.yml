@@ -1,8 +1,12 @@
 name: Daily Scan — Prefetch
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "data/runs/*/prefetch-request-daily.txt"  # sentinel pushed by CCR trader-daily
   schedule:
-    - cron: "0 21 * * *"  # Daily 21:00 UTC = 05:00 SGT next day (60 min before CCR daily at 06:00 SGT). Post-close year-round: 17:00 EDT / 16:00 EST. Buffer widened from 30→60min to absorb GH Actions cron drift.
+    - cron: "0 21 * * *"  # Fallback only — fires if CCR sentinel push didn't happen. Post-close year-round: 17:00 EDT / 16:00 EST.
   workflow_dispatch: {}
 
 permissions:
@@ -18,6 +22,7 @@ jobs:
     timeout-minutes: 15
     env:
       FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
 

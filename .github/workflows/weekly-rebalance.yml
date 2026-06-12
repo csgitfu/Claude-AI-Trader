@@ -1,8 +1,12 @@
 name: Weekly Rebalance — Prefetch
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "data/runs/*/prefetch-request-rebalance.txt"  # sentinel pushed by CCR trader-rebalance
   schedule:
-    - cron: "30 21 * * 5"   # Fri 21:30 UTC = Sat 05:30 SGT (60 min before CCR rebalance at 06:30 SGT). Post-close year-round: 17:30 EDT / 16:30 EST. Buffer widened from 30→60min to absorb GH Actions cron drift.
+    - cron: "30 21 * * 5"   # Fallback only — fires Fri 21:30 UTC if CCR sentinel push didn't happen. Post-close year-round: 17:30 EDT / 16:30 EST.
   workflow_dispatch: {}
 
 permissions:
@@ -18,6 +22,7 @@ jobs:
     timeout-minutes: 60
     env:
       FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
 

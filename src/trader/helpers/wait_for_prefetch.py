@@ -6,14 +6,32 @@ them, but GH Actions cron drifts unreliably. If CCR fires before prefetch
 pushes, the data files won't be on disk and CCR has no outbound network to
 fall back to — polling origin/main until the prefetch commit appears
 eliminates that race.
+
+When CCR is triggered directly via the API dispatch (event-driven mode), the
+repo clone already contains the prefetch files; the fast-path below exits
+immediately without polling.
 """
 
 from __future__ import annotations
 
 import argparse
+import pathlib
 import subprocess
 import sys
 import time
+
+# Files that must exist on disk for each prefetch kind before the CCR session
+# can proceed.  Mirrors what daily-scan.yml / weekly-rebalance.yml commit.
+_PREFETCH_FILES: dict[str, list[str]] = {
+    "daily": ["market_data.json", "news.json", "macro.json"],
+    "rebalance": ["market_data_full.json", "news.json", "macro.json"],
+}
+
+
+def _files_present(kind: str, run_date: str) -> bool:
+    """True if all expected prefetch output files already exist on disk."""
+    run_dir = pathlib.Path("data/runs") / run_date
+    return all((run_dir / name).exists() for name in _PREFETCH_FILES[kind])
 
 
 def _commit_present(kind: str, run_date: str) -> bool:
@@ -44,6 +62,16 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--interval", type=int, default=60,
                    help="Seconds between polls (default 60)")
     args = p.parse_args(argv)
+
+    # Fast-path: when CCR is triggered by event dispatch rather than a cron
+    # schedule, the fresh repo clone already contains all prefetch files.
+    # Exit immediately so the session doesn't spend time polling.
+    if _files_present(args.kind, args.run_date):
+        print(
+            f"prefetch files already present for {args.kind} {args.run_date}"
+            " — skipping wait"
+        )
+        return 0
 
     pattern = f"prefetch: {args.kind} {args.run_date}"
     deadline = time.monotonic() + args.timeout

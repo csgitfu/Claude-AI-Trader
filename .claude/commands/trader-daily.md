@@ -32,13 +32,35 @@ Bash: `python -c "import json; d=json.load(open('data/ledger.json')); print('led
 
 If the ledger file does not exist, print a warning and continue — the mark-to-market step will be a no-op.
 
-## Stage 2.5 — Wait for GH Actions prefetch
+## Stage 2.5 — Trigger and wait for GH Actions prefetch
 
-The prefetch workflow (`.github/workflows/daily-scan.yml`) writes today's `market_data.json`, `news.json`, and `macro.json` to `data/runs/$RUN_DATE/` and pushes to main ~60 min before this routine fires. GH Actions cron drifts unreliably; this stage polls origin/main until the prefetch commit appears (or 30 min elapses), then `git pull --rebase`s the new files into the worktree. Without this guard, CCR would fall through to yfinance/RSS/FRED and get 403s from the sandbox network policy.
+CCR has no outbound network access to yfinance/RSS/FRED (sandbox policy), so market data must come from the prefetch workflow. Rather than racing a separate cron schedule, CCR triggers the prefetch directly by pushing a sentinel file to main. `.github/workflows/daily-scan.yml` fires on that push path within seconds, runs the fetch (~10–15 min), and commits `market_data.json`, `news.json`, and `macro.json` to `data/runs/$RUN_DATE/`. CCR then polls until those files land.
+
+**Step 1 — Push sentinel** (idempotent: if already committed, `git diff --staged` is empty and no push occurs):
+
+Bash:
+```bash
+git config user.email "noreply@anthropic.com"
+git config user.name "trader-daily[bot]"
+echo "$RUN_DATE" > data/runs/$RUN_DATE/prefetch-request-daily.txt
+git add data/runs/$RUN_DATE/prefetch-request-daily.txt
+if ! git diff --staged --quiet; then
+  git commit -m "prefetch-request: daily $RUN_DATE"
+  for i in 1 2 3; do
+    git pull --rebase origin main && git push && break
+    echo "push attempt $i failed; retrying in 5s..."
+    sleep 5
+  done
+fi
+```
+
+If all 3 push attempts fail: run the failure handler, exit non-zero.
+
+**Step 2 — Wait for prefetch data** (exits immediately if files are already on disk — fast-path for re-runs):
 
 Bash: `python -m trader.helpers.wait_for_prefetch --kind daily --run-date $RUN_DATE --timeout 1800`
 
-On non-zero exit (prefetch never landed within 30 min): run the failure handler with the stderr excerpt, exit non-zero. Failing loudly is preferable to producing a degraded report from carried-forward prices.
+On non-zero exit (prefetch never landed within 30 min): run the failure handler with the stderr excerpt, exit non-zero.
 
 ## Stage 3 — Snapshot prices for current holdings
 
