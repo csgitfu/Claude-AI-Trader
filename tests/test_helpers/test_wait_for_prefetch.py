@@ -4,6 +4,8 @@ from __future__ import annotations
 
 from unittest.mock import MagicMock
 
+import pytest
+
 from trader.helpers.wait_for_prefetch import main
 
 
@@ -29,6 +31,21 @@ def _fake_run_factory(grep_returns: list[str]):
         return res
 
     return fake_run
+
+
+@pytest.fixture(autouse=True)
+def _no_files_on_disk(monkeypatch):
+    """Force the polling path by default.
+
+    The fast-path checks whether the prefetch files already exist in
+    data/runs/<date>/. Historical run dates used by these tests have their
+    data committed in the repo, which would otherwise short-circuit the poll.
+    Tests that exercise the fast-path override this explicitly.
+    """
+    monkeypatch.setattr(
+        "trader.helpers.wait_for_prefetch._files_present",
+        lambda kind, run_date: False,
+    )
 
 
 def test_returns_0_when_commit_found_immediately(monkeypatch):
@@ -92,3 +109,28 @@ def test_grep_pattern_includes_kind_and_date(monkeypatch):
     ])
     assert captured, "git log was never called"
     assert any("--grep=prefetch: rebalance 2026-05-15" == a for a in captured[0])
+
+
+def test_fast_path_skips_poll_when_files_present(monkeypatch):
+    """When all prefetch files already exist on disk, exit 0 without polling.
+
+    This is the event-driven case: CCR's repo clone already contains the
+    committed prefetch files, so wait_for_prefetch must return immediately
+    without calling git or sleeping.
+    """
+    monkeypatch.setattr(
+        "trader.helpers.wait_for_prefetch._files_present",
+        lambda kind, run_date: True,
+    )
+    run_mock = MagicMock()
+    sleep_mock = MagicMock()
+    monkeypatch.setattr("subprocess.run", run_mock)
+    monkeypatch.setattr("time.sleep", sleep_mock)
+
+    rc = main([
+        "--kind", "daily", "--run-date", "2026-05-12",
+        "--timeout", "1800", "--interval", "60",
+    ])
+    assert rc == 0
+    run_mock.assert_not_called()
+    sleep_mock.assert_not_called()
