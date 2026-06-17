@@ -232,111 +232,119 @@
       "nav": 50365.7380023415,
       "spy": 750.3300170898438,
       "stale": []
+    },
+    {
+      "cash": 13903.9866,
+      "date": "2026-06-17",
+      "equity": 36127.96678267297,
+      "nav": 50031.953382672975,
+      "spy": 740.9600219726562,
+      "stale": []
     }
   ],
   "positions": {
     "ARW": {
       "avg_cost": 219.08999633789062,
-      "last_close": 228.75999450683594,
-      "last_close_date": "2026-06-16",
+      "last_close": 225.99000549316406,
+      "last_close_date": "2026-06-17",
       "sector": "Technology",
       "shares": 12.55552
     },
     "CPAY": {
       "avg_cost": 347.45001220703125,
-      "last_close": 360.3699951171875,
-      "last_close_date": "2026-06-16",
+      "last_close": 353.3299865722656,
+      "last_close_date": "2026-06-17",
       "sector": "Technology",
       "shares": 7.917078
     },
     "FSLR": {
       "avg_cost": 233.3699951171875,
-      "last_close": 264.3599853515625,
-      "last_close_date": "2026-06-16",
+      "last_close": 254.8000030517578,
+      "last_close_date": "2026-06-17",
       "sector": "Technology",
       "shares": 10.755386
     },
     "HALO": {
       "avg_cost": 71.52999877929688,
-      "last_close": 69.63999938964844,
-      "last_close_date": "2026-06-16",
+      "last_close": 68.56999969482422,
+      "last_close_date": "2026-06-17",
       "sector": "Healthcare",
       "shares": 52.440594
     },
     "IBKR": {
       "avg_cost": 84.20500183105469,
-      "last_close": 93.0999984741211,
-      "last_close_date": "2026-06-16",
+      "last_close": 95.08999633789062,
+      "last_close_date": "2026-06-17",
       "sector": "Financial Services",
       "shares": 14.222087
     },
     "KLAC": {
       "avg_cost": 241.14999389648438,
-      "last_close": 237.3300018310547,
-      "last_close_date": "2026-06-16",
+      "last_close": 238.72999572753906,
+      "last_close_date": "2026-06-17",
       "sector": "Technology",
       "shares": 12.44396
     },
     "NBIX": {
       "avg_cost": 151.40402495821425,
-      "last_close": 156.4199981689453,
-      "last_close_date": "2026-06-16",
+      "last_close": 159.0,
+      "last_close_date": "2026-06-17",
       "sector": "Healthcare",
       "shares": 17.090573
     },
     "RDDT": {
       "avg_cost": 158.3400317096453,
-      "last_close": 175.38999938964844,
-      "last_close_date": "2026-06-16",
+      "last_close": 165.9499969482422,
+      "last_close_date": "2026-06-17",
       "sector": "Communication Services",
       "shares": 11.245658
     },
     "RNR": {
       "avg_cost": 310.5615127114159,
-      "last_close": 300.6099853515625,
-      "last_close_date": "2026-06-16",
+      "last_close": 303.0199890136719,
+      "last_close_date": "2026-06-17",
       "sector": "Financial Services",
       "shares": 11.962663999999998
     },
     "RPRX": {
       "avg_cost": 55.869998931884766,
-      "last_close": 54.209999084472656,
-      "last_close_date": "2026-06-16",
+      "last_close": 53.70000076293945,
+      "last_close_date": "2026-06-17",
       "sector": "Healthcare",
       "shares": 58.18744
     },
     "RRC": {
       "avg_cost": 42.81742772837387,
-      "last_close": 37.5099983215332,
-      "last_close_date": "2026-06-16",
+      "last_close": 36.65999984741211,
+      "last_close_date": "2026-06-17",
       "sector": "Energy",
       "shares": 24.303645000000003
     },
     "SCCO": {
       "avg_cost": 172.97000122070312,
-      "last_close": 194.52999877929688,
-      "last_close_date": "2026-06-16",
+      "last_close": 191.67999267578125,
+      "last_close_date": "2026-06-17",
       "sector": "Basic Materials",
       "shares": 11.566015
     },
     "SEIC": {
       "avg_cost": 90.570661357151,
-      "last_close": 90.7300033569336,
-      "last_close_date": "2026-06-16",
+      "last_close": 91.01000213623047,
+      "last_close_date": "2026-06-17",
       "sector": "Financial Services",
       "shares": 22.372777
     },
     "STZ": {
       "avg_cost": 155.22371600518593,
-      "last_close": 144.11000061035156,
-      "last_close_date": "2026-06-16",
+      "last_close": 138.9600067138672,
+      "last_close_date": "2026-06-17",
       "sector": "Consumer Defensive",
       "shares": 7.098764000000001
     },
     "VIK": {
       "avg_cost": 89.94000244140625,
-      "last_close": 94.04000091552734,
-      "last_close_date": "2026-06-16",
+      "last_close": 94.70999908447266,
+      "last_close_date": "2026-06-17",
       "sector": "Consumer Cyclical",
       "shares": 25.023853
     }
