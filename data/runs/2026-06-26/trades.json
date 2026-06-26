@@ -1,0 +1,154 @@
+[
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "CPAY",
+    "side": "sell",
+    "shares": 7.917078,
+    "price": 332.4800109863281,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "FSLR",
+    "side": "sell",
+    "shares": 10.755386,
+    "price": 279.010009765625,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "IBKR",
+    "side": "sell",
+    "shares": 14.222087,
+    "price": 84.4000015258789,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "RDDT",
+    "side": "sell",
+    "shares": 11.245658,
+    "price": 166.94000244140625,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "RNR",
+    "side": "sell",
+    "shares": 8.492009,
+    "price": 288.4800109863281,
+    "rationale": "Best-in-class reinsurer retained at minimum 2% stale-hold; no close available but 101% earnings growth and peak cat-reinsurance pricing thesis intact."
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "RPRX",
+    "side": "sell",
+    "shares": 58.18744,
+    "price": 56.22999954223633,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "SCCO",
+    "side": "sell",
+    "shares": 11.566015,
+    "price": 172.97000122070312,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "STZ",
+    "side": "sell",
+    "shares": 7.098764,
+    "price": 140.91000366210938,
+    "rationale": "rebalance"
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "VIK",
+    "side": "sell",
+    "shares": 13.891824,
+    "price": 89.94000244140625,
+    "rationale": "Premium cruise operator retained at minimum 2% stale-hold; no close available but 227% earnings growth and affluent consumer demand thesis intact."
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "KLAC",
+    "side": "buy",
+    "shares": 3.663098,
+    "price": 248.63999938964844,
+    "rationale": "Quality semiconductor equipment franchise held near current weight (~8.33%) to respect turnover cap; dropped from shortlist this cycle, sizing will decay over next 1-2 cycles if signal stays weak."
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "HALO",
+    "side": "buy",
+    "shares": 14.342672,
+    "price": 74.95999908447266,
+    "rationale": "Specialty pharma held near current weight (~10.58%) to respect turnover cap; dropped from shortlist this cycle, will be re-evaluated next week with fresh signal."
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "ARW",
+    "side": "buy",
+    "shares": 3.731961,
+    "price": 215.14999389648438,
+    "rationale": "Electronics distribution leader benefiting from tech cycle recovery; 19-day position in catalyst window with p_outperform=0.705 and 91% 6-month momentum."
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "NBIX",
+    "side": "buy",
+    "shares": 5.189009,
+    "price": 168.52000427246094,
+    "rationale": "Specialty pharma compounder with 42% revenue growth, cheap 11.5x forward PE, and $643M FCF; 33-day position with p_outperform=0.695 above the mature-hold threshold."
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "SEIC",
+    "side": "buy",
+    "shares": 6.315324,
+    "price": 87.25,
+    "rationale": "High-quality wealth management technology platform with 29.6% ROE, zero net debt, and 31% margins; retained in 19-day catalyst window."
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "RRC",
+    "side": "buy",
+    "shares": 15.670326,
+    "price": 37.56999969482422,
+    "rationale": "Low-cost Appalachian gas E&P with $555M FCF at 8.8x forward PE; trimmed from prior weight, retained for LNG demand optionality."
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "VIRT",
+    "side": "buy",
+    "shares": 49.475279,
+    "price": 60.709999084472656,
+    "rationale": "Electronic market maker with highest p_outperform (0.80): 49.7% earnings growth, 8.9x forward PE, and explosive 84% 6-month momentum from elevated trading volumes."
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "INCY",
+    "side": "buy",
+    "shares": 26.405663,
+    "price": 113.75,
+    "rationale": "Biotech GARP with 83.8% earnings growth, 10.9x forward PE, $559M FCF, and positive recent momentum; p_outperform=0.785 reflects compelling quality-to-price."
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "TPL",
+    "side": "buy",
+    "shares": 6.324154,
+    "price": 395.7900085449219,
+    "rationale": "Texas Pacific Land royalty franchise with 60% profit margins and 5.5x forward PE \u2014 elite quality at deep value with 33% 6-month momentum."
+  },
+  {
+    "ts": "2026-06-26T23:34:23+00:00",
+    "ticker": "CF",
+    "side": "buy",
+    "shares": 23.680576,
+    "price": 105.69999694824219,
+    "rationale": "CF Industries at 11.78x forward PE with 115% earnings growth and 27.3% ROE; structural nitrogen demand and food security concerns support fertilizer pricing."
+  }
+]
