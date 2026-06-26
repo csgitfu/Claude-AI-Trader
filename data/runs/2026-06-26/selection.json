@@ -1,0 +1,37 @@
+{
+  "commentary": "Retained 8 positions: 6 active-signal holds (ARW, NBIX, RRC, SEIC near current weight; KLAC and HALO kept at their existing ~8% and ~10% weights respectively to respect the 40% turnover cap rather than trimming them). VIK and RNR are stale (no closes) and are retained at 2% minimum rather than fully rotated out, consistent with catalyst-window protection. Rotated out 7 names (CPAY, RDDT, RPRX — priced positions dropped off shortlist; FSLR, IBKR, SCCO, STZ — stale positions with no closes and no shortlist presence). Added 7 new picks across 5 sectors (VIRT, INCY, CF, UAL, TIGO, AMG, TPL) achieving 8 distinct sectors. Total invested 78.5% with 21.5% cash residual to keep one-way turnover at ~38.5% vs the 40% cap.",
+  "picks": [
+    {"ticker": "KLAC", "weight": 0.08, "sector": "Technology", "rationale": "KLA Corp semiconductor equipment franchise held near current weight (~8.33%) to respect turnover cap; dropped from shortlist this cycle but quality franchise retained while position decays over next 1-2 cycles."},
+    {"ticker": "HALO", "weight": 0.10, "sector": "Healthcare", "rationale": "Specialty pharma held near current weight (~10.58%) to respect turnover cap; dropped from shortlist this cycle but sizing preserved this week while thesis is reassessed next cycle."},
+    {"ticker": "ARW", "weight": 0.07, "sector": "Technology", "rationale": "Electronics distribution leader benefiting from tech cycle recovery; 19-day position in catalyst window with p_outperform=0.705 and 91% 6-month momentum."},
+    {"ticker": "NBIX", "weight": 0.075, "sector": "Healthcare", "rationale": "Specialty pharma compounder with 42% revenue growth, cheap 11.5x forward PE, and $643M FCF; 33-day position with p_outperform=0.695 above the mature-hold threshold."},
+    {"ticker": "SEIC", "weight": 0.05, "sector": "Financial Services", "rationale": "High-quality wealth management technology platform with 29.6% ROE, zero net debt, and 31% margins; retained in 19-day catalyst window despite modest momentum."},
+    {"ticker": "RRC", "weight": 0.03, "sector": "Energy", "rationale": "Low-cost Appalachian gas E&P with $555M FCF trading at 8.8x forward PE; retained for LNG demand optionality at trimmed weight given muted 6-month momentum."},
+    {"ticker": "VIK", "weight": 0.02, "sector": "Consumer Cyclical", "rationale": "Premium cruise operator retained at minimum 2% stale-hold weight; no close available this cycle but 227% earnings growth thesis intact — will reassess once price data resumes."},
+    {"ticker": "RNR", "weight": 0.02, "sector": "Financial Services", "rationale": "Best-in-class reinsurer retained at minimum 2% stale-hold weight; no close available this cycle but 101% earnings growth and peak cat-reinsurance pricing thesis intact."},
+    {"ticker": "VIRT", "weight": 0.06, "sector": "Financial Services", "rationale": "Electronic market maker with highest p_outperform (0.80): 49.7% earnings growth, 8.9x forward PE, and explosive 84% 6-month momentum capturing volatility-driven trading volumes."},
+    {"ticker": "INCY", "weight": 0.06, "sector": "Healthcare", "rationale": "Biotech GARP play with 83.8% earnings growth, 10.9x forward PE, $559M FCF, and positive 1-month momentum; p_outperform=0.785 reflects strong quality-to-price setup."},
+    {"ticker": "TPL", "weight": 0.05, "sector": "Energy", "rationale": "Texas Pacific Land royalty company with 60% profit margins, 93% gross margins, and 5.5x forward PE — elite quality at deep-value pricing with 33% 6-month momentum."},
+    {"ticker": "CF", "weight": 0.05, "sector": "Basic Materials", "rationale": "CF Industries fertilizer producer with 115% earnings growth, 27.3% ROE, and 11.78x forward PE positioned to benefit from structural food-security demand for nitrogen; adds sector diversification."},
+    {"ticker": "AMG", "weight": 0.04, "sector": "Financial Services", "rationale": "Affiliate asset manager at 7.8x forward PE with 122% earnings growth and $450M FCF for buybacks; quality at value pricing with 17% 6-month momentum and sector cap constraint sizing."},
+    {"ticker": "UAL", "weight": 0.04, "sector": "Industrials", "rationale": "United Airlines at 8.1x forward PE with 84.5% earnings growth, 25.7% ROE, and 21% 1-month momentum from premium travel demand resilience; adds Industrials sector exposure."},
+    {"ticker": "TIGO", "weight": 0.04, "sector": "Communication Services", "rationale": "Millicom LatAm telecom with 729% earnings rebound, 37.9% ROE, and 73% 6-month momentum; cheap convergence story adds Communication Services diversification."}
+  ],
+  "rationales": {
+    "KLAC": "Quality semiconductor equipment franchise held near current weight (~8.33%) to respect turnover cap; dropped from shortlist this cycle, sizing will decay over next 1-2 cycles if signal stays weak.",
+    "HALO": "Specialty pharma held near current weight (~10.58%) to respect turnover cap; dropped from shortlist this cycle, will be re-evaluated next week with fresh signal.",
+    "ARW": "Electronics distribution leader benefiting from tech cycle recovery; 19-day position in catalyst window with p_outperform=0.705 and 91% 6-month momentum.",
+    "NBIX": "Specialty pharma compounder with 42% revenue growth, cheap 11.5x forward PE, and $643M FCF; 33-day position with p_outperform=0.695 above the mature-hold threshold.",
+    "SEIC": "High-quality wealth management technology platform with 29.6% ROE, zero net debt, and 31% margins; retained in 19-day catalyst window.",
+    "RRC": "Low-cost Appalachian gas E&P with $555M FCF at 8.8x forward PE; trimmed from prior weight, retained for LNG demand optionality.",
+    "VIK": "Premium cruise operator retained at minimum 2% stale-hold; no close available but 227% earnings growth and affluent consumer demand thesis intact.",
+    "RNR": "Best-in-class reinsurer retained at minimum 2% stale-hold; no close available but 101% earnings growth and peak cat-reinsurance pricing thesis intact.",
+    "VIRT": "Electronic market maker with highest p_outperform (0.80): 49.7% earnings growth, 8.9x forward PE, and explosive 84% 6-month momentum from elevated trading volumes.",
+    "INCY": "Biotech GARP with 83.8% earnings growth, 10.9x forward PE, $559M FCF, and positive recent momentum; p_outperform=0.785 reflects compelling quality-to-price.",
+    "TPL": "Texas Pacific Land royalty franchise with 60% profit margins and 5.5x forward PE — elite quality at deep value with 33% 6-month momentum.",
+    "CF": "CF Industries at 11.78x forward PE with 115% earnings growth and 27.3% ROE; structural nitrogen demand and food security concerns support fertilizer pricing.",
+    "AMG": "Affiliate asset manager at 7.8x forward PE with 122% earnings growth and $450M FCF for buybacks; 17% 6-month momentum with value-oriented sizing at sector cap.",
+    "UAL": "United Airlines at 8.1x forward PE with 84.5% earnings growth and 25.7% ROE; premium cabin demand and operational reliability drive earnings leverage.",
+    "TIGO": "Millicom LatAm telecom at 16.45x forward PE with 729% earnings rebound, 37.9% ROE, and 73% 6-month momentum; adds Communication Services sector."
+  }
+}

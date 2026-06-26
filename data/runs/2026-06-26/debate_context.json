@@ -1,0 +1,1606 @@
+{
+  "INCY": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:13.230511+00:00",
+      "beta": 0.797,
+      "debtToEquity": 0.701,
+      "earningsGrowth": 0.838,
+      "forwardPE": 10.864597,
+      "freeCashflow": 558867008,
+      "grossMargins": 0.52766,
+      "industry": "Biotechnology",
+      "marketCap": 19660562432,
+      "priceToSalesTrailing12Months": 3.6673176,
+      "profitMargins": 0.26707,
+      "returnOnEquity": 0.30823,
+      "revenueGrowth": 0.209,
+      "sector": "Healthcare",
+      "trailingPE": 13.899718
+    },
+    "momentum": {
+      "1m": 0.16858438750240223,
+      "6m": 0.1272420560094767
+    },
+    "ann_vol": 0.31901555064320847,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "VIRT": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:45:39.514605+00:00",
+      "beta": 0.533,
+      "debtToEquity": 387.01,
+      "dividendYield": 2.02,
+      "earningsGrowth": 0.497,
+      "forwardPE": 8.927349,
+      "grossMargins": 0.60744,
+      "industry": "Capital Markets",
+      "marketCap": 4235735552,
+      "priceToSalesTrailing12Months": 3.6917362,
+      "profitMargins": 0.16461,
+      "returnOnEquity": 0.5272,
+      "revenueGrowth": 0.229,
+      "sector": "Financial Services",
+      "trailingPE": 9.534113
+    },
+    "momentum": {
+      "1m": 0.22248358763394993,
+      "6m": 0.8380681089778756
+    },
+    "ann_vol": 0.3423477738799808,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "TPL": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:11:49.452694+00:00",
+      "beta": 0.677,
+      "debtToEquity": 1.173,
+      "dividendYield": 0.6,
+      "earningsGrowth": 0.183,
+      "forwardPE": 5.4887853,
+      "freeCashflow": -56315624,
+      "grossMargins": 0.93242997,
+      "industry": "Oil & Gas E&P",
+      "marketCap": 27682197504,
+      "priceToSalesTrailing12Months": 32.993294,
+      "profitMargins": 0.60025,
+      "returnOnEquity": 0.36466,
+      "revenueGrowth": 0.208,
+      "sector": "Energy",
+      "trailingPE": 54.97808
+    },
+    "momentum": {
+      "1m": -0.0238735113489007,
+      "6m": 0.33471021264907397
+    },
+    "ann_vol": 0.5378112286283205,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "NBIX": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:19.877657+00:00",
+      "debtToEquity": 11.921,
+      "earningsGrowth": 23.105,
+      "forwardPE": 11.543793,
+      "freeCashflow": 643449984,
+      "grossMargins": 0.65433,
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "marketCap": 15231562752,
+      "priceToSalesTrailing12Months": 4.9096065,
+      "profitMargins": 0.21551001,
+      "returnOnEquity": 0.225,
+      "revenueGrowth": 0.422,
+      "sector": "Healthcare",
+      "trailingPE": 23.2692
+    },
+    "momentum": {
+      "1m": 0.08143491171337014,
+      "6m": 0.14421513898158556
+    },
+    "ann_vol": 0.3098256038055009,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "BPOP": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:50.378209+00:00",
+      "beta": 0.648,
+      "dividendYield": 2.02,
+      "earningsGrowth": 0.481,
+      "forwardPE": 9.061287,
+      "grossMargins": 0.0,
+      "industry": "Banks - Regional",
+      "marketCap": 9654899712,
+      "priceToSalesTrailing12Months": 3.212515,
+      "profitMargins": 0.2999,
+      "returnOnEquity": 0.14885001,
+      "revenueGrowth": 0.096,
+      "sector": "Financial Services",
+      "trailingPE": 11.053294
+    },
+    "momentum": {
+      "1m": 0.10618585533164504,
+      "6m": 0.33669137908168834
+    },
+    "ann_vol": 0.23229508246437416,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "JHG": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:45:08.919237+00:00",
+      "beta": 1.482,
+      "debtToEquity": 8.248,
+      "dividendYield": 3.1,
+      "earningsGrowth": 2.446,
+      "forwardPE": 10.915394,
+      "freeCashflow": 465550016,
+      "grossMargins": 0.65912,
+      "industry": "Asset Management",
+      "marketCap": 7945679360,
+      "priceToSalesTrailing12Months": 2.5653567,
+      "profitMargins": 0.26342,
+      "returnOnEquity": 0.16203,
+      "revenueGrowth": 0.613,
+      "sector": "Financial Services",
+      "trailingPE": 9.86042
+    },
+    "momentum": {
+      "1m": 0.0028969009157042702,
+      "6m": 0.09119563224779448
+    },
+    "ann_vol": 0.14092945295480458,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "EXEL": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:29.902340+00:00",
+      "beta": 0.385,
+      "debtToEquity": 9.296,
+      "earningsGrowth": 0.436,
+      "forwardPE": 11.802926,
+      "grossMargins": 0.96444,
+      "industry": "Biotechnology",
+      "marketCap": 11944393728,
+      "priceToSalesTrailing12Months": 5.0281787,
+      "profitMargins": 0.35084,
+      "revenueGrowth": 0.1,
+      "sector": "Healthcare",
+      "trailingPE": 15.7351
+    },
+    "momentum": {
+      "1m": 0.09474318996842102,
+      "6m": 0.1750697219600521
+    },
+    "ann_vol": 0.36728957658153977,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "AMG": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:44:54.405497+00:00",
+      "beta": 1.198,
+      "debtToEquity": 64.535,
+      "dividendYield": 0.01,
+      "earningsGrowth": 1.221,
+      "forwardPE": 7.7676015,
+      "freeCashflow": 450224992,
+      "grossMargins": 0.50839,
+      "industry": "Asset Management",
+      "marketCap": 7766279168,
+      "priceToSalesTrailing12Months": 3.7438676,
+      "profitMargins": 0.34544998,
+      "returnOnEquity": 0.19931999,
+      "revenueGrowth": 0.062,
+      "sector": "Financial Services",
+      "trailingPE": 12.861478
+    },
+    "momentum": {
+      "1m": 0.11061313351945312,
+      "6m": 0.17008168434945414
+    },
+    "ann_vol": 0.37743313913802984,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "RRC": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:50.845718+00:00",
+      "beta": 0.46,
+      "debtToEquity": 21.275,
+      "dividendYield": 0.98,
+      "earningsGrowth": 2.607,
+      "forwardPE": 8.785917,
+      "freeCashflow": 554650752,
+      "grossMargins": 0.52472,
+      "industry": "Oil & Gas E&P",
+      "marketCap": 9594539008,
+      "priceToSalesTrailing12Months": 2.9889455,
+      "profitMargins": 0.28118,
+      "returnOnEquity": 0.21134001,
+      "revenueGrowth": 0.261,
+      "sector": "Energy",
+      "trailingPE": 10.772488
+    },
+    "momentum": {
+      "1m": -0.03929789807793249,
+      "6m": 0.05085402595928201
+    },
+    "ann_vol": 0.30864180024108173,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "COLB": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:44:48.293633+00:00",
+      "beta": 0.683,
+      "dividendYield": 4.89,
+      "earningsGrowth": 0.61,
+      "forwardPE": 8.705211,
+      "grossMargins": 0.0,
+      "industry": "Banks - Regional",
+      "marketCap": 8575878144,
+      "priceToSalesTrailing12Months": 3.6711807,
+      "profitMargins": 0.28039,
+      "returnOnEquity": 0.10154,
+      "revenueGrowth": 0.399,
+      "sector": "Financial Services",
+      "trailingPE": 11.615686
+    },
+    "momentum": {
+      "1m": 0.09286357271843393,
+      "6m": 0.1518749797979433
+    },
+    "ann_vol": 0.27758158350540224,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "CFG": {
+    "fundamentals": {
+      "_asof": "2026-06-12T22:47:29.374409+00:00",
+      "beta": 1.021,
+      "dividendYield": 2.77,
+      "earningsGrowth": 0.468,
+      "forwardPE": 10.549033,
+      "grossMargins": 0.0,
+      "industry": "Banks - Regional",
+      "marketCap": 28607965184,
+      "priceToSalesTrailing12Months": 3.6281502,
+      "profitMargins": 0.25048,
+      "returnOnEquity": 0.07739,
+      "revenueGrowth": 0.138,
+      "sector": "Financial Services",
+      "trailingPE": 16.030807
+    },
+    "momentum": {
+      "1m": 0.1160431116414542,
+      "6m": 0.19987181385988917
+    },
+    "ann_vol": 0.26623550207645763,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "SN": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:44:41.351491+00:00",
+      "beta": 1.491,
+      "debtToEquity": 33.687,
+      "earningsGrowth": 0.98,
+      "forwardPE": 16.531858,
+      "freeCashflow": 258319872,
+      "grossMargins": 0.49014,
+      "industry": "Furnishings, Fixtures & Appliances",
+      "marketCap": 16220967936,
+      "priceToSalesTrailing12Months": 2.534848,
+      "profitMargins": 0.1096,
+      "returnOnEquity": 0.30414,
+      "revenueGrowth": 0.176,
+      "sector": "Consumer Cyclical",
+      "trailingPE": 23.194332
+    },
+    "momentum": {
+      "1m": 0.240701238904107,
+      "6m": 0.2776261908375117
+    },
+    "ann_vol": 0.4925229404653412,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "ZION": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:48.852826+00:00",
+      "beta": 0.819,
+      "dividendYield": 2.87,
+      "earningsGrowth": 0.381,
+      "forwardPE": 9.312773,
+      "grossMargins": 0.0,
+      "industry": "Banks - Regional",
+      "marketCap": 9173926912,
+      "priceToSalesTrailing12Months": 2.7045774,
+      "profitMargins": 0.28361,
+      "returnOnEquity": 0.14123,
+      "revenueGrowth": 0.102,
+      "sector": "Financial Services",
+      "trailingPE": 9.685559
+    },
+    "momentum": {
+      "1m": 0.10943516893808058,
+      "6m": 0.1840628537356741
+    },
+    "ann_vol": 0.2757532310544837,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "AR": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:44.335306+00:00",
+      "beta": 0.364,
+      "debtToEquity": 57.771,
+      "earningsGrowth": 1.606,
+      "forwardPE": 7.5644984,
+      "freeCashflow": 635028352,
+      "grossMargins": 0.67232,
+      "industry": "Oil & Gas E&P",
+      "marketCap": 11149448192,
+      "priceToSalesTrailing12Months": 1.981888,
+      "profitMargins": 0.17094,
+      "returnOnEquity": 0.12837,
+      "revenueGrowth": 0.343,
+      "sector": "Energy",
+      "trailingPE": 11.645632
+    },
+    "momentum": {
+      "1m": 0.0017088452734479453,
+      "6m": 0.012377561016211569
+    },
+    "ann_vol": 0.365810824469616,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "BEN": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:45:01.339199+00:00",
+      "beta": 1.473,
+      "debtToEquity": 24.587,
+      "dividendYield": 4.79,
+      "earningsGrowth": 0.606,
+      "forwardPE": 10.332527,
+      "freeCashflow": 328337504,
+      "grossMargins": 0.37035,
+      "industry": "Asset Management",
+      "marketCap": 15307415552,
+      "priceToSalesTrailing12Months": 1.7303945,
+      "profitMargins": 0.06972,
+      "returnOnEquity": 0.04464,
+      "revenueGrowth": 0.034,
+      "sector": "Financial Services",
+      "trailingPE": 27.277777
+    },
+    "momentum": {
+      "1m": 0.04862642893807423,
+      "6m": 0.41205877937831503
+    },
+    "ann_vol": 0.32913367699787494,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "EQT": {
+    "fundamentals": {
+      "_asof": "2026-06-12T22:47:27.036813+00:00",
+      "beta": 0.543,
+      "debtToEquity": 20.816,
+      "dividendYield": 1.29,
+      "earningsGrowth": 4.9,
+      "forwardPE": 11.208556,
+      "freeCashflow": 2503225856,
+      "grossMargins": 0.80966,
+      "industry": "Oil & Gas E&P",
+      "marketCap": 32487327744,
+      "priceToSalesTrailing12Months": 3.4693387,
+      "profitMargins": 0.35074002,
+      "returnOnEquity": 0.13402,
+      "revenueGrowth": 0.499,
+      "sector": "Energy",
+      "trailingPE": 9.855787
+    },
+    "momentum": {
+      "1m": -0.044770663186213366,
+      "6m": -0.027926022402400275
+    },
+    "ann_vol": 0.2667845100248256,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "SSB": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:49.577122+00:00",
+      "beta": 0.718,
+      "dividendYield": 2.47,
+      "earningsGrowth": 1.621,
+      "forwardPE": 9.168468,
+      "grossMargins": 0.0,
+      "industry": "Banks - Regional",
+      "marketCap": 9370760192,
+      "priceToSalesTrailing12Months": 3.5011036,
+      "profitMargins": 0.34949002,
+      "returnOnEquity": 0.10596,
+      "revenueGrowth": 0.228,
+      "sector": "Financial Services",
+      "trailingPE": 10.3389015
+    },
+    "momentum": {
+      "1m": 0.0681770402178421,
+      "6m": 0.06916981909737707
+    },
+    "ann_vol": 0.25364943671097395,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "WST": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:11:49.849504+00:00",
+      "beta": 1.17,
+      "debtToEquity": 10.734,
+      "dividendYield": 0.27,
+      "earningsGrowth": 0.561,
+      "forwardPE": 34.27817,
+      "freeCashflow": 275662496,
+      "grossMargins": 0.36278,
+      "industry": "Medical Instruments & Supplies",
+      "marketCap": 23134967808,
+      "priceToSalesTrailing12Months": 7.1825423,
+      "profitMargins": 0.16849001,
+      "returnOnEquity": 0.19131,
+      "revenueGrowth": 0.21,
+      "sector": "Healthcare",
+      "trailingPE": 43.83802
+    },
+    "momentum": {
+      "1m": 0.12196608899820349,
+      "6m": 0.26648122186904644
+    },
+    "ann_vol": 0.3428902056010609,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "OKTA": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:25.983948+00:00",
+      "beta": 0.592,
+      "debtToEquity": 6.444,
+      "earningsGrowth": 1.708,
+      "forwardPE": 19.81071,
+      "freeCashflow": 836124992,
+      "grossMargins": 0.77355003,
+      "industry": "Software - Infrastructure",
+      "marketCap": 14824977408,
+      "priceToSalesTrailing12Months": 5.0787864,
+      "profitMargins": 0.08051,
+      "returnOnEquity": 0.03506,
+      "revenueGrowth": 0.116,
+      "sector": "Technology",
+      "trailingPE": 63.9771
+    },
+    "momentum": {
+      "1m": 0.3886033383161662,
+      "6m": 0.395463756862686
+    },
+    "ann_vol": 0.7955605979858051,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "VIK": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:18.295675+00:00",
+      "beta": 1.569,
+      "debtToEquity": 511.967,
+      "earningsGrowth": 2.266,
+      "forwardPE": 19.906876,
+      "freeCashflow": 721688384,
+      "grossMargins": 0.44476002,
+      "industry": "Travel Services",
+      "marketCap": 36787486720,
+      "priceToSalesTrailing12Months": 5.658378,
+      "profitMargins": 0.17650999,
+      "returnOnEquity": 2.54464,
+      "revenueGrowth": 0.278,
+      "sector": "Consumer Cyclical",
+      "trailingPE": 32.089497
+    },
+    "momentum": {
+      "1m": 0.11572121805855784,
+      "6m": 0.4123923030252308
+    },
+    "ann_vol": 0.4932290017690766,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "CF": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:03.260744+00:00",
+      "beta": 0.417,
+      "debtToEquity": 43.847,
+      "dividendYield": 1.69,
+      "earningsGrowth": 1.151,
+      "forwardPE": 11.775816,
+      "freeCashflow": 1060750016,
+      "grossMargins": 0.39125,
+      "industry": "Agricultural Inputs",
+      "marketCap": 17719654400,
+      "priceToSalesTrailing12Months": 2.3922849,
+      "profitMargins": 0.23733999,
+      "returnOnEquity": 0.273,
+      "revenueGrowth": 0.194,
+      "sector": "Basic Materials",
+      "trailingPE": 10.3918915
+    },
+    "momentum": {
+      "1m": -0.09145607464819139,
+      "6m": 0.3654736468201705
+    },
+    "ann_vol": 0.5586213873848673,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "RNR": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:23.765978+00:00",
+      "beta": 0.228,
+      "debtToEquity": 12.571,
+      "dividendYield": 0.55,
+      "earningsGrowth": 1.009,
+      "forwardPE": 7.3054833,
+      "freeCashflow": 2523298816,
+      "grossMargins": 0.45793,
+      "industry": "Insurance - Reinsurance",
+      "marketCap": 12790764544,
+      "priceToSalesTrailing12Months": 1.1038228,
+      "profitMargins": 0.24213,
+      "returnOnEquity": 0.23367001,
+      "revenueGrowth": -0.366,
+      "sector": "Financial Services",
+      "trailingPE": 5.0568004
+    },
+    "momentum": {
+      "1m": 0.1047573243548916,
+      "6m": 0.13890712028680596
+    },
+    "ann_vol": 0.21573060071526853,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "ARW": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:46.115738+00:00",
+      "debtToEquity": 36.178,
+      "earningsGrowth": 2.013,
+      "forwardPE": 10.985201,
+      "freeCashflow": 277420128,
+      "grossMargins": 0.11259,
+      "industry": "Electronics & Computer Distribution",
+      "marketCap": 9986935808,
+      "priceToSalesTrailing12Months": 0.2980066,
+      "profitMargins": 0.02168,
+      "returnOnEquity": 0.113299996,
+      "revenueGrowth": 0.39,
+      "sector": "Technology",
+      "trailingPE": 13.994273
+    },
+    "momentum": {
+      "1m": -0.010850078938682506,
+      "6m": 0.9136350912789228
+    },
+    "ann_vol": 0.37842271871334926,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "APA": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:29.113974+00:00",
+      "beta": 0.374,
+      "debtToEquity": 59.665,
+      "dividendYield": 2.76,
+      "earningsGrowth": 0.323,
+      "forwardPE": 8.906829,
+      "grossMargins": 0.72273004,
+      "industry": "Oil & Gas E&P",
+      "marketCap": 12680007680,
+      "priceToSalesTrailing12Months": 1.5147543,
+      "profitMargins": 0.18313,
+      "returnOnEquity": 0.26217,
+      "revenueGrowth": -0.117,
+      "sector": "Energy",
+      "trailingPE": 8.363637
+    },
+    "momentum": {
+      "1m": -0.09858003046549413,
+      "6m": 0.37713268920315945
+    },
+    "ann_vol": 0.49020617521636606,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "TIGO": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:44:51.202071+00:00",
+      "beta": 0.863,
+      "debtToEquity": 262.265,
+      "dividendYield": 3.66,
+      "earningsGrowth": 7.287,
+      "forwardPE": 16.44864,
+      "freeCashflow": 1384625024,
+      "grossMargins": 0.7747,
+      "industry": "Telecom Services",
+      "marketCap": 13750125568,
+      "priceToSalesTrailing12Months": 2.3629706,
+      "profitMargins": 0.22615999,
+      "returnOnEquity": 0.37865,
+      "revenueGrowth": 0.157,
+      "sector": "Communication Services",
+      "trailingPE": 10.481482
+    },
+    "momentum": {
+      "1m": 0.05421051218315309,
+      "6m": 0.7262748711600227
+    },
+    "ann_vol": 0.4003951384599706,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "VOYA": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:44:57.513199+00:00",
+      "beta": 0.853,
+      "debtToEquity": 68.902,
+      "dividendYield": 2.25,
+      "earningsGrowth": 0.481,
+      "forwardPE": 7.3383894,
+      "freeCashflow": 1511124992,
+      "grossMargins": 0.55916,
+      "industry": "Financial Conglomerates",
+      "marketCap": 7574104064,
+      "priceToSalesTrailing12Months": 0.9249119,
+      "profitMargins": 0.07986,
+      "returnOnEquity": 0.11237001,
+      "revenueGrowth": 0.05,
+      "sector": "Financial Services",
+      "trailingPE": 12.980923
+    },
+    "momentum": {
+      "1m": 0.12574111191076098,
+      "6m": 0.21973192428941557
+    },
+    "ann_vol": 0.3010575355406066,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "MTCH": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:44:46.562706+00:00",
+      "beta": 1.303,
+      "dividendYield": 2.08,
+      "earningsGrowth": 0.406,
+      "forwardPE": 9.18402,
+      "freeCashflow": 873889920,
+      "grossMargins": 0.7288,
+      "industry": "Internet Content & Information",
+      "profitMargins": 0.17591,
+      "revenueGrowth": 0.021,
+      "sector": "Communication Services",
+      "trailingPE": 15.55252
+    },
+    "momentum": {
+      "1m": 0.029639881995874973,
+      "6m": 0.14844229001742248
+    },
+    "ann_vol": 0.3220536715387621,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "ALAB": {
+    "fundamentals": {
+      "_asof": "2026-06-12T22:47:14.360607+00:00",
+      "beta": 3.963,
+      "debtToEquity": 2.801,
+      "earningsGrowth": 1.444,
+      "forwardPE": 87.27765,
+      "freeCashflow": 240004880,
+      "grossMargins": 0.75988996,
+      "industry": "Semiconductors",
+      "marketCap": 62932422656,
+      "priceToSalesTrailing12Months": 62.841682,
+      "profitMargins": 0.26724002,
+      "returnOnEquity": 0.21110001,
+      "revenueGrowth": 0.934,
+      "sector": "Technology",
+      "trailingPE": 249.7619
+    },
+    "momentum": {
+      "1m": 0.2041312095506993,
+      "6m": 1.320322134607228
+    },
+    "ann_vol": 0.9379570717640741,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "AU": {
+    "fundamentals": {
+      "_asof": "2026-06-12T22:47:17.333654+00:00",
+      "beta": 0.638,
+      "debtToEquity": 22.027,
+      "dividendYield": 5.53,
+      "earningsGrowth": 1.852,
+      "forwardPE": 8.255308,
+      "freeCashflow": 3559000064,
+      "grossMargins": 0.53529,
+      "industry": "Gold",
+      "marketCap": 43635363840,
+      "priceToSalesTrailing12Months": 3.9078777,
+      "profitMargins": 0.31112,
+      "returnOnEquity": 0.42970002,
+      "revenueGrowth": 0.649,
+      "sector": "Basic Materials",
+      "trailingPE": 12.672541
+    },
+    "momentum": {
+      "1m": -0.12595154442831025,
+      "6m": -0.062465701611601365
+    },
+    "ann_vol": 0.653694224578594,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "MTB": {
+    "fundamentals": {
+      "_asof": "2026-06-12T22:47:24.284165+00:00",
+      "beta": 0.587,
+      "dividendYield": 2.63,
+      "earningsGrowth": 0.244,
+      "forwardPE": 11.101643,
+      "grossMargins": 0.0,
+      "industry": "Banks - Regional",
+      "marketCap": 33957681152,
+      "priceToSalesTrailing12Months": 3.6474416,
+      "profitMargins": 0.31482,
+      "returnOnEquity": 0.102910005,
+      "revenueGrowth": 0.057,
+      "sector": "Financial Services",
+      "trailingPE": 13.012346
+    },
+    "momentum": {
+      "1m": 0.11073123341393454,
+      "6m": 0.16549495569130568
+    },
+    "ann_vol": 0.23817312994284592,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "NTRS": {
+    "fundamentals": {
+      "_asof": "2026-06-12T22:47:25.820522+00:00",
+      "beta": 1.272,
+      "dividendYield": 1.87,
+      "earningsGrowth": 0.426,
+      "forwardPE": 14.686531,
+      "grossMargins": 0.0,
+      "industry": "Asset Management",
+      "marketCap": 32261138432,
+      "priceToSalesTrailing12Months": 3.857373,
+      "profitMargins": 0.22364001,
+      "returnOnEquity": 0.14462,
+      "revenueGrowth": 0.139,
+      "sector": "Financial Services",
+      "trailingPE": 18.274633
+    },
+    "momentum": {
+      "1m": 0.0401183433897101,
+      "6m": 0.2529905857002137
+    },
+    "ann_vol": 0.27055835509143816,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "KEY": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:11:56.357964+00:00",
+      "beta": 1.055,
+      "dividendYield": 3.78,
+      "earningsGrowth": 0.333,
+      "forwardPE": 10.043475,
+      "grossMargins": 0.0,
+      "industry": "Banks - Regional",
+      "marketCap": 23419275264,
+      "priceToSalesTrailing12Months": 3.2522254,
+      "profitMargins": 0.27024,
+      "returnOnEquity": 0.09977,
+      "revenueGrowth": 0.118,
+      "sector": "Financial Services",
+      "trailingPE": 13.251534
+    },
+    "momentum": {
+      "1m": 0.09257708642502682,
+      "6m": 0.12698281118512234
+    },
+    "ann_vol": 0.24828689222287062,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "RS": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:00.285727+00:00",
+      "beta": 0.948,
+      "debtToEquity": 28.449,
+      "dividendYield": 1.35,
+      "earningsGrowth": 0.364,
+      "forwardPE": 17.648777,
+      "freeCashflow": 421300000,
+      "grossMargins": 0.28701,
+      "industry": "Steel",
+      "marketCap": 18789429248,
+      "priceToSalesTrailing12Months": 1.2665095,
+      "profitMargins": 0.054229997,
+      "returnOnEquity": 0.11326,
+      "revenueGrowth": 0.155,
+      "sector": "Basic Materials",
+      "trailingPE": 23.978502
+    },
+    "momentum": {
+      "1m": 0.019530071737557497,
+      "6m": 0.3158717404788991
+    },
+    "ann_vol": 0.26800568791378804,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "NLY": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:12.968539+00:00",
+      "beta": 1.272,
+      "debtToEquity": 732.812,
+      "dividendYield": 12.51,
+      "earningsGrowth": 1.225,
+      "forwardPE": 7.5910444,
+      "grossMargins": 0.97490996,
+      "industry": "REIT - Mortgage",
+      "marketCap": 16568071168,
+      "priceToSalesTrailing12Months": 6.624436,
+      "profitMargins": 0.87391,
+      "returnOnEquity": 0.15042,
+      "revenueGrowth": 0.488,
+      "sector": "Real Estate",
+      "trailingPE": 7.2935486
+    },
+    "momentum": {
+      "1m": 0.059556829391274047,
+      "6m": 0.06692680397324469
+    },
+    "ann_vol": 0.21572281111152247,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "GTES": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:45:10.483710+00:00",
+      "beta": 1.288,
+      "debtToEquity": 64.814,
+      "earningsGrowth": 0.364,
+      "forwardPE": 13.524423,
+      "freeCashflow": 338437504,
+      "grossMargins": 0.40491,
+      "industry": "Specialty Industrial Machinery",
+      "marketCap": 6397739520,
+      "priceToSalesTrailing12Months": 1.8580796,
+      "profitMargins": 0.07301,
+      "returnOnEquity": 0.078839995,
+      "revenueGrowth": 0.032,
+      "sector": "Industrials",
+      "trailingPE": 26.734041
+    },
+    "momentum": {
+      "1m": 0.1197978195539815,
+      "6m": 0.29743128538189656
+    },
+    "ann_vol": 0.45536142563808485,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "FNB": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:45:11.456305+00:00",
+      "beta": 0.896,
+      "dividendYield": 2.93,
+      "earningsGrowth": 0.188,
+      "forwardPE": 9.074168,
+      "grossMargins": 0.0,
+      "industry": "Banks - Regional",
+      "marketCap": 6309601792,
+      "priceToSalesTrailing12Months": 3.6754696,
+      "profitMargins": 0.34108,
+      "returnOnEquity": 0.08859,
+      "revenueGrowth": 0.096,
+      "sector": "Financial Services",
+      "trailingPE": 10.950617
+    },
+    "momentum": {
+      "1m": 0.10451060920477606,
+      "6m": 0.11046893152121773
+    },
+    "ann_vol": 0.2530217997129333,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "GL": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:32.877383+00:00",
+      "beta": 0.5,
+      "debtToEquity": 45.666,
+      "dividendYield": 0.87,
+      "earningsGrowth": 0.126,
+      "forwardPE": 9.087894,
+      "grossMargins": 0.33731997,
+      "industry": "Insurance - Life",
+      "marketCap": 11845911552,
+      "priceToSalesTrailing12Months": 1.9504211,
+      "profitMargins": 0.19383,
+      "returnOnEquity": 0.20455,
+      "revenueGrowth": 0.054,
+      "sector": "Financial Services",
+      "trailingPE": 10.450519
+    },
+    "momentum": {
+      "1m": 0.16140940648657165,
+      "6m": 0.26489877535406103
+    },
+    "ann_vol": 0.19880203919794937,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "GMED": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:51.375704+00:00",
+      "beta": 1.003,
+      "debtToEquity": 2.612,
+      "earningsGrowth": 4.37,
+      "forwardPE": 15.790889,
+      "freeCashflow": 327532128,
+      "grossMargins": 0.68072,
+      "industry": "Medical Devices",
+      "marketCap": 10603617280,
+      "priceToSalesTrailing12Months": 3.6079845,
+      "profitMargins": 0.18301001,
+      "returnOnEquity": 0.122930005,
+      "revenueGrowth": 0.257,
+      "sector": "Healthcare",
+      "trailingPE": 18.261683
+    },
+    "momentum": {
+      "1m": 0.04494789245604114,
+      "6m": -0.028387932165853447
+    },
+    "ann_vol": 0.36141421207005825,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "UAL": {
+    "fundamentals": {
+      "_asof": "2026-06-12T22:47:22.626766+00:00",
+      "beta": 1.291,
+      "debtToEquity": 195.081,
+      "earningsGrowth": 0.845,
+      "forwardPE": 8.125249,
+      "freeCashflow": 1647000064,
+      "grossMargins": 0.33795,
+      "industry": "Airlines",
+      "marketCap": 37494292480,
+      "priceToSalesTrailing12Months": 0.6200991,
+      "profitMargins": 0.06061,
+      "returnOnEquity": 0.25726998,
+      "revenueGrowth": 0.106,
+      "sector": "Industrials",
+      "trailingPE": 10.332736
+    },
+    "momentum": {
+      "1m": 0.20857749325958386,
+      "6m": 0.19889017945776932
+    },
+    "ann_vol": 0.5900734809501691,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "NTAP": {
+    "fundamentals": {
+      "_asof": "2026-06-12T22:47:26.129992+00:00",
+      "beta": 1.434,
+      "debtToEquity": 202.295,
+      "dividendYield": 1.3,
+      "earningsGrowth": 0.234,
+      "forwardPE": 16.390766,
+      "freeCashflow": 1295250048,
+      "grossMargins": 0.70744,
+      "industry": "Software - Infrastructure",
+      "marketCap": 31662618624,
+      "priceToSalesTrailing12Months": 4.5722194,
+      "profitMargins": 0.18426001,
+      "returnOnEquity": 1.06734,
+      "revenueGrowth": 0.125,
+      "sector": "Technology",
+      "trailingPE": 25.450394
+    },
+    "momentum": {
+      "1m": 0.06802571865911222,
+      "6m": 0.40184406808769646
+    },
+    "ann_vol": 0.5339484355973924,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "VICI": {
+    "fundamentals": {
+      "_asof": "2026-06-12T22:47:27.264312+00:00",
+      "beta": 0.676,
+      "debtToEquity": 61.853,
+      "dividendYield": 6.41,
+      "earningsGrowth": 0.601,
+      "forwardPE": 9.717207,
+      "freeCashflow": 1285280000,
+      "grossMargins": 0.99141,
+      "industry": "REIT - Diversified",
+      "marketCap": 30709770240,
+      "priceToSalesTrailing12Months": 7.600614,
+      "profitMargins": 0.7683,
+      "returnOnEquity": 0.11331,
+      "revenueGrowth": 0.035,
+      "sector": "Real Estate",
+      "trailingPE": 9.767123
+    },
+    "momentum": {
+      "1m": -0.03362821499567881,
+      "6m": 0.012878421582890098
+    },
+    "ann_vol": 0.19986928907168094,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "ZBH": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:09.968698+00:00",
+      "beta": 0.473,
+      "debtToEquity": 59.827,
+      "dividendYield": 1.15,
+      "earningsGrowth": 0.341,
+      "forwardPE": 9.145639,
+      "freeCashflow": 1044124992,
+      "grossMargins": 0.70176005,
+      "industry": "Medical Devices",
+      "marketCap": 15911322624,
+      "priceToSalesTrailing12Months": 1.8921553,
+      "profitMargins": 0.09052,
+      "returnOnEquity": 0.060650002,
+      "revenueGrowth": 0.093,
+      "sector": "Healthcare",
+      "trailingPE": 21.306995
+    },
+    "momentum": {
+      "1m": 0.13066126174123527,
+      "6m": 0.04942056911280868
+    },
+    "ann_vol": 0.3067003187336124,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "NDSN": {
+    "fundamentals": {
+      "_asof": "2026-05-08T19:12:15.072656+00:00",
+      "beta": 0.993,
+      "debtToEquity": 66.986,
+      "dividendYield": 1.15,
+      "earningsGrowth": 0.442,
+      "forwardPE": 23.023012,
+      "freeCashflow": 514465248,
+      "grossMargins": 0.55280995,
+      "industry": "Specialty Industrial Machinery",
+      "marketCap": 15841984512,
+      "priceToSalesTrailing12Months": 5.5669355,
+      "profitMargins": 0.18386,
+      "returnOnEquity": 0.17473,
+      "revenueGrowth": 0.088,
+      "sector": "Industrials",
+      "trailingPE": 30.768148
+    },
+    "momentum": {
+      "1m": 0.04704654594704083,
+      "6m": 0.25321781423010425
+    },
+    "ann_vol": 0.24355467570467343,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "PRI": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:44:44.792659+00:00",
+      "beta": 0.9,
+      "debtToEquity": 77.921,
+      "dividendYield": 1.55,
+      "earningsGrowth": 0.235,
+      "forwardPE": 10.732919,
+      "freeCashflow": 1129570560,
+      "grossMargins": 0.7091,
+      "industry": "Insurance - Life",
+      "marketCap": 8890100736,
+      "priceToSalesTrailing12Months": 2.6539547,
+      "profitMargins": 0.22427,
+      "returnOnEquity": 0.31934,
+      "revenueGrowth": 0.08,
+      "sector": "Financial Services",
+      "trailingPE": 12.192791
+    },
+    "momentum": {
+      "1m": 0.046174933568932985,
+      "6m": 0.09213400041208142
+    },
+    "ann_vol": 0.2190920065278156,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "SEIC": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:44:44.305567+00:00",
+      "beta": 0.938,
+      "debtToEquity": 1.541,
+      "dividendYield": 1.11,
+      "earningsGrowth": 0.197,
+      "forwardPE": 13.830973,
+      "grossMargins": 0.78296,
+      "industry": "Asset Management",
+      "marketCap": 11006180352,
+      "priceToSalesTrailing12Months": 4.6474485,
+      "profitMargins": 0.31174,
+      "returnOnEquity": 0.29627,
+      "revenueGrowth": 0.128,
+      "sector": "Financial Services",
+      "trailingPE": 15.616041
+    },
+    "momentum": {
+      "1m": -0.021405538729889595,
+      "6m": 0.025330965527153193
+    },
+    "ann_vol": 0.24584391489106935,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "FAF": {
+    "fundamentals": {
+      "_asof": "2026-04-29T01:45:07.673944+00:00",
+      "beta": 1.296,
+      "debtToEquity": 51.35,
+      "dividendYield": 3.11,
+      "earningsGrowth": 0.704,
+      "forwardPE": 9.702873,
+      "freeCashflow": 1711624960,
+      "grossMargins": 0.63868,
+      "industry": "Insurance - Specialty",
+      "marketCap": 7184969216,
+      "priceToSalesTrailing12Months": 0.9321565,
+      "profitMargins": 0.08727,
+      "returnOnEquity": 0.12796,
+      "revenueGrowth": 0.162,
+      "sector": "Financial Services",
+      "trailingPE": 10.683333
+    },
+    "momentum": {
+      "1m": 0.0012569125061769881,
+      "6m": 0.11881690904211162
+    },
+    "ann_vol": 0.3190982798504454,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "PGR": {
+    "fundamentals": {
+      "_asof": "2026-06-19T22:33:39.837886+00:00",
+      "beta": 0.27,
+      "debtToEquity": 26.174,
+      "earningsGrowth": 0.098,
+      "forwardPE": 12.643931,
+      "freeCashflow": 15501625344,
+      "grossMargins": 0.18562001,
+      "industry": "Insurance - Property & Casualty",
+      "marketCap": 119541645312,
+      "priceToSalesTrailing12Months": 1.3369305,
+      "profitMargins": 0.12927,
+      "returnOnEquity": 0.37903,
+      "revenueGrowth": 0.087,
+      "sector": "Financial Services",
+      "trailingPE": 10.415353
+    },
+    "momentum": {
+      "1m": 0.13930217950150547,
+      "6m": 0.04749041040181523
+    },
+    "ann_vol": 0.24517808484938183,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "KKR": {
+    "fundamentals": {
+      "_asof": "2026-06-19T22:33:54.925969+00:00",
+      "beta": 1.791,
+      "debtToEquity": 69.029,
+      "dividendYield": 0.76,
+      "forwardPE": 13.117933,
+      "grossMargins": 0.55542,
+      "industry": "Asset Management",
+      "marketCap": 90456154112,
+      "priceToSalesTrailing12Months": 3.5676649,
+      "profitMargins": 0.116809994,
+      "returnOnEquity": 0.076630004,
+      "revenueGrowth": -0.066,
+      "sector": "Financial Services",
+      "trailingPE": 32.996597
+    },
+    "momentum": {
+      "1m": -0.05156268114092,
+      "6m": -0.3093787195334404
+    },
+    "ann_vol": 0.39820558815772694,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "GOOG": {
+    "fundamentals": {
+      "_asof": "2026-06-19T22:33:24.473812+00:00",
+      "beta": 1.237,
+      "debtToEquity": 20.026,
+      "dividendYield": 0.24,
+      "earningsGrowth": 0.82,
+      "forwardPE": 25.348362,
+      "freeCashflow": 27921750016,
+      "grossMargins": 0.60368,
+      "industry": "Internet Content & Information",
+      "marketCap": 4483957391360,
+      "priceToSalesTrailing12Months": 10.612967,
+      "profitMargins": 0.37919,
+      "returnOnEquity": 0.38884997,
+      "revenueGrowth": 0.218,
+      "sector": "Communication Services",
+      "trailingPE": 28.05038
+    },
+    "momentum": {
+      "1m": -0.12976781476472488,
+      "6m": 0.06160461683972529
+    },
+    "ann_vol": 0.3332703095745307,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  },
+  "AMP": {
+    "fundamentals": {
+      "_asof": "2026-06-12T22:47:17.167496+00:00",
+      "beta": 1.166,
+      "debtToEquity": 56.246,
+      "dividendYield": 1.51,
+      "earningsGrowth": 0.66,
+      "forwardPE": 9.637334,
+      "freeCashflow": 3355624960,
+      "grossMargins": 0.56601,
+      "industry": "Asset Management",
+      "marketCap": 41274449920,
+      "priceToSalesTrailing12Months": 2.136801,
+      "profitMargins": 0.20165001,
+      "returnOnEquity": 0.66936,
+      "revenueGrowth": 0.09,
+      "sector": "Financial Services",
+      "trailingPE": 11.441067
+    },
+    "momentum": {
+      "1m": 0.02175233846779956,
+      "6m": -0.0854231356601246
+    },
+    "ann_vol": 0.24393726890739767,
+    "headlines": [],
+    "macro": {
+      "cpi_yoy": 0.04270032656680245,
+      "fed_funds": 3.63,
+      "unemployment": 4.3,
+      "ten_year": 4.4,
+      "vix": 18.89
+    }
+  }
+}

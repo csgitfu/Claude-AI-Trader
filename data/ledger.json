@@ -1,5 +1,5 @@
 {
-  "cash": 13903.9866,
+  "cash": 16770.3464,
   "nav_history": [
     {
       "cash": 50000.0,
@@ -282,119 +282,98 @@
       "stale": []
     },
     {
-      "cash": 13903.9866,
+      "cash": 16770.3464,
       "date": "2026-06-26",
-      "equity": 36528.22315703425,
-      "nav": 50432.209757034245,
+      "equity": 33290.389425239395,
+      "nav": 50060.73582523939,
       "spy": 728.989990234375,
       "stale": []
     }
   ],
   "positions": {
     "ARW": {
-      "avg_cost": 219.08999633789062,
+      "avg_cost": 218.1872210437102,
       "last_close": 215.14999389648438,
       "last_close_date": "2026-06-26",
       "sector": "Technology",
-      "shares": 12.55552
+      "shares": 16.287481
     },
-    "CPAY": {
-      "avg_cost": 347.45001220703125,
-      "last_close": 332.4800109863281,
+    "CF": {
+      "avg_cost": 105.69999694824219,
+      "last_close": 105.69999694824219,
       "last_close_date": "2026-06-26",
-      "sector": "Technology",
-      "shares": 7.917078
-    },
-    "FSLR": {
-      "avg_cost": 233.3699951171875,
-      "last_close": 239.07000732421875,
-      "last_close_date": "2026-06-26",
-      "sector": "Technology",
-      "shares": 10.755386
+      "sector": "Basic Materials",
+      "shares": 23.680576
     },
     "HALO": {
-      "avg_cost": 71.52999877929688,
+      "avg_cost": 72.26664093958051,
       "last_close": 74.95999908447266,
       "last_close_date": "2026-06-26",
       "sector": "Healthcare",
-      "shares": 52.440594
+      "shares": 66.783266
     },
-    "IBKR": {
-      "avg_cost": 84.20500183105469,
-      "last_close": 89.81999969482422,
+    "INCY": {
+      "avg_cost": 113.75,
+      "last_close": 113.75,
       "last_close_date": "2026-06-26",
-      "sector": "Financial Services",
-      "shares": 14.222087
+      "sector": "Healthcare",
+      "shares": 26.405663
     },
     "KLAC": {
-      "avg_cost": 241.14999389648438,
+      "avg_cost": 242.85338530055074,
       "last_close": 248.63999938964844,
       "last_close_date": "2026-06-26",
       "sector": "Technology",
-      "shares": 12.44396
+      "shares": 16.107058000000002
     },
     "NBIX": {
-      "avg_cost": 151.40402495821425,
+      "avg_cost": 155.390409025269,
       "last_close": 168.52000427246094,
       "last_close_date": "2026-06-26",
       "sector": "Healthcare",
-      "shares": 17.090573
-    },
-    "RDDT": {
-      "avg_cost": 158.3400317096453,
-      "last_close": 166.94000244140625,
-      "last_close_date": "2026-06-26",
-      "sector": "Communication Services",
-      "shares": 11.245658
+      "shares": 22.279581999999998
     },
     "RNR": {
       "avg_cost": 310.5615127114159,
-      "last_close": 319.5899963378906,
+      "last_close": 288.4800109863281,
       "last_close_date": "2026-06-26",
       "sector": "Financial Services",
-      "shares": 11.962663999999998
-    },
-    "RPRX": {
-      "avg_cost": 55.869998931884766,
-      "last_close": 56.22999954223633,
-      "last_close_date": "2026-06-26",
-      "sector": "Healthcare",
-      "shares": 58.18744
+      "shares": 3.470654999999999
     },
     "RRC": {
-      "avg_cost": 42.81742772837387,
+      "avg_cost": 40.76036644849097,
       "last_close": 37.56999969482422,
       "last_close_date": "2026-06-26",
       "sector": "Energy",
-      "shares": 24.303645000000003
-    },
-    "SCCO": {
-      "avg_cost": 172.97000122070312,
-      "last_close": 171.25999450683594,
-      "last_close_date": "2026-06-26",
-      "sector": "Basic Materials",
-      "shares": 11.566015
+      "shares": 39.973971000000006
     },
     "SEIC": {
-      "avg_cost": 90.570661357151,
+      "avg_cost": 89.839659595665,
       "last_close": 87.25,
       "last_close_date": "2026-06-26",
       "sector": "Financial Services",
-      "shares": 22.372777
+      "shares": 28.688101
     },
-    "STZ": {
-      "avg_cost": 155.22371600518593,
-      "last_close": 146.3000030517578,
+    "TPL": {
+      "avg_cost": 395.7900085449219,
+      "last_close": 395.7900085449219,
       "last_close_date": "2026-06-26",
-      "sector": "Consumer Defensive",
-      "shares": 7.098764000000001
+      "sector": "Energy",
+      "shares": 6.324154
     },
     "VIK": {
       "avg_cost": 89.94000244140625,
-      "last_close": 103.26000213623047,
+      "last_close": 89.94000244140625,
       "last_close_date": "2026-06-26",
       "sector": "Consumer Cyclical",
-      "shares": 25.023853
+      "shares": 11.132029
+    },
+    "VIRT": {
+      "avg_cost": 60.709999084472656,
+      "last_close": 60.709999084472656,
+      "last_close_date": "2026-06-26",
+      "sector": "Financial Services",
+      "shares": 49.475279
     }
   },
   "starting_nav": 50000.0,
@@ -1022,6 +1001,158 @@
       "side": "buy",
       "ticker": "SCCO",
       "ts": "2026-06-06T00:51:11+00:00"
+    },
+    {
+      "price": 332.4800109863281,
+      "rationale": "rebalance",
+      "shares": 7.917078,
+      "side": "sell",
+      "ticker": "CPAY",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 279.010009765625,
+      "rationale": "rebalance",
+      "shares": 10.755386,
+      "side": "sell",
+      "ticker": "FSLR",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 84.4000015258789,
+      "rationale": "rebalance",
+      "shares": 14.222087,
+      "side": "sell",
+      "ticker": "IBKR",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 166.94000244140625,
+      "rationale": "rebalance",
+      "shares": 11.245658,
+      "side": "sell",
+      "ticker": "RDDT",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 288.4800109863281,
+      "rationale": "Best-in-class reinsurer retained at minimum 2% stale-hold; no close available but 101% earnings growth and peak cat-reinsurance pricing thesis intact.",
+      "shares": 8.492009,
+      "side": "sell",
+      "ticker": "RNR",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 56.22999954223633,
+      "rationale": "rebalance",
+      "shares": 58.18744,
+      "side": "sell",
+      "ticker": "RPRX",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 172.97000122070312,
+      "rationale": "rebalance",
+      "shares": 11.566015,
+      "side": "sell",
+      "ticker": "SCCO",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 140.91000366210938,
+      "rationale": "rebalance",
+      "shares": 7.098764,
+      "side": "sell",
+      "ticker": "STZ",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 89.94000244140625,
+      "rationale": "Premium cruise operator retained at minimum 2% stale-hold; no close available but 227% earnings growth and affluent consumer demand thesis intact.",
+      "shares": 13.891824,
+      "side": "sell",
+      "ticker": "VIK",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 248.63999938964844,
+      "rationale": "Quality semiconductor equipment franchise held near current weight (~8.33%) to respect turnover cap; dropped from shortlist this cycle, sizing will decay over next 1-2 cycles if signal stays weak.",
+      "shares": 3.663098,
+      "side": "buy",
+      "ticker": "KLAC",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 74.95999908447266,
+      "rationale": "Specialty pharma held near current weight (~10.58%) to respect turnover cap; dropped from shortlist this cycle, will be re-evaluated next week with fresh signal.",
+      "shares": 14.342672,
+      "side": "buy",
+      "ticker": "HALO",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 215.14999389648438,
+      "rationale": "Electronics distribution leader benefiting from tech cycle recovery; 19-day position in catalyst window with p_outperform=0.705 and 91% 6-month momentum.",
+      "shares": 3.731961,
+      "side": "buy",
+      "ticker": "ARW",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 168.52000427246094,
+      "rationale": "Specialty pharma compounder with 42% revenue growth, cheap 11.5x forward PE, and $643M FCF; 33-day position with p_outperform=0.695 above the mature-hold threshold.",
+      "shares": 5.189009,
+      "side": "buy",
+      "ticker": "NBIX",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 87.25,
+      "rationale": "High-quality wealth management technology platform with 29.6% ROE, zero net debt, and 31% margins; retained in 19-day catalyst window.",
+      "shares": 6.315324,
+      "side": "buy",
+      "ticker": "SEIC",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 37.56999969482422,
+      "rationale": "Low-cost Appalachian gas E&P with $555M FCF at 8.8x forward PE; trimmed from prior weight, retained for LNG demand optionality.",
+      "shares": 15.670326,
+      "side": "buy",
+      "ticker": "RRC",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 60.709999084472656,
+      "rationale": "Electronic market maker with highest p_outperform (0.80): 49.7% earnings growth, 8.9x forward PE, and explosive 84% 6-month momentum from elevated trading volumes.",
+      "shares": 49.475279,
+      "side": "buy",
+      "ticker": "VIRT",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 113.75,
+      "rationale": "Biotech GARP with 83.8% earnings growth, 10.9x forward PE, $559M FCF, and positive recent momentum; p_outperform=0.785 reflects compelling quality-to-price.",
+      "shares": 26.405663,
+      "side": "buy",
+      "ticker": "INCY",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 395.7900085449219,
+      "rationale": "Texas Pacific Land royalty franchise with 60% profit margins and 5.5x forward PE \u2014 elite quality at deep value with 33% 6-month momentum.",
+      "shares": 6.324154,
+      "side": "buy",
+      "ticker": "TPL",
+      "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 105.69999694824219,
+      "rationale": "CF Industries at 11.78x forward PE with 115% earnings growth and 27.3% ROE; structural nitrogen demand and food security concerns support fertilizer pricing.",
+      "shares": 23.680576,
+      "side": "buy",
+      "ticker": "CF",
+      "ts": "2026-06-26T23:34:23+00:00"
     }
   ]
 }
