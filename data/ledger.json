@@ -1,5 +1,5 @@
 {
-  "cash": 16770.3464,
+  "cash": 12765.4876,
   "nav_history": [
     {
       "cash": 50000.0,
@@ -354,12 +354,26 @@
       "sector": "Financial Services",
       "shares": 28.688101
     },
+    "TIGO": {
+      "avg_cost": 89.26000213623047,
+      "last_close": null,
+      "last_close_date": null,
+      "sector": "Communication Services",
+      "shares": 22.43367
+    },
     "TPL": {
       "avg_cost": 395.7900085449219,
       "last_close": 395.7900085449219,
       "last_close_date": "2026-06-26",
       "sector": "Energy",
       "shares": 6.324154
+    },
+    "UAL": {
+      "avg_cost": 136.11000061035156,
+      "last_close": null,
+      "last_close_date": null,
+      "sector": "Industrials",
+      "shares": 14.711846
     },
     "VIK": {
       "avg_cost": 89.94000244140625,
@@ -1153,6 +1167,22 @@
       "side": "buy",
       "ticker": "CF",
       "ts": "2026-06-26T23:34:23+00:00"
+    },
+    {
+      "price": 136.11000061035156,
+      "rationale": "United Airlines at 8.1x forward PE with 84.5% earnings growth; Industrials sector exposure. Delayed buy \u2014 price unavailable on rebalance date.",
+      "shares": 14.711846,
+      "side": "buy",
+      "ticker": "UAL",
+      "ts": "2026-06-27T01:13:24+00:00"
+    },
+    {
+      "price": 89.26000213623047,
+      "rationale": "Millicom LatAm telecom, 729% earnings rebound, 37.9% ROE, 73% 6-month momentum. Delayed buy \u2014 price unavailable on rebalance date.",
+      "shares": 22.43367,
+      "side": "buy",
+      "ticker": "TIGO",
+      "ts": "2026-06-27T01:13:24+00:00"
     }
   ]
 }

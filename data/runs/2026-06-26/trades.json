@@ -150,5 +150,21 @@
     "shares": 23.680576,
     "price": 105.69999694824219,
     "rationale": "CF Industries at 11.78x forward PE with 115% earnings growth and 27.3% ROE; structural nitrogen demand and food security concerns support fertilizer pricing."
+  },
+  {
+    "ts": "2026-06-27T01:13:24+00:00",
+    "ticker": "UAL",
+    "side": "buy",
+    "shares": 14.711846,
+    "price": 136.11000061035156,
+    "rationale": "United Airlines at 8.1x forward PE with 84.5% earnings growth; Industrials sector exposure. Delayed buy \u2014 price unavailable on rebalance date."
+  },
+  {
+    "ts": "2026-06-27T01:13:24+00:00",
+    "ticker": "TIGO",
+    "side": "buy",
+    "shares": 22.43367,
+    "price": 89.26000213623047,
+    "rationale": "Millicom LatAm telecom, 729% earnings rebound, 37.9% ROE, 73% 6-month momentum. Delayed buy \u2014 price unavailable on rebalance date."
   }
 ]
