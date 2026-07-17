@@ -1,0 +1,1030 @@
+Ticker,Name,Sector,Asset Class
+NVDA,NVIDIA CORP,Information Technology,Equity
+AAPL,APPLE INC,Information Technology,Equity
+MSFT,MICROSOFT CORP,Information Technology,Equity
+AMZN,AMAZON.COM INC,Consumer Discretionary,Equity
+GOOGL,ALPHABET INC CLASS A,Communication,Equity
+AVGO,BROADCOM INC,Information Technology,Equity
+GOOG,ALPHABET INC CLASS C,Communication,Equity
+META,META PLATFORMS INC CLASS A,Communication,Equity
+TSLA,TESLA INC,Consumer Discretionary,Equity
+MU,MICRON TECHNOLOGY INC,Information Technology,Equity
+LLY,ELI LILLY,Health Care,Equity
+BRKB,BERKSHIRE HATHAWAY INC CLASS B,Financials,Equity
+JPM,JPMORGAN CHASE & CO,Financials,Equity
+AMD,ADVANCED MICRO DEVICES INC,Information Technology,Equity
+XOM,EXXONMOBIL HOLDINGS CORP,Energy,Equity
+V,VISA INC CLASS A,Financials,Equity
+JNJ,JOHNSON & JOHNSON,Health Care,Equity
+WMT,WALMART INC,Consumer Staples,Equity
+ABBV,ABBVIE INC,Health Care,Equity
+MA,MASTERCARD INC CLASS A,Financials,Equity
+AMAT,APPLIED MATERIAL INC,Information Technology,Equity
+CSCO,CISCO SYSTEMS INC,Information Technology,Equity
+INTC,INTEL CORPORATION,Information Technology,Equity
+COST,COSTCO WHOLESALE CORP,Consumer Staples,Equity
+BAC,BANK OF AMERICA CORP,Financials,Equity
+LRCX,LAM RESEARCH CORP,Information Technology,Equity
+CAT,CATERPILLAR INC,Industrials,Equity
+UNH,UNITEDHEALTH GROUP INC,Health Care,Equity
+GE,GE AEROSPACE,Industrials,Equity
+PG,PROCTER & GAMBLE,Consumer Staples,Equity
+HD,HOME DEPOT INC,Consumer Discretionary,Equity
+CVX,CHEVRON CORP,Energy,Equity
+KO,COCA-COLA,Consumer Staples,Equity
+GS,GOLDMAN SACHS GROUP INC,Financials,Equity
+MRK,MERCK & CO INC,Health Care,Equity
+NFLX,NETFLIX INC,Communication,Equity
+PLTR,PALANTIR TECHNOLOGIES INC CLASS A,Information Technology,Equity
+PM,PHILIP MORRIS INTERNATIONAL INC,Consumer Staples,Equity
+KLAC,KLA CORP,Information Technology,Equity
+PANW,PALO ALTO NETWORKS INC,Information Technology,Equity
+GEV,GE VERNOVA INC,Industrials,Equity
+WFC,WELLS FARGO,Financials,Equity
+TXN,TEXAS INSTRUMENT INC,Information Technology,Equity
+RTX,RTX CORP,Industrials,Equity
+MS,MORGAN STANLEY,Financials,Equity
+LIN,LINDE PLC,Materials,Equity
+C,CITIGROUP INC,Financials,Equity
+ORCL,ORACLE CORP,Information Technology,Equity
+IBM,INTERNATIONAL BUSINESS MACHINES CO,Information Technology,Equity
+SNDK,SANDISK CORP,Information Technology,Equity
+CRWD,CROWDSTRIKE HOLDINGS INC CLASS A,Information Technology,Equity
+TMO,THERMO FISHER SCIENTIFIC INC,Health Care,Equity
+AMGN,AMGEN INC,Health Care,Equity
+MCD,MCDONALDS CORP,Consumer Discretionary,Equity
+AXP,AMERICAN EXPRESS,Financials,Equity
+PEP,PEPSICO INC,Consumer Staples,Equity
+APH,AMPHENOL CORP CLASS A,Information Technology,Equity
+NEE,NEXTERA ENERGY INC,Utilities,Equity
+ADI,ANALOG DEVICES INC,Information Technology,Equity
+VZ,VERIZON COMMUNICATIONS INC,Communication,Equity
+QCOM,QUALCOMM INC,Information Technology,Equity
+UNP,UNION PACIFIC CORP,Industrials,Equity
+DIS,WALT DISNEY,Communication,Equity
+ANET,ARISTA NETWORKS INC,Information Technology,Equity
+TJX,TJX INC,Consumer Discretionary,Equity
+ABT,ABBOTT LABORATORIES,Health Care,Equity
+WELL,WELLTOWER INC,Real Estate,Equity
+GILD,GILEAD SCIENCES INC,Health Care,Equity
+SCHW,CHARLES SCHWAB CORP,Financials,Equity
+BLK,BLACKROCK INC,Financials,Equity
+MRVL,MARVELL TECHNOLOGY INC,Information Technology,Equity
+BA,BOEING,Industrials,Equity
+WDC,WESTERN DIGITAL CORP,Information Technology,Equity
+ETN,EATON PLC,Industrials,Equity
+T,AT&T INC,Communication,Equity
+DE,DEERE,Industrials,Equity
+UBER,UBER TECHNOLOGIES INC,Industrials,Equity
+PFE,PFIZER INC,Health Care,Equity
+BKNG,BOOKING HOLDINGS INC,Consumer Discretionary,Equity
+ISRG,INTUITIVE SURGICAL INC,Health Care,Equity
+PLD,PROLOGIS REIT INC,Real Estate,Equity
+COP,CONOCOPHILLIPS,Energy,Equity
+CRM,SALESFORCE INC,Information Technology,Equity
+CVS,CVS HEALTH CORP,Health Care,Equity
+SPGI,S&P GLOBAL INC,Financials,Equity
+COF,CAPITAL ONE FINANCIAL CORP,Financials,Equity
+DHR,DANAHER CORP,Health Care,Equity
+GLW,CORNING INC,Information Technology,Equity
+SBUX,STARBUCKS CORP,Consumer Discretionary,Equity
+BMY,BRISTOL MYERS SQUIBB,Health Care,Equity
+VRTX,VERTEX PHARMACEUTICALS INC,Health Care,Equity
+MO,ALTRIA GROUP INC,Consumer Staples,Equity
+LOW,LOWES COMPANIES INC,Consumer Discretionary,Equity
+PH,PARKER-HANNIFIN CORP,Industrials,Equity
+CB,CHUBB,Financials,Equity
+PGR,PROGRESSIVE CORP,Financials,Equity
+DELL,DELL TECHNOLOGIES INC CLASS C,Information Technology,Equity
+SYK,STRYKER CORP,Health Care,Equity
+VRT,VERTIV HOLDINGS CLASS A,Industrials,Equity
+BNY,BANK OF NEW YORK MELLON CORP,Financials,Equity
+SO,SOUTHERN,Utilities,Equity
+HWM,HOWMET AEROSPACE INC,Industrials,Equity
+MDT,MEDTRONIC PLC,Health Care,Equity
+NOW,SERVICENOW INC,Information Technology,Equity
+TT,TRANE TECHNOLOGIES PLC,Industrials,Equity
+LMT,LOCKHEED MARTIN CORP,Industrials,Equity
+APP,APPLOVIN CORP CLASS A,Information Technology,Equity
+MCK,MCKESSON CORP,Health Care,Equity
+ADP,AUTOMATIC DATA PROCESSING INC,Industrials,Equity
+PNC,PNC FINANCIAL SERVICES GROUP INC,Financials,Equity
+CDNS,CADENCE DESIGN SYSTEMS INC,Information Technology,Equity
+USB,US BANCORP,Financials,Equity
+EQIX,EQUINIX REIT INC,Real Estate,Equity
+DUK,DUKE ENERGY CORP,Utilities,Equity
+FTNT,FORTINET INC,Information Technology,Equity
+NEM,NEWMONT,Materials,Equity
+BX,BLACKSTONE INC,Financials,Equity
+ADBE,ADOBE INC,Information Technology,Equity
+CSX,CSX CORP,Industrials,Equity
+GD,GENERAL DYNAMICS CORP,Industrials,Equity
+PWR,QUANTA SERVICES INC,Industrials,Equity
+TMUS,T MOBILE US INC,Communication,Equity
+WMB,WILLIAMS INC,Energy,Equity
+SNOW,SNOWFLAKE INC,Information Technology,Equity
+WM,WASTE MANAGEMENT INC,Industrials,Equity
+MPC,MARATHON PETROLEUM CORP,Energy,Equity
+CME,CME GROUP INC CLASS A,Financials,Equity
+CMI,CUMMINS INC,Industrials,Equity
+VLO,VALERO ENERGY CORP,Energy,Equity
+ACN,ACCENTURE PLC CLASS A,Information Technology,Equity
+MRSH,MARSH INC,Financials,Equity
+UPS,UNITED PARCEL SERVICE INC CLASS B,Industrials,Equity
+NET,CLOUDFLARE INC CLASS A,Information Technology,Equity
+JCI,JOHNSON CONTROLS INTERNATIONAL PLC,Industrials,Equity
+DDOG,DATADOG INC CLASS A,Information Technology,Equity
+CMCSA,COMCAST CORP CLASS A,Communication,Equity
+MMM,3M,Industrials,Equity
+FCX,FREEPORT MCMORAN INC,Materials,Equity
+HOOD,ROBINHOOD MARKETS INC CLASS A,Financials,Equity
+ITW,ILLINOIS TOOL INC,Industrials,Equity
+MAR,MARRIOTT INTERNATIONAL INC CLASS A,Consumer Discretionary,Equity
+ELV,ELEVANCE HEALTH INC,Health Care,Equity
+XTSLA,BLK CSH FND TREASURY SL AGENCY,Cash and/or Derivatives,Money Market
+CEG,CONSTELLATION ENERGY CORP,Utilities,Equity
+PSX,PHILLIPS 66,Energy,Equity
+INTU,INTUIT INC,Information Technology,Equity
+ICE,INTERCONTINENTAL EXCHANGE INC,Financials,Equity
+MDLZ,MONDELEZ INTERNATIONAL INC CLASS A,Consumer Staples,Equity
+AMT,AMERICAN TOWER REIT CORP,Real Estate,Equity
+SHW,SHERWIN WILLIAMS,Materials,Equity
+EMR,EMERSON ELECTRIC,Industrials,Equity
+MCO,MOODYS CORP,Financials,Equity
+SNPS,SYNOPSYS INC,Information Technology,Equity
+AON,AON PLC CLASS A,Financials,Equity
+NSC,NORFOLK SOUTHERN CORP,Industrials,Equity
+SPOT,SPOTIFY TECHNOLOGY SA,Communication,Equity
+CL,COLGATE-PALMOLIVE,Consumer Staples,Equity
+EOG,EOG RESOURCES INC,Energy,Equity
+CI,CIGNA,Health Care,Equity
+RCL,ROYAL CARIBBEAN GROUP LTD,Consumer Discretionary,Equity
+ROST,ROSS STORES INC,Consumer Discretionary,Equity
+SPG,SIMON PROPERTY GROUP REIT INC,Real Estate,Equity
+AEP,AMERICAN ELECTRIC POWER INC,Utilities,Equity
+HLT,HILTON WORLDWIDE HOLDINGS INC,Consumer Discretionary,Equity
+HON,HONEYWELL INTERNATIONAL INC,Industrials,Equity
+TRV,TRAVELERS COMPANIES INC,Financials,Equity
+ORLY,OREILLY AUTOMOTIVE INC,Consumer Discretionary,Equity
+CRH,CRH PUBLIC LIMITED PLC,Materials,Equity
+MNST,MONSTER BEVERAGE CORP,Consumer Staples,Equity
+KKR,KKR AND CO INC,Financials,Equity
+SLB,SLB NV,Energy,Equity
+CTAS,CINTAS CORP,Industrials,Equity
+GM,GENERAL MOTORS,Consumer Discretionary,Equity
+DASH,DOORDASH INC CLASS A,Consumer Discretionary,Equity
+FDX,FEDEX CORP,Industrials,Equity
+SPCX,SPACE EXPLORATION TECHNOLOGIES COR,Communication,Equity
+NOC,NORTHROP GRUMMAN CORP,Industrials,Equity
+TDG,TRANSDIGM GROUP INC,Industrials,Equity
+MSI,MOTOROLA SOLUTIONS INC,Information Technology,Equity
+REGN,REGENERON PHARMACEUTICALS INC,Health Care,Equity
+ECL,ECOLAB INC,Materials,Equity
+URI,UNITED RENTALS INC,Industrials,Equity
+TFC,TRUIST FINANCIAL CORP,Financials,Equity
+BSX,BOSTON SCIENTIFIC CORP,Health Care,Equity
+HONA,HONEYWELL AEROSPACE INC,Industrials,Equity
+WBD,WARNER BROS. DISCOVERY INC SERIES,Communication,Equity
+AJG,ARTHUR J GALLAGHER,Financials,Equity
+PCAR,PACCAR INC,Industrials,Equity
+APD,AIR PRODUCTS AND CHEMICALS INC,Materials,Equity
+TGT,TARGET CORP,Consumer Staples,Equity
+KMI,KINDER MORGAN INC,Energy,Equity
+D,DOMINION ENERGY INC,Utilities,Equity
+DLR,DIGITAL REALTY TRUST REIT INC,Real Estate,Equity
+ALL,ALLSTATE CORP,Financials,Equity
+MPWR,MONOLITHIC POWER SYSTEMS INC,Information Technology,Equity
+O,REALTY INCOME REIT CORP,Real Estate,Equity
+ABNB,AIRBNB INC CLASS A,Consumer Discretionary,Equity
+GWW,WW GRAINGER INC,Industrials,Equity
+SRE,SEMPRA,Utilities,Equity
+HPE,HEWLETT PACKARD ENTERPRISE,Information Technology,Equity
+TRGP,TARGA RESOURCES CORP,Energy,Equity
+OKE,ONEOK INC,Energy,Equity
+FIX,COMFORT SYSTEMS USA INC,Industrials,Equity
+CTVA,CORTEVA INC,Materials,Equity
+HCA,HCA HEALTHCARE INC,Health Care,Equity
+COR,CENCORA INC,Health Care,Equity
+DAL,DELTA AIR LINES INC,Industrials,Equity
+BKR,BAKER HUGHES CLASS A,Energy,Equity
+AFL,AFLAC INC,Financials,Equity
+BE,BLOOM ENERGY CLASS A CORP,Industrials,Equity
+F,FORD MOTOR CO,Consumer Discretionary,Equity
+CIEN,CIENA CORP,Information Technology,Equity
+AME,AMETEK INC,Industrials,Equity
+LNG,CHENIERE ENERGY INC,Energy,Equity
+CARR,CARRIER GLOBAL CORP,Industrials,Equity
+FITB,FIFTH THIRD BANCORP,Financials,Equity
+FAST,FASTENAL,Industrials,Equity
+CAH,CARDINAL HEALTH INC,Health Care,Equity
+KEYS,KEYSIGHT TECHNOLOGIES INC,Information Technology,Equity
+LHX,L3HARRIS TECHNOLOGIES INC,Industrials,Equity
+NKE,NIKE INC CLASS B,Consumer Discretionary,Equity
+ROK,ROCKWELL AUTOMATION INC,Industrials,Equity
+ETR,ENTERGY CORP,Utilities,Equity
+APO,APOLLO GLOBAL MANAGEMENT INC,Financials,Equity
+EA,ELECTRONIC ARTS INC,Communication,Equity
+NUE,NUCOR CORP,Materials,Equity
+VST,VISTRA CORP,Utilities,Equity
+PSA,PUBLIC STORAGE REIT,Real Estate,Equity
+PYPL,PAYPAL HOLDINGS INC,Financials,Equity
+MET,METLIFE INC,Financials,Equity
+TER,TERADYNE INC,Information Technology,Equity
+AZO,AUTOZONE INC,Consumer Discretionary,Equity
+LITE,LUMENTUM HOLDINGS INC,Information Technology,Equity
+EW,EDWARDS LIFESCIENCES CORP,Health Care,Equity
+XEL,XCEL ENERGY INC,Utilities,Equity
+STT,STATE STREET CORP,Financials,Equity
+EBAY,EBAY INC,Consumer Discretionary,Equity
+COHR,COHERENT CORP,Information Technology,Equity
+CVNA,CARVANA CLASS A,Consumer Discretionary,Equity
+ALAB,ASTERA LABS INC,Information Technology,Equity
+DVN,DEVON ENERGY CORP,Energy,Equity
+AMP,AMERIPRISE FINANCE INC,Financials,Equity
+EXC,EXELON CORP,Utilities,Equity
+NU,NU HOLDINGS CLASS A,Financials,Equity
+HUM,HUMANA INC,Health Care,Equity
+VTR,VENTAS REIT INC,Real Estate,Equity
+ADSK,AUTODESK INC,Information Technology,Equity
+IDXX,IDEXX LABORATORIES INC,Health Care,Equity
+BDX,BECTON DICKINSON,Health Care,Equity
+FERG,FERGUSON ENTERPRISES INC,Industrials,Equity
+MSCI,MSCI INC,Financials,Equity
+RSG,REPUBLIC SERVICES INC,Industrials,Equity
+WAB,WESTINGHOUSE AIR BRAKE TECHNOLOGIE,Industrials,Equity
+FLEX,FLEX LTD,Information Technology,Equity
+TTWO,TAKE TWO INTERACTIVE SOFTWARE INC,Communication,Equity
+ODFL,OLD DOMINION FREIGHT LINE INC,Industrials,Equity
+CMG,CHIPOTLE MEXICAN GRILL INC,Consumer Discretionary,Equity
+MCHP,MICROCHIP TECHNOLOGY INC,Information Technology,Equity
+XYZ,BLOCK INC CLASS A,Financials,Equity
+NDAQ,NASDAQ INC,Financials,Equity
+YUM,YUM BRANDS INC,Consumer Discretionary,Equity
+CBRE,CBRE GROUP INC CLASS A,Real Estate,Equity
+AXON,AXON ENTERPRISE INC,Industrials,Equity
+AIG,AMERICAN INTERNATIONAL GROUP INC,Financials,Equity
+ED,CONSOLIDATED EDISON INC,Utilities,Equity
+GRMN,GARMIN LTD,Consumer Discretionary,Equity
+PRU,PRUDENTIAL FINANCIAL INC,Financials,Equity
+KDP,KEURIG DR PEPPER INC,Consumer Staples,Equity
+ADM,ARCHER DANIELS MIDLAND,Consumer Staples,Equity
+USD,USD CASH,Cash and/or Derivatives,Cash
+IBKR,INTERACTIVE BROKERS GROUP INC CLAS,Financials,Equity
+PEG,PUBLIC SERVICE ENTERPRISE GROUP IN,Utilities,Equity
+SYY,SYSCO CORP,Consumer Staples,Equity
+OXY,OCCIDENTAL PETROLEUM CORP,Energy,Equity
+DHI,D R HORTON INC,Consumer Discretionary,Equity
+AU,ANGLOGOLD ASHANTI PLC,Materials,Equity
+PCG,PG&E CORP,Utilities,Equity
+A,AGILENT TECHNOLOGIES INC,Health Care,Equity
+UAL,UNITED AIRLINES HOLDINGS INC,Industrials,Equity
+VMC,VULCAN MATERIALS,Materials,Equity
+ALNY,ALNYLAM PHARMACEUTICALS INC,Health Care,Equity
+HBAN,HUNTINGTON BANCSHARES INC,Financials,Equity
+WEC,WEC ENERGY GROUP INC,Utilities,Equity
+HIG,HARTFORD INSURANCE GROUP INC,Financials,Equity
+MTB,M&T BANK CORP,Financials,Equity
+ROP,ROPER TECHNOLOGIES INC,Information Technology,Equity
+WAT,WATERS CORP,Health Care,Equity
+PAYX,PAYCHEX INC,Industrials,Equity
+NTRA,NATERA INC,Health Care,Equity
+FANG,DIAMONDBACK ENERGY INC,Energy,Equity
+IRM,IRON MOUNTAIN INC,Real Estate,Equity
+RKLB,ROCKET LAB CORP,Industrials,Equity
+KVUE,KENVUE INC,Consumer Staples,Equity
+KMB,KIMBERLY CLARK CORP,Consumer Staples,Equity
+COIN,COINBASE GLOBAL INC CLASS A,Financials,Equity
+IQV,IQVIA HOLDINGS INC,Health Care,Equity
+ACGL,ARCH CAPITAL GROUP LTD,Financials,Equity
+ON,ON SEMICONDUCTOR CORP,Information Technology,Equity
+CCI,CROWN CASTLE INC,Real Estate,Equity
+NTRS,NORTHERN TRUST CORP,Financials,Equity
+MLM,MARTIN MARIETTA MATERIALS INC,Materials,Equity
+RBLX,ROBLOX CORP CLASS A,Communication,Equity
+RVMD,REVOLUTION MEDICINES INC,Health Care,Equity
+CRDO,CREDO TECHNOLOGY GROUP HOLDING LTD,Information Technology,Equity
+CCL,CARNIVAL CORP LTD,Consumer Discretionary,Equity
+IR,INGERSOLL RAND INC,Industrials,Equity
+EME,EMCOR GROUP INC,Industrials,Equity
+KR,KROGER,Consumer Staples,Equity
+ZTS,ZOETIS INC CLASS A,Health Care,Equity
+JBL,JABIL INC,Information Technology,Equity
+CNC,CENTENE CORP,Health Care,Equity
+STLD,STEEL DYNAMICS INC,Materials,Equity
+EXR,EXTRA SPACE STORAGE REIT INC,Real Estate,Equity
+CFG,CITIZENS FINANCIAL GROUP INC,Financials,Equity
+NTAP,NETAPP INC,Information Technology,Equity
+DTE,DTE ENERGY,Utilities,Equity
+AEE,AMEREN CORP,Utilities,Equity
+EXPE,EXPEDIA GROUP INC,Consumer Discretionary,Equity
+BIIB,BIOGEN INC,Health Care,Equity
+CASY,CASEYS GENERAL STORES INC,Consumer Staples,Equity
+MSTR,STRATEGY INC CLASS A,Information Technology,Equity
+TWLO,TWILIO INC CLASS A,Information Technology,Equity
+SUNB,SUNBELT RENTALS HOLDINGS INC,Industrials,Equity
+EQT,EQT CORP,Energy,Equity
+RJF,RAYMOND JAMES INC,Financials,Equity
+EIX,EDISON INTERNATIONAL,Utilities,Equity
+DXCM,DEXCOM INC,Health Care,Equity
+WDAY,WORKDAY INC CLASS A,Information Technology,Equity
+GEHC,GE HEALTHCARE TECHNOLOGIES INC,Health Care,Equity
+VEEV,VEEVA SYSTEMS INC CLASS A,Health Care,Equity
+XYL,XYLEM INC,Industrials,Equity
+VICI,VICI PPTYS INC,Real Estate,Equity
+RMD,RESMED INC,Health Care,Equity
+ATO,ATMOS ENERGY CORP,Utilities,Equity
+CBOE,CBOE GLOBAL MARKETS INC,Financials,Equity
+HAL,HALLIBURTON,Energy,Equity
+TPR,TAPESTRY INC,Consumer Discretionary,Equity
+TDY,TELEDYNE TECHNOLOGIES INC,Information Technology,Equity
+DOV,DOVER CORP,Industrials,Equity
+ILMN,ILLUMINA INC,Health Care,Equity
+OTIS,OTIS WORLDWIDE CORP,Industrials,Equity
+LYV,LIVE NATION ENTERTAINMENT INC,Communication,Equity
+CNP,CENTERPOINT ENERGY INC,Utilities,Equity
+Q,QNITY ELECTRONICS INC,Information Technology,Equity
+ES,EVERSOURCE ENERGY,Utilities,Equity
+FTI,TECHNIPFMC PLC,Energy,Equity
+DG,DOLLAR GENERAL CORP,Consumer Staples,Equity
+FICO,FAIR ISAAC CORP,Information Technology,Equity
+WTW,WILLIS TOWERS WATSON PLC,Financials,Equity
+RF,REGIONS FINANCIAL CORP,Financials,Equity
+FISV,FISERV INC,Financials,Equity
+PPL,PPL CORP,Utilities,Equity
+FE,FIRSTENERGY CORP,Utilities,Equity
+AVB,AVALONBAY COMMUNITIES REIT INC,Real Estate,Equity
+NRG,NRG ENERGY INC,Utilities,Equity
+MTD,METTLER TOLEDO INC,Health Care,Equity
+CINF,CINCINNATI FINANCIAL CORP,Financials,Equity
+CRS,CARPENTER TECHNOLOGY CORP,Industrials,Equity
+LPLA,LPL FINANCIAL HOLDINGS INC,Financials,Equity
+CW,CURTISS WRIGHT CORP,Industrials,Equity
+QSR,RESTAURANTS BRANDS INTERNATIONAL I,Consumer Discretionary,Equity
+WSM,WILLIAMS SONOMA INC,Consumer Discretionary,Equity
+PPG,PPG INDUSTRIES INC,Materials,Equity
+VRSK,VERISK ANALYTICS INC,Industrials,Equity
+AWK,AMERICAN WATER WORKS INC,Utilities,Equity
+EQR,EQUITY RESIDENTIAL REIT,Real Estate,Equity
+HSY,HERSHEY FOODS,Consumer Staples,Equity
+MDB,MONGODB INC CLASS A,Information Technology,Equity
+HUBB,HUBBELL INC,Industrials,Equity
+CRWV,COREWEAVE INC CLASS A,Information Technology,Equity
+WST,WEST PHARMACEUTICAL SERVICES INC,Health Care,Equity
+ATI,ATI INC,Industrials,Equity
+CPRT,COPART INC,Industrials,Equity
+XPO,XPO INC,Industrials,Equity
+TROW,T ROWE PRICE GROUP INC,Financials,Equity
+OKTA,OKTA INC CLASS A,Information Technology,Equity
+ZM,ZOOM COMMUNICATIONS INC CLASS A,Information Technology,Equity
+SYF,SYNCHRONY FINANCIAL,Financials,Equity
+ARES,ARES MANAGEMENT CORP CLASS A,Financials,Equity
+NVT,NVENT ELECTRIC PLC,Industrials,Equity
+MKL,MARKEL GROUP INC,Financials,Equity
+CHRW,CH ROBINSON WORLDWIDE INC,Industrials,Equity
+PHM,PULTEGROUP INC,Consumer Discretionary,Equity
+RPRX,ROYALTY PHARMA PLC CLASS A,Health Care,Equity
+PFG,PRINCIPAL FINANCIAL GROUP INC,Financials,Equity
+RDDT,REDDIT INC CLASS A,Communication,Equity
+TPL,TEXAS PACIFIC LAND CORP,Energy,Equity
+EXPD,EXPEDITORS INTERNATIONAL OF WASHIN,Industrials,Equity
+OMC,OMNICOM GROUP INC,Communication,Equity
+DLTR,DOLLAR TREE INC,Consumer Staples,Equity
+CPAY,CORPAY INC,Financials,Equity
+WWD,WOODWARD INC,Industrials,Equity
+CHD,CHURCH AND DWIGHT INC,Consumer Staples,Equity
+SW,SMURFIT WESTROCK PLC,Materials,Equity
+LH,LABCORP HOLDINGS INC,Health Care,Equity
+VLTO,VERALTO CORP,Industrials,Equity
+DGX,QUEST DIAGNOSTICS INC,Health Care,Equity
+FFIV,F5 INC,Information Technology,Equity
+DRI,DARDEN RESTAURANTS INC,Consumer Discretionary,Equity
+MRNA,MODERNA INC,Health Care,Equity
+LUV,SOUTHWEST AIRLINES,Industrials,Equity
+CMS,CMS ENERGY CORP,Utilities,Equity
+INSM,INSMED INC,Health Care,Equity
+KHC,KRAFT HEINZ,Consumer Staples,Equity
+VRSN,VERISIGN INC,Information Technology,Equity
+JBHT,JB HUNT TRANSPORT SERVICES INC,Industrials,Equity
+KEY,KEYCORP,Financials,Equity
+FIS,FIDELITY NATIONAL INFORMATION SERV,Financials,Equity
+BURL,BURLINGTON STORES INC,Consumer Discretionary,Equity
+NI,NISOURCE INC,Utilities,Equity
+MKSI,MKS,Information Technology,Equity
+HPQ,HP INC,Information Technology,Equity
+AFRM,AFFIRM HOLDINGS INC CLASS A,Financials,Equity
+UTHR,UNITED THERAPEUTICS CORP,Health Care,Equity
+SOFI,SOFI TECHNOLOGIES INC,Financials,Equity
+STE,STERIS,Health Care,Equity
+USFD,US FOODS HOLDING CORP,Consumer Staples,Equity
+FWONK,LIBERTY MEDIA FORMULA ONE SERIES C,Communication,Equity
+FSLR,FIRST SOLAR INC,Information Technology,Equity
+P,EVERPURE INC CLASS A,Information Technology,Equity
+EFX,EQUIFAX INC,Industrials,Equity
+MTZ,MASTEC INC,Industrials,Equity
+CTSH,COGNIZANT TECHNOLOGY SOLUTIONS COR,Information Technology,Equity
+SNA,SNAP ON INC,Industrials,Equity
+DOW,DOW INC,Materials,Equity
+CPNG,COUPANG INC CLASS A,Consumer Discretionary,Equity
+RBA,RB GLOBAL INC,Industrials,Equity
+ULTA,ULTA BEAUTY INC,Consumer Discretionary,Equity
+GIS,GENERAL MILLS INC,Consumer Staples,Equity
+FTAI,FTAI AVIATION LTD,Industrials,Equity
+AMCR,AMCOR PLC,Materials,Equity
+EL,ESTEE LAUDER INC CLASS A,Consumer Staples,Equity
+VTRS,VIATRIS INC,Health Care,Equity
+ENTG,ENTEGRIS INC,Information Technology,Equity
+PKG,PACKAGING CORP OF AMERICA,Materials,Equity
+BRO,BROWN & BROWN INC,Financials,Equity
+EXE,EXPAND ENERGY CORP,Energy,Equity
+RS,RELIANCE STEEL & ALUMINUM,Materials,Equity
+EVRG,EVERGY INC,Utilities,Equity
+IP,INTERNATIONAL PAPER,Materials,Equity
+IFF,INTERNATIONAL FLAVORS & FRAGRANCES,Materials,Equity
+GH,GUARDANT HEALTH INC,Health Care,Equity
+LNT,ALLIANT ENERGY CORP,Utilities,Equity
+SBAC,SBA COMMUNICATIONS REIT CORP CLASS,Real Estate,Equity
+INCY,INCYTE CORP,Health Care,Equity
+STRL,STERLING INFRASTRUCTURE INC,Industrials,Equity
+ESS,ESSEX PROPERTY TRUST REIT INC,Real Estate,Equity
+L,LOEWS CORP,Financials,Equity
+BAM,BROOKFIELD ASSET MANAGEMENT VOTING,Financials,Equity
+FTV,FORTIVE CORP,Industrials,Equity
+HEIA,HEICO CORP CLASS A,Industrials,Equity
+STZ,CONSTELLATION BRANDS INC CLASS A,Consumer Staples,Equity
+EWBC,EAST WEST BANCORP INC,Financials,Equity
+SNX,TD SYNNEX CORP,Information Technology,Equity
+GPN,GLOBAL PAYMENTS INC,Financials,Equity
+ROKU,ROKU INC CLASS A,Communication,Equity
+MDLN,MEDLINE INC CLASS A,Health Care,Equity
+MTSI,MACOM TECHNOLOGY SOLUTIONS INC,Information Technology,Equity
+DD,DUPONT DE NEMOURS INC,Materials,Equity
+CF,CF INDUSTRIES HOLDINGS INC,Materials,Equity
+ZBH,ZIMMER BIOMET HOLDINGS INC,Health Care,Equity
+RBC,RBC BEARINGS INC,Industrials,Equity
+INVH,INVITATION HOMES INC,Real Estate,Equity
+LII,LENNOX INTERNATIONAL INC,Industrials,Equity
+LEN,LENNAR A CORP CLASS A,Consumer Discretionary,Equity
+NVR,NVR INC,Consumer Discretionary,Equity
+BR,BROADRIDGE FINANCIAL SOLUTIONS INC,Industrials,Equity
+WY,WEYERHAEUSER REIT,Real Estate,Equity
+GPC,GENUINE PARTS,Consumer Discretionary,Equity
+ITT,ITT INC,Industrials,Equity
+KIM,KIMCO REALTY REIT CORP,Real Estate,Equity
+FCNCA,FIRST CITIZENS BANCSHARES INC CLAS,Financials,Equity
+VIK,VIKING HOLDINGS,Consumer Discretionary,Equity
+CDW,CDW CORP,Information Technology,Equity
+LSCC,LATTICE SEMICONDUCTOR CORP,Information Technology,Equity
+AKAM,AKAMAI TECHNOLOGIES INC,Information Technology,Equity
+PFGC,PERFORMANCE FOOD GROUP,Consumer Staples,Equity
+THC,TENET HEALTHCARE CORP,Health Care,Equity
+IEX,IDEX CORP,Industrials,Equity
+BALL,BALL CORP,Materials,Equity
+TLN,TALEN ENERGY CORP,Utilities,Equity
+NLY,ANNALY CAPITAL MANAGEMENT REIT INC,Financials,Equity
+NBIX,NEUROCRINE BIOSCIENCES INC,Health Care,Equity
+ROIV,ROIVANT SCIENCES LTD,Health Care,Equity
+BBY,BEST BUY INC,Consumer Discretionary,Equity
+WPC,W. P. CAREY REIT INC,Real Estate,Equity
+FDXF,FEDEX FREIGHT HOLDING COMPANY INC,Industrials,Equity
+FN,FABRINET,Information Technology,Equity
+HST,HOST HOTELS & RESORTS REIT INC,Real Estate,Equity
+TSCO,TRACTOR SUPPLY,Consumer Discretionary,Equity
+RGLD,ROYAL GOLD INC,Materials,Equity
+SCCO,SOUTHERN COPPER CORP,Materials,Equity
+MAS,MASCO CORP,Industrials,Equity
+WCC,WESCO INTERNATIONAL INC,Industrials,Equity
+OVV,OVINTIV INC,Energy,Equity
+WRB,WR BERKLEY CORP,Financials,Equity
+RGA,REINSURANCE GROUP OF AMERICA INC,Financials,Equity
+TSN,TYSON FOODS INC CLASS A,Consumer Staples,Equity
+NXT,NEXTPOWER INC CLASS A,Industrials,Equity
+BWXT,BWX TECHNOLOGIES INC,Industrials,Equity
+TRU,TRANSUNION,Industrials,Equity
+CLH,CLEAN HARBORS INC,Industrials,Equity
+TXT,TEXTRON INC,Industrials,Equity
+PR,PERMIAN RESOURCES CORP CLASS A,Energy,Equity
+DOC,HEALTHPEAK PROPERTIES INC,Real Estate,Equity
+APG,API GROUP CORP,Industrials,Equity
+MAA,MID AMERICA APARTMENT COMMUNITIES,Real Estate,Equity
+BG,BUNGE GLOBAL SA,Consumer Staples,Equity
+NDSN,NORDSON CORP,Industrials,Equity
+TEAM,ATLASSIAN CORP CLASS A,Information Technology,Equity
+JLL,JONES LANG LASALLE INC,Real Estate,Equity
+PTC,PTC INC,Information Technology,Equity
+J,JACOBS SOLUTIONS INC,Industrials,Equity
+DECK,DECKERS OUTDOOR CORP,Consumer Discretionary,Equity
+FLUT,FLUTTER ENTERTAINMENT PLC,Consumer Discretionary,Equity
+ZS,ZSCALER INC,Information Technology,Equity
+SGI,SOMNIGROUP INTERNATIONAL INC,Consumer Discretionary,Equity
+CDE,COEUR MINING INC,Materials,Equity
+PNFP,PINNACLE FINANCIAL PARTNERS INC,Financials,Equity
+SUI,SUN COMMUNITIES REIT INC,Real Estate,Equity
+ARMK,ARAMARK,Consumer Discretionary,Equity
+REG,REGENCY CENTERS REIT CORP,Real Estate,Equity
+DTM,DT MIDSTREAM INC,Energy,Equity
+OHI,OMEGA HEALTHCARE INVESTORS REIT IN,Real Estate,Equity
+GEN,GEN DIGITAL INC,Information Technology,Equity
+LYB,LYONDELLBASELL INDUSTRIES CLASS A,Materials,Equity
+EG,EVEREST GROUP LTD,Financials,Equity
+TOL,TOLL BROTHERS INC,Consumer Discretionary,Equity
+HEI,HEICO CORP,Industrials,Equity
+SSNC,SS AND C TECHNOLOGIES HOLDINGS INC,Industrials,Equity
+QXO,QXO INC,Industrials,Equity
+RL,RALPH LAUREN CORP CLASS A,Consumer Discretionary,Equity
+GL,GLOBE LIFE INC,Financials,Equity
+NTNX,NUTANIX INC CLASS A,Information Technology,Equity
+JAZZ,JAZZ PHARMACEUTICALS PLC,Health Care,Equity
+RIVN,RIVIAN AUTOMOTIVE INC CLASS A,Consumer Discretionary,Equity
+SWK,STANLEY BLACK & DECKER INC,Industrials,Equity
+COO,COOPER INC,Health Care,Equity
+UNM,UNUM,Financials,Equity
+CSL,CARLISLE COMPANIES INC,Industrials,Equity
+RRX,REGAL REXNORD CORP,Industrials,Equity
+RKT,ROCKET COMPANIES INC CLASS A,Financials,Equity
+ALB,ALBEMARLE CORP,Materials,Equity
+ASTS,AST SPACEMOBILE INC CLASS A,Communication,Equity
+TOST,TOAST INC CLASS A,Financials,Equity
+EXEL,EXELIXIS INC,Health Care,Equity
+AIZ,ASSURANT INC,Financials,Equity
+ONTO,ONTO INNOVATION INC,Information Technology,Equity
+LAMR,LAMAR ADVERTISING COMPANY  CLAS,Real Estate,Equity
+EQH,EQUITABLE HOLDINGS INC,Financials,Equity
+DKS,DICKS SPORTING INC,Consumer Discretionary,Equity
+LECO,LINCOLN ELECTRIC HOLDINGS INC,Industrials,Equity
+ROL,ROLLINS INC,Industrials,Equity
+SMCI,SUPER MICRO COMPUTER INC,Information Technology,Equity
+BBIO,BRIDGEBIO PHARMA INC,Health Care,Equity
+RPM,RPM INTERNATIONAL INC,Materials,Equity
+MKC,MCCORMICK & CO NON-VOTING INC,Consumer Staples,Equity
+LDOS,LEIDOS HOLDINGS INC,Industrials,Equity
+WSO,WATSCO INC,Industrials,Equity
+DINO,HF SINCLAIR CORP,Energy,Equity
+DT,DYNATRACE INC,Information Technology,Equity
+FNF,FIDELITY NATIONAL FINANCIAL INC,Financials,Equity
+TYL,TYLER TECHNOLOGIES INC,Information Technology,Equity
+RNR,RENAISSANCERE HOLDING LTD,Financials,Equity
+TTMI,TTM TECHNOLOGIES INC,Information Technology,Equity
+TXRH,TEXAS ROADHOUSE INC,Consumer Discretionary,Equity
+UDR,UDR REIT INC,Real Estate,Equity
+PNW,PINNACLE WEST CORP,Utilities,Equity
+CCK,CROWN HOLDINGS INC,Materials,Equity
+ALLY,ALLY FINANCIAL INC,Financials,Equity
+ASND,ASCENDIS PHARMA,Health Care,Equity
+IONQ,IONQ INC,Information Technology,Equity
+IOT,SAMSARA INC CLASS A,Information Technology,Equity
+BWA,BORGWARNER INC,Consumer Discretionary,Equity
+MLI,MUELLER INDUSTRIES INC,Industrials,Equity
+SN,SHARKNINJA INC,Consumer Discretionary,Equity
+AGNC,AGNC INVESTMENT REIT CORP,Financials,Equity
+ELAN,ELANCO ANIMAL HEALTH INC,Health Care,Equity
+AVY,AVERY DENNISON CORP,Materials,Equity
+EVR,EVERCORE INC CLASS A,Financials,Equity
+ZBRA,ZEBRA TECHNOLOGIES CORP CLASS A,Information Technology,Equity
+GGG,GRACO INC,Industrials,Equity
+GDDY,GODADDY INC CLASS A,Information Technology,Equity
+GWRE,GUIDEWIRE SOFTWARE INC,Information Technology,Equity
+ELS,EQUITY LIFESTYLE PROPERTIES REIT I,Real Estate,Equity
+LVS,LAS VEGAS SANDS CORP,Consumer Discretionary,Equity
+ECHO,ECHOSTAR CORP CLASS A,Communication,Equity
+APTV,APTIV PLC,Consumer Discretionary,Equity
+SITM,SITIME CORP,Information Technology,Equity
+GNRC,GENERAC HOLDINGS INC,Industrials,Equity
+RVTY,REVVITY INC,Health Care,Equity
+TRMB,TRIMBLE INC,Information Technology,Equity
+RBRK,RUBRIK INC CLASS A,Information Technology,Equity
+GLPI,GAMING AND LEISURE PROPERTIES REIT,Real Estate,Equity
+WBS,WEBSTER FINANCIAL CORP,Financials,Equity
+CSGP,COSTAR GROUP INC,Real Estate,Equity
+DY,DYCOM INDUSTRIES INC,Industrials,Equity
+AA,ALCOA CORP,Materials,Equity
+CG,CARLYLE GROUP INC,Financials,Equity
+AIT,APPLIED INDUSTRIAL TECHNOLOGIES IN,Industrials,Equity
+SOLV,SOLVENTUM CORP,Health Care,Equity
+APA,APA CORP,Energy,Equity
+PEN,PENUMBRA INC,Health Care,Equity
+KNX,KNIGHT-SWIFT TRANSPORTATION HOLDIN,Industrials,Equity
+BJ,BJS WHOLESALE CLUB HOLDINGS INC,Consumer Staples,Equity
+FHN,FIRST HORIZON CORP,Financials,Equity
+DKNG,DRAFTKINGS INC CLASS A,Consumer Discretionary,Equity
+BAX,BAXTER INTERNATIONAL INC,Health Care,Equity
+MEDP,MEDPACE HOLDINGS INC,Health Care,Equity
+ALLE,ALLEGION PLC,Industrials,Equity
+TW,TRADEWEB MARKETS INC CLASS A,Financials,Equity
+ALGN,ALIGN TECHNOLOGY INC,Health Care,Equity
+CLX,CLOROX,Consumer Staples,Equity
+LULU,LULULEMON ATHLETICA INC,Consumer Discretionary,Equity
+SMTC,SEMTECH CORP,Information Technology,Equity
+NYT,NEW YORK TIMES CLASS A,Communication,Equity
+SF,STIFEL FINANCIAL CORP,Financials,Equity
+SJM,JM SMUCKER,Consumer Staples,Equity
+MOD,MODINE MANUFACTURING,Industrials,Equity
+EGP,EASTGROUP PROPERTIES REIT INC,Real Estate,Equity
+AMH,AMERICAN HOMES  RENT REIT CLASS A,Real Estate,Equity
+PODD,INSULET CORP,Health Care,Equity
+SAIA,SAIA INC,Industrials,Equity
+HAS,HASBRO INC,Consumer Discretionary,Equity
+MOH,MOLINA HEALTHCARE INC,Health Care,Equity
+OC,OWENS CORNING,Industrials,Equity
+TECH,BIO TECHNE CORP,Health Care,Equity
+HUBS,HUBSPOT INC,Information Technology,Equity
+TKO,TKO GROUP HOLDINGS INC CLASS A,Communication,Equity
+JKHY,JACK HENRY AND ASSOCIATES INC,Financials,Equity
+BMRN,BIOMARIN PHARMACEUTICAL INC,Health Care,Equity
+BPOP,POPULAR INC,Financials,Equity
+PINS,PINTEREST INC CLASS A,Communication,Equity
+WTRG,ESSENTIAL UTILITIES INC,Utilities,Equity
+CPT,CAMDEN PROPERTY TRUST REIT,Real Estate,Equity
+FOXA,FOX CORP CLASS A,Communication,Equity
+IREN,IREN LTD,Information Technology,Equity
+CRL,CHARLES RIVER LABORATORIES INTERNA,Health Care,Equity
+BXP,BXP INC,Real Estate,Equity
+WTFC,WINTRUST FINANCIAL CORP,Financials,Equity
+EHC,ENCOMPASS HEALTH CORP,Health Care,Equity
+RMBS,RAMBUS INC,Information Technology,Equity
+U,UNITY SOFTWARE INC,Information Technology,Equity
+FIVE,FIVE BELOW INC,Consumer Discretionary,Equity
+CRCL,CIRCLE INTERNET GROUP INC CLASS A,Information Technology,Equity
+IVZ,INVESCO LTD,Financials,Equity
+AHR,AMERICAN HEALTHCARE REIT INC,Real Estate,Equity
+AEIS,ADVANCED ENERGY INDUSTRIES INC,Information Technology,Equity
+FRT,FEDERAL REALTY INVESTMENT TRUST RE,Real Estate,Equity
+ZION,ZIONS BANCORPORATION,Financials,Equity
+WMS,ADVANCED DRAINAGE SYSTEMS INC,Industrials,Equity
+CR,CRANE,Industrials,Equity
+SCI,SERVICE,Consumer Discretionary,Equity
+CGNX,COGNEX CORP,Information Technology,Equity
+DCI,DONALDSON INC,Industrials,Equity
+NWSA,NEWS CORP CLASS A,Communication,Equity
+HII,HUNTINGTON INGALLS INDUSTRIES INC,Industrials,Equity
+AYI,ACUITY INC,Industrials,Equity
+SPXC,SPX TECHNOLOGIES INC,Industrials,Equity
+AES,AES CORP,Utilities,Equity
+PNR,PENTAIR,Industrials,Equity
+CHTR,CHARTER COMMUNICATIONS INC CLASS A,Communication,Equity
+COKE,COCA COLA CONSOLIDATED INC,Consumer Staples,Equity
+ARW,ARROW ELECTRONICS INC,Information Technology,Equity
+AAL,AMERICAN AIRLINES GROUP INC,Industrials,Equity
+DOCU,DOCUSIGN INC,Information Technology,Equity
+GFL,GFL ENVIRONMENTAL SUBORDINATE VOTI,Industrials,Equity
+SEIC,SEI INVESTMENTS,Financials,Equity
+MUSA,MURPHY USA INC,Consumer Discretionary,Equity
+R,RYDER SYSTEM INC,Industrials,Equity
+AXSM,AXSOME THERAPEUTICS INC,Health Care,Equity
+CACI,CACI INTERNATIONAL INC CLASS A,Industrials,Equity
+VMI,VALMONT INDS INC,Industrials,Equity
+OGE,OGE ENERGY CORP,Utilities,Equity
+SSB,SOUTHSTATE BANK CORP,Financials,Equity
+BRX,BRIXMOR PROPERTY GROUP REIT INC,Real Estate,Equity
+SANM,SANMINA CORP,Information Technology,Equity
+DPZ,DOMINOS PIZZA INC,Consumer Discretionary,Equity
+MANH,MANHATTAN ASSOCIATES INC,Information Technology,Equity
+PRI,PRIMERICA INC,Financials,Equity
+MDGL,MADRIGAL PHARMACEUTICALS INC,Health Care,Equity
+ENSG,ENSIGN GROUP INC,Health Care,Equity
+DAR,DARLING INGREDIENTS INC,Consumer Staples,Equity
+LFUS,LITTELFUSE INC,Information Technology,Equity
+ALSN,ALLISON TRANSMISSION HOLDINGS INC,Industrials,Equity
+AR,ANTERO RESOURCES CORP,Energy,Equity
+CFR,CULLEN FROST BANKERS INC,Financials,Equity
+ARWR,ARROWHEAD PHARMACEUTICALS INC,Health Care,Equity
+COLB,COLUMBIA BANKING SYSTEM INC,Financials,Equity
+WTS,WATTS WATER TECHNOLOGIES INC CLASS,Industrials,Equity
+AMG,AFFILIATED MANAGERS GROUP INC,Financials,Equity
+MTCH,MATCH GROUP INC,Communication,Equity
+W,WAYFAIR INC CLASS A,Consumer Discretionary,Equity
+ORI,OLD REPUBLIC INTERNATIONAL CORP,Financials,Equity
+FDS,FACTSET RESEARCH SYSTEMS INC,Financials,Equity
+DOCN,DIGITALOCEAN HOLDINGS INC,Information Technology,Equity
+CUBE,CUBESMART REIT,Real Estate,Equity
+SOLS,SOLSTICE ADVANCED MATERIALS INC,Materials,Equity
+IT,GARTNER INC,Information Technology,Equity
+CNH,CNH INDUSTRIAL N.V. NV,Industrials,Equity
+AFG,AMERICAN FINANCIAL GROUP INC,Financials,Equity
+VOYA,VOYA FINANCIAL INC,Financials,Equity
+ADC,AGREE REALTY REIT CORP,Real Estate,Equity
+NNN,NNN REIT INC,Real Estate,Equity
+HL,HECLA MINING,Materials,Equity
+TTC,TORO,Industrials,Equity
+OSK,OSHKOSH CORP,Industrials,Equity
+GMED,GLOBUS MEDICAL INC CLASS A,Health Care,Equity
+HALO,HALOZYME THERAPEUTICS INC,Health Care,Equity
+WAL,WESTERN ALLIANCE,Financials,Equity
+BEN,FRANKLIN RESOURCES INC,Financials,Equity
+IONS,IONIS PHARMACEUTICALS INC,Health Care,Equity
+GME,GAMESTOP CORP CLASS A,Consumer Discretionary,Equity
+ACM,AECOM,Industrials,Equity
+FLS,FLOWSERVE CORP,Industrials,Equity
+NCLH,NORWEGIAN CRUISE LINE HOLDINGS LTD,Consumer Discretionary,Equity
+FR,FIRST INDUSTRIAL REALTY TRUST INC,Real Estate,Equity
+MGM,MGM RESORTS INTERNATIONAL,Consumer Discretionary,Equity
+HSIC,HENRY SCHEIN INC,Health Care,Equity
+BMNR,BITMINE IMMERSION TECHNOLOGIES INC,Information Technology,Equity
+KTOS,KRATOS DEFENSE AND SECURITY SOLUTI,Industrials,Equity
+TIGO,MILLICOM INTERNATIONAL CELLULAR SA,Communication,Equity
+ARE,ALEXANDRIA REAL ESTATE EQUITIES RE,Real Estate,Equity
+ESI,ELEMENT SOLUTIONS INC,Materials,Equity
+TKR,TIMKEN,Industrials,Equity
+JEF,JEFFERIES FINANCIAL GROUP INC,Financials,Equity
+SWKS,SKYWORKS SOLUTIONS INC,Information Technology,Equity
+QGEN,QIAGEN NV,Health Care,Equity
+RRC,RANGE RESOURCES CORP,Energy,Equity
+VIAV,VIAVI SOLUTIONS INC,Information Technology,Equity
+CNM,CORE & MAIN INC CLASS A,Industrials,Equity
+ATR,APTARGROUP INC,Materials,Equity
+TTEK,TETRA TECH INC,Industrials,Equity
+REXR,REXFORD INDUSTRIAL REALTY REIT INC,Real Estate,Equity
+CORT,CORCEPT THERAPEUTICS INC,Health Care,Equity
+ONON,ON HOLDING AG CLASS A,Consumer Discretionary,Equity
+AXS,AXIS CAPITAL HOLDINGS LTD,Financials,Equity
+KMX,CARMAX INC,Consumer Discretionary,Equity
+FORM,FORMFACTOR INC,Information Technology,Equity
+VNOM,VIPER ENERGY INC CLASS A,Energy,Equity
+BLDR,BUILDERS FIRSTSOURCE INC,Industrials,Equity
+UGI,UGI CORP,Utilities,Equity
+UHS,UNIVERSAL HEALTH SERVICES INC CLAS,Health Care,Equity
+IDA,IDACORP INC,Utilities,Equity
+TTD,TRADE DESK INC CLASS A,Communication,Equity
+EMN,EASTMAN CHEMICAL,Materials,Equity
+BAH,BOOZ ALLEN HAMILTON HOLDING CORP C,Industrials,Equity
+SSD,SIMPSON MANUFACTURING INC,Industrials,Equity
+AMKR,AMKOR TECHNOLOGY INC,Information Technology,Equity
+CBSH,COMMERCE BANCSHARES INC,Financials,Equity
+STAG,STAG INDUSTRIAL REIT INC,Real Estate,Equity
+RGEN,REPLIGEN CORP,Health Care,Equity
+CRBG,COREBRIDGE FINANCIAL INC,Financials,Equity
+HLI,HOULIHAN LOKEY INC CLASS A,Financials,Equity
+SGAFT,CASH COLLATERAL USD SGAFT,Cash and/or Derivatives,Cash Collateral and Margins
+AAON,AAON INC,Industrials,Equity
+AM,ANTERO MIDSTREAM CORP,Energy,Equity
+NFG,NATIONAL FUEL GAS,Utilities,Equity
+ETSY,ETSY INC,Consumer Discretionary,Equity
+AAOI,APPLIED OPTOELECTRONICS INC,Information Technology,Equity
+RAL,RALLIANT CORP,Information Technology,Equity
+BROS,DUTCH BROS INC CLASS A,Consumer Discretionary,Equity
+KEX,KIRBY CORP,Industrials,Equity
+LAD,LITHIA MOTORS INC CLASS A,Consumer Discretionary,Equity
+HXL,HEXCEL CORP,Industrials,Equity
+HRL,HORMEL FOODS CORP,Consumer Staples,Equity
+DVA,DAVITA INC,Health Care,Equity
+WYNN,WYNN RESORTS LTD,Consumer Discretionary,Equity
+LNC,LINCOLN NATIONAL CORP,Financials,Equity
+H,HYATT HOTELS CORP CLASS A,Consumer Discretionary,Equity
+AVTR,AVANTOR INC,Health Care,Equity
+KNSL,KINSALE CAPITAL GROUP INC,Financials,Equity
+VNO,VORNADO REALTY TRUST REIT,Real Estate,Equity
+MOS,MOSAIC,Materials,Equity
+GFS,GLOBALFOUNDRIES INC,Information Technology,Equity
+AXTA,AXALTA COATING SYSTEMS LTD,Materials,Equity
+LEA,LEAR CORP,Consumer Discretionary,Equity
+OMF,ONEMAIN HOLDINGS INC,Financials,Equity
+LSTR,LANDSTAR SYSTEM INC,Industrials,Equity
+THG,HANOVER INSURANCE GROUP INC,Financials,Equity
+QRVO,QORVO INC,Information Technology,Equity
+CART,MAPLEBEAR INC,Consumer Staples,Equity
+CRUS,CIRRUS LOGIC INC,Information Technology,Equity
+AOS,A O SMITH CORP,Industrials,Equity
+FOX,FOX CORP CLASS B,Communication,Equity
+FAF,FIRST AMERICAN FINANCIAL CORP,Financials,Equity
+HR,HEALTHCARE REALTY TRUST INC CLASS,Real Estate,Equity
+ECG,EVERUS CONSTRUCTION GROUP INC,Industrials,Equity
+AUR,AURORA INNOVATION INC CLASS A,Information Technology,Equity
+CAG,CONAGRA BRANDS INC,Consumer Staples,Equity
+CHRD,CHORD ENERGY CORP,Energy,Equity
+AWI,ARMSTRONG WORLD INDUSTRIES INC,Industrials,Equity
+NOV,NOV INC,Energy,Equity
+POOL,POOL CORP,Consumer Discretionary,Equity
+SFM,SPROUTS FARMERS MARKET INC,Consumer Staples,Equity
+AGCO,AGCO CORP,Industrials,Equity
+AVT,AVNET INC,Information Technology,Equity
+PB,PROSPERITY BANCSHARES INC,Financials,Equity
+ULS,UL SOLUTIONS INC CLASS A,Industrials,Equity
+GTES,GATES INDUSTRIAL PLC,Industrials,Equity
+LKQ,LKQ CORP,Consumer Discretionary,Equity
+XP,XP CLASS A INC,Financials,Equity
+CAVA,CAVA GROUP INC,Consumer Discretionary,Equity
+POWL,POWELL INDUSTRIES INC,Industrials,Equity
+FNB,FNB CORP,Financials,Equity
+APLD,APPLIED DIGITAL CORP,Information Technology,Equity
+EXP,EAGLE MATERIALS INC,Materials,Equity
+RYN,RAYONIER REIT INC,Real Estate,Equity
+CROX,CROCS INC,Consumer Discretionary,Equity
+AS,AMER SPORTS INC,Consumer Discretionary,Equity
+FPS,FORGENT POWER SOLUTIONS INC CLASS,Industrials,Equity
+INGR,INGREDION INC,Consumer Staples,Equity
+M,MACYS INC,Consumer Discretionary,Equity
+CHE,CHEMED CORP,Health Care,Equity
+MP,MP MATERIALS CORP CLASS A,Materials,Equity
+WULF,TERAWULF INC,Information Technology,Equity
+LW,LAMB WESTON HOLDINGS INC,Consumer Staples,Equity
+TPG,TPG INC CLASS A,Financials,Equity
+TAP,MOLSON COORS BREWING  CLASS B,Consumer Staples,Equity
+GXO,GXO LOGISTICS INC,Industrials,Equity
+UHALB,U HAUL NON VOTING SERIES N,Industrials,Equity
+ST,SENSATA TECHNOLOGIES HOLDING PLC,Industrials,Equity
+MTDR,MATADOR RESOURCES,Energy,Equity
+MSGS,MADISON SQUARE GARDEN SPORTS CORP,Communication,Equity
+MSA,MSA SAFETY INC,Industrials,Equity
+VFC,VF CORP,Consumer Discretionary,Equity
+FND,FLOOR DECOR HOLDINGS INC CLASS A,Consumer Discretionary,Equity
+PRMB,PRIMO BRANDS CLASS A CORP,Consumer Staples,Equity
+CZR,CAESARS ENTERTAINMENT INC,Consumer Discretionary,Equity
+PL,PLANET LABS CLASS A,Industrials,Equity
+PAYC,PAYCOM SOFTWARE INC,Industrials,Equity
+SARO,STANDARDAERO,Industrials,Equity
+MBGL,MOBILITY GLOBAL INC,Industrials,Equity
+FBIN,FORTUNE BRANDS INNOVATIONS INC,Industrials,Equity
+BRKR,BRUKER CORP,Health Care,Equity
+TFX,TELEFLEX INC,Health Care,Equity
+MTG,MGIC INVESTMENT CORP,Financials,Equity
+LYFT,LYFT INC CLASS A,Industrials,Equity
+MIDD,MIDDLEBY CORP,Industrials,Equity
+WEX,WEX INC,Financials,Equity
+OWL,BLUE OWL CAPITAL INC CLASS A,Financials,Equity
+S,SENTINELONE INC CLASS A,Information Technology,Equity
+STWD,STARWOOD PROPERTY TRUST REIT INC,Financials,Equity
+OKLO,OKLO INC CLASS A,Utilities,Equity
+ALGM,ALLEGRO MICROSYSTEMS INC,Information Technology,Equity
+WFRD,WEATHERFORD INTERNATIONAL PLC,Energy,Equity
+TEM,TEMPUS AI INC CLASS A,Health Care,Equity
+PCOR,PROCORE TECHNOLOGIES INC,Information Technology,Equity
+CHYM,CHIME FINANCIAL INC CLASS A,Financials,Equity
+WH,WYNDHAM HOTELS RESORTS INC,Consumer Discretionary,Equity
+AVAV,AEROVIRONMENT INC,Industrials,Equity
+MHK,MOHAWK INDUSTRIES INC,Consumer Discretionary,Equity
+SON,SONOCO PRODUCTS,Materials,Equity
+VICR,VICOR CORP,Industrials,Equity
+CHDN,CHURCHILL DOWNS INC,Consumer Discretionary,Equity
+PCTY,PAYLOCITY HOLDING CORP,Industrials,Equity
+DOX,AMDOCS LTD,Information Technology,Equity
+HRB,H&R BLOCK INC,Consumer Discretionary,Equity
+Z,ZILLOW GROUP INC CLASS C,Real Estate,Equity
+SIRI,SIRIUSXM HOLDINGS INC,Communication,Equity
+OZK,BANK OZK,Financials,Equity
+MSM,MSC INDUSTRIAL INC CLASS A,Industrials,Equity
+ALK,ALASKA AIR GROUP INC,Industrials,Equity
+ESTC,ELASTIC NV,Information Technology,Equity
+BIO,BIO RAD LABORATORIES INC CLASS A,Health Care,Equity
+ENPH,ENPHASE ENERGY INC,Information Technology,Equity
+CLF,CLEVELAND CLIFFS INC,Materials,Equity
+MTN,VAIL RESORTS INC,Consumer Discretionary,Equity
+CUZ,COUSINS PROPERTIES REIT INC,Real Estate,Equity
+IESC,IES INC,Industrials,Equity
+GNTX,GENTEX CORP,Consumer Discretionary,Equity
+VVV,VALVOLINE INC,Consumer Discretionary,Equity
+BC,BRUNSWICK CORP,Consumer Discretionary,Equity
+VSNT,VERSANT MEDIA GROUP INC,Communication,Equity
+WTM,WHITE MOUNTAINS INSURANCE GROUP LT,Financials,Equity
+NXST,NEXSTAR MEDIA GROUP INC,Communication,Equity
+ESAB,ESAB CORP,Industrials,Equity
+BSY,BENTLEY SYSTEMS INC CLASS B,Information Technology,Equity
+AN,AUTONATION INC,Consumer Discretionary,Equity
+SHC,SOTERA HEALTH COMPANY,Health Care,Equity
+RLI,RLI CORP,Financials,Equity
+G,GENPACT LTD,Industrials,Equity
+CHWY,CHEWY INC CLASS A,Consumer Discretionary,Equity
+CE,CELANESE CORP,Materials,Equity
+FIG,FIGMA INC CLASS A,Information Technology,Equity
+ACI,ALBERTSONS COMPANY INC CLASS A,Consumer Staples,Equity
+VIRT,VIRTU FINANCIAL INC CLASS A,Financials,Equity
+SITE,SITEONE LANDSCAPE SUPPLY INC,Industrials,Equity
+CELH,CELSIUS HOLDINGS INC,Consumer Staples,Equity
+LPX,LOUISIANA PACIFIC CORP,Industrials,Equity
+DUOL,DUOLINGO INC CLASS A,Consumer Discretionary,Equity
+RITM,RITHM CAPITAL CORP,Financials,Equity
+SAIC,SCIENCE APPLICATIONS INTERNATIONAL,Industrials,Equity
+PATH,UIPATH INC CLASS A,Information Technology,Equity
+SLM,SLM CORP,Financials,Equity
+KBR,KBR INC,Industrials,Equity
+FCN,FTI CONSULTING INC,Industrials,Equity
+WSC,WILLSCOT HOLDINGS CORP CLASS A,Industrials,Equity
+GAP,GAP INC,Consumer Discretionary,Equity
+PRIM,PRIMORIS SERVICES CORP,Industrials,Equity
+LLYVK,LIBERTY LIVE HOLDINGS INC SERIES C,Consumer Discretionary,Equity
+TREX,TREX INC,Industrials,Equity
+KRC,KILROY REALTY REIT CORP,Real Estate,Equity
+DBX,DROPBOX INC CLASS A,Information Technology,Equity
+EPR,EPR PROPERTIES REIT,Real Estate,Equity
+COLD,AMERICOLD REALTY INC TRUST,Real Estate,Equity
+BYD,BOYD GAMING CORP,Consumer Discretionary,Equity
+MRP,MILLROSE PROPERTIES INC CLASS A,Real Estate,Equity
+NEU,NEWMARKET CORP,Materials,Equity
+BEPC,BROOKFIELD RENEWABLE SUBORDINATE V,Utilities,Equity
+VNT,VONTIER CORP,Information Technology,Equity
+NVST,ENVISTA HOLDINGS CORP,Health Care,Equity
+EPAM,EPAM SYSTEMS INC,Information Technology,Equity
+CPB,CAMPBELL SOUP,Consumer Staples,Equity
+IRDM,IRIDIUM COMMUNICATIONS INC,Communication,Equity
+MDU,MDU RESOURCES GROUP INC,Utilities,Equity
+TNL,TRAVEL LEISURE,Consumer Discretionary,Equity
+RYAN,RYAN SPECIALTY HOLDINGS INC CLASS,Financials,Equity
+FIGR,FIGURE TECHNOLOGY SOLUTIONS INC CL,Financials,Equity
+RHI,ROBERT HALF,Industrials,Equity
+BBWI,BATH AND BODY WORKS INC,Consumer Discretionary,Equity
+MAT,MATTEL INC,Consumer Discretionary,Equity
+GTLB,GITLAB INC CLASS A,Information Technology,Equity
+NWS,NEWS CORP CLASS B,Communication,Equity
+EXLS,EXLSERVICE HOLDINGS INC,Industrials,Equity
+GLXY,GALAXY DIGITAL INC CLASS A,Financials,Equity
+JHX,JAMES HARDIE INDUSTRIES PLC,Materials,Equity
+SLGN,SILGAN HOLDINGS INC,Materials,Equity
+PLNT,PLANET FITNESS INC CLASS A,Consumer Discretionary,Equity
+GSAT,GLOBALSTAR VOTING INC,Communication,Equity
+MKTX,MARKETAXESS HOLDINGS INC,Financials,Equity
+THO,THOR INDUSTRIES INC,Consumer Discretionary,Equity
+OLLI,OLLIES BARGAIN OUTLET HOLDINGS INC,Consumer Discretionary,Equity
+LAZ,LAZARD INC,Financials,Equity
+LOPE,GRAND CANYON EDUCATION INC,Consumer Discretionary,Equity
+APPF,APPFOLIO INC CLASS A,Information Technology,Equity
+YETI,YETI HOLDINGS INC,Consumer Discretionary,Equity
+CWEN,CLEARWAY ENERGY INC CLASS C,Utilities,Equity
+BFAM,BRIGHT HORIZONS FAMILY SOLUTIONS I,Consumer Discretionary,Equity
+ELF,ELF BEAUTY INC,Consumer Staples,Equity
+WING,WINGSTOP INC,Consumer Discretionary,Equity
+JBS,JBS N V NV CLASS A,Consumer Staples,Equity
+BHF,BRIGHTHOUSE FINANCIAL INC,Financials,Equity
+VKTX,VIKING THERAPEUTICS INC,Health Care,Equity
+PVH,PVH CORP,Consumer Discretionary,Equity
+FHB,FIRST HAWAIIAN INC,Financials,Equity
+CCC,CCC INTELLIGENT SOLUTIONS HOLDINGS,Information Technology,Equity
+PAG,PENSKE AUTOMOTIVE GROUP VOTING INC,Consumer Discretionary,Equity
+ADT,ADT INC,Consumer Discretionary,Equity
+BILL,BILL HOLDINGS INC,Information Technology,Equity
+OGN,ORGANON,Health Care,Equity
+POST,POST HOLDINGS INC,Consumer Staples,Equity
+OLED,UNIVERSAL DISPLAY CORP,Information Technology,Equity
+AGO,ASSURED GUARANTY LTD,Financials,Equity
+LBRDK,LIBERTY BROADBAND CORP SERIES C,Communication,Equity
+BFB,BROWN FORMAN CORP CLASS B,Consumer Staples,Equity
+HLNE,HAMILTON LANE INC CLASS A,Financials,Equity
+MORN,MORNINGSTAR INC,Financials,Equity
+GPK,GRAPHIC PACKAGING HOLDING,Materials,Equity
+DRS,LEONARDO DRS INC,Industrials,Equity
+SMG,SCOTTS MIRACLE GRO,Materials,Equity
+KRMN,KARMAN HOLDINGS INC,Industrials,Equity
+AMTM,AMENTUM HOLDINGS INC,Industrials,Equity
+EEFT,EURONET WORLDWIDE INC,Financials,Equity
+RNG,RINGCENTRAL INC CLASS A,Information Technology,Equity
+LINE,LINEAGE INC,Real Estate,Equity
+NSA,NATIONAL STORAGE AFFILIATES TRUST,Real Estate,Equity
+DLB,DOLBY LABORATORIES INC CLASS A,Information Technology,Equity
+LOAR,LOAR HOLDINGS INC,Industrials,Equity
+HAYW,HAYWARD HOLDINGS INC,Industrials,Equity
+QS,QUANTUMSCAPE CORP CLASS A,Consumer Discretionary,Equity
+CHH,CHOICE HOTELS INTERNATIONAL INC,Consumer Discretionary,Equity
+DOCS,DOXIMITY INC CLASS A,Health Care,Equity
+FOUR,SHIFT4 PAYMENTS INC CLASS A,Financials,Equity
+PPLI,PEOPLE,Communication,Equity
+ALM,ALMONTY INDUSTRIES INC,Materials,Equity
+PEGA,PEGASYSTEMS INC,Information Technology,Equity
+CAR,AVIS BUDGET GROUP INC,Industrials,Equity
+KD,KYNDRYL HOLDINGS INC,Information Technology,Equity
+BOKF,BOK FINANCIAL CORP,Financials,Equity
+FRPT,FRESHPET INC,Consumer Staples,Equity
+FRHC,FREEDOM HOLDING CORP,Financials,Equity
+IPGP,IPG PHOTONICS CORP,Information Technology,Equity
+OLN,OLIN CORP,Materials,Equity
+WLK,WESTLAKE CORP,Materials,Equity
+KVYO,KLAVIYO INC SERIES A,Information Technology,Equity
+CACC,CREDIT ACCEPTANCE CORP,Financials,Equity
+MPT,MEDICAL PROPERTIES TRUST REIT INC,Real Estate,Equity
+HHH,HOWARD HUGHES HOLDINGS INC,Real Estate,Equity
+WU,WESTERN UNION,Financials,Equity
+FWONA,LIBERTY MEDIA FORMULA ONE SERIES A,Communication,Equity
+UI,UBIQUITI INC,Information Technology,Equity
+PSN,PARSONS CORP,Industrials,Equity
+WHR,WHIRLPOOL CORP,Consumer Discretionary,Equity
+AUGO,AURA MINERALS INC,Materials,Equity
+CAI,CARIS LIFE SCIENCES INC,Health Care,Equity
+MFPVV,MIDERA FOOD PROCESSING INC WHEN IS,Industrials,Equity
+LLYVA,LIBERTY LIVE HOLDINGS INC SERIES A,Consumer Discretionary,Equity
+SNDR,SCHNEIDER NATIONAL INC CLASS B,Industrials,Equity
+LBTYA,LIBERTY GLOBAL LTD CLASS A,Communication,Equity
+BIRK,BIRKENSTOCK HOLDING PLC,Consumer Discretionary,Equity
+DDS,DILLARDS INC CLASS A,Consumer Discretionary,Equity
+SMMT,SUMMIT THERAPEUTICS INC,Health Care,Equity
+ZG,ZILLOW GROUP INC CLASS A,Real Estate,Equity
+LBTYK,LIBERTY GLOBAL LTD CLASS C,Communication,Equity
+REYN,REYNOLDS CONSUMER PRODUCTS INC,Consumer Staples,Equity
+JAN,JANUS LIVING INC CLASS A,Real Estate,Equity
+SEB,SEABOARD CORP,Consumer Staples,Equity
+COLM,COLUMBIA SPORTSWEAR,Consumer Discretionary,Equity
+BFA,BROWN FORMAN CORP CLASS A,Consumer Staples,Equity
+CNA,CNA FINANCIAL CORP,Financials,Equity
+INGM,INGRAM MICRO HOLDING CORP,Information Technology,Equity
+FRMI,FERMI INC,Real Estate,Equity
+SFD,SMITHFIELD FOODS INC,Consumer Staples,Equity
+PPC,PILGRIMS PRIDE CORP,Consumer Staples,Equity
+MWH,SOLV ENERGY CLASS A INC,Industrials,Equity
+TFSL,TFS FINANCIAL CORP,Financials,Equity
+SAIL,SAILPOINT INC,Information Technology,Equity
+BLSH,BULLISH,Financials,Equity
+LENB,LENNAR CORP CLASS B,Consumer Discretionary,Equity
+CBC,CENTRAL BANCOMPANY INC CLASS A,Financials,Equity
+UHAL,U HAUL HOLDING,Industrials,Equity
+XE,X-ENERGY INC CLASS A,Industrials,Equity
+NIQ,NIQ GLOBAL INTELLIGENCE PLC,Communication,Equity
+LBRDA,LIBERTY BROADBAND CORP SERIES A,Communication,Equity
+UWMC,UWM HOLDINGS CORP CLASS A,Financials,Equity
+HOLX,HOLOGIC INC,Health Care,Equity
+FAU6,S&P MID 400 EMINI SEP 26,Cash and/or Derivatives,Futures
+ESU6,S&P500 EMINI SEP 26,Cash and/or Derivatives,Futures
