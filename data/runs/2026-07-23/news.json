@@ -1,0 +1,585 @@
+{
+  "market": [
+    {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq sell off as rising oil prices, bond yields, and AI capex weigh - Yahoo Finance",
+      "publisher": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOT0ZuSlg2UWFSbFZWRG9zLXc4cWVCdTVQeVhHd2FpUm8zSnY3WVAyN0duMHluQ0x2R29zQnFhWDROVjd2QjZlb0hncGdGUnZaaWRPeHlQNlBaYWpVNk5lYnFXT081WEdwVHFrV3hQM281R0VHdU5vRjQ0Mk9ZZkY1QVhiYlN3XzJFZmdrMTM3Qy1IbmRyUHNpQ1BqNkphQzMtSi01QWMyN3hNaGZNVHpqcHpUbVlQOHN6UWN4OUFhZDVoV3hn?oc=5"
+    },
+    {
+      "title": "Tesla Sheds $214.5 Billion in Market Cap at Close, Worst One-Day Loss On Record - WSJ",
+      "publisher": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQnRBdjRwWWFJSlA2a0FfeEFtNjQzV3owVWk3MjhVYTNoQVo2N09nQ1pkSzJhYk1aYmRZTHhuNWxRckg3ZXJZcmlqNmpCMTFMLThnUmhpeTFmVDZjcXBzTFAwVVk4Y2dGMEFjWHlpQ05nM2RTcEV6U3pGWEJNNWhpMkZ3UmN3dU11T2RPenNFQUdncHBjY21zaDdPMU10c2w0NEFIR3BsVExKakVOVURWdU82SHhjelZBMVB3Qm1MNENUcGhqbHNLN1JjaEZHYlpXdEgzNVhlM2txeVZVYy04bTBn?oc=5"
+    },
+    {
+      "title": "Tesla stock tumbles 14% after profit miss; full-year capex spend of $25 billion confirmed - Yahoo Finance",
+      "publisher": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUDFFVXU1UldJM1k3bUVsUVQ5ZEdrWF9zNUJZUHk0V1ZJX044SVI3Q3c2aU1TUFVVaVl0UHYzcTZhQ2hPWmNVb1hEUWFteG5vVjZrc2tWdGxjWnE3NkFaYkwwdTJxR3Q5T243N0NrT0pEa2RRbHctTWJSYUlRamRzamdTRmItTzNWSGdsaWtJQS1ubElrSjItd2x6ZmltSTVCWGVBLXhESTVyOVpmUk5oMDVLeUc2R0NvZ1VKaHhyV0ZTWV85RXVTdkhIUUJGc3lqUkhMV2NtQWZEbXRPb0hycHRRdF8?oc=5"
+    },
+    {
+      "title": "Here Is How Much Tesla Made From Investing In SpaceX - Investor's Business Daily",
+      "publisher": "Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9nWFFYSHV5NlIzQlF4RmpsRS1CTzJTUnNNSWtpRWRxNXJtT3BWOUNQV3hPOXRrODdBRnllZnNtdnRxNWgtcGZmZXl2U3NZODhVSGc2akpoTkxZampSV1N3eDVISWE2QkxhV1QzamtIZVp1aXEyaW5TN3hwRjZ1MG8?oc=5"
+    },
+    {
+      "title": "Should Congress trade stocks? Where NC's politicians stand, and how much they trade - WRAL",
+      "publisher": "WRAL",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTllfS01qN0N1T29PWHpfeEFRRERaR2x5bENoVHhScGI3LV9mYVRzejI1T3BtZXJxQ2QwbzZFNVotRmVyeUtDckV4ZzV5T2dJUFk3VjJPMkRRd3R6SXQ5RjZ6UWtWT3ZyQlJidV9fMHpjb2hDN25HemE5LTJzMVNQMGxhWU5zcS1sb19FdG1jSWhIYmJYSEV6RXF3?oc=5"
+    },
+    {
+      "title": "Where the Stock Market May Be Heading Next and What to Buy Now - Morningstar",
+      "publisher": "Morningstar",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOd09KalBlejJHb0hHTnlCdnVUTDcxdUNVUVNlZHY0Z244cHVobXNGYWwtd3h0VVh5dHRxMnl1dlQyUzJnWVMtbWlzQzlSR0J3RkZMaEdubHRNWll0RHRobWtic0pNTkJTclBWUVBYZGdLSjJMX2c3SDFndm01Tld6OGdvSFZWZlNsam43UDlCUE1qNVkwVDJTeDVzb2l3bGtYYzFxZ241OG9uNzA?oc=5"
+    },
+    {
+      "title": "'Magnificent 7' stocks erase $797 billion in market value in worst day since April 2025 - Yahoo Finance",
+      "publisher": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOLS1aRjJuT0swbWkwME9BMjZFUFpNZXVneU1meFBXZGlvQm9XUmV6VGpGck9Zc2JCYkI1T245cXgwelAxelR3cmtJUWxDYjBKWXdJYjVvVlAtUmd3bUZxbmZBMk9LdjdTSGxFR1VUVEFpZC1nRzlqOEE2VFRwS18tcjF2WHh0YnRiTUJVc1Iya0FQQWpzNG8wYWRXMTBiWGgtaExNbXBmSDBXa2d2bEMtVGl4OEI4NVBtWVFRZ1FMZjhNVXM3RmlaejF3MFZvalNrb1RFZ1ljcE4?oc=5"
+    },
+    {
+      "title": "The world is crazy. Why are stocks up? - Axios",
+      "publisher": "Axios",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tMjM2Tld5NXA5MWlGOWhmOGw5aGFHQnEtc25sNG93Wi0xNGphaDVWRXZsMEV4c3hKTTVOSlpGbWxLNHRKZGliYjlFbi00T0VNd2FpVkNBdWpQTjhHQWZ6T2dRSUJEQ3dkbFVsOW80akFWWmM?oc=5"
+    },
+    {
+      "title": "Tech Earnings Will Put a Fragile Stock Market to the Test - Barron's",
+      "publisher": "Barron's",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeTZvdzRMQU1ueVFHNV9BdGZ3WFh3N1NNUDRxZ1lsX2pSal9raTh3ZzBnMG9KZ3ZjanM0NVNYRTJHUTNuQ1JKRzRtSlN0bnRxR2dVNkNtTjd3YWdpYzhndTRTR05aYUVSM1BKWmhBY04ySHNNajAwY2NqMFFLTGRKMUt1RjVFWF9mZUVtTFhDWFptZU1pekZKcDV5MDA2bG5T?oc=5"
+    },
+    {
+      "title": "Shorts are back in fashion on Wall Street - CNN",
+      "publisher": "CNN",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNM3hSUDhReUlSb3NSU2QxZUw3am1NVk11cmtCdUFza3pNSTI0V3F3RXcyQW1JYWlveWpxTTBQMlBnS2Z1aTRiMl8tem9XZjJPQXE0dFUxNkladjlnUFIxUERtQXpNTC1pX0NEdGxUU1BOaUNtNmlhR25NbzBuQ3p3ZA?oc=5"
+    },
+    {
+      "title": "Two in five Americans believe stock market only serves the top 1% - The Guardian",
+      "publisher": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd3VWRjhCM1Y1c2pSNEdNdTVCXzlfeHFwNE51eDAwbHpubHNzQ192Y2Z4Wi1UTEFRREZ5anB3M1NYbUl3dkJoaEVybkFjVWNOS1gwVTRsMWJCbzZCTXI3MDlnTnpRTzZmQUJRTGphM3RFVGxYcWR6QTVSTnc5bzNrMVJ3?oc=5"
+    },
+    {
+      "title": "If The Stock Market Bottomed Last Week: These 3 Stocks Could Triple From Today\u2019s Prices - 24/7 Wall St.",
+      "publisher": "24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRmprZHFNMXlmd1dodldGdk1HbnFMMlRDaXotaVlSdmFGQXh2aUNaRjc5R2VVcm0wVlF6V2h2NGt0bFhGNW5XNFNoeG5jNUxpZ3RFZi1VR3o3THhDX0VNQlN2cm9yZmtGWlZRRm9JOE9PbEJaQWFteTJBajZGZU5wWWxTMzJZTHdNbUh5bFhVNlIyQ09jN0dobTY5UlkwNmtDZzZnVENsTWVfMmtJVklmZFA2bGRRdk5GTEc4SU9aSGRXZ2s1eERhYQ?oc=5"
+    },
+    {
+      "title": "Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil' - CNBC",
+      "publisher": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM1ptS092RkJxU29IclRfcjFBSXRvVG9FUTkzczY1b2FMX3RsUXU3UDBDQkRfbDlpYlJFMkw0WWptTlVROTkyb2hFdmhISUt3NkNMWVo0akp2S3M3N09rdmxtT2g0UVJDZjZ6TGZzS2Uyd3R3UXUxb05vMmh4cVlFa2pNaWdGQVh6aFExUHFlRU1nZjgyZnB4X3lOZi1JUHV3bjFUdmZPSUfSAa4BQVVfeXFMTkJKZWktbHlRSXpmN1NqUkc5RzFtM0lFeXlsRVBuRlJGR3N1T2VmblFvdDRDNnN4a0xSdE83NlRjTUlicmtpX1JUMzVkejctVTJ1TjdTQ09Eb0xJMjNsclBad2JuX1pMcGs1UEE1ekR0YUNMMGt2UXBTcmxWQmNoRVhleTREMHFOU2ttMHdKVDJxclNYcXZnWkhEeGxtd3RvYkgtTGlBVG9tUWNDd3J3?oc=5"
+    },
+    {
+      "title": "The rising cost of capital for companies today is starting to spook the stock market: \u2018The worry is the spending might not pay off\u2019 - MarketWatch",
+      "publisher": "MarketWatch",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOeHhSajMyLXJJQkItZlRsMHlLaDBnRXhwQnFGUWk4VHNRd1QxVUROTC0xOFVla19ZZmpjMnNtQVYzTjFhdVVmSjFZclFhcTdHS0R6Qkd4V0FvaHp0aldXbFFKdHJMRERvVy1UZl9wQ2pOSzR1NHFVRVpsNm9xZWNCM05qb1VrQnd0c1RZREF5bVBnMll4NnR4ZEVpVW1CVG5jQ0VXc0xWVkROa3h5VHVkbHBrLXhpanV5ckY4N2RaR2xvWVFoTzEzQmxJZjB2b3N2NEZXZjNfOVhDTGxwVTJwZHh4MWwxUUtpVzgtWElZN2c5OVhGVDVuOFo3ZVhXM0ds?oc=5"
+    },
+    {
+      "title": "5 Things to Know Before the Stock Market Opens on Thursday - Investopedia",
+      "publisher": "Investopedia",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbF9NWnczQjM1WV9rREhNOC1ZQkQ5N0J5bHFoRm9Xd0Zza1lqaFhSRXI2bFRWWjI1YWxUVVlLdVNPeHVEMmtPZHFhYzlwUlhLblE1dkFCSkdPRVdGeExZWnRuTGY3R3BDbWMwTGtEMVpzdFNQOU5zeWpiMXQ3R1Q3MTZjUXFfN1BJemF0U1h0V2dNcm1pMnNUemRjT1hENXJPX1hvRVpCMlBJVkJrUEE?oc=5"
+    }
+  ],
+  "tickers": {
+    "ARW": [
+      {
+        "title": "Can Margin Expansion Sustain Avnet's Earnings Growth in FY26?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/margin-expansion-sustain-avnets-earnings-144600446.html"
+      },
+      {
+        "title": "Best Value Stocks to Buy for July 21st",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/best-value-stocks-buy-july-081400843.html"
+      },
+      {
+        "title": "Are Investors Undervaluing Arrow Electronics (ARW) Right Now?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/investors-undervaluing-arrow-electronics-arw-134002681.html"
+      },
+      {
+        "title": "Dell Technologies vs. NVIDIA: Which Artificial Intelligence Stock Is a Better Buy in 2026?",
+        "publisher": "Motley Fool",
+        "link": "https://www.fool.com/coverage/better-buy/2026/07/17/dell-technologies-vs-nvidia-which-artificial-intelligence-stock-is-a-better-buy-in-2026/"
+      },
+      {
+        "title": "3 Profitable Stocks We Keep Off Our Radar",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-profitable-stocks-keep-off-150239582.html"
+      },
+      {
+        "title": "What Investors Keep Asking About SNX",
+        "publisher": "Trefis",
+        "link": "https://www.trefis.com/articles/606631/what-investors-keep-asking-about-snx/2026-07-10"
+      },
+      {
+        "title": "Raymond James says Dell Technologies Inc. (DELL) Termination Earnings effect on Arrow \u2018likely immaterial\u2019",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/raymond-james-says-dell-technologies-185055343.html"
+      },
+      {
+        "title": "Here\u2019s What Raymond James Thinks About Dell Technologies (DELL)",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/raymond-james-thinks-dell-technologies-163526543.html"
+      }
+    ],
+    "CF": [
+      {
+        "title": "Air Products Awarded Long-Term Taiwan Semiconductor Supply Deal",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/technology/articles/air-products-awarded-long-term-144200426.html"
+      },
+      {
+        "title": "Flexible Solutions Reports Q2 Revenues of $7.4M, Down 35% Y/Y",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/flexible-solutions-reports-q2-revenues-141000217.html"
+      },
+      {
+        "title": "What to Expect From CF Industries' Q2 2026 Earnings Report",
+        "publisher": "Barchart",
+        "link": "https://www.barchart.com/story/news/3364340/what-to-expect-from-cf-industries-q2-2026-earnings-report"
+      },
+      {
+        "title": "CF Industries Boosts Shareholder Returns With 20% Dividend Hike",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/cf-industries-boosts-shareholder-returns-120100462.html"
+      },
+      {
+        "title": "Hartford and Amdocs Join the Perfect 10 Portfolio",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/hartford-amdocs-join-perfect-10-104523151.html"
+      },
+      {
+        "title": "Zacks Industry Outlook Nutrien, CF Industries and Yara International",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-nutrien-cf-072800115.html"
+      },
+      {
+        "title": "CF Industries Just Raised Its Dividend by 20% While Its Stock Has Surged 55% in 2026",
+        "publisher": "Barchart",
+        "link": "https://www.barchart.com/story/news/3258989/cf-industries-just-raised-its-dividend-by-20-while-its-stock-has-surged-55-in-2026"
+      },
+      {
+        "title": "3 Fertilizer Stocks to Keep an Eye on in a Challenging Industry",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-fertilizer-stocks-keep-eye-124000365.html"
+      }
+    ],
+    "HALO": [
+      {
+        "title": "Did Halozyme\u2019s (HALO) New Incyte Enhanze Deal Just Redefine Its Precision Oncology Royalty Engine?",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/healthcare/articles/did-halozyme-halo-incyte-enhanze-151039541.html"
+      },
+      {
+        "title": "Halozyme and Incyte sign licence agreement for INCA033989 formulations",
+        "publisher": "Pharmaceutical Technology",
+        "link": "https://www.pharmaceutical-technology.com/news/halozyme-incyte-agreement-inca033989-formulations/"
+      },
+      {
+        "title": "Halozyme Signs ENHANZE Collaboration with Incyte for Subcutaneous INCA033989 Development",
+        "publisher": "InvestorsHub",
+        "link": "https://investorshub.advfn.com/market-news/article/32239/halozyme-signs-enhanze-collaboration-with-incyte-for-subcutaneous-inca033989-development"
+      },
+      {
+        "title": "Halozyne Therapeutics (HALO) Is An Undervalued Stock That Keeps Winning In Cancer Treatment",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/healthcare/articles/halozyne-therapeutics-halo-undervalued-stock-134628860.html"
+      },
+      {
+        "title": "1 Value Stock Worth Investigating and 2 Facing Headwinds",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/1-value-stock-worth-investigating-080625969.html"
+      },
+      {
+        "title": "2 Reasons to Like HALO and 1 to Stay Skeptical",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/2-reasons-halo-1-stay-165520757.html"
+      },
+      {
+        "title": "1 Surging  Stock for Long-Term Investors and 2 We Brush Off",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/1-surging-stock-long-term-085700150.html"
+      },
+      {
+        "title": "Incyte (INCY) Surges 5.8%: Is This an Indication of Further Gains?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/incyte-incy-surges-5-8-135400782.html"
+      }
+    ],
+    "INCY": [
+      {
+        "title": "Earnings Preview: LENZ Therapeutics, Inc. (LENZ) Q2 Earnings Expected to Decline",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-lenz-therapeutics-inc-140030142.html"
+      },
+      {
+        "title": "HALO Inks Deal With INCY to Support Cancer Therapy Development",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/healthcare/articles/halo-inks-deal-incy-support-143800503.html"
+      },
+      {
+        "title": "Incyte (INCY) Reports Next Week: Wall Street Expects Earnings Growth",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/incyte-incy-reports-next-week-140019383.html"
+      },
+      {
+        "title": "Halozyme Signs ENHANZE Collaboration with Incyte for Subcutaneous INCA033989 Development",
+        "publisher": "InvestorsHub",
+        "link": "https://investorshub.advfn.com/market-news/article/32239/halozyme-signs-enhanze-collaboration-with-incyte-for-subcutaneous-inca033989-development"
+      },
+      {
+        "title": "Collect 9.8% On VRTX Stock Now, And Still Keep 15% Of Upside",
+        "publisher": "Trefis",
+        "link": "https://www.trefis.com/articles/607527/collect-9-8-on-vrtx-stock-now-and-still-keep-15-of-upside/2026-07-16"
+      },
+      {
+        "title": "What to Expect From Incyte's Q2 2026 Earnings Report",
+        "publisher": "Barchart",
+        "link": "https://www.barchart.com/story/news/3307808/what-to-expect-from-incyte-s-q2-2026-earnings-report"
+      },
+      {
+        "title": "Incyte (INCY): Buy, Sell, or Hold Post Q1 Earnings?",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/incyte-incy-buy-sell-hold-163717934.html"
+      },
+      {
+        "title": "Sector Update: Healthcare Stocks Advance Late Afternoon",
+        "publisher": "MT Newswires",
+        "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-193441436.html"
+      }
+    ],
+    "KLAC": [
+      {
+        "title": "ASML Holdings' EUV Leadership Strengthens Long-Term Growth",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/technology/articles/asml-holdings-euv-leadership-strengthens-162400389.html"
+      },
+      {
+        "title": "Unveiling KLA (KLAC) Q4 Outlook: Wall Street Estimates for Key Metrics",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/unveiling-kla-klac-q4-outlook-131509023.html"
+      },
+      {
+        "title": "KLA (KLAC) Suffers a Larger Drop Than the General Market: Key Insights",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/kla-klac-suffers-larger-drop-220003614.html"
+      },
+      {
+        "title": "What Makes KLA Corporation (KLAC) an Attractive Bet?",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/makes-kla-corporation-klac-attractive-150228462.html"
+      },
+      {
+        "title": "Intel, KLA Corporation, Lam Research, Marvell Technology, and Micron Shares Skyrocket, What You Need To Know",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/intel-kla-corporation-lam-research-205426906.html"
+      },
+      {
+        "title": "SpaceX, Micron, Western Digital, Sandisk, Danaher, and More Stocks That Explain Today\u2019s Market",
+        "publisher": "Barrons.com",
+        "link": "https://www.barrons.com/articles/stock-movers-84ab056e?siteid=yhoof2&yptr=yahoo"
+      },
+      {
+        "title": "KLA (KLAC) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/kla-klac-earnings-expected-grow-140019096.html"
+      },
+      {
+        "title": "KLA (KLAC) Stock Seems Fairly Valued Following Fresh AI Demand News",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/kla-klac-stock-seems-fairly-021042291.html"
+      }
+    ],
+    "NBIX": [
+      {
+        "title": "Neurocrine Biosciences (NBIX) Stock Trades Fair On Earnings But Mixed On Value",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/healthcare/articles/neurocrine-biosciences-nbix-stock-trades-191122278.html"
+      },
+      {
+        "title": "Neurocrine Biosciences (NBIX) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/healthcare/articles/neurocrine-biosciences-nbix-earnings-expected-140027249.html"
+      },
+      {
+        "title": "Neurocrine Biosciences (NBIX) Appoints Samir Siddhanti As Chief Business Officer",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/neurocrine-biosciences-nbix-appoints-samir-171115061.html"
+      },
+      {
+        "title": "AGIO Shares Sink Nearly 7% After Scrapping the Tebapivat SCD Program",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/healthcare/articles/agio-shares-sink-nearly-7-162200431.html"
+      },
+      {
+        "title": "Here's Why You Should Add Savara Stock to Your Portfolio Now",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/healthcare/articles/heres-why-add-savara-stock-132100072.html"
+      },
+      {
+        "title": "Acadia Gets FDA's Fast Track Tag for Alzheimer's Disease Candidate",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/healthcare/articles/acadia-gets-fdas-fast-track-144700606.html"
+      },
+      {
+        "title": "DYN Stock Rises 19.2% in 3 Months: What's Driving the Rally?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/healthcare/articles/dyn-stock-rises-19-2-142000327.html"
+      },
+      {
+        "title": "ZNTL Stock Rises 28% in 3 Months: What's Driving the Rally?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/healthcare/articles/zntl-stock-rises-28-3-132600436.html"
+      }
+    ],
+    "RNR": [
+      {
+        "title": "RenaissanceRe Holdings Ltd (RNR) Q2 2026 Earnings Call Highlights: Strong Operating Income Amid ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/renaissancere-holdings-ltd-rnr-q2-210428830.html"
+      },
+      {
+        "title": "RNR Q2 Earnings Beat on Higher Investment Income and Lower Expenses",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/rnr-q2-earnings-beat-higher-180700583.html"
+      },
+      {
+        "title": "RenaissanceRe Holdings Ltd. Q2 2026 Earnings Call Summary",
+        "publisher": "Moby",
+        "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-renaissancere-holdings-ltd-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+      },
+      {
+        "title": "RenaissanceRe (RNR) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/renaissancere-rnr-q2-earnings-taking-233001520.html"
+      },
+      {
+        "title": "RenaissanceRe (RNR) Beats Q2 Earnings Estimates",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/renaissancere-rnr-beats-q2-earnings-215508629.html"
+      },
+      {
+        "title": "RenaissanceRe (NYSE:RNR) Reports Strong Q2 CY2026",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/renaissancere-nyse-rnr-reports-strong-205636705.html"
+      },
+      {
+        "title": "CNA Outperforms Industry, Hits 52-Week High: How to Play the Stock",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/cna-outperforms-industry-hits-52-150100723.html"
+      },
+      {
+        "title": "What Analyst Projections for Key Metrics Reveal About RenaissanceRe (RNR) Q2 Earnings",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/analyst-projections-key-metrics-reveal-131508404.html"
+      }
+    ],
+    "RRC": [
+      {
+        "title": "Range Resources (RRC) Stock Looks Cheap On Earnings While Gas Risk Clouds Value",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/range-resources-rrc-stock-looks-043317470.html"
+      },
+      {
+        "title": "How Investors May Respond To Range Resources (RRC) Earnings Beat And Completed Multi\u2011Year Buyback Program",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-range-resources-211028635.html"
+      },
+      {
+        "title": "Range Resources Corp (RRC) Q2 2026 Earnings Call Highlights: Record Production and Strategic ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/energy/articles/range-resources-corp-rrc-q2-210058102.html"
+      },
+      {
+        "title": "Range Resources Q2 Earnings Call Highlights",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/range-resources-q2-earnings-call-highlights-2026-07-22/?utm_source=yahoofinance&utm_medium=yahoofinance"
+      },
+      {
+        "title": "RRC Q2 Earnings Beat Estimates on Higher Output & Price Realizations",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/energy/articles/rrc-q2-earnings-beat-estimates-123800711.html"
+      },
+      {
+        "title": "Range Resources (RRC) Beats Q2 Earnings and Revenue Estimates",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/range-resources-rrc-beats-q2-215504780.html"
+      },
+      {
+        "title": "Range Resources (NYSE:RRC) Reports Bullish Q2 CY2026",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/range-resources-nyse-rrc-reports-210224508.html"
+      },
+      {
+        "title": "Range Resources (RRC) To Report Earnings Tomorrow: Here Is What To Expect",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/range-resources-rrc-report-earnings-103933098.html"
+      }
+    ],
+    "SEIC": [
+      {
+        "title": "SEI Investments Beats on Q2 Earnings as Revenues & AUM Rise Y/Y",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sei-investments-beats-q2-earnings-141500094.html"
+      },
+      {
+        "title": "SEI Investments Co (SEIC) Q2 2026 Earnings Call Highlights: Record Growth in Revenue and EPS",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sei-investments-co-seic-q2-050056985.html"
+      },
+      {
+        "title": "SEI (SEIC) Reports Q2 Earnings: What Key Metrics Have to Say",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sei-seic-reports-q2-earnings-000003577.html"
+      },
+      {
+        "title": "SEI Investments Q2 Earnings Call Highlights",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/sei-investments-q2-earnings-call-highlights-2026-07-22/?utm_source=yahoofinance&utm_medium=yahoofinance"
+      },
+      {
+        "title": "SEI Investments (SEIC) Q2 Earnings and Revenues Top Estimates",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sei-investments-seic-q2-earnings-211001650.html"
+      },
+      {
+        "title": "SEI Investments\u2019s (NASDAQ:SEIC) Q2 CY2026 Sales Top Estimates",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sei-investments-nasdaq-seic-q2-204805734.html"
+      },
+      {
+        "title": "Seeking Clues to SEI (SEIC) Q2 Earnings? A Peek Into Wall Street Projections for Key Metrics",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/seeking-clues-sei-seic-q2-131506250.html"
+      },
+      {
+        "title": "SEI Investments (SEIC) Q2 Earnings Report Preview: What To Look For",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sei-investments-seic-q2-earnings-052626905.html"
+      }
+    ],
+    "TPL": [
+      {
+        "title": "Texas Pacific Land\u2019s Quarterly Earnings Preview: What You Need to Know",
+        "publisher": "Barchart",
+        "link": "https://www.barchart.com/story/news/3333595/texas-pacific-lands-quarterly-earnings-preview-what-you-need-to-know"
+      },
+      {
+        "title": "3 Market-Beating Stocks for Long-Term Investors",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-market-beating-stocks-long-104122640.html"
+      },
+      {
+        "title": "Texas Pacific Land, Crescent Energy, and Noble Corporation Shares Skyrocket, What You Need To Know",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/texas-pacific-land-crescent-energy-230239798.html"
+      },
+      {
+        "title": "Why Texas Pacific Land Corporation Rallied Over 50% in the First Half of 2026",
+        "publisher": "Motley Fool",
+        "link": "https://www.fool.com/investing/2026/07/13/why-texas-pacific-land-corporation-rallied-over-50/"
+      },
+      {
+        "title": "How Investors Are Reacting To Texas Pacific Land (TPL) Chevron Power Deal And Earnings Beat",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-texas-pacific-land-131102845.html"
+      },
+      {
+        "title": "Texas Pacific Land (TPL) Stock Looks Rich On Cash Flow And Earnings",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/texas-pacific-land-tpl-stock-121248519.html"
+      },
+      {
+        "title": "Texas Pacific Land (TPL) Could Be 11% Undervalued On Its Royalty Growth Narrative",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/texas-pacific-land-tpl-could-110959909.html"
+      },
+      {
+        "title": "1 Cash-Heavy Stock to Target This Week and 2 Facing Headwinds",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/1-cash-heavy-stock-target-123120260.html"
+      }
+    ],
+    "VIK": [
+      {
+        "title": "Autodesk initiated, Norwegian Cruise downgrade: Wall Street's top analyst calls",
+        "publisher": "The Fly",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/autodesk-initiated-norwegian-cruise-downgrade-135507863.html"
+      },
+      {
+        "title": "EXPE or VIK: Which Is the Better Value Stock Right Now?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/expe-vik-better-value-stock-154003019.html"
+      },
+      {
+        "title": "U.S. Consumer Sentiment Index Hits Five-Month High: 5 Top Picks",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/u-consumer-sentiment-index-hits-125000317.html"
+      },
+      {
+        "title": "RCL Stock: Collect 13% Now, In Exchange For 19% Of Upside",
+        "publisher": "Trefis",
+        "link": "https://www.trefis.com/articles/607734/rcl-stock-collect-13-now-in-exchange-for-19-of-upside/2026-07-18"
+      },
+      {
+        "title": "Royal Caribbean, Norwegian Cruise Line to See Lower Net Yields in H2 Due to Iran Conflict, Morgan Stanley Says",
+        "publisher": "MT Newswires",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/royal-caribbean-norwegian-cruise-line-150810023.html"
+      },
+      {
+        "title": "Marriott vs. Viking: Why the Better Quarter Doesn't Mean the Better Decade",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/articles/marriott-vs-viking-why-the-better-quarter-doesnt-mean-the-better-decade/?utm_source=yahoofinance&utm_medium=yahoofinance"
+      },
+      {
+        "title": "Is Viking Holdings (VIK) Fully Priced With Bookings Strong And Margins In Focus?",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/viking-holdings-vik-fully-priced-071054038.html"
+      },
+      {
+        "title": "Is Viking Holdings (VIK) Fairly Valued As Its Strong Run Nears Analyst Targets?",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/viking-holdings-vik-fairly-valued-051437738.html"
+      }
+    ],
+    "VIRT": [
+      {
+        "title": "Virtu Financial (VIRT) Reports Next Week: Wall Street Expects Earnings Growth",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/virtu-financial-virt-reports-next-140033960.html"
+      },
+      {
+        "title": "Do Virtu Financial\u2019s Diverging Revenue and Profit Trends Reframe Its Efficiency Story (VIRT)?",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/virtu-financial-diverging-revenue-profit-201318391.html"
+      },
+      {
+        "title": "Can AmEx Beat Q2 Earnings on Higher Network Volumes & Interest Income?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/amex-beat-q2-earnings-higher-150400195.html"
+      },
+      {
+        "title": "Synchrony (SYF) Q2 Earnings Top Estimates",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/synchrony-syf-q2-earnings-top-110502512.html"
+      },
+      {
+        "title": "Will Higher Purchase Volumes Fuel Synchrony's Q2 Earnings Beat?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/higher-purchase-volumes-fuel-synchronys-143600223.html"
+      },
+      {
+        "title": "New Strong Buy Stocks for July 15th",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-july-15th-103600677.html"
+      },
+      {
+        "title": "Best Value Stocks to Buy for July 15th",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/best-value-stocks-buy-july-094900101.html"
+      },
+      {
+        "title": "Best Income Stocks to Buy for July 15th",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/best-income-stocks-buy-july-084300452.html"
+      }
+    ]
+  }
+}
