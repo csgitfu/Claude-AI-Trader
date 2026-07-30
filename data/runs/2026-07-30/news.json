@@ -1,0 +1,585 @@
+{
+  "market": [
+    {
+      "title": "Stock market today: Nasdaq soars, Dow and S&P 500 rebound as Microsoft leads tech gains, bond yields rise - Yahoo Finance",
+      "publisher": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZkMtZDdYTkR0cTdoWnhXY3NfQVJQZG1fTXg2bTNWRUNVUVhmR0tVMGdZM2pSQVMtdjEzYWhLMEtjcGxpNVFzNnpRRmdPZ1BQR0d6YlBPOFBCWXNaZ3FhVnhXN2ZnbmNPVjRidjdaM2Rfak13d0ZaSXZwbm5PemlvZHJSRHJiOFBZLXlvN0VCZ0wybFVZQ0Z6TzZBZnI2Z1hWQnVxbnZWV2loUno0Y3c5eU9tMExPNWZKclRwcVVmSG5Ubnd3Z2pKa0hGR1dpZw?oc=5"
+    },
+    {
+      "title": "Morgan Stanley Highlights Top Beverage Stock on Strong Growth - Investing.com",
+      "publisher": "Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOajBIcXZaVWhDZzZuUUNmMURKdjNWbDA2MTZ2WjZsUVpkbXo0SjJGM1VManFIaExwajlGbjZ4Qld6enV2ZjFwOUFjX2dpbVhCeFFsVmJjTEN3bXJXYnJrVWMxbk80OVZyUjA5WlVHMzAzWDRxejB0VEYzRTgzU2ZWVTB2Wlo3NHFlaWNLUGlmR3dTYjc5SVdxa0ZVV2FoQVJWbll6ZHlmNTVvZHVKM19kbnczUG9TTFVHTVE1b21ieXY?oc=5"
+    },
+    {
+      "title": "Microsoft\u2019s $450 Billion Jump Is Biggest in Stock Market History - Bloomberg.com",
+      "publisher": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdjJpbDluUmlOWVlNZXZpZ08zQ1g3QzJqVEN6dWh1YzlhM1BxLWVkOENvcVFwbFdweElFSWdTQXFFUFlDOTFMTC1xMy11WmN3cGYxc2JfMDZKM3JoVXo0S25aOE9wRWRlbEdQU2xzWldnR2d5c1dIeGJsTjR6WkZFank2U3dNbVlZWGIxMnpLWGVxZFE1eTFhUW9sOHM0WUpseUd0SXZveGZYb2pjQ1A4?oc=5"
+    },
+    {
+      "title": "Microsoft's stock rockets more than 15% for largest single-day jump in history - Yahoo Finance",
+      "publisher": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY1d4clZGd29SUlVkemdZNzFwbm5nVUM2WFhjVXQwZWNqb25tMzVnQ0dvcXhYek92M3ZxODE1R2NjNjJrQXBCRzdVMjNOWkV3Sk9oX3RUTmtDbVdPV2tKMGd4TUFFcGFzYTBkYlA4ZVlrN3hneUx5LUY4SWRfRUhLaXZHMEFJcFJBUkJmNGZid0xLdkFCMkhxVUFPRDhHUmpwaktCNVRhWnlGZ0d4b3lHVU1WMVNicFFUNTZ1cXR3MFhKZnpYcEZEaWpjTGUxYWpRTVE?oc=5"
+    },
+    {
+      "title": "Wall Street ends sharply higher, lifted by soaring Microsoft - Reuters",
+      "publisher": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTkwycXd5d3BqNDVILVR4WkY3UERXYktQdm13QlEwNkd3MXF6Nm9EcTdWNEQ0dmIyV2lPOTFqaU9icm1kYTVoaFIyS3ZUSTRqLWI5THZ0TjM3WEp3aE5XV28zUTBzWkJzcURDNC1Jb21GeXE4eGJjU2tvbkNCR1Qxc2VTeFJPNlFLS0tydFBYdS1ZUnJoWUJqajF4akF0S2NE?oc=5"
+    },
+    {
+      "title": "Jersey Mike\u2019s Stock Slides Below IPO Price in Market Debut - Barron's",
+      "publisher": "Barron's",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaFdJLTBtMGt0Sk9UMGhSbjhNc2MwNnFRRmNmYXVOSzQwNHNxdTdvcnd3VjBZeEVVNnJlaE9icnFueUpiWG94UTItbmtlVGVvbmR5UFRyWUlFZTlERVdyWFgyMlRhb1h4bHF1WHBTOXB5V1AzZTQ1a2NqNUJBNThIbmdfRQ?oc=5"
+    },
+    {
+      "title": "Jersey Mike\u2019s Shares Lag Behind Average First-Day Performance for IPOs This Year - WSJ",
+      "publisher": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQNF9GNWFKZUZTRG5IX2puMG5NeWdjWFV2Ujh0TUtWQ1J1Y3lDSS16bTQ0ZTM0WEtqbUVDX2hMT3BXME91X0JfNUJTNHh0amN1aVg4TWQ2eGpMVzBvaC1SY3JFZkNLZVVRc3d0eWRGbUJpc1pXWmRGU2gxemdsbkVia3gxTEYtdG9paVNJM2YwNDhNQkVzVVI0N2lpUW1KVW02WFR2aVlhQ2hQVThsbEFzeHhfam9wY2syb0w5dWF5NGlabzBmR3pKdndfcWVvZldjNlZhOHBPOXlDR2J2bURkTXFhbi1vZF84ZWlCQk9YbmxxLTRJUlBhZHF4Z0xWWUo2SU1TLWJFWTJoQ0JQeE55TUJReXpnZw?oc=5"
+    },
+    {
+      "title": "Jersey Mike's stock falls 6% in public market debut after pricing shares at $23 - CNBC",
+      "publisher": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObHhtNkt1anhabVF4Sm1vaGxYa0NHSGRhLUdVR2FEVk5aekd6VTltOTBnZEFBOHFZdUFjVmx2TXE4Ql90R0FPMmRwNUxuMG9GdHlUN2JHbDYzVkZQTERHZEFpUHdVMzBUYm1CWXpWZEhIZENNcjJ4dmR2MG9KLTB5Sk1MNGdvX1k1SkJpeHg0X1JnOGNfOWF6X0g1dG45aEE5dV9KN1RhVdIBrAFBVV95cUxOdHMzeG9Iejc2TlJLN3RUWEo4NklmcWcxS0pnaXNHbTZGYnNQLWMxdjd5MzM2YjQ5c2d2S3RvSHpNYTlLaTJyMVhzbXlZSE5oaDBGSVh0YjVzREUzRl9OMHNTaHJWSGVSYzRpV1M3czRMaGlOV01yaGNRQmVCVGRVVl9lOEVuRFhOeklNMG9Va0RMazVha1cxdExEaFNJZS15Ty1mUHhSbGh3ZkZi?oc=5"
+    },
+    {
+      "title": "South Korea\u2019s stock-market boom is collapsing spectacularly - The Economist",
+      "publisher": "The Economist",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWkZHN0FTMnBHWWpFdlU0LWVhQ0V0VzlWSkZSbW9md3JnZjZXUjd0ZUNRbmF6VDlyUi14dmlzWDBkQ201T2NIV2JOeGNOZksxNnlmQlIyYzZHRXQ3UmlQWXUwWS0wbGRmNmI0N3U1bzNnSmNIMmNPMnJ3ZDJQOWR6c3lfblp0RlhNSFBSODZQRXhzYk9oNElRZGR1NEdpeU9ON0szNFdyNA?oc=5"
+    },
+    {
+      "title": "South Korea $2 trillion stock rout breaks records as SK Hynix results disappoint - Reuters",
+      "publisher": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNLUY2eUIxTk5FN3ZLbDkzTkhPbjFxNS1fUzFxa0lVZnZoQ1FpcGNBMEt3OFhkdHJFN0JNUlVZOXd2eFNXbkhuNDdJeFY4Rmd1MHFfSnpCYmV3QVRuenlwNGxKXzhpRXZVOFFjMjFkQnpiQWl1amZtRUJ5V0RpQnF0cFdFTEVfUFgtb0ZWM0t6OGdjRHdTMnhLcHVWVzJUU0tieGFhMk40XzJfYTRvSDFTWlVzQzJyTVZ3M2lMS0JB?oc=5"
+    },
+    {
+      "title": "South Korea\u2019s Stock Market Crash Is Now Officially Worse Than 1997 and 2008 - Yahoo Finance",
+      "publisher": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeXlwZ2ZuUmNNSVo5R2NrcTA2c0lmSGdKZkNialUxczVMMUhFZGZYMEhBQm5ZdXNvM05ob3lFM0tDT292Z29lT2dINEVJa0xqaFl0S1RiUnptQ2NHUEhnUk1DTFB1enAzSjYzYXpLdnVXNGdYWkZmUm8wY0p4dkZFWkwxWGFxSG5NVE9HT2ZsZFc1WUJVNHJwR21BOA?oc=5"
+    },
+    {
+      "title": "Microsoft's best day since 2008 leads US stocks, while inflation worries remain in the bond market - AP News",
+      "publisher": "AP News",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVzg3S3dnZExJa0JrQ0tWRDJfOUxDS25LaHU5djJUVTlqTXhRMU9QRjNsZGlVNU5wclotbThRcW92Mnd0ZzdSaktaSktmMUpaVmUyaWs0aFF4SGhtc2E2TS1lcXNXSlphajlFQWFiaWo2aDdrLWlXTXQyTmZIeElQX3Mtelh6Mi1RMHI2UFFVdVdFTl92ay1N?oc=5"
+    },
+    {
+      "title": "Why L3Harris Technologies Stock Is Plummeting Today - The Motley Fool",
+      "publisher": "The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSjJmOENXekJ0VXRPc2c5RE93eDFWN25TT2Jtd3FQR3lvcngyemVBZmZ4TUVadVVzSWtmTEthZ2tlZDU4ZlhaY0RmV3EyR1Y1WGh6dFRQVmI1eHZWSFZMem53MXdOZ1p1WXZBcVM4akgza3EteWNvTzRIQ0ZRTFpobGN2bjU3bFYwUlJJNW43UE41angzZlBZdQ?oc=5"
+    },
+    {
+      "title": "SK Hynix's Q2 2026 Earnings Dip Triggers RAM Stock Fall - kotaku.com",
+      "publisher": "kotaku.com",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT3FtZlRuOVVMcVhHdTFTSlBKMk9fV3FOLTYwUW4yQ3lCVkxVVWVMeGtrdFhZaHZQUzdSdHJWMDZFc0I4ZmhzcTFCcl9PWEZ0M0lVU0tlMEdKRWdVNTFMTEZlOEJ4Mm1uTVhVaC1yeVFfQ0pxbWRqQXpjUnFjRXhiSGk5MzZQZVM3VktKSHJIbDdBdENoUThvQU9FakVJeGlRQ3dkOEdB?oc=5"
+    },
+    {
+      "title": "South Korean crypto trading surges amid stock market plunge - TradingView",
+      "publisher": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN3ZxUk5PcFlESkdWWnhWTkVvMXZ4a0dWZXE1N1QtQkJVR2Rzak5MOUJFWEFZS3hkLXhxc0hCVWhKVkk4anZjQ3J6UjZQWm9KdjBtUEZTVmpwQ1d6RGlWMEpPeE9sUFJWQ0ozQ0JiME82N1dwTzEyTTBOUnhzLWlfREM4dGROQUMzQUkxb0p2QlB0M0xIaG9aRXJDX1ZCRWI2UHdfU2lsTUVfZEtNazVhQS1iYkV1eUh1aDlrTnV5VFg?oc=5"
+    }
+  ],
+  "tickers": {
+    "ARW": [
+      {
+        "title": "Amphenol's Q2 Earnings Beat Estimates, Revenues Rise Y/Y",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/amphenols-q2-earnings-beat-estimates-161600833.html"
+      },
+      {
+        "title": "KLAC Q4 Earnings Beat on AI Demand, Revenues Increase Y/Y",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/technology/articles/klac-q4-earnings-beat-ai-160500287.html"
+      },
+      {
+        "title": "Will Higher Ad Revenues Aid Meta Platforms Stock in Q2 Earnings?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/media-advertising/articles/higher-ad-revenues-aid-meta-162100202.html"
+      },
+      {
+        "title": "AVT vs. ARW: Which AI Supply Chain Stock Is the Better Buy?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/avt-vs-arw-ai-supply-160700337.html"
+      },
+      {
+        "title": "New Strong Buy Stocks for July 28th",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-july-28th-092100938.html"
+      },
+      {
+        "title": "Dell Technologies vs. Marvell Technology: Which Artificial Intelligence Infrastructure Stock Is a Better Buy in 2026?",
+        "publisher": "Motley Fool",
+        "link": "https://www.fool.com/coverage/better-buy/2026/07/27/dell-technologies-vs-marvell-technology-which-artificial-intelligence-infrastructure-stock-is-a-better-buy-in-2026/"
+      },
+      {
+        "title": "Is Arrow Electronics (ARW) Fairly Valued After Its 88% Rally This Year?",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/arrow-electronics-arw-fairly-valued-130720449.html"
+      },
+      {
+        "title": "Is Jabil (JBL) Stock Outpacing Its Computer and Technology Peers This Year?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/jabil-jbl-stock-outpacing-computer-134003990.html"
+      }
+    ],
+    "CF": [
+      {
+        "title": "CF Industries Holdings (CF) Could Be 1% Above Fair Value On Buyback Fueled Momentum",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/cf-industries-holdings-cf-could-150940938.html"
+      },
+      {
+        "title": "These Companies Are Cooking With Gas",
+        "publisher": "The Wall Street Journal",
+        "link": "https://www.wsj.com/finance/stocks/these-companies-are-cooking-with-gas-028e6992?siteid=yhoof2&yptr=yahoo"
+      },
+      {
+        "title": "CF Industries (CF) Reports Next Week: Wall Street Expects Earnings Growth",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/cf-industries-cf-reports-next-140013289.html"
+      },
+      {
+        "title": "Are Basic Materials Stocks Lagging  Cabot (CBT) This Year?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/basic-materials-stocks-lagging-cabot-134003420.html"
+      },
+      {
+        "title": "Are Investors Undervaluing CF Industries (CF) Right Now?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/investors-undervaluing-cf-industries-cf-134002126.html"
+      },
+      {
+        "title": "Air Products Awarded Long-Term Taiwan Semiconductor Supply Deal",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/technology/articles/air-products-awarded-long-term-144200426.html"
+      },
+      {
+        "title": "Flexible Solutions Reports Q2 Revenues of $7.4M, Down 35% Y/Y",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/flexible-solutions-reports-q2-revenues-141000217.html"
+      },
+      {
+        "title": "What to Expect From CF Industries' Q2 2026 Earnings Report",
+        "publisher": "Barchart",
+        "link": "https://www.barchart.com/story/news/3364340/what-to-expect-from-cf-industries-q2-2026-earnings-report"
+      }
+    ],
+    "HALO": [
+      {
+        "title": "This Medical Technology Stock Claws Back To A Buy Zone",
+        "publisher": "Investor's Business Daily",
+        "link": "https://www.investors.com/research/medical-technology-halozyme-stock-halo-2/?src=A00220&yptr=yahoo"
+      },
+      {
+        "title": "Four Stocks Hit New Highs Amid Tech Meltdown",
+        "publisher": "Investor's Business Daily",
+        "link": "https://www.investors.com/stock-lists/new-highs/halozyme-halo-stock-new-highs/?src=A00220&yptr=yahoo"
+      },
+      {
+        "title": "1 Cash-Producing Stock on Our Watchlist and 2 We Ignore",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/1-cash-producing-stock-watchlist-091308748.html"
+      },
+      {
+        "title": "Did Halozyme\u2019s (HALO) New Incyte Enhanze Deal Just Redefine Its Precision Oncology Royalty Engine?",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/healthcare/articles/did-halozyme-halo-incyte-enhanze-151039541.html"
+      },
+      {
+        "title": "Halozyme and Incyte sign licence agreement for INCA033989 formulations",
+        "publisher": "Pharmaceutical Technology",
+        "link": "https://www.pharmaceutical-technology.com/news/halozyme-incyte-agreement-inca033989-formulations/"
+      },
+      {
+        "title": "Halozyme Signs ENHANZE Collaboration with Incyte for Subcutaneous INCA033989 Development",
+        "publisher": "InvestorsHub",
+        "link": "https://investorshub.advfn.com/market-news/article/32239/halozyme-signs-enhanze-collaboration-with-incyte-for-subcutaneous-inca033989-development"
+      },
+      {
+        "title": "Halozyne Therapeutics (HALO) Is An Undervalued Stock That Keeps Winning In Cancer Treatment",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/healthcare/articles/halozyne-therapeutics-halo-undervalued-stock-134628860.html"
+      },
+      {
+        "title": "1 Value Stock Worth Investigating and 2 Facing Headwinds",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/1-value-stock-worth-investigating-080625969.html"
+      }
+    ],
+    "INCY": [
+      {
+        "title": "Incyte Shares Retreat After Best Day In A Year Despite Opzelura EU Nod",
+        "publisher": "Stocktwits",
+        "link": "https://stocktwits.com/news-articles/markets/equity/incyte-shares-retreat-after-best-day-in-a-year-despite-opzelura-eu-nod/cZNTReeRJT9"
+      },
+      {
+        "title": "Incyte Corp (INCY) Q2 2026 Earnings Call Highlights: Robust Revenue Growth and Strategic ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/healthcare/articles/incyte-corp-incy-q2-2026-190150152.html"
+      },
+      {
+        "title": "INCY Q2 Earnings & Revenues Beat on Higher Sales, '26 View Raised",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/healthcare/articles/incy-q2-earnings-revenues-beat-164000856.html"
+      },
+      {
+        "title": "Incyte Q2 Earnings Call Highlights",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/incyte-q2-earnings-call-highlights-2026-07-28/?utm_source=yahoofinance&utm_medium=yahoofinance"
+      },
+      {
+        "title": "Compared to Estimates, Incyte (INCY) Q2 Earnings: A Look at Key Metrics",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-incyte-incy-q2-133006500.html"
+      },
+      {
+        "title": "Incyte Tops Second-Quarter Expectations but Shares Slip on Lower Revenue Outlook",
+        "publisher": "InvestorsHub",
+        "link": "https://investorshub.advfn.com/market-news/article/32865/incyte-tops-second-quarter-expectations-but-shares-slip-on-lower-revenue-outlook"
+      },
+      {
+        "title": "Incyte (INCY) Q2 Earnings and Revenues Top Estimates",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/incyte-incy-q2-earnings-revenues-121502750.html"
+      },
+      {
+        "title": "Incyte (NASDAQ:INCY) Posts Better-Than-Expected Sales In Q2 CY2026 But Full-Year Sales Guidance Misses Expectations Significantly",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/incyte-nasdaq-incy-posts-better-113728477.html"
+      }
+    ],
+    "KLAC": [
+      {
+        "title": "KLA Rides on Strong Advanced Packaging Growth: More Upside Ahead?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/technology/articles/kla-rides-strong-advanced-packaging-175700566.html"
+      },
+      {
+        "title": "Lam Research Stock's Surge Was Building In Plain Sight",
+        "publisher": "Trefis",
+        "link": "https://www.trefis.com/articles/609513/lam-research-stocks-surge-was-building-in-plain-sight/2026-07-30"
+      },
+      {
+        "title": "KLAC Q2 Deep Dive: AI Infrastructure Demand Drives Growth, Market Reacts to Outlook Uncertainty",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/klac-q2-deep-dive-ai-160502811.html"
+      },
+      {
+        "title": "Why Lam Research Stock Is Having Its Best Day Since 1999",
+        "publisher": "Barrons.com",
+        "link": "https://www.barrons.com/articles/lam-research-earnings-stock-price-8b30e6e8?siteid=yhoof2&yptr=yahoo"
+      },
+      {
+        "title": "Top Chip Analyst: Semiconductor Oversupply Is Nearly Impossible Before 2028. Why He\u2019s Bullish on Memory",
+        "publisher": "24/7 Wall St.",
+        "link": "https://247wallst.com/investing/2026/07/30/top-chip-analyst-semiconductor-oversupply-is-nearly-impossible-before-2028-why-hes-bullish-on-memory/"
+      },
+      {
+        "title": "KLA (KLAC) Posts Strong Q4 And Guides Higher On AI Demand",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/kla-klac-posts-strong-q4-231231350.html"
+      },
+      {
+        "title": "KLA Stock Is Having Its Worst Month Ever. Why Earnings Can\u2019t Stop the Selloff.",
+        "publisher": "Barrons.com",
+        "link": "https://www.barrons.com/articles/kla-earnings-stock-price-565a7230?siteid=yhoof2&yptr=yahoo"
+      },
+      {
+        "title": "Nasdaq, S&P 500 Fall 1%, Dow Sinks 900 Points Ahead of Fed Decision",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-p-500-fall-1-183129628.html"
+      }
+    ],
+    "NBIX": [
+      {
+        "title": "CORT Q2 Earnings & Revenues Beat Estimates, 2026 Outlook Raised",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/healthcare/articles/cort-q2-earnings-revenues-beat-160200729.html"
+      },
+      {
+        "title": "QURE Q2 Earnings Miss Estimates on Higher Costs, Revenues Rise Y/Y",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/healthcare/articles/qure-q2-earnings-miss-estimates-145800936.html"
+      },
+      {
+        "title": "Amarin's Q2 Earnings Beat Estimates, Revenues Fall Short",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/healthcare/articles/amarins-q2-earnings-beat-estimates-161700157.html"
+      },
+      {
+        "title": "Neurocrine (NBIX) Q2 Earnings Preview: What You Should Know Beyond the Headline Estimates",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/neurocrine-nbix-q2-earnings-preview-131524376.html"
+      },
+      {
+        "title": "Neurocrine Gears Up to Report Q2 Earnings: What's in the Cards?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/healthcare/articles/neurocrine-gears-report-q2-earnings-151100789.html"
+      },
+      {
+        "title": "Neurocrine Biosciences (NBIX) Stock Trades Fair On Earnings But Mixed On Value",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/healthcare/articles/neurocrine-biosciences-nbix-stock-trades-191122278.html"
+      },
+      {
+        "title": "Neurocrine Biosciences (NBIX) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/healthcare/articles/neurocrine-biosciences-nbix-earnings-expected-140027249.html"
+      },
+      {
+        "title": "Neurocrine Biosciences (NBIX) Appoints Samir Siddhanti As Chief Business Officer",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/neurocrine-biosciences-nbix-appoints-samir-171115061.html"
+      }
+    ],
+    "RNR": [
+      {
+        "title": "Can Skyward Specialty Beat Q2 Earnings on Premium Growth?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/skyward-specialty-beat-q2-earnings-155900812.html"
+      },
+      {
+        "title": "Aon Q2 Earnings Beat Estimates on New Business Wins, Strong Retention",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/aon-q2-earnings-beat-estimates-175200758.html"
+      },
+      {
+        "title": "RenaissanceRe (RNR) Wins AM Best Rating Affirmation With Positive Outlooks",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/renaissancere-rnr-wins-am-best-020736040.html"
+      },
+      {
+        "title": "RNR Q2 Deep Dive: Strategic Portfolio Shaping Amid Rate Headwinds and Market Shifts",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/rnr-q2-deep-dive-strategic-205708735.html"
+      },
+      {
+        "title": "HIG's Q2 Earnings Beat Estimates on Strong Investment Income",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/higs-q2-earnings-beat-estimates-185700510.html"
+      },
+      {
+        "title": "Can AON Beat Q2 Earnings on Commercial Risk Solutions Strength?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/aon-beat-q2-earnings-commercial-164800791.html"
+      },
+      {
+        "title": "RenaissanceRe Q2 Earnings Call Highlights",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/renaissancere-q2-earnings-call-highlights-2026-07-23/?utm_source=yahoofinance&utm_medium=yahoofinance"
+      },
+      {
+        "title": "RenaissanceRe Holdings Ltd (RNR) Q2 2026 Earnings Call Highlights: Strong Operating Income Amid ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/renaissancere-holdings-ltd-rnr-q2-210428830.html"
+      }
+    ],
+    "RRC": [
+      {
+        "title": "3 Stocks Under $50 That Concern Us",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-under-50-concern-010902315.html"
+      },
+      {
+        "title": "How EQT Is Positioning for Data Center, Power & Global LNG Demand",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/energy/articles/eqt-positioning-data-center-power-173100435.html"
+      },
+      {
+        "title": "2 Cash-Producing Stocks with Promising Prospects and 1 That Underwhelm",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/2-cash-producing-stocks-promising-202102583.html"
+      },
+      {
+        "title": "Liberty Energy Q2 Earnings Surpass Estimates, Revenues Increase Y/Y",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/energy/articles/liberty-energy-q2-earnings-surpass-152000496.html"
+      },
+      {
+        "title": "Oceaneering Q2 Earnings & Revenues Rise Y/Y, Adjusted EBITDA Up",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/oceaneering-q2-earnings-revenues-rise-140400916.html"
+      },
+      {
+        "title": "Range Resources (RRC) Stock Looks Cheap On Earnings While Gas Risk Clouds Value",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/range-resources-rrc-stock-looks-043317470.html"
+      },
+      {
+        "title": "How Investors May Respond To Range Resources (RRC) Earnings Beat And Completed Multi\u2011Year Buyback Program",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-range-resources-211028635.html"
+      },
+      {
+        "title": "Range Resources Corp (RRC) Q2 2026 Earnings Call Highlights: Record Production and Strategic ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/energy/articles/range-resources-corp-rrc-q2-210058102.html"
+      }
+    ],
+    "SEIC": [
+      {
+        "title": "Morgan Stanley Picks 2 \u2018Strong Buy\u2019 Quality Stocks Built for a Volatile Market",
+        "publisher": "TipRanks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-picks-2-strong-180000426.html"
+      },
+      {
+        "title": "Will Higher Revenue, Massive Buybacks and a New ETF Change SEI Investments' (SEIC) Narrative?",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/higher-revenue-massive-buybacks-etf-090933701.html"
+      },
+      {
+        "title": "SEI Investments (SEIC) Stock May Be 35% Undervalued As Record Revenue Lands",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sei-investments-seic-stock-may-001705001.html"
+      },
+      {
+        "title": "Earnings Estimates Moving Higher for SEI (SEIC): Time to Buy?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-estimates-moving-higher-sei-162002236.html"
+      },
+      {
+        "title": "SEI Investments Beats on Q2 Earnings as Revenues & AUM Rise Y/Y",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sei-investments-beats-q2-earnings-141500094.html"
+      },
+      {
+        "title": "SEI Investments Company Q2 2026 Earnings Call Summary",
+        "publisher": "Moby",
+        "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-sei-investments-company-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+      },
+      {
+        "title": "SEI Investments Co (SEIC) Q2 2026 Earnings Call Highlights: Record Growth in Revenue and EPS",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sei-investments-co-seic-q2-050056985.html"
+      },
+      {
+        "title": "SEI (SEIC) Reports Q2 Earnings: What Key Metrics Have to Say",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sei-seic-reports-q2-earnings-000003577.html"
+      }
+    ],
+    "TPL": [
+      {
+        "title": "2 Energy Stocks to Own for Decades and 1 That Underwhelm",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/energy/articles/2-energy-stocks-own-decades-000502496.html"
+      },
+      {
+        "title": "Texas Pacific Land\u2019s Quarterly Earnings Preview: What You Need to Know",
+        "publisher": "Barchart",
+        "link": "https://www.barchart.com/story/news/3333595/texas-pacific-lands-quarterly-earnings-preview-what-you-need-to-know"
+      },
+      {
+        "title": "3 Market-Beating Stocks for Long-Term Investors",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-market-beating-stocks-long-104122640.html"
+      },
+      {
+        "title": "Texas Pacific Land, Crescent Energy, and Noble Corporation Shares Skyrocket, What You Need To Know",
+        "publisher": "StockStory",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/texas-pacific-land-crescent-energy-230239798.html"
+      },
+      {
+        "title": "Why Texas Pacific Land Corporation Rallied Over 50% in the First Half of 2026",
+        "publisher": "Motley Fool",
+        "link": "https://www.fool.com/investing/2026/07/13/why-texas-pacific-land-corporation-rallied-over-50/"
+      },
+      {
+        "title": "How Investors Are Reacting To Texas Pacific Land (TPL) Chevron Power Deal And Earnings Beat",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-texas-pacific-land-131102845.html"
+      },
+      {
+        "title": "Texas Pacific Land (TPL) Stock Looks Rich On Cash Flow And Earnings",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/texas-pacific-land-tpl-stock-121248519.html"
+      },
+      {
+        "title": "Texas Pacific Land (TPL) Could Be 11% Undervalued On Its Royalty Growth Narrative",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/texas-pacific-land-tpl-could-110959909.html"
+      }
+    ],
+    "VIK": [
+      {
+        "title": "Is Playtika (PLTK) Outperforming Other Consumer Discretionary Stocks This Year?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/playtika-pltk-outperforming-other-consumer-134002935.html"
+      },
+      {
+        "title": "Caesars Entertainment (CZR) Reports Q2 Loss, Tops Revenue Estimates",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/caesars-entertainment-czr-reports-q2-211001478.html"
+      },
+      {
+        "title": "Autodesk initiated, Norwegian Cruise downgrade: Wall Street's top analyst calls",
+        "publisher": "The Fly",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/autodesk-initiated-norwegian-cruise-downgrade-135507863.html"
+      },
+      {
+        "title": "EXPE or VIK: Which Is the Better Value Stock Right Now?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/expe-vik-better-value-stock-154003019.html"
+      },
+      {
+        "title": "U.S. Consumer Sentiment Index Hits Five-Month High: 5 Top Picks",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/u-consumer-sentiment-index-hits-125000317.html"
+      },
+      {
+        "title": "RCL Stock: Collect 13% Now, In Exchange For 19% Of Upside",
+        "publisher": "Trefis",
+        "link": "https://www.trefis.com/articles/607734/rcl-stock-collect-13-now-in-exchange-for-19-of-upside/2026-07-18"
+      },
+      {
+        "title": "Royal Caribbean, Norwegian Cruise Line to See Lower Net Yields in H2 Due to Iran Conflict, Morgan Stanley Says",
+        "publisher": "MT Newswires",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/royal-caribbean-norwegian-cruise-line-150810023.html"
+      },
+      {
+        "title": "Marriott vs. Viking: Why the Better Quarter Doesn't Mean the Better Decade",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/articles/marriott-vs-viking-why-the-better-quarter-doesnt-mean-the-better-decade/?utm_source=yahoofinance&utm_medium=yahoofinance"
+      }
+    ],
+    "VIRT": [
+      {
+        "title": "Virtu Financial, Inc. Q2 2026 Earnings Call Summary",
+        "publisher": "Moby",
+        "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-virtu-financial-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+      },
+      {
+        "title": "Virtu Financial Inc (VIRT) (Q2 2026) Earnings Call Highlights: Record Adjusted Net Trading ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/virtu-financial-inc-virt-q2-190029351.html"
+      },
+      {
+        "title": "Virtu Financial (VIRT) Beats Q2 Earnings and Revenue Estimates",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/virtu-financial-virt-beats-q2-112002437.html"
+      },
+      {
+        "title": "Should You Buy, Hold or Sell Pagaya Stock Ahead of Q2 Earnings?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/buy-hold-sell-pagaya-stock-135700264.html"
+      },
+      {
+        "title": "Does Pagaya's Discounted Valuation Make the Stock a Buy Now?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/does-pagayas-discounted-valuation-stock-135100956.html"
+      },
+      {
+        "title": "PROG Holdings Q2 Preview: Leveraging Strengths Amid Market Woes",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/prog-holdings-q2-preview-leveraging-154400123.html"
+      },
+      {
+        "title": "Coinbase Gears Up to Report Q2 Earnings: What's in the Cards?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/coinbase-gears-report-q2-earnings-153100598.html"
+      },
+      {
+        "title": "Virtu Financial (VIRT) Positioned for a Durable Profit Cycle on Strategic Expansion",
+        "publisher": "Insider Monkey",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/virtu-financial-virt-positioned-durable-160801643.html"
+      }
+    ]
+  }
+}
