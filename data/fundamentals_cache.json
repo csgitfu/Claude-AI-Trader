@@ -83,38 +83,38 @@
     "trailingPE": 46.894737
   },
   "AAPL": {
-    "_asof": "2026-11-14T01:35:21.207368+00:00",
+    "_asof": "2026-11-21T02:41:51.721415+00:00",
     "beta": 1.089,
     "debtToEquity": 84.286,
-    "dividendYield": 0.3,
+    "dividendYield": 0.31,
     "earningsGrowth": 0.141,
-    "forwardPE": 33.784206,
+    "forwardPE": 32.400333,
     "freeCashflow": 105658376192,
     "grossMargins": 0.48786,
     "industry": "Consumer Electronics",
-    "marketCap": 5177380175872,
-    "priceToSalesTrailing12Months": 10.812474,
+    "marketCap": 4978144444416,
+    "priceToSalesTrailing12Months": 10.396389,
     "profitMargins": 0.27604,
     "returnOnEquity": 1.42257,
     "revenueGrowth": 0.117,
     "sector": "Technology",
-    "trailingPE": 39.67372
+    "trailingPE": 38.146996
   },
   "ABBV": {
-    "_asof": "2026-11-14T01:35:24.274405+00:00",
+    "_asof": "2026-11-21T02:41:54.822798+00:00",
     "beta": 0.192,
-    "dividendYield": 2.35,
+    "dividendYield": 2.44,
     "earningsGrowth": 22.821,
-    "forwardPE": 18.216002,
+    "forwardPE": 17.647331,
     "freeCashflow": 17693124608,
     "grossMargins": 0.73724,
     "industry": "Drug Manufacturers - General",
-    "marketCap": 521499836416,
-    "priceToSalesTrailing12Months": 7.899837,
+    "marketCap": 505891782656,
+    "priceToSalesTrailing12Months": 7.6634016,
     "profitMargins": 0.15666,
     "revenueGrowth": 0.103,
     "sector": "Healthcare",
-    "trailingPE": 50.69244
+    "trailingPE": 49.17526
   },
   "ABNB": {
     "_asof": "2026-11-14T01:35:49.607509+00:00",
@@ -135,22 +135,22 @@
     "trailingPE": 35.04315
   },
   "ABT": {
-    "_asof": "2026-11-14T01:35:31.752883+00:00",
+    "_asof": "2026-11-21T02:42:01.876521+00:00",
     "beta": 0.537,
     "debtToEquity": 60.899,
-    "dividendYield": 2.35,
+    "dividendYield": 2.43,
     "earningsGrowth": -0.436,
-    "forwardPE": 18.278683,
+    "forwardPE": 17.348917,
     "freeCashflow": 6066999808,
     "grossMargins": 0.57171,
     "industry": "Medical Devices",
-    "marketCap": 187950301184,
-    "priceToSalesTrailing12Months": 3.8970392,
+    "marketCap": 178389991424,
+    "priceToSalesTrailing12Months": 3.6988118,
     "profitMargins": 0.09747,
     "returnOnEquity": 0.09137999,
     "revenueGrowth": 0.145,
     "sector": "Healthcare",
-    "trailingPE": 40.492535
+    "trailingPE": 38.432835
   },
   "ACGL": {
     "_asof": "2026-11-14T01:36:10.678885+00:00",
@@ -260,22 +260,22 @@
     "trailingPE": 36.27957
   },
   "ADI": {
-    "_asof": "2026-11-14T01:35:30.476871+00:00",
+    "_asof": "2026-11-21T02:42:01.721428+00:00",
     "beta": 1.256,
     "debtToEquity": 27.314,
-    "dividendYield": 1.08,
+    "dividendYield": 1.17,
     "earningsGrowth": 1.635,
-    "forwardPE": 24.090967,
+    "forwardPE": 20.986444,
     "freeCashflow": 4147339008,
     "grossMargins": 0.65800005,
     "industry": "Semiconductors",
-    "marketCap": 192842514432,
-    "priceToSalesTrailing12Months": 13.891807,
+    "marketCap": 167620886528,
+    "priceToSalesTrailing12Months": 12.074915,
     "profitMargins": 0.29787,
     "returnOnEquity": 0.12227,
     "revenueGrowth": 0.396,
     "sector": "Technology",
-    "trailingPE": 47.264847
+    "trailingPE": 41.083138
   },
   "ADM": {
     "_asof": "2026-11-14T01:36:12.965019+00:00",
@@ -839,21 +839,22 @@
     "trailingPE": 25.216867
   },
   "AMAT": {
-    "_asof": "2026-11-14T01:35:26.452423+00:00",
+    "_asof": "2026-11-21T02:41:57.172592+00:00",
+    "beta": 1.673,
     "debtToEquity": 25.021,
-    "dividendYield": 0.56,
+    "dividendYield": 0.63,
     "earningsGrowth": 0.431,
-    "forwardPE": 15.093795,
-    "freeCashflow": 1801250048,
+    "forwardPE": 12.289364,
+    "freeCashflow": 2520250112,
     "grossMargins": 0.49988,
     "industry": "Semiconductor Equipment & Materials",
-    "marketCap": 294027853824,
-    "priceToSalesTrailing12Months": 8.535907,
+    "marketCap": 240166404096,
+    "priceToSalesTrailing12Months": 6.972258,
     "profitMargins": 0.29286,
     "returnOnEquity": 0.4337,
     "revenueGrowth": 0.531,
     "sector": "Technology",
-    "trailingPE": 29.358162
+    "trailingPE": 23.98019
   },
   "AMCR": {
     "_asof": "2026-11-14T01:36:34.859389+00:00",
@@ -874,22 +875,22 @@
     "trailingPE": 18.798283
   },
   "AMD": {
-    "_asof": "2026-11-14T01:35:22.895686+00:00",
+    "_asof": "2026-11-21T02:41:53.723636+00:00",
     "beta": 2.542,
     "debtToEquity": 13.469,
     "dividendYield": 0.0,
     "earningsGrowth": 0.938,
-    "forwardPE": 30.188778,
+    "forwardPE": 24.060778,
     "freeCashflow": 7357125120,
     "grossMargins": 0.56,
     "industry": "Semiconductors",
-    "marketCap": 875905024000,
-    "priceToSalesTrailing12Months": 19.277777,
+    "marketCap": 702393286656,
+    "priceToSalesTrailing12Months": 15.458961,
     "profitMargins": 0.16769,
     "returnOnEquity": 0.1196,
     "revenueGrowth": 0.447,
     "sector": "Technology",
-    "trailingPE": 114.11539
+    "trailingPE": 98.23843
   },
   "AME": {
     "_asof": "2026-11-14T01:35:56.912875+00:00",
@@ -928,22 +929,22 @@
     "trailingPE": 13.10733
   },
   "AMGN": {
-    "_asof": "2026-11-14T01:35:28.373177+00:00",
+    "_asof": "2026-11-21T02:41:59.155214+00:00",
     "beta": 0.417,
     "debtToEquity": 376.303,
-    "dividendYield": 2.16,
+    "dividendYield": 2.3,
     "earningsGrowth": 0.194,
-    "forwardPE": 18.5854,
+    "forwardPE": 17.342522,
     "freeCashflow": 7376750080,
     "grossMargins": 0.72464997,
     "industry": "Drug Manufacturers - General",
-    "marketCap": 251886256128,
-    "priceToSalesTrailing12Months": 6.4747257,
+    "marketCap": 235642683392,
+    "priceToSalesTrailing12Months": 6.057185,
     "profitMargins": 0.24139999,
     "returnOnEquity": 0.78353,
     "revenueGrowth": 0.085,
     "sector": "Healthcare",
-    "trailingPE": 26.995363
+    "trailingPE": 25.254494
   },
   "AMH": {
     "_asof": "2026-09-26T00:04:04.385903+00:00",
@@ -1034,22 +1035,22 @@
     "trailingPE": 23.120483
   },
   "AMZN": {
-    "_asof": "2026-11-14T01:35:21.713909+00:00",
+    "_asof": "2026-11-21T02:41:52.205982+00:00",
     "beta": 1.503,
     "debtToEquity": 49.681,
     "dividendYield": 0.0,
     "earningsGrowth": -0.031,
-    "forwardPE": 24.421114,
+    "forwardPE": 22.589987,
     "freeCashflow": -34731749376,
     "grossMargins": 0.51374,
     "industry": "Internet Retail",
-    "marketCap": 2883431432192,
-    "priceToSalesTrailing12Months": 3.615792,
+    "marketCap": 2668898811904,
+    "priceToSalesTrailing12Months": 3.3467703,
     "profitMargins": 0.16900998,
     "returnOnEquity": 0.27416,
     "revenueGrowth": 0.121,
     "sector": "Consumer Cyclical",
-    "trailingPE": 21.556993
+    "trailingPE": 19.953114
   },
   "AN": {
     "_asof": "2026-09-26T00:04:57.226760+00:00",
@@ -1069,21 +1070,21 @@
     "trailingPE": 7.7413073
   },
   "ANET": {
-    "_asof": "2026-11-14T01:35:29.428727+00:00",
+    "_asof": "2026-11-21T02:42:00.205790+00:00",
     "beta": 1.637,
     "dividendYield": 0.0,
     "earningsGrowth": 0.821,
-    "forwardPE": 32.680138,
+    "forwardPE": 27.765446,
     "freeCashflow": 3001337600,
     "grossMargins": 0.62881,
     "industry": "Computer Hardware",
-    "marketCap": 249256640512,
-    "priceToSalesTrailing12Months": 20.963375,
+    "marketCap": 211771506688,
+    "priceToSalesTrailing12Months": 17.810741,
     "profitMargins": 0.39966,
     "returnOnEquity": 0.33519,
     "revenueGrowth": 0.585,
     "sector": "Technology",
-    "trailingPE": 52.89276
+    "trailingPE": 44.938335
   },
   "AON": {
     "_asof": "2026-11-14T01:35:51.657179+00:00",
@@ -1175,22 +1176,22 @@
     "sector": "Industrials"
   },
   "APH": {
-    "_asof": "2026-11-14T01:35:30.625395+00:00",
+    "_asof": "2026-11-21T02:42:01.364500+00:00",
     "beta": 1.279,
     "debtToEquity": 103.47,
-    "dividendYield": 0.75,
+    "dividendYield": 0.79,
     "earningsGrowth": 0.612,
-    "forwardPE": 21.582775,
+    "forwardPE": 19.23496,
     "freeCashflow": 4296674816,
     "grossMargins": 0.39209,
     "industry": "Electronic Components",
-    "marketCap": 193170325504,
-    "priceToSalesTrailing12Months": 5.845339,
+    "marketCap": 172156895232,
+    "priceToSalesTrailing12Months": 5.2094717,
     "profitMargins": 0.17950001,
     "returnOnEquity": 0.40078,
     "revenueGrowth": 0.651,
     "sector": "Technology",
-    "trailingPE": 34.013046
+    "trailingPE": 30.313046
   },
   "APLD": {
     "_asof": "2026-09-26T00:04:30.603563+00:00",
@@ -1577,22 +1578,22 @@
     "trailingPE": 23.17596
   },
   "AVGO": {
-    "_asof": "2026-11-14T01:35:22.072558+00:00",
+    "_asof": "2026-11-21T02:41:52.384458+00:00",
     "beta": 1.508,
     "debtToEquity": 59.604,
-    "dividendYield": 0.71,
+    "dividendYield": 0.75,
     "earningsGrowth": 2.153,
-    "forwardPE": 17.874224,
+    "forwardPE": 15.67989,
     "freeCashflow": 30596499456,
     "grossMargins": 0.75515,
     "industry": "Semiconductors",
-    "marketCap": 1656497373184,
-    "priceToSalesTrailing12Months": 18.590607,
+    "marketCap": 1453140738048,
+    "priceToSalesTrailing12Months": 16.308367,
     "profitMargins": 0.42944,
     "returnOnEquity": 0.44245,
     "revenueGrowth": 0.855,
     "sector": "Technology",
-    "trailingPE": 44.31801
+    "trailingPE": 38.877396
   },
   "AVT": {
     "_asof": "2026-09-26T00:04:20.646714+00:00",
@@ -1699,21 +1700,21 @@
     "trailingPE": 101.42444
   },
   "AXP": {
-    "_asof": "2026-11-14T01:35:32.907883+00:00",
+    "_asof": "2026-11-21T02:42:03.281796+00:00",
     "beta": 1.077,
     "debtToEquity": 167.573,
-    "dividendYield": 1.19,
+    "dividendYield": 1.22,
     "earningsGrowth": 0.309,
-    "forwardPE": 15.858953,
+    "forwardPE": 14.923447,
     "grossMargins": 0.61954,
     "industry": "Credit Services",
-    "marketCap": 214978969600,
-    "priceToSalesTrailing12Months": 2.9509,
+    "marketCap": 202305552384,
+    "priceToSalesTrailing12Months": 2.776939,
     "profitMargins": 0.16823,
     "returnOnEquity": 0.35933998,
     "revenueGrowth": 0.113,
     "sector": "Financial Services",
-    "trailingPE": 18.061972
+    "trailingPE": 16.997183
   },
   "AXS": {
     "_asof": "2026-09-26T00:04:27.583898+00:00",
@@ -1816,20 +1817,20 @@
     "trailingPE": 17.69866
   },
   "BAC": {
-    "_asof": "2026-11-14T01:35:26.143120+00:00",
+    "_asof": "2026-11-21T02:41:56.454712+00:00",
     "beta": 1.192,
-    "dividendYield": 2.53,
+    "dividendYield": 2.64,
     "earningsGrowth": -0.125,
-    "forwardPE": 9.849231,
+    "forwardPE": 9.080906,
     "grossMargins": 0.0,
     "industry": "Banks - Diversified",
-    "marketCap": 352048676864,
-    "priceToSalesTrailing12Months": 3.064624,
+    "marketCap": 324585848832,
+    "priceToSalesTrailing12Months": 2.825557,
     "profitMargins": 0.28064,
     "returnOnEquity": 0.1073,
     "revenueGrowth": 0.034,
     "sector": "Financial Services",
-    "trailingPE": 12.176611
+    "trailingPE": 11.22673
   },
   "BAH": {
     "_asof": "2026-09-26T00:04:15.135183+00:00",
@@ -2254,22 +2255,22 @@
     "trailingPE": 64.315216
   },
   "BLK": {
-    "_asof": "2026-11-14T01:35:31.592155+00:00",
+    "_asof": "2026-11-21T02:42:02.374565+00:00",
     "beta": 1.382,
     "debtToEquity": 22.11,
-    "dividendYield": 1.88,
+    "dividendYield": 2.02,
     "earningsGrowth": 0.254,
-    "forwardPE": 18.865976,
+    "forwardPE": 16.962633,
     "freeCashflow": 8455499776,
     "grossMargins": 0.48283002,
     "industry": "Asset Management",
-    "marketCap": 188845948928,
-    "priceToSalesTrailing12Months": 6.616423,
+    "marketCap": 170131374080,
+    "priceToSalesTrailing12Months": 5.9607377,
     "profitMargins": 0.24216999,
     "returnOnEquity": 0.11607,
     "revenueGrowth": 0.191,
     "sector": "Financial Services",
-    "trailingPE": 27.844036
+    "trailingPE": 25.0847
   },
   "BLSH": {
     "_asof": "2026-09-26T00:05:17.979945+00:00",
@@ -2615,20 +2616,20 @@
     "trailingPE": 3.1601598
   },
   "C": {
-    "_asof": "2026-11-14T01:35:29.944858+00:00",
+    "_asof": "2026-11-21T02:42:00.887643+00:00",
     "beta": 1.154,
-    "dividendYield": 2.16,
+    "dividendYield": 2.32,
     "earningsGrowth": 0.534,
-    "forwardPE": 9.4934,
+    "forwardPE": 8.4683485,
     "grossMargins": 0.0,
     "industry": "Banks - Diversified",
-    "marketCap": 205261914112,
-    "priceToSalesTrailing12Months": 2.4641583,
+    "marketCap": 183098720256,
+    "priceToSalesTrailing12Months": 2.1980903,
     "profitMargins": 0.23208,
     "returnOnEquity": 0.09353,
     "revenueGrowth": 0.08,
     "sector": "Financial Services",
-    "trailingPE": 12.086744
+    "trailingPE": 10.781676
   },
   "CACC": {
     "_asof": "2026-09-26T00:05:11.414462+00:00",
@@ -2777,22 +2778,22 @@
     "trailingPE": 34.30058
   },
   "CAT": {
-    "_asof": "2026-11-14T01:35:27.156115+00:00",
+    "_asof": "2026-11-21T02:41:58.600951+00:00",
     "beta": 1.64,
     "debtToEquity": 210.413,
-    "dividendYield": 1.08,
+    "dividendYield": 1.21,
     "earningsGrowth": 0.461,
-    "forwardPE": 18.652845,
+    "forwardPE": 15.86362,
     "freeCashflow": 3973250048,
     "grossMargins": 0.29542,
     "industry": "Farm & Heavy Construction Machinery",
-    "marketCap": 274648023040,
-    "priceToSalesTrailing12Months": 3.531406,
+    "marketCap": 233578954752,
+    "priceToSalesTrailing12Months": 3.0033426,
     "profitMargins": 0.15212,
     "returnOnEquity": 0.56135,
     "revenueGrowth": 0.173,
     "sector": "Industrials",
-    "trailingPE": 23.55573
+    "trailingPE": 20.03336
   },
   "CAVA": {
     "_asof": "2026-09-26T00:04:44.714986+00:00",
@@ -3749,22 +3750,22 @@
     "trailingPE": 19.030928
   },
   "COP": {
-    "_asof": "2026-11-14T01:35:32.598839+00:00",
+    "_asof": "2026-11-21T02:42:02.960116+00:00",
     "beta": 0.162,
     "debtToEquity": 35.25,
-    "dividendYield": 2.66,
+    "dividendYield": 2.76,
     "earningsGrowth": 1.419,
-    "forwardPE": 12.391212,
+    "forwardPE": 11.843319,
     "freeCashflow": 11464625152,
     "grossMargins": 0.49008,
     "industry": "Oil & Gas E&P",
-    "marketCap": 168222638080,
-    "priceToSalesTrailing12Months": 2.4392111,
+    "marketCap": 160939442176,
+    "priceToSalesTrailing12Months": 2.3336055,
     "profitMargins": 0.16758,
     "returnOnEquity": 0.17656,
     "revenueGrowth": 0.293,
     "sector": "Energy",
-    "trailingPE": 14.992624
+    "trailingPE": 14.343519
   },
   "COR": {
     "_asof": "2026-11-14T01:35:53.134126+00:00",
@@ -3801,22 +3802,22 @@
     "trailingPE": 258.0
   },
   "COST": {
-    "_asof": "2026-11-14T01:35:24.462832+00:00",
+    "_asof": "2026-11-21T02:41:55.034953+00:00",
     "beta": 0.852,
     "debtToEquity": 28.436,
     "dividendYield": 0.54,
     "earningsGrowth": 0.15,
-    "forwardPE": 44.17771,
+    "forwardPE": 44.009495,
     "freeCashflow": 6752750080,
     "grossMargins": 0.12765999,
     "industry": "Discount Stores",
-    "marketCap": 490194108416,
-    "priceToSalesTrailing12Months": 1.6169804,
+    "marketCap": 488395014144,
+    "priceToSalesTrailing12Months": 1.6110458,
     "profitMargins": 0.03043,
     "returnOnEquity": 0.28402,
     "revenueGrowth": 0.111,
     "sector": "Consumer Defensive",
-    "trailingPE": 53.285645
+    "trailingPE": 53.090076
   },
   "CPAY": {
     "_asof": "2026-11-14T01:36:18.258196+00:00",
@@ -4080,21 +4081,21 @@
     "trailingPE": 14.660146
   },
   "CRWD": {
-    "_asof": "2026-11-14T01:35:28.697523+00:00",
+    "_asof": "2026-11-21T02:41:58.266443+00:00",
     "beta": 1.15,
     "debtToEquity": 15.958,
     "dividendYield": 0.0,
-    "forwardPE": 140.72446,
+    "forwardPE": 142.40053,
     "freeCashflow": 1995385472,
     "grossMargins": 0.75185996,
     "industry": "Software - Infrastructure",
-    "marketCap": 232033878016,
-    "priceToSalesTrailing12Months": 42.99993,
+    "marketCap": 234931617792,
+    "priceToSalesTrailing12Months": 43.536934,
     "profitMargins": 0.00834,
     "returnOnEquity": 0.01461,
     "revenueGrowth": 0.258,
     "sector": "Technology",
-    "trailingPE": 4532.1997
+    "trailingPE": 3824.0002
   },
   "CRWV": {
     "_asof": "2026-11-14T01:36:41.193460+00:00",
@@ -4112,22 +4113,22 @@
     "sector": "Technology"
   },
   "CSCO": {
-    "_asof": "2026-11-14T01:35:24.609280+00:00",
+    "_asof": "2026-11-21T02:41:55.506634+00:00",
     "beta": 1.002,
-    "debtToEquity": 62.017,
-    "dividendYield": 1.65,
-    "earningsGrowth": 0.521,
-    "forwardPE": 16.122913,
-    "freeCashflow": 11182624768,
-    "grossMargins": 0.64524,
+    "debtToEquity": 60.965,
+    "dividendYield": 1.77,
+    "earningsGrowth": 0.583,
+    "forwardPE": 14.964874,
+    "freeCashflow": 10410250240,
+    "grossMargins": 0.64074,
     "industry": "Communication Equipment",
-    "marketCap": 377069010944,
-    "priceToSalesTrailing12Months": 5.954505,
-    "profitMargins": 0.20951,
-    "returnOnEquity": 0.27319,
-    "revenueGrowth": 0.176,
+    "marketCap": 357343494144,
+    "priceToSalesTrailing12Months": 5.336751,
+    "profitMargins": 0.22341,
+    "returnOnEquity": 0.3038,
+    "revenueGrowth": 0.244,
     "sector": "Technology",
-    "trailingPE": 25.43617
+    "trailingPE": 24.106382
   },
   "CSGP": {
     "_asof": "2026-09-26T00:03:58.406850+00:00",
@@ -4324,22 +4325,22 @@
     "trailingPE": 10.377468
   },
   "CVX": {
-    "_asof": "2026-11-14T01:35:24.796402+00:00",
+    "_asof": "2026-11-21T02:41:55.346882+00:00",
     "beta": 0.453,
     "debtToEquity": 16.769,
-    "dividendYield": 3.29,
+    "dividendYield": 3.45,
     "earningsGrowth": 1.78,
-    "forwardPE": 13.273068,
+    "forwardPE": 12.612837,
     "freeCashflow": 26048374784,
     "grossMargins": 0.44384998,
     "industry": "Oil & Gas Integrated",
-    "marketCap": 429061144576,
-    "priceToSalesTrailing12Months": 1.8963442,
+    "marketCap": 406582722560,
+    "priceToSalesTrailing12Months": 1.7969952,
     "profitMargins": 0.11923,
     "returnOnEquity": 0.13853,
     "revenueGrowth": 0.348,
     "sector": "Energy",
-    "trailingPE": 16.14464
+    "trailingPE": 15.298825
   },
   "CW": {
     "_asof": "2026-11-14T01:36:41.038097+00:00",
@@ -4689,22 +4690,22 @@
     "trailingPE": 5.861366
   },
   "DIS": {
-    "_asof": "2026-11-14T01:35:30.309414+00:00",
+    "_asof": "2026-11-21T02:41:59.675960+00:00",
     "beta": 1.426,
-    "debtToEquity": 39.404,
-    "dividendYield": 1.27,
-    "earningsGrowth": -0.483,
-    "forwardPE": 15.878736,
-    "freeCashflow": 4860375040,
-    "grossMargins": 0.37595,
+    "debtToEquity": 40.34,
+    "dividendYield": 1.66,
+    "earningsGrowth": 1.073,
+    "forwardPE": 13.833536,
+    "freeCashflow": 7451375104,
+    "grossMargins": 0.38022998,
     "industry": "Entertainment",
-    "marketCap": 205423935488,
-    "priceToSalesTrailing12Months": 2.0779068,
-    "profitMargins": 0.086990006,
-    "returnOnEquity": 0.0801,
-    "revenueGrowth": 0.068,
+    "marketCap": 201513353216,
+    "priceToSalesTrailing12Months": 1.9689807,
+    "profitMargins": 0.09672,
+    "returnOnEquity": 0.09127,
+    "revenueGrowth": 0.155,
     "sector": "Communication Services",
-    "trailingPE": 24.529898
+    "trailingPE": 20.955595
   },
   "DKNG": {
     "_asof": "2026-09-26T00:04:05.296862+00:00",
@@ -6903,22 +6904,22 @@
     "trailingPE": 17.446428
   },
   "GE": {
-    "_asof": "2026-11-14T01:35:25.963803+00:00",
+    "_asof": "2026-11-21T02:41:56.136561+00:00",
     "beta": 1.409,
     "debtToEquity": 115.989,
-    "dividendYield": 0.57,
+    "dividendYield": 0.59,
     "earningsGrowth": 0.089,
-    "forwardPE": 35.629494,
+    "forwardPE": 33.24675,
     "freeCashflow": 6332375040,
     "grossMargins": 0.30065,
     "industry": "Aerospace & Defense",
-    "marketCap": 342876487680,
-    "priceToSalesTrailing12Months": 6.5215397,
+    "marketCap": 319946424320,
+    "priceToSalesTrailing12Months": 6.085408,
     "profitMargins": 0.17313999,
     "returnOnEquity": 0.50165004,
     "revenueGrowth": 0.159,
     "sector": "Industrials",
-    "trailingPE": 37.921143
+    "trailingPE": 35.385143
   },
   "GEHC": {
     "_asof": "2026-11-14T01:36:09.832660+00:00",
@@ -6957,22 +6958,22 @@
     "trailingPE": 14.786801
   },
   "GEV": {
-    "_asof": "2026-11-14T01:35:29.273312+00:00",
+    "_asof": "2026-11-21T02:41:59.996411+00:00",
     "beta": 1.058,
     "debtToEquity": 29.893,
-    "dividendYield": 0.24,
+    "dividendYield": 0.26,
     "earningsGrowth": 1.933,
-    "forwardPE": 30.813625,
+    "forwardPE": 27.001493,
     "freeCashflow": 22098874368,
     "grossMargins": 0.21787001,
     "industry": "Specialty Industrial Machinery",
-    "marketCap": 212570095616,
-    "priceToSalesTrailing12Months": 4.8267508,
+    "marketCap": 185096617984,
+    "priceToSalesTrailing12Months": 4.2029204,
     "profitMargins": 0.23542,
     "returnOnEquity": 0.93035007,
     "revenueGrowth": 0.268,
     "sector": "Industrials",
-    "trailingPE": 21.085062
+    "trailingPE": 18.359938
   },
   "GFL": {
     "_asof": "2026-10-31T01:00:00.116215+00:00",
@@ -7041,17 +7042,17 @@
     "sector": "Healthcare"
   },
   "GILD": {
-    "_asof": "2026-11-14T01:35:29.745173+00:00",
+    "_asof": "2026-11-21T02:41:59.835963+00:00",
     "beta": 0.372,
     "debtToEquity": 202.462,
-    "dividendYield": 1.95,
+    "dividendYield": 1.97,
     "earningsGrowth": -0.202,
-    "forwardPE": 16.595003,
+    "forwardPE": 16.398497,
     "freeCashflow": 10676875264,
     "grossMargins": 0.79947,
     "industry": "Drug Manufacturers - General",
-    "marketCap": 208476110848,
-    "priceToSalesTrailing12Months": 6.72764,
+    "marketCap": 206429536256,
+    "priceToSalesTrailing12Months": 6.6615963,
     "profitMargins": -0.124630004,
     "returnOnEquity": -0.22445999,
     "revenueGrowth": 0.068,
@@ -7231,40 +7232,40 @@
     "trailingPE": 11.94709
   },
   "GOOG": {
-    "_asof": "2026-11-14T01:35:22.219892+00:00",
+    "_asof": "2026-11-21T02:41:53.066491+00:00",
     "beta": 1.226,
     "debtToEquity": 22.187,
-    "dividendYield": 0.3,
+    "dividendYield": 0.32,
     "earningsGrowth": -0.253,
-    "forwardPE": 18.951597,
+    "forwardPE": 17.257856,
     "freeCashflow": -1162499968,
     "grossMargins": 0.60857,
     "industry": "Internet Content & Information",
-    "marketCap": 3596240551936,
-    "priceToSalesTrailing12Months": 7.633742,
+    "marketCap": 3245615874048,
+    "priceToSalesTrailing12Months": 6.8894706,
     "profitMargins": 0.50031,
     "returnOnEquity": 0.44286,
     "revenueGrowth": 0.247,
     "sector": "Communication Services",
-    "trailingPE": 15.275195
+    "trailingPE": 13.785901
   },
   "GOOGL": {
-    "_asof": "2026-11-14T01:35:21.887290+00:00",
+    "_asof": "2026-11-21T02:41:52.547567+00:00",
     "beta": 1.226,
     "debtToEquity": 22.187,
-    "dividendYield": 0.29,
+    "dividendYield": 0.32,
     "earningsGrowth": -0.253,
-    "forwardPE": 19.162155,
+    "forwardPE": 17.342186,
     "freeCashflow": -1162499968,
     "grossMargins": 0.60857,
     "industry": "Internet Content & Information",
-    "marketCap": 3636196016128,
-    "priceToSalesTrailing12Months": 7.7185555,
+    "marketCap": 3261475323904,
+    "priceToSalesTrailing12Months": 6.9231358,
     "profitMargins": 0.50031,
     "returnOnEquity": 0.44286,
     "revenueGrowth": 0.247,
     "sector": "Communication Services",
-    "trailingPE": 15.444908
+    "trailingPE": 13.853265
   },
   "GPC": {
     "_asof": "2026-11-14T01:36:43.973118+00:00",
@@ -7339,21 +7340,21 @@
     "trailingPE": 27.18828
   },
   "GS": {
-    "_asof": "2026-11-14T01:35:27.450367+00:00",
+    "_asof": "2026-11-21T02:41:58.428663+00:00",
     "beta": 1.272,
     "debtToEquity": 756.014,
-    "dividendYield": 2.19,
+    "dividendYield": 2.36,
     "earningsGrowth": 0.388,
-    "forwardPE": 12.344621,
+    "forwardPE": 10.649418,
     "grossMargins": 0.81287,
     "industry": "Capital Markets",
-    "marketCap": 264367603712,
-    "priceToSalesTrailing12Months": 3.7216003,
+    "marketCap": 228062347264,
+    "priceToSalesTrailing12Months": 3.2105176,
     "profitMargins": 0.31208,
     "returnOnEquity": 0.17712,
     "revenueGrowth": 0.233,
     "sector": "Financial Services",
-    "trailingPE": 13.178432
+    "trailingPE": 11.368655
   },
   "GSAT": {
     "_asof": "2026-09-26T00:04:55.638895+00:00",
@@ -7575,22 +7576,22 @@
     "trailingPE": 16.552238
   },
   "HD": {
-    "_asof": "2026-11-14T01:35:25.815344+00:00",
+    "_asof": "2026-11-21T02:41:55.981176+00:00",
     "beta": 0.947,
-    "debtToEquity": 380.261,
-    "dividendYield": 2.68,
-    "earningsGrowth": 0.046,
-    "forwardPE": 21.91661,
-    "freeCashflow": 10762625024,
-    "grossMargins": 0.32801,
+    "debtToEquity": 341.739,
+    "dividendYield": 2.77,
+    "earningsGrowth": 0.028,
+    "forwardPE": 21.494715,
+    "freeCashflow": 12039124992,
+    "grossMargins": 0.33046,
     "industry": "Home Improvement Retail",
-    "marketCap": 347884388352,
-    "priceToSalesTrailing12Months": 2.056346,
-    "profitMargins": 0.0841,
-    "returnOnEquity": 1.0429599,
-    "revenueGrowth": 0.057,
+    "marketCap": 338256691200,
+    "priceToSalesTrailing12Months": 1.9755445,
+    "profitMargins": 0.08375,
+    "returnOnEquity": 0.94803,
+    "revenueGrowth": 0.049,
     "sector": "Consumer Cyclical",
-    "trailingPE": 24.40098
+    "trailingPE": 23.544445
   },
   "HEI": {
     "_asof": "2026-10-31T01:00:06.549716+00:00",
@@ -8025,22 +8026,22 @@
     "trailingPE": 31.21756
   },
   "IBM": {
-    "_asof": "2026-11-14T01:35:28.879913+00:00",
+    "_asof": "2026-11-21T02:41:59.505120+00:00",
     "beta": 0.764,
     "debtToEquity": 185.439,
-    "dividendYield": 2.76,
+    "dividendYield": 3.02,
     "earningsGrowth": 0.25,
-    "forwardPE": 18.66734,
+    "forwardPE": 16.953415,
     "freeCashflow": 12354875392,
     "grossMargins": 0.57965,
     "industry": "Information Technology Services",
-    "marketCap": 233567715328,
-    "priceToSalesTrailing12Months": 3.3429854,
+    "marketCap": 212122927104,
+    "priceToSalesTrailing12Months": 3.0360525,
     "profitMargins": 0.15989,
     "returnOnEquity": 0.34769002,
     "revenueGrowth": 0.047,
     "sector": "Technology",
-    "trailingPE": 21.086178
+    "trailingPE": 19.150171
   },
   "ICE": {
     "_asof": "2026-11-14T01:35:40.637098+00:00",
@@ -8247,17 +8248,17 @@
     "sector": "Healthcare"
   },
   "INTC": {
-    "_asof": "2026-11-14T01:35:26.936972+00:00",
+    "_asof": "2026-11-21T02:41:57.935532+00:00",
     "beta": 2.426,
     "debtToEquity": 38.108,
     "dividendYield": 0.0,
     "earningsGrowth": -0.327,
-    "forwardPE": 33.321045,
+    "forwardPE": 28.640684,
     "freeCashflow": 806499968,
     "grossMargins": 0.40152,
     "industry": "Semiconductors",
-    "marketCap": 317092888576,
-    "priceToSalesTrailing12Months": 5.2944117,
+    "marketCap": 272553181184,
+    "priceToSalesTrailing12Months": 4.5507445,
     "profitMargins": -0.20089,
     "returnOnEquity": -0.0962,
     "revenueGrowth": 0.209,
@@ -8765,38 +8766,38 @@
     "sector": "Consumer Cyclical"
   },
   "JNJ": {
-    "_asof": "2026-11-14T01:35:23.789496+00:00",
+    "_asof": "2026-11-21T02:41:54.339638+00:00",
     "beta": 0.2,
     "debtToEquity": 54.767,
-    "dividendYield": 1.89,
+    "dividendYield": 2.01,
     "earningsGrowth": -0.959,
-    "forwardPE": 24.586143,
+    "forwardPE": 23.292364,
     "freeCashflow": 18501875712,
     "grossMargins": 0.67775,
     "industry": "Drug Manufacturers - General",
-    "marketCap": 687888924672,
-    "priceToSalesTrailing12Months": 6.9249406,
+    "marketCap": 651105206272,
+    "priceToSalesTrailing12Months": 6.554641,
     "profitMargins": 0.16203,
     "returnOnEquity": 0.20018,
     "revenueGrowth": 0.059,
     "sector": "Healthcare",
-    "trailingPE": 43.361153
+    "trailingPE": 41.04249
   },
   "JPM": {
-    "_asof": "2026-11-14T01:35:23.062745+00:00",
+    "_asof": "2026-11-21T02:41:53.568562+00:00",
     "beta": 1.02,
-    "dividendYield": 1.93,
+    "dividendYield": 2.06,
     "earningsGrowth": 0.099,
-    "forwardPE": 13.537293,
+    "forwardPE": 12.142857,
     "grossMargins": 0.0,
     "industry": "Banks - Diversified",
-    "marketCap": 919345496064,
-    "priceToSalesTrailing12Months": 4.8200655,
+    "marketCap": 824646434816,
+    "priceToSalesTrailing12Months": 4.3235645,
     "profitMargins": 0.34592,
     "returnOnEquity": 0.18013,
     "revenueGrowth": 0.102,
     "sector": "Financial Services",
-    "trailingPE": 14.521393
+    "trailingPE": 13.025587
   },
   "KBR": {
     "_asof": "2026-09-26T00:04:52.969124+00:00",
@@ -8954,22 +8955,22 @@
     "trailingPE": 28.753666
   },
   "KLAC": {
-    "_asof": "2026-11-14T01:35:30.096049+00:00",
+    "_asof": "2026-11-21T02:42:01.514012+00:00",
     "beta": 1.497,
     "debtToEquity": 91.864,
-    "dividendYield": 0.58,
+    "dividendYield": 0.65,
     "earningsGrowth": 0.388,
-    "forwardPE": 21.457027,
+    "forwardPE": 17.855509,
     "freeCashflow": 2816840192,
     "grossMargins": 0.61465,
     "industry": "Semiconductor Equipment & Materials",
-    "marketCap": 198467239936,
-    "priceToSalesTrailing12Months": 13.681929,
+    "marketCap": 165306843136,
+    "priceToSalesTrailing12Months": 11.395918,
     "profitMargins": 0.3625,
     "returnOnEquity": 0.91382,
     "revenueGrowth": 0.289,
     "sector": "Technology",
-    "trailingPE": 38.17544
+    "trailingPE": 31.796993
   },
   "KMB": {
     "_asof": "2026-11-14T01:35:53.426977+00:00",
@@ -9061,22 +9062,22 @@
     "trailingPE": 235.8148
   },
   "KO": {
-    "_asof": "2026-11-14T01:35:25.315037+00:00",
+    "_asof": "2026-11-21T02:41:55.663845+00:00",
     "beta": 0.269,
     "debtToEquity": 107.449,
-    "dividendYield": 2.18,
+    "dividendYield": 2.21,
     "earningsGrowth": 0.083,
-    "forwardPE": 28.124514,
+    "forwardPE": 27.447618,
     "freeCashflow": 4349000192,
     "grossMargins": 0.62318003,
     "industry": "Beverages - Non-Alcoholic",
-    "marketCap": 426963795968,
-    "priceToSalesTrailing12Months": 8.362985,
+    "marketCap": 417241497600,
+    "priceToSalesTrailing12Months": 8.172553,
     "profitMargins": 0.28654,
     "returnOnEquity": 0.40592998,
     "revenueGrowth": 0.074,
     "sector": "Consumer Defensive",
-    "trailingPE": 29.277285
+    "trailingPE": 28.610619
   },
   "KR": {
     "_asof": "2026-11-14T01:36:08.217780+00:00",
@@ -9438,22 +9439,22 @@
     "trailingPE": 16.60462
   },
   "LIN": {
-    "_asof": "2026-11-14T01:35:28.527348+00:00",
+    "_asof": "2026-11-21T02:41:59.311762+00:00",
     "beta": 0.68,
     "debtToEquity": 65.135,
-    "dividendYield": 1.22,
+    "dividendYield": 1.25,
     "earningsGrowth": -0.105,
-    "forwardPE": 26.913727,
+    "forwardPE": 25.704033,
     "freeCashflow": 4192624896,
     "grossMargins": 0.47864,
     "industry": "Specialty Chemicals",
-    "marketCap": 241505615872,
-    "priceToSalesTrailing12Months": 6.66443,
+    "marketCap": 230841090048,
+    "priceToSalesTrailing12Months": 6.3701386,
     "profitMargins": 0.19336,
     "returnOnEquity": 0.17723,
     "revenueGrowth": 0.092,
     "sector": "Basic Materials",
-    "trailingPE": 34.930943
+    "trailingPE": 33.388443
   },
   "LINE": {
     "_asof": "2026-09-26T00:05:08.219618+00:00",
@@ -9507,22 +9508,22 @@
     "trailingPE": 12.9388895
   },
   "LLY": {
-    "_asof": "2026-11-14T01:35:22.736503+00:00",
+    "_asof": "2026-11-21T02:41:53.384446+00:00",
     "beta": 0.389,
     "debtToEquity": 122.925,
-    "dividendYield": 0.48,
+    "dividendYield": 0.51,
     "earningsGrowth": 0.163,
-    "forwardPE": 28.504753,
+    "forwardPE": 26.4812,
     "freeCashflow": 9343699968,
     "grossMargins": 0.83634,
     "industry": "Drug Manufacturers - General",
-    "marketCap": 1285790498816,
-    "priceToSalesTrailing12Months": 14.871163,
+    "marketCap": 1199931523072,
+    "priceToSalesTrailing12Months": 13.878138,
     "profitMargins": 0.31898,
     "returnOnEquity": 0.86024004,
     "revenueGrowth": 0.386,
     "sector": "Healthcare",
-    "trailingPE": 46.851673
+    "trailingPE": 43.72314
   },
   "LLYVA": {
     "_asof": "2026-09-26T00:05:13.012776+00:00",
@@ -9707,22 +9708,22 @@
     "trailingPE": 86.623375
   },
   "LRCX": {
-    "_asof": "2026-11-14T01:35:26.595729+00:00",
+    "_asof": "2026-11-21T02:41:58.105246+00:00",
     "beta": 2.01,
     "debtToEquity": 26.857,
-    "dividendYield": 0.56,
+    "dividendYield": 0.65,
     "earningsGrowth": 0.766,
-    "forwardPE": 18.463053,
+    "forwardPE": 14.93351,
     "freeCashflow": 4548759552,
     "grossMargins": 0.51054,
     "industry": "Semiconductor Equipment & Materials",
-    "marketCap": 282212696064,
-    "priceToSalesTrailing12Months": 10.801187,
+    "marketCap": 228935565312,
+    "priceToSalesTrailing12Months": 8.762099,
     "profitMargins": 0.3234,
     "returnOnEquity": 0.7012,
     "revenueGrowth": 0.544,
     "sector": "Technology",
-    "trailingPE": 33.66915
+    "trailingPE": 27.312965
   },
   "LSCC": {
     "_asof": "2026-11-14T01:36:44.987935+00:00",
@@ -9901,22 +9902,22 @@
     "trailingPE": 8.29304
   },
   "MA": {
-    "_asof": "2026-11-14T01:35:24.091440+00:00",
+    "_asof": "2026-11-21T02:41:54.663045+00:00",
     "beta": 0.77,
     "debtToEquity": 355.163,
-    "dividendYield": 0.53,
+    "dividendYield": 0.56,
     "earningsGrowth": 0.217,
-    "forwardPE": 28.542875,
+    "forwardPE": 27.010551,
     "freeCashflow": 16629250048,
     "grossMargins": 1.0,
     "industry": "Credit Services",
-    "marketCap": 576012943360,
-    "priceToSalesTrailing12Months": 15.873373,
+    "marketCap": 544999112704,
+    "priceToSalesTrailing12Months": 15.018715,
     "profitMargins": 0.46732,
     "returnOnEquity": 2.31366,
     "revenueGrowth": 0.14,
     "sector": "Financial Services",
-    "trailingPE": 34.599163
+    "trailingPE": 32.736263
   },
   "MAA": {
     "_asof": "2026-10-31T01:00:07.122039+00:00",
@@ -10032,20 +10033,20 @@
     "trailingPE": 42.547623
   },
   "MCD": {
-    "_asof": "2026-11-14T01:35:31.011191+00:00",
+    "_asof": "2026-11-21T02:42:00.680561+00:00",
     "beta": 0.431,
-    "dividendYield": 2.82,
+    "dividendYield": 2.83,
     "earningsGrowth": 0.104,
-    "forwardPE": 19.9192,
+    "forwardPE": 20.012861,
     "freeCashflow": 5669749760,
     "grossMargins": 0.5762,
     "industry": "Restaurants",
-    "marketCap": 191952289792,
-    "priceToSalesTrailing12Months": 6.909232,
+    "marketCap": 192848625664,
+    "priceToSalesTrailing12Months": 6.9414954,
     "profitMargins": 0.32377,
     "revenueGrowth": 0.011,
     "sector": "Consumer Cyclical",
-    "trailingPE": 21.516613
+    "trailingPE": 21.617086
   },
   "MCHP": {
     "_asof": "2026-11-14T01:36:13.776146+00:00",
@@ -10239,22 +10240,22 @@
     "trailingPE": 13.418301
   },
   "META": {
-    "_asof": "2026-11-14T01:35:22.404061+00:00",
+    "_asof": "2026-11-21T02:41:52.813629+00:00",
     "beta": 1.279,
     "debtToEquity": 42.161,
-    "dividendYield": 0.34,
+    "dividendYield": 0.35,
     "earningsGrowth": 2.648,
-    "forwardPE": 18.031155,
+    "forwardPE": 15.720743,
     "freeCashflow": 16848499712,
     "grossMargins": 0.81034,
     "industry": "Internet Content & Information",
-    "marketCap": 1640694153216,
-    "priceToSalesTrailing12Months": 6.790812,
+    "marketCap": 1433642336256,
+    "priceToSalesTrailing12Months": 5.9338274,
     "profitMargins": 0.31145,
     "returnOnEquity": 0.32264,
     "revenueGrowth": 0.261,
     "sector": "Communication Services",
-    "trailingPE": 21.893211
+    "trailingPE": 19.134768
   },
   "MFP": {
     "_asof": "2026-09-26T00:05:13.401744+00:00",
@@ -10616,22 +10617,22 @@
     "trailingPE": 76.23575
   },
   "MRK": {
-    "_asof": "2026-11-14T01:35:25.663155+00:00",
+    "_asof": "2026-11-21T02:41:56.292840+00:00",
     "beta": 0.12,
     "debtToEquity": 119.928,
-    "dividendYield": 2.31,
+    "dividendYield": 2.65,
     "earningsGrowth": -0.12,
-    "forwardPE": 16.452564,
+    "forwardPE": 14.915834,
     "freeCashflow": 14024250368,
     "grossMargins": 0.75198,
     "industry": "Drug Manufacturers - General",
-    "marketCap": 364264685568,
-    "priceToSalesTrailing12Months": 5.4062853,
+    "marketCap": 329652666368,
+    "priceToSalesTrailing12Months": 4.892586,
     "profitMargins": 0.03641,
     "returnOnEquity": 0.05057,
     "revenueGrowth": 0.047,
     "sector": "Healthcare",
-    "trailingPE": 149.25252
+    "trailingPE": 135.07071
   },
   "MRNA": {
     "_asof": "2026-11-14T01:35:46.275408+00:00",
@@ -10703,21 +10704,21 @@
     "trailingPE": 51.56579
   },
   "MS": {
-    "_asof": "2026-11-14T01:35:29.595037+00:00",
+    "_asof": "2026-11-21T02:42:00.368143+00:00",
     "beta": 1.22,
     "debtToEquity": 489.762,
-    "dividendYield": 2.43,
+    "dividendYield": 2.63,
     "earningsGrowth": 0.082,
-    "forwardPE": 13.946475,
+    "forwardPE": 12.147569,
     "grossMargins": 0.87307,
     "industry": "Capital Markets",
-    "marketCap": 297994289152,
-    "priceToSalesTrailing12Months": 3.734545,
+    "marketCap": 258949464064,
+    "priceToSalesTrailing12Months": 3.2452245,
     "profitMargins": 0.25634,
     "returnOnEquity": 0.18035,
     "revenueGrowth": 0.108,
     "sector": "Financial Services",
-    "trailingPE": 15.118953
+    "trailingPE": 13.137986
   },
   "MSA": {
     "_asof": "2026-09-26T00:04:32.550117+00:00",
@@ -10754,22 +10755,22 @@
     "trailingPE": 34.805393
   },
   "MSFT": {
-    "_asof": "2026-11-14T01:35:21.362067+00:00",
+    "_asof": "2026-11-21T02:41:51.876852+00:00",
     "beta": 1.045,
     "debtToEquity": 28.465,
-    "dividendYield": 0.75,
+    "dividendYield": 0.79,
     "earningsGrowth": 0.323,
-    "forwardPE": 21.656946,
+    "forwardPE": 20.018377,
     "freeCashflow": 2994125056,
     "grossMargins": 0.67657,
     "industry": "Software - Infrastructure",
-    "marketCap": 3890434801664,
-    "priceToSalesTrailing12Months": 11.2295885,
+    "marketCap": 3598139523072,
+    "priceToSalesTrailing12Months": 10.38589,
     "profitMargins": 0.41169998,
     "returnOnEquity": 0.34221,
     "revenueGrowth": 0.188,
     "sector": "Technology",
-    "trailingPE": 27.34238
+    "trailingPE": 25.2881
   },
   "MSGS": {
     "_asof": "2026-09-26T00:04:32.816526+00:00",
@@ -10975,22 +10976,22 @@
     "trailingPE": 34.722675
   },
   "MU": {
-    "_asof": "2026-11-14T01:35:23.219344+00:00",
+    "_asof": "2026-11-21T02:41:53.874495+00:00",
     "beta": 2.398,
     "debtToEquity": 3.743,
-    "dividendYield": 0.08,
+    "dividendYield": 0.09,
     "earningsGrowth": 10.595,
-    "forwardPE": 3.7461889,
+    "forwardPE": 2.846877,
     "freeCashflow": 29140250624,
     "grossMargins": 0.80716,
     "industry": "Semiconductors",
-    "marketCap": 880597991424,
-    "priceToSalesTrailing12Months": 6.6116915,
+    "marketCap": 672642433024,
+    "priceToSalesTrailing12Months": 5.050323,
     "profitMargins": 0.63796,
     "returnOnEquity": 0.8826,
     "revenueGrowth": 3.793,
     "sector": "Technology",
-    "trailingPE": 10.471007
+    "trailingPE": 7.998251
   },
   "MUSA": {
     "_asof": "2026-09-26T00:04:18.516697+00:00",
@@ -11095,22 +11096,22 @@
     "trailingPE": 32.86842
   },
   "NEE": {
-    "_asof": "2026-11-14T01:35:32.064482+00:00",
+    "_asof": "2026-11-21T02:42:02.212575+00:00",
     "beta": 0.6,
     "debtToEquity": 153.254,
-    "dividendYield": 2.92,
+    "dividendYield": 2.98,
     "earningsGrowth": 0.932,
-    "forwardPE": 19.4548,
+    "forwardPE": 19.073109,
     "freeCashflow": -21211250688,
     "grossMargins": 0.60173,
     "industry": "Utilities - Regulated Electric",
-    "marketCap": 178522701824,
-    "priceToSalesTrailing12Months": 6.193329,
+    "marketCap": 175020195840,
+    "priceToSalesTrailing12Months": 6.0718193,
     "profitMargins": 0.40370998,
     "returnOnEquity": 0.14064,
     "revenueGrowth": 0.016,
     "sector": "Utilities",
-    "trailingPE": 15.336937
+    "trailingPE": 15.036035
   },
   "NEM": {
     "_asof": "2026-11-14T01:35:37.872187+00:00",
@@ -11183,22 +11184,22 @@
     "trailingPE": 11.001392
   },
   "NFLX": {
-    "_asof": "2026-11-14T01:35:28.007681+00:00",
+    "_asof": "2026-11-21T02:41:58.992307+00:00",
     "beta": 1.606,
     "debtToEquity": 59.857,
     "dividendYield": 0.0,
     "earningsGrowth": 0.475,
-    "forwardPE": 16.479555,
+    "forwardPE": 15.042399,
     "freeCashflow": 25475807232,
     "grossMargins": 0.50685,
     "industry": "Entertainment",
-    "marketCap": 255208161280,
-    "priceToSalesTrailing12Months": 5.1313972,
+    "marketCap": 232951873536,
+    "priceToSalesTrailing12Months": 4.6838965,
     "profitMargins": 0.29691,
     "returnOnEquity": 0.53463,
     "revenueGrowth": 0.118,
     "sector": "Communication Services",
-    "trailingPE": 17.962427
+    "trailingPE": 16.395954
   },
   "NI": {
     "_asof": "2026-11-14T01:36:30.419845+00:00",
@@ -11466,22 +11467,22 @@
     "trailingPE": 16.033758
   },
   "NVDA": {
-    "_asof": "2026-11-14T01:35:21.536601+00:00",
+    "_asof": "2026-11-21T02:41:52.043582+00:00",
     "beta": 2.247,
-    "debtToEquity": 16.971,
-    "dividendYield": 0.6,
-    "earningsGrowth": 1.278,
-    "forwardPE": 10.28589,
-    "freeCashflow": 41809874944,
-    "grossMargins": 0.74674004,
+    "debtToEquity": 14.306,
+    "dividendYield": 0.69,
+    "earningsGrowth": 1.077,
+    "forwardPE": 7.5596437,
+    "freeCashflow": 99241377792,
+    "grossMargins": 0.74921,
     "industry": "Semiconductors",
-    "marketCap": 3932339044352,
-    "priceToSalesTrailing12Months": 12.979301,
-    "profitMargins": 0.63663,
-    "returnOnEquity": 1.17211,
-    "revenueGrowth": 1.059,
+    "marketCap": 3031172907008,
+    "priceToSalesTrailing12Months": 8.37785,
+    "profitMargins": 0.62535,
+    "returnOnEquity": 1.17364,
+    "revenueGrowth": 1.032,
     "sector": "Technology",
-    "trailingPE": 20.587864
+    "trailingPE": 13.483351
   },
   "NVR": {
     "_asof": "2026-10-31T00:59:57.638554+00:00",
@@ -11918,22 +11919,22 @@
     "trailingPE": 108.13534
   },
   "ORCL": {
-    "_asof": "2026-11-14T01:35:29.044082+00:00",
+    "_asof": "2026-11-21T02:42:00.528561+00:00",
     "beta": 1.778,
     "debtToEquity": 251.716,
-    "dividendYield": 1.57,
+    "dividendYield": 1.81,
     "earningsGrowth": 0.545,
-    "forwardPE": 11.334854,
+    "forwardPE": 9.15017,
     "freeCashflow": -45853626368,
     "grossMargins": 0.63957,
     "industry": "Software - Infrastructure",
-    "marketCap": 390804701184,
-    "priceToSalesTrailing12Months": 5.4447823,
+    "marketCap": 315480899584,
+    "priceToSalesTrailing12Months": 4.3953533,
     "profitMargins": 0.2636,
     "returnOnEquity": 0.41192,
     "revenueGrowth": 0.296,
     "sector": "Technology",
-    "trailingPE": 19.647335
+    "trailingPE": 15.860501
   },
   "ORI": {
     "_asof": "2026-09-26T00:04:17.185986+00:00",
@@ -12110,21 +12111,22 @@
     "trailingPE": 15.222947
   },
   "PANW": {
-    "_asof": "2026-11-14T01:35:27.606580+00:00",
+    "_asof": "2026-11-21T02:41:56.773980+00:00",
     "beta": 0.97,
-    "debtToEquity": 9.337,
+    "debtToEquity": 9.461,
     "dividendYield": 0.0,
-    "forwardPE": 65.98465,
-    "freeCashflow": 4240624896,
-    "grossMargins": 0.70383,
+    "earningsGrowth": 0.213,
+    "forwardPE": 69.87195,
+    "freeCashflow": 4480000000,
+    "grossMargins": 0.68958,
     "industry": "Software - Infrastructure",
-    "marketCap": 263735115776,
-    "priceToSalesTrailing12Months": 22.97344,
-    "profitMargins": 0.02674,
-    "returnOnEquity": 0.01739,
-    "revenueGrowth": 0.345,
+    "marketCap": 281865715712,
+    "priceToSalesTrailing12Months": 22.637999,
+    "profitMargins": 0.03654,
+    "returnOnEquity": 0.02438,
+    "revenueGrowth": 0.392,
     "sector": "Technology",
-    "trailingPE": 805.6
+    "trailingPE": 602.3158
   },
   "PATH": {
     "_asof": "2026-09-26T00:04:47.424113+00:00",
@@ -12317,22 +12319,22 @@
     "trailingPE": 78.54434
   },
   "PEP": {
-    "_asof": "2026-11-14T01:35:31.254274+00:00",
+    "_asof": "2026-11-21T02:42:01.205891+00:00",
     "beta": 0.321,
     "debtToEquity": 230.716,
-    "dividendYield": 4.16,
+    "dividendYield": 4.26,
     "earningsGrowth": 0.174,
-    "forwardPE": 16.86791,
+    "forwardPE": 16.353537,
     "freeCashflow": 9044249600,
     "grossMargins": 0.54327,
     "industry": "Beverages - Non-Alcoholic",
-    "marketCap": 198197067776,
-    "priceToSalesTrailing12Months": 2.0174577,
+    "marketCap": 191519621120,
+    "priceToSalesTrailing12Months": 1.9494877,
     "profitMargins": 0.11091,
     "returnOnEquity": 0.52187,
     "revenueGrowth": 0.056,
     "sector": "Consumer Defensive",
-    "trailingPE": 18.29434
+    "trailingPE": 17.677986
   },
   "PFE": {
     "_asof": "2026-11-14T01:35:33.083799+00:00",
@@ -12389,22 +12391,22 @@
     "trailingPE": 44.290836
   },
   "PG": {
-    "_asof": "2026-11-14T01:35:24.986545+00:00",
+    "_asof": "2026-11-21T02:41:55.190314+00:00",
     "beta": 0.361,
     "debtToEquity": 70.343,
     "dividendYield": 2.59,
     "earningsGrowth": 0.008,
-    "forwardPE": 22.950256,
+    "forwardPE": 22.80715,
     "freeCashflow": 12652999680,
     "grossMargins": 0.50591,
     "industry": "Household & Personal Products",
-    "marketCap": 393559572480,
-    "priceToSalesTrailing12Months": 4.4762354,
+    "marketCap": 392562900992,
+    "priceToSalesTrailing12Months": 4.4648995,
     "profitMargins": 0.18229,
     "returnOnEquity": 0.29609,
     "revenueGrowth": 0.04,
     "sector": "Consumer Defensive",
-    "trailingPE": 25.57229
+    "trailingPE": 25.50753
   },
   "PGR": {
     "_asof": "2026-11-14T01:35:34.918336+00:00",
@@ -12543,38 +12545,38 @@
     "trailingPE": 14.517007
   },
   "PLTR": {
-    "_asof": "2026-11-14T01:35:25.166874+00:00",
+    "_asof": "2026-11-21T02:41:55.827686+00:00",
     "beta": 1.61,
     "debtToEquity": 1.986,
     "dividendYield": 0.0,
     "earningsGrowth": 1.444,
-    "forwardPE": 66.16984,
+    "forwardPE": 56.519497,
     "freeCashflow": 2652487680,
     "grossMargins": 0.84744,
     "industry": "Software - Infrastructure",
-    "marketCap": 404771504128,
-    "priceToSalesTrailing12Months": 55.537468,
+    "marketCap": 345738838016,
+    "priceToSalesTrailing12Months": 47.437775,
     "profitMargins": 0.50343,
     "returnOnEquity": 0.40907001,
     "revenueGrowth": 0.959,
     "sector": "Technology",
-    "trailingPE": 118.302826
+    "trailingPE": 101.0493
   },
   "PM": {
-    "_asof": "2026-11-14T01:35:26.295136+00:00",
+    "_asof": "2026-11-21T02:41:57.002014+00:00",
     "beta": 0.35,
-    "dividendYield": 3.25,
+    "dividendYield": 3.43,
     "earningsGrowth": -0.048,
-    "forwardPE": 22.001476,
+    "forwardPE": 20.358847,
     "freeCashflow": 11525125120,
     "grossMargins": 0.67697,
     "industry": "Tobacco",
-    "marketCap": 310110126080,
-    "priceToSalesTrailing12Months": 7.1887927,
+    "marketCap": 286932893696,
+    "priceToSalesTrailing12Months": 6.6515117,
     "profitMargins": 0.24825001,
     "revenueGrowth": 0.055,
     "sector": "Consumer Defensive",
-    "trailingPE": 29.045258
+    "trailingPE": 26.874453
   },
   "PNC": {
     "_asof": "2026-11-14T01:35:43.111633+00:00",
@@ -13012,21 +13014,21 @@
     "trailingPE": 44.49624
   },
   "QCOM": {
-    "_asof": "2026-11-14T01:35:31.440043+00:00",
+    "_asof": "2026-11-21T02:42:02.749491+00:00",
     "beta": 1.762,
     "debtToEquity": 52.604,
-    "dividendYield": 2.08,
-    "forwardPE": 14.129126,
+    "dividendYield": 2.27,
+    "forwardPE": 12.308627,
     "freeCashflow": 9107125248,
     "grossMargins": 0.53103,
     "industry": "Semiconductors",
-    "marketCap": 184542904320,
-    "priceToSalesTrailing12Months": 4.279752,
+    "marketCap": 160435798016,
+    "priceToSalesTrailing12Months": 3.7206817,
     "profitMargins": 0.31605,
     "returnOnEquity": 0.52814996,
     "revenueGrowth": -0.084,
     "sector": "Technology",
-    "trailingPE": 13.580316
+    "trailingPE": 11.806299
   },
   "QGEN": {
     "_asof": "2026-09-26T00:04:13.864001+00:00",
@@ -13812,22 +13814,22 @@
     "trailingPE": 35.04017
   },
   "RTX": {
-    "_asof": "2026-11-14T01:35:27.304686+00:00",
+    "_asof": "2026-11-21T02:41:57.392427+00:00",
     "beta": 0.282,
     "debtToEquity": 54.758,
-    "dividendYield": 1.47,
+    "dividendYield": 1.51,
     "earningsGrowth": 0.34,
-    "forwardPE": 24.541409,
+    "forwardPE": 23.502064,
     "freeCashflow": 8301749760,
     "grossMargins": 0.21096,
     "industry": "Aerospace & Defense",
-    "marketCap": 267971903488,
-    "priceToSalesTrailing12Months": 2.791752,
+    "marketCap": 256623099904,
+    "priceToSalesTrailing12Months": 2.6735194,
     "profitMargins": 0.08754,
     "returnOnEquity": 0.1285,
     "revenueGrowth": 0.111,
     "sector": "Industrials",
-    "trailingPE": 32.289433
+    "trailingPE": 30.921951
   },
   "RVMD": {
     "_asof": "2026-11-14T01:36:13.262798+00:00",
@@ -15397,22 +15399,22 @@
     "sector": "Utilities"
   },
   "TMO": {
-    "_asof": "2026-11-14T01:35:27.795505+00:00",
+    "_asof": "2026-11-21T02:41:57.777038+00:00",
     "beta": 0.845,
     "debtToEquity": 75.362,
     "dividendYield": 0.27,
     "earningsGrowth": 0.087,
-    "forwardPE": 25.203045,
+    "forwardPE": 24.09878,
     "freeCashflow": 6441625088,
     "grossMargins": 0.41259998,
     "industry": "Diagnostics & Research",
-    "marketCap": 259442606080,
-    "priceToSalesTrailing12Months": 5.4791365,
+    "marketCap": 248075190272,
+    "priceToSalesTrailing12Months": 5.2390695,
     "profitMargins": 0.14935,
     "returnOnEquity": 0.13379,
     "revenueGrowth": 0.091,
     "sector": "Healthcare",
-    "trailingPE": 36.931435
+    "trailingPE": 35.313293
   },
   "TMUS": {
     "_asof": "2026-11-14T01:35:46.580831+00:00",
@@ -15659,22 +15661,22 @@
     "trailingPE": 19.596775
   },
   "TSLA": {
-    "_asof": "2026-11-14T01:35:22.567644+00:00",
+    "_asof": "2026-11-21T02:41:53.223232+00:00",
     "beta": 1.743,
     "debtToEquity": 18.295,
     "dividendYield": 0.0,
     "earningsGrowth": -0.436,
-    "forwardPE": 180.72267,
+    "forwardPE": 160.1597,
     "freeCashflow": 4967249920,
     "grossMargins": 0.19285999,
     "industry": "Auto Manufacturers",
-    "marketCap": 1542445203456,
-    "priceToSalesTrailing12Months": 14.89278,
+    "marketCap": 1366942810112,
+    "priceToSalesTrailing12Months": 13.198251,
     "profitMargins": 0.031070001,
     "returnOnEquity": 0.03844,
     "revenueGrowth": -0.002,
     "sector": "Consumer Cyclical",
-    "trailingPE": 428.81317
+    "trailingPE": 380.02197
   },
   "TSN": {
     "_asof": "2026-10-31T00:59:58.683616+00:00",
@@ -15833,22 +15835,22 @@
     "trailingPE": 26.53392
   },
   "TXN": {
-    "_asof": "2026-11-14T01:35:26.779540+00:00",
+    "_asof": "2026-11-21T02:41:57.560258+00:00",
     "beta": 1.388,
     "debtToEquity": 70.654,
-    "dividendYield": 1.95,
+    "dividendYield": 2.13,
     "earningsGrowth": 0.77,
-    "forwardPE": 26.099201,
+    "forwardPE": 22.673466,
     "freeCashflow": 4778625024,
     "grossMargins": 0.60243,
     "industry": "Semiconductors",
-    "marketCap": 277420670976,
-    "priceToSalesTrailing12Months": 13.35937,
+    "marketCap": 241006919680,
+    "priceToSalesTrailing12Months": 11.605843,
     "profitMargins": 0.34252998,
     "returnOnEquity": 0.39723998,
     "revenueGrowth": 0.277,
     "sector": "Technology",
-    "trailingPE": 39.377434
+    "trailingPE": 34.20882
   },
   "TXRH": {
     "_asof": "2026-09-26T00:04:01.443654+00:00",
@@ -16080,22 +16082,22 @@
     "trailingPE": 24.076529
   },
   "UNH": {
-    "_asof": "2026-11-14T01:35:25.483099+00:00",
+    "_asof": "2026-11-21T02:41:56.618797+00:00",
     "beta": 0.52,
     "debtToEquity": 70.426,
-    "dividendYield": 2.29,
+    "dividendYield": 2.81,
     "earningsGrowth": 0.761,
-    "forwardPE": 17.464527,
+    "forwardPE": 14.477794,
     "freeCashflow": 26501249024,
     "grossMargins": 0.20048,
     "industry": "Healthcare Plans",
-    "marketCap": 365093355520,
-    "priceToSalesTrailing12Months": 0.8112122,
+    "marketCap": 304513286144,
+    "priceToSalesTrailing12Months": 0.6766075,
     "profitMargins": 0.03529,
     "returnOnEquity": 0.15773,
     "revenueGrowth": -0.004,
     "sector": "Healthcare",
-    "trailingPE": 23.256847
+    "trailingPE": 19.397831
   },
   "UNM": {
     "_asof": "2026-10-31T01:00:03.457094+00:00",
@@ -16116,22 +16118,22 @@
     "trailingPE": 21.294392
   },
   "UNP": {
-    "_asof": "2026-11-14T01:35:31.913277+00:00",
+    "_asof": "2026-11-21T02:42:02.588306+00:00",
     "beta": 0.845,
     "debtToEquity": 141.303,
-    "dividendYield": 1.87,
+    "dividendYield": 1.95,
     "earningsGrowth": 0.159,
-    "forwardPE": 21.011444,
+    "forwardPE": 19.958927,
     "freeCashflow": 5069624832,
     "grossMargins": 0.55768,
     "industry": "Railroads",
-    "marketCap": 179725107200,
-    "priceToSalesTrailing12Months": 6.8173237,
+    "marketCap": 170722213888,
+    "priceToSalesTrailing12Months": 6.4758263,
     "profitMargins": 0.28897,
     "returnOnEquity": 0.38747,
     "revenueGrowth": 0.153,
     "sector": "Industrials",
-    "trailingPE": 23.591265
+    "trailingPE": 22.409517
   },
   "UPS": {
     "_asof": "2026-11-14T01:35:47.296335+00:00",
@@ -16237,22 +16239,22 @@
     "sector": "Financial Services"
   },
   "V": {
-    "_asof": "2026-11-14T01:35:23.416135+00:00",
+    "_asof": "2026-11-21T02:41:54.031827+00:00",
     "beta": 0.786,
     "debtToEquity": 63.568,
-    "dividendYield": 0.74,
+    "dividendYield": 0.78,
     "earningsGrowth": 0.219,
-    "forwardPE": 24.839548,
+    "forwardPE": 23.445778,
     "freeCashflow": 20983375872,
     "grossMargins": 0.97678,
     "industry": "Credit Services",
-    "marketCap": 794383024128,
-    "priceToSalesTrailing12Months": 17.305689,
+    "marketCap": 749809041408,
+    "priceToSalesTrailing12Months": 16.334642,
     "profitMargins": 0.51203996,
     "returnOnEquity": 0.63507,
     "revenueGrowth": 0.132,
     "sector": "Financial Services",
-    "trailingPE": 34.558445
+    "trailingPE": 32.61932
   },
   "VEEV": {
     "_asof": "2026-11-14T01:36:04.459150+00:00",
@@ -16719,22 +16721,22 @@
     "trailingPE": 129.53572
   },
   "VZ": {
-    "_asof": "2026-11-14T01:35:30.818644+00:00",
+    "_asof": "2026-11-21T02:42:01.045859+00:00",
     "beta": 0.26,
     "debtToEquity": 182.021,
-    "dividendYield": 6.08,
+    "dividendYield": 6.19,
     "earningsGrowth": 0.068,
-    "forwardPE": 8.736999,
+    "forwardPE": 8.759614,
     "freeCashflow": 15992750080,
     "grossMargins": 0.59781,
     "industry": "Telecom Services",
-    "marketCap": 192143572992,
-    "priceToSalesTrailing12Months": 1.37849,
+    "marketCap": 192640925696,
+    "priceToSalesTrailing12Months": 1.3820581,
     "profitMargins": 0.1178,
     "returnOnEquity": 0.15787,
     "revenueGrowth": 0.015,
     "sector": "Communication Services",
-    "trailingPE": 11.82653
+    "trailingPE": 11.857142
   },
   "W": {
     "_asof": "2026-09-26T00:04:06.275350+00:00",
@@ -16906,22 +16908,22 @@
     "trailingPE": 21.381819
   },
   "WELL": {
-    "_asof": "2026-11-14T01:35:32.229581+00:00",
+    "_asof": "2026-11-21T02:42:02.032102+00:00",
     "beta": 0.787,
     "debtToEquity": 42.494,
-    "dividendYield": 1.39,
+    "dividendYield": 1.4,
     "earningsGrowth": 0.303,
-    "forwardPE": 77.8535,
+    "forwardPE": 80.78655,
     "freeCashflow": 8672651264,
     "grossMargins": 0.3923,
     "industry": "REIT - Healthcare Facilities",
-    "marketCap": 179338264576,
-    "priceToSalesTrailing12Months": 13.001839,
+    "marketCap": 176315793408,
+    "priceToSalesTrailing12Months": 12.782712,
     "profitMargins": 0.12083,
     "returnOnEquity": 0.0392,
     "revenueGrowth": 0.384,
     "sector": "Real Estate",
-    "trailingPE": 103.584755
+    "trailingPE": 101.83899
   },
   "WEX": {
     "_asof": "2026-09-26T00:04:34.279787+00:00",
@@ -16941,20 +16943,20 @@
     "trailingPE": 17.81019
   },
   "WFC": {
-    "_asof": "2026-11-14T01:35:28.189305+00:00",
+    "_asof": "2026-11-21T02:41:58.758434+00:00",
     "beta": 0.917,
-    "dividendYield": 2.33,
+    "dividendYield": 2.48,
     "earningsGrowth": 0.127,
-    "forwardPE": 10.751022,
+    "forwardPE": 9.830695,
     "grossMargins": 0.0,
     "industry": "Banks - Diversified",
-    "marketCap": 258309226496,
-    "priceToSalesTrailing12Months": 3.1079655,
+    "marketCap": 236005490688,
+    "priceToSalesTrailing12Months": 2.8396077,
     "profitMargins": 0.2764,
     "returnOnEquity": 0.1291,
     "revenueGrowth": 0.004,
     "sector": "Financial Services",
-    "trailingPE": 12.136812
+    "trailingPE": 11.088858
   },
   "WFRD": {
     "_asof": "2026-09-26T00:04:36.453865+00:00",
@@ -17097,22 +17099,22 @@
     "trailingPE": 22.641157
   },
   "WMT": {
-    "_asof": "2026-11-14T01:35:23.934875+00:00",
+    "_asof": "2026-11-21T02:41:54.506576+00:00",
     "beta": 0.526,
     "debtToEquity": 71.653,
     "dividendYield": 0.78,
     "earningsGrowth": -0.091,
-    "forwardPE": 39.75691,
+    "forwardPE": 39.63386,
     "freeCashflow": 7127625216,
     "grossMargins": 0.24836999,
     "industry": "Discount Stores",
-    "marketCap": 1019350286336,
-    "priceToSalesTrailing12Months": 1.385288,
+    "marketCap": 1015122821120,
+    "priceToSalesTrailing12Months": 1.379543,
     "profitMargins": 0.03,
     "returnOnEquity": 0.22313999,
     "revenueGrowth": 0.059,
     "sector": "Consumer Defensive",
-    "trailingPE": 46.40942
+    "trailingPE": 46.358696
   },
   "WPC": {
     "_asof": "2026-10-31T01:00:05.256895+00:00",
@@ -17425,22 +17427,22 @@
     "trailingPE": 19.02331
   },
   "XOM": {
-    "_asof": "2026-11-14T01:35:23.567252+00:00",
+    "_asof": "2026-11-21T02:41:54.183547+00:00",
     "beta": 0.141,
     "debtToEquity": 12.568,
-    "dividendYield": 2.52,
+    "dividendYield": 2.69,
     "earningsGrowth": 1.114,
-    "forwardPE": 13.590759,
+    "forwardPE": 12.814332,
     "freeCashflow": 28318750720,
     "grossMargins": 0.29808,
     "industry": "Oil & Gas Integrated",
-    "marketCap": 695874551808,
-    "priceToSalesTrailing12Months": 1.7924194,
+    "marketCap": 652634816512,
+    "priceToSalesTrailing12Months": 1.6810434,
     "profitMargins": 0.10463,
     "returnOnEquity": 0.15528,
     "revenueGrowth": 0.326,
     "sector": "Energy",
-    "trailingPE": 17.550411
+    "trailingPE": 16.459877
   },
   "XP": {
     "_asof": "2026-09-26T00:04:21.790109+00:00",
